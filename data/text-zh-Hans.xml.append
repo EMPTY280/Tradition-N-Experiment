@@ -1,0 +1,814 @@
+<FTL>
+
+
+<!--
+=============================================
+=============================================
+=============================================
+
+				MAP ICON
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="tne_map_icon_tf2" language="zh-Hans">상점 [해적]</text>
+
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		EVO EVENT 
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="TNE_TEXT_EVENT_EVO_1" language="zh-Hans">당신의 성장형 무기가 변화합니다...</text>
+<text name="TNE_TEXT_EVENT_EVO_2" language="zh-Hans">성장형 무기가 에너지를 얻었습니다.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ STORAGE MENU ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_EVENT_STORAGE_EVO" language="zh-Hans">성장형 무기를 확인한다.</text>
+<text name="TNE_TEXT_EVENT_EVO_MENU" language="zh-Hans">어떤 무기를 확인하시겠습니까?</text>
+<text name="TNE_TEXT_EVENT_EVO_RETURN" language="zh-Hans">아무것도 아니다.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_1_NOT_FULL" language="zh-Hans">(폴라스타 Lv. 1) 강화에 필요한 에너지가 부족하다.</text>
+<text name="TNE_TEXT_EVENT_EVO_1_FULL" language="zh-Hans">(폴라스타 Lv. 1) 무기를 레벨 2로 강화한다.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_2_NOT_FULL" language="zh-Hans">(폴라스타 Lv. 2) 강화에 필요한 에너지가 부족하다.</text>
+<text name="TNE_TEXT_EVENT_EVO_2_CAN_MOD" language="zh-Hans">(폴라스타 Lv. 2) 무기를 개조한다.</text>
+<text name="TNE_TEXT_EVENT_EVO_2_FULL" language="zh-Hans">(폴라스타 Lv. 2) 무기를 레벨 3로 강화한다.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_3_NOT_FULL" language="zh-Hans">(폴라스타 Lv. 3) 강화에 필요한 에너지가 부족하다.</text>
+<text name="TNE_TEXT_EVENT_EVO_3_CAN_MOD" language="zh-Hans">(폴라스타 Lv. 3) 무기를 개조한다.</text>
+<text name="TNE_TEXT_EVENT_EVO_3_FULL" language="zh-Hans">(폴라스타 Lv. 3) 무기를 최종 강화한다.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_CONFIRM" language="zh-Hans">무기를 강화한다. [되돌릴 수 없음!]</text>
+<text name="TNE_TEXT_EVENT_EVO_CONFIRM_MOD" language="zh-Hans">무기를 개조한다. [되돌릴 수 없음!]</text>
+<text name="TNE_TEXT_EVENT_EVO_NEVERMIND" language="zh-Hans">생각이 바뀌었다.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_TEXT_1" language="zh-Hans">성장형 무기를 강화하기 시작합니다...</text>
+<text name="TNE_TEXT_EVENT_EVO_TEXT_2" language="zh-Hans">당신의 성장형 무기가 강화되었습니다.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_MOD_TEXT_1" language="zh-Hans">성장형 무기를 개조하기 시작합니다...</text>
+<text name="TNE_TEXT_EVENT_EVO_MOD_TEXT_2" language="zh-Hans">당신의 성장형 무기가 개조되었습니다.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_1_UPGRADE" language="zh-Hans">정말로 무기를 강화하시겠습니까?
+
+	----------------------------------------------
+	충전 시간: 10초 > 11초
+
+	발사체 수: 2 > 3
+
+	균열 발생 확률: 0% > 10%
+
+	판매 가격: 40 > 45
+	----------------------------------------------</text>
+<text name="TNE_TEXT_EVENT_EVO_2_UPGRADE" language="zh-Hans">정말로 무기를 강화하시겠습니까?
+
+	----------------------------------------------
+	필요 전력량: 2 > 3
+	충전 시간: 11초 > 15초
+
+	발사체 수: 3 > 5
+
+	방화 확률: 0% > 10%
+	균열 발생 확률: 10% > 20%
+
+	판매 가격: 45 > 50
+	----------------------------------------------</text>
+<text name="TNE_TEXT_EVENT_EVO_2_MOD" language="zh-Hans">정말로 무기를 개조하시겠습니까?
+
+	----------------------------------------------
+	충전 시간: 11초 > 16초
+
+	사격 범위: 0 > 100
+	발사체 수: 3 > 5
+
+	균열 발생 확률: 10% > 0%
+	----------------------------------------------</text>
+<text name="TNE_TEXT_EVENT_EVO_3_UPGRADE" language="zh-Hans">정말로 무기를 강화하시겠습니까?
+
+	----------------------------------------------
+	무기 유형: 레이저 > 빔
+	타격 범위: 105
+	타격 속도: 35
+
+	필요 전력량: 3 > 4
+	충전 시간: 15초 > 10 - 22초
+
+	기본 선체 피해량: 1 > 1 - 3
+	시스템 피해: 1 > 2 - 4
+	방어막 관통도: 0 > 10
+
+	방화 확률: 10% > 10 - 30%
+	균열 발생 확률: 20% > 20 - 40%
+
+	판매 가격: 50 > 55 
+	----------------------------------------------</text>
+<text name="TNE_TEXT_EVENT_EVO_3_MOD" language="zh-Hans">정말로 무기를 개조하시겠습니까?
+
+	----------------------------------------------
+	충전 시간: 15초 > 14초
+	명중률 보너스: 0% > 10%
+
+	발사체 수: 5 > 3
+
+	방어막 관통도: 0 > 2
+
+	방화 확률: 10% > 100%
+	균열 발생 확률: 20% > 0%
+
+	----------------------------------------------</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		TOGGLE EVENT 
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="TNE_TEXT_EVENT_NEXT" language="zh-Hans">계속...</text>
+<text name="TNE_TEXT_EVENT_TOGGLE_CANCLE" language="zh-Hans">토글 창으로 돌아간다.</text>
+
+<text name="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK" language="zh-Hans">확실합니까? 드론의 설정을 바꾸시겠습니까?</text>
+<text name="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING" language="zh-Hans">드론을 교정하는 중입니다...</text>
+<text name="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE" language="zh-Hans">드론을 성공적으로 교정했습니다.</text>
+
+<text name="TNE_TEXT_EVENT_TOGGLE_DRONE_TO_BOARDER" language="zh-Hans">드론을 강습 모드로 설정한다.</text>
+<text name="TNE_TEXT_EVENT_TOGGLE_DRONE_TO_DEFEND" language="zh-Hans">드론을 방어 모드로 설정한다.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ PEACE DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_EVENT_PEACEDRONE_DEFEND" language="zh-Hans">(평화 드론) 드론의 상태를 조정한다. [현재 모드: 승선]</text>
+<text name="TNE_TEXT_EVENT_PEACEDRONE_BOARDER" language="zh-Hans">(평화 드론) 드론의 상태를 조정한다. [현재 모드: 강습]</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ VENT DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_EVENT_VENTDRONE_DEFEND" language="zh-Hans">(배기 드론) 드론의 상태를 조정한다. [현재 모드: 승선]</text>
+<text name="TNE_TEXT_EVENT_VENTDRONE_BOARDER" language="zh-Hans">(배기 드론) 드론의 상태를 조정한다. [현재 모드: 강습]</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		WEAPON BLUEPRINT
+
+=============================================
+=============================================
+=============================================
+-->
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ POLARSTARS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_POLARSTAR_1_NAME" language="zh-Hans">'폴라스타' Lv. 1</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_1_SHORT" language="zh-Hans">'PolarStar' I</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_1_0_DESC" language="zh-Hans">2발의 투사체를 발사하는 약한 레이저 무기입니다. 북극성 문양이 새겨져 있습니다.
+
+[강화까지 2 섹터 남음]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_1_1_DESC" language="zh-Hans">2발의 투사체를 발사하는 약한 레이저 무기입니다. 북극성 문양이 새겨져 있습니다.
+
+[강화까지 1 섹터 남음]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_1_2_DESC" language="zh-Hans">2발의 투사체를 발사하는 약한 레이저 무기입니다. 북극성 문양이 새겨져 있습니다.
+
+[강화 가능]</text>
+
+<text name="TNE_TEXT_WEAPON_POLARSTAR_2_NAME" language="zh-Hans">'폴라스타' Lv. 2</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_2_SHORT" language="zh-Hans">'PolarStar' II</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_2_0_DESC" language="zh-Hans">3발의 투사체를 발사하는 레이저 무기입니다. 북극성 문양이 새겨져 있습니다.
+
+[강화까지 2 섹터 남음]
+[개조 가능]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_2_1_DESC" language="zh-Hans">3발의 투사체를 발사하는 레이저 무기입니다. 북극성 문양이 새겨져 있습니다.
+
+[강화까지 1 섹터 남음]
+[개조 가능]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_2_2_DESC" language="zh-Hans">3발의 투사체를 발사하는 레이저 무기입니다. 북극성 문양이 새겨져 있습니다.
+
+[강화 가능]
+[개조 가능]</text>
+<text name="TNE_TEXT_WEAPON_MACHINEGUN_NAME" language="zh-Hans">'머신건'</text>
+<text name="TNE_TEXT_WEAPON_MACHINEGUN_SHORT" language="zh-Hans">'MachineGun'</text>
+<text name="TNE_TEXT_WEAPON_MACHINEGUN_DESC" language="zh-Hans">명중률이 매우 낮은 대신 5발의 투사체를 흩뿌리는 강력한 돌격 레이저입니다.</text>
+
+<text name="TNE_TEXT_WEAPON_POLARSTAR_3_NAME" language="zh-Hans">'폴라스타' Lv. 3</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_3_SHORT" language="zh-Hans">'PolarStar' III</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_3_0_DESC" language="zh-Hans">5발의 투사체를 발사하는 강력한 레이저 무기입니다. 북극성 문양이 새겨져 있습니다.
+
+[강화까지 3 섹터 남음]
+[개조 가능]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_3_1_DESC" language="zh-Hans">5발의 투사체를 발사하는 강력한 레이저 무기입니다. 북극성 문양이 새겨져 있습니다.
+
+[강화까지 2 섹터 남음]
+[개조 가능]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_3_2_DESC" language="zh-Hans">5발의 투사체를 발사하는 강력한 레이저 무기입니다. 북극성 문양이 새겨져 있습니다.
+
+[강화까지 1 섹터 남음]
+[개조 가능]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_3_3_DESC" language="zh-Hans">5발의 투사체를 발사하는 강력한 레이저 무기입니다. 북극성 문양이 새겨져 있습니다.
+
+[강화 가능]
+[개조 가능]</text>
+<text name="TNE_TEXT_WEAPON_SNAKE_NAME" language="zh-Hans">'스네이크'</text>
+<text name="TNE_TEXT_WEAPON_SNAKE_SHORT" language="zh-Hans">'Snake'</text>
+<text name="TNE_TEXT_WEAPON_SNAKE_DESC" language="zh-Hans">방어막을 2장 관통하며 확정적으로 화재를 일으키는 강력한 무기입니다.</text>
+
+<text name="TNE_TEXT_WEAPON_POLARSTAR_4_NAME" language="zh-Hans">'슈푸르'</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_4_SHORT" language="zh-Hans">'Spur'</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_4_DESC" language="zh-Hans">'폴라스타'의 최종 형태입니다. 방어막을 모조리 관통하는 막강한 빔을 발사합니다. 충전할수록 피해량이 증가합니다.
+
+	능력치:
+	필요 전력량: 4
+	충전 시간: 10 - 22초
+
+	타격 범위: 105
+	타격 속도: 35
+	
+	기본 선체 피해량: 1 - 3
+	시스템 피해: 2 - 4
+	선원 피해: 15 - 45
+	방어막 관통도: 10
+
+	방화 확률: 10 - 30%
+	균열 발생 확률: 30 - 50%
+
+	구매/판매 가격: 150~/75~
+</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ LASER WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_0_NAME" language="zh-Hans">단발식 포</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_0_SHORT" language="zh-Hans">S. Cannon</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_0_DESC" language="zh-Hans">물리적 탄환을 발사하는 구식 무기입니다. 방어막을 완전히 관통하지만, 관통한 방어막의 수만큼 피해가 감소합니다. 생산 비용 감축으로 인해 타 기관포와는 달리 한번에 한발만 발사할 수 있습니다.</text>
+
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_1_NAME" language="zh-Hans">기관포 마크 I</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_1_SHORT" language="zh-Hans">A. Cannon I</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_1_DESC" language="zh-Hans">물리적 탄환을 발사하는 구식 무기입니다. 방어막을 완전히 관통하지만, 관통한 방어막의 수만큼 피해가 감소합니다.</text>
+
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_2_NAME" language="zh-Hans">기관포 마크 II</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_2_SHORT" language="zh-Hans">A. Cannon II</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_2_DESC" language="zh-Hans">물리적 탄환을 발사하는 구식 무기입니다. 방어막을 완전히 관통하지만, 관통한 방어막의 수만큼 피해가 감소합니다.</text>
+
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_3_NAME" language="zh-Hans">기관포 마크 III</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_3_SHORT" language="zh-Hans">A. Cannon III</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_3_DESC" language="zh-Hans">물리적 탄환을 발사하는 구식 무기입니다. 방어막을 완전히 관통하지만, 관통한 방어막의 수만큼 피해가 감소합니다.</text>
+
+<text name="TNE_TEXT_WEAPON_LASER_TACHYON_NAME" language="zh-Hans">타키온 레이저</text>
+<text name="TNE_TEXT_WEAPON_LASER_TACHYON_SHORT" language="zh-Hans">Tachyon</text>
+<text name="TNE_TEXT_WEAPON_LASER_TACHYON_DESC" language="zh-Hans">초광속 투사체를 발사하는 최신형 레이저 무기입니다. 일반적인 방어막은 물론, 에너지 방어막까지 관통할 수 있습니다!
+
+	능력치:
+	필요 전력량: 3
+	충전 시간: 17초
+	명중률 보너스: +100%
+
+	발사체 수: 1
+
+	기본 선체 피해량: 3
+	시스템 피해: 3
+	선원 피해: 45
+	방어막 관통도: 10
+	에너지 방어막을 무시함
+
+	구매/판매 가격: 120~/60~
+</text>
+
+<text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_NAME" language="zh-Hans">'사샤'</text>
+<text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_SHORT" language="zh-Hans">'Sasha'</text>
+<text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_DESC" language="zh-Hans">발사할 때마다 발사체 수가 증가하는 특별한 연쇄 레이저입니다.
+
+	능력치:
+	필요 전력량: 3
+	충전 시간: 14초
+	연쇄 효과: 발사체 수 1 증가
+	최대 발사체 수: 6
+
+	발사체 수: 3
+
+	기본 선체 피해량: 1
+	시스템 피해: 1
+	선원 피해: 15
+
+	방화 확률: 10%
+
+	구매/판매 가격: 120~/60~
+</text>
+
+<text name="TNE_TEXT_WEAPON_LASER_FRONTIER_NAME" language="zh-Hans">'개척자' 산발형 레이저</text>
+<text name="TNE_TEXT_WEAPON_LASER_FRONTIER_SHORT" language="zh-Hans">'Frontier'</text>
+<text name="TNE_TEXT_WEAPON_LASER_FRONTIER_DESC" language="zh-Hans">낮은 명중률로 투사체를 흩뿌리는 레이저 무기입니다. 함체 피해를 받으면 다음 공격에 치명타가 충전됩니다.
+
+		치명타: 2배의 피해를 가함, 이온 피해 +1</text>
+
+<text name="TNE_TEXT_WEAPON_LASER_BLOOD_NAME" language="zh-Hans">'블루트자우거'</text>
+<text name="TNE_TEXT_WEAPON_LASER_BLOOD_SHORT" language="zh-Hans">'Blutsauger'</text>
+<text name="TNE_TEXT_WEAPON_LASER_BLOOD_DESC" language="zh-Hans">적함을 타격할 때마다 함체를 1 수리하는 레이저 무기입니다. 발사할 때 함체 체력을 1 소모합니다.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ MISSILE WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_RAILGUN_1_NAME" language="zh-Hans">'이카로스' 레일건</text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_1_SHORT" language="zh-Hans">'Icarus'</text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_1_DESC" language="zh-Hans">금속 포탄을 빠르게 가속하여 발사하는 무기입니다. 방어막을 모두 관통하는 동시에 피해량과 같은 수의 방어막을 깎습니다.</text>
+
+<text name="TNE_TEXT_WEAPON_RAILGUN_2_NAME" language="zh-Hans">'다이달로스' 레일건</text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_2_SHORT" language="zh-Hans">'Daedalus'</text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_2_DESC" language="zh-Hans">금속 포탄을 빠르게 가속하여 발사하는 무기입니다. 방어막을 모두 관통하는 동시에 피해량과 같은 수의 방어막을 깎습니다.</text>
+
+<text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_NAME" language="zh-Hans">쓰레기 바주카</text>
+<text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_SHORT" language="zh-Hans">J. Bazooka</text>
+<text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_DESC" language="zh-Hans">한 번에 3발의 미사일을 쏟아붇는 미사일 발사기입니다. 각 발사체는 약간의 편차로 탈선되어 발사됩니다.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ BEAM WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_BEAM_LOCKDOWN_NAME" language="zh-Hans">'카키박' 빔</text>
+<text name="TNE_TEXT_WEAPON_BEAM_LOCKDOWN_SHORT" language="zh-Hans">'Kakivak'</text>
+<text name="TNE_TEXT_WEAPON_BEAM_LOCKDOWN_DESC" language="zh-Hans">피격된 선실을 냉동시켜 봉쇄하는 빔 무기입니다.</text>
+
+<text name="TNE_TEXT_WEAPON_BEAM_PISS_NAME" language="zh-Hans">노폐물 빔</text>
+<text name="TNE_TEXT_WEAPON_BEAM_PISS_SHORT" language="zh-Hans">Excreta</text>
+<text name="TNE_TEXT_WEAPON_BEAM_PISS_DESC" language="zh-Hans">역겨운 액체 줄기를 발사합니다. 피격된 선원의 삶에 대한 의지를 상실시켜 20초 동안 모든 피해를 50% 더 받게합니다.</text>
+
+<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_NAME" language="zh-Hans">'새퍼' 빔</text>
+<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_SHORT" language="zh-Hans">'Sapper'</text>
+<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_DESC" language="zh-Hans">방어막을 교란하는 특수한 빔으로, 2장 이하의 방어막을 타격 즉시 무력화할 수 있습니다.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ FOCUS WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_NAME" language="zh-Hans">'울루' 핀포인트</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_SHORT" language="zh-Hans">'Ulu'</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_DESC" language="zh-Hans">피격된 선실을 냉동시켜 봉쇄하는 핀포인트 무기입니다. 표준 핀포인트보다 공격력이 낮은 대신 방어막을 한 장 관통합니다.</text>
+
+<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_NAME" language="zh-Hans">'에스터크' 핀포인트</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_SHORT" language="zh-Hans">'Estoc'</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_DESC" language="zh-Hans">축전기 개조가 적용된 강력한 핀포인트입니다. 충분히 충전된다면 막강한 피해를 가할 수 있으며, 낮은 피해로 빠르게 발사할 수도 있습니다.
+
+		능력치:
+		필요 전력량: 4
+		충전 시간: 8 - 32초
+
+		타격 범위: 1
+		타격 속도: 1
+
+		기본 선체 피해량: 2 - 8
+		시스템 피해: 2 - 8
+		선원 피해: 30 - 120
+
+		균열 발생 확률: 20 - 80%
+
+		구매/판매 가격: 110~/55~
+</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ BOMB WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_BOMB_BLACKOUT_NAME" language="zh-Hans">암전 폭탄</text>
+<text name="TNE_TEXT_WEAPON_BOMB_BLACKOUT_SHORT" language="zh-Hans">Blackout B.</text>
+<text name="TNE_TEXT_WEAPON_BOMB_BLACKOUT_DESC" language="zh-Hans">스스로 순간이동한 후 폭발하여 약간의 시스템 피해와 함께 생명체의 인지 능력을 방해하는 나노머신을 퍼트립니다. 나노머신은 25초 유지됩니다. 당신의 함선을 목표로 삼을 수 있습니다.</text>
+<text name="tne_tip_blackout" language="zh-Hans">팁: 선원이 암전된 선실 내에 있을 경우, 이동 속도가 30% 감소하고, 전투로 받는 피해가 20% 증가하며, 관제와 수리를 할 수 없게됩니다. 또한 인접한 선실을 보는 능력과 생명체를 감지하는 능력까지 차단합니다. 드론은 영향을 받지 않습니다.</text>
+
+<text name="TNE_TEXT_WEAPON_BOMB_ACID_NAME" language="zh-Hans">산성 폭탄</text>
+<text name="TNE_TEXT_WEAPON_BOMB_ACID_SHORT" language="zh-Hans">Acid B.</text>
+<text name="TNE_TEXT_WEAPON_BOMB_ACID_DESC" language="zh-Hans">스스로 순간이동한 후 폭발해 산성액을 흩뿌리는 폭탄입니다. 당신의 함선을 목표로 삼을 수 있습니다.</text>
+
+<text name="TNE_TEXT_WEAPON_BOMB_ATOMIC_NAME" language="zh-Hans">'아토믹 펀치'</text>
+<text name="TNE_TEXT_WEAPON_BOMB_ATOMIC_SHORT" language="zh-Hans">'Atomic Punch'</text>
+<text name="TNE_TEXT_WEAPON_BOMB_ATOMIC_DESC" language="zh-Hans">이 자극제 발사기는 아주 쩔어주는 초능력을 주는 방사능으로 가득 차있습니다. 피격된 아군이 10초 동안 50% 더 빠르게 움직이고 모든 피해에 면역이 되지만 전투와 시설 파괴를 할 수 없게 됩니다. 당신의 함선을 목표로 삼을 수 있습니다.</text>
+
+<text name="TNE_TEXT_WEAPON_BOMB_QUICK_NAME" language="zh-Hans">신속 폭탄 발사기</text>
+<text name="TNE_TEXT_WEAPON_BOMB_QUICK_SHORT" language="zh-Hans">Quick B.</text>
+<text name="TNE_TEXT_WEAPON_BOMB_QUICK_DESC" language="zh-Hans">4번 연속으로 발사할 수 있는 선제 폭탄 발사기입니다. 당신의 함선을 목표로 삼을 수 있습니다.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ PARTICLE WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_NAME" language="zh-Hans">재연소기</text>
+<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_SHORT" language="zh-Hans">Afterburner</text>
+<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_DESC" language="zh-Hans">발사할 때 다른 무기들을 약간 충전시켜주는 특별한 입자 가속기입니다. 다른 재연소기는 충전에서 제외됩니다.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ EXTERNAL SYSTEMS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_NAME" language="zh-Hans">소형 외장 재충전기</text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_SHORT" language="zh-Hans">M. Recharge</text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 다른 무기를 발사할 때 충전량을 이전하여 그 무기를 다시 충전합니다. 소형 버전은 매우 빠르게 충전되지만, 최대 충전량이 낮습니다.
+
+		능력치:
+		전력을 소비하지 않음
+		발포 불가
+
+		최대 충전: 5초
+		활성화: 3초 (60%)
+
+		효과: 충전량 이전
+
+		구매/판매 가격: 50~/25~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_NAME" language="zh-Hans">외장 재충전기 마크 I</text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_SHORT" language="zh-Hans">Recharge I</text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 다른 무기를 발사할 때 충전량을 이전하여 그 무기를 다시 충전합니다.
+
+		능력치:
+		전력을 소비하지 않음
+		발포 불가
+
+		최대 충전: 10초
+		활성화: 6초 (60%)
+
+		효과: 충전량 이전
+
+		구매/판매 가격: 80~/40~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_NAME" language="zh-Hans">외장 재충전기 마크 II</text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_SHORT" language="zh-Hans">Recharge II</text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 다른 무기를 발사할 때 충전량을 이전하여 그 무기를 다시 충전합니다. 최대 충전량이 증가한 개선 버전입니다.
+
+		능력치:
+		필요 전력량: 1
+		발포 불가
+
+		최대 충전: 16초
+		활성화: 8초 (50%)
+
+		효과: 충전량 이전
+
+		구매/판매 가격: 110~/55~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_NAME" language="zh-Hans">소형 외장 반발장 생성기</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_SHORT" language="zh-Hans">M. Repel</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 함체 또는 시스템 피해를 받을 때 충전량을 소비하여 방어합니다. 소형 버전은 매우 빠르게 충전되지만, 최대 방어력이 낮습니다.
+
+		능력치:
+		전력을 소비하지 않음
+		발포 불가
+
+		최대 충전: 10초
+		활성화: 10초 (100%)
+		도약 시 충전: 10초 (100%)
+
+		효과: 함체 또는 시스템 피해 방어
+		효과 비용: 피해 1당 10초 (100%)
+
+		구매/판매 가격: 50~/25~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_REPEL_1_NAME" language="zh-Hans">외장 반발장 생성기 마크 I</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_1_SHORT" language="zh-Hans">Repel I</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_1_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 함체 또는 시스템 피해를 받을 때 충전량을 소비하여 방어합니다. 
+
+		능력치:
+		전력을 소비하지 않음
+		발포 불가
+
+		최대 충전: 60초
+		활성화: 20초 (33.3%)
+		도약 시 충전: 20초 (33.3%)
+
+		효과: 함체 또는 시스템 피해 방어
+		효과 비용: 피해 1당 20초 (33.3%)
+
+		구매/판매 가격: 80~/40~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_REPEL_2_NAME" language="zh-Hans">외장 반발장 생성기 마크 II</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_2_SHORT" language="zh-Hans">Repel II</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_2_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 함체 또는 시스템 피해를 받을 때 충전량을 소비하여 방어합니다. 최대 방어력이 강화된 개선 버전입니다.
+
+		능력치:
+		필요 전력량: 1
+		발포 불가
+
+		최대 충전: 100초
+		활성화: 20초 (20%)
+		도약 시 충전: 40초 (40%)
+
+		효과: 함체 또는 시스템 피해 방어
+		효과 비용: 피해 1당 20초 (20%)
+
+		구매/판매 가격: 120~/60~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_NAME" language="zh-Hans">과충전된 외장 반발장 생성기</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_SHORT" language="zh-Hans">Over. Repel</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 함체 또는 시스템 피해를 받을 때 충전량을 소비하여 방어합니다. 도약 즉시 완충되는 개조된 장비입니다.
+
+		능력치:
+		필요 전력량: 1
+		발포 불가
+
+		최대 충전: 100초
+		활성화: 20초 (20%)
+		도약 시 충전: 100초 (100%)
+
+		효과: 함체 또는 시스템 피해 방어
+		효과 비용: 피해 1당 20초 (20%)
+
+		구매/판매 가격: 120~/60~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_TELEPORTER_NAME" language="zh-Hans">외장 물질 전송기</text>
+<text name="TNE_TEXT_WEAPON_EX_TELEPORTER_SHORT" language="zh-Hans">Transporter</text>
+<text name="TNE_TEXT_WEAPON_EX_TELEPORTER_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 약간의 지연 시간 후 무기 제어실 내의 아군 선원들을 목표 지점으로 전송합니다. 시스템을 관제중인 인원은 전송 대상에서 제외됩니다. 당신의 함선을 목표로 삼을 수 있습니다.
+
+중요: 당신의 함선의 무기 제어실을 목표로 삼을 경우 적함의 아군을 모두 복귀시킵니다.
+
+		능력치:
+		필요 전력량: 2
+
+		최대 충전: 20초
+		도약 시 충전: 20초 (100%)
+
+		효과: 선원 텔레포트
+		효과 비용: 20초 (100%)
+
+		구매/판매 가격: 100~/50~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_NAME" language="zh-Hans">외장 이온 안정기</text>
+<text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_SHORT" language="zh-Hans">Stabilizer</text>
+<text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 약간의 지연 시간 후 목표 시스템 선실의 이온 후유증을 해제합니다. 당연하지만 당신의 함선을 조준할 수 있습니다.
+
+		능력치:
+		필요 전력량: 1
+
+		최대 충전: 80초
+		도약 시 충전: 60초 (75%)
+
+		효과: 이온 후유증 제거
+		효과 비용: 80초 (100%)
+
+		구매/판매 가격: 50~/25~
+</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		ITEM TIPS
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="tne_tip_autocannon" language="zh-Hans">팁: 기관포는 방어막을 완전히 관통하지만, 방어막을 깎을 수 없으며, 관통한 방어막의 수만큼 피해가 감소합니다. 피해량이 0이 되어도 발사체가 유지되기에 균열을 일으킬 수 있습니다.</text>
+
+<text name="tne_tip_railgun" language="zh-Hans">팁: 레일건은 극도로 빠른 투사체를 발사하여 방어막을 관통하는 동시에 방어막에 피해를 줍니다.</text>
+
+<text name="tne_tip_exsystem" language="zh-Hans">팁: 외장 시스템은 무기 관제실에 장착되며, 발사할 수는 없지만, 일정량 이상 충전되어 있을 때 충전량을 소모하여 특별한 효과를 부여합니다.</text>
+
+<text name="tne_tip_exsystem_tele" language="zh-Hans">팁: 물질 전송기는 조준한 선실로 선원을 이동시키며, 당신의 함선의 무기 제어실을 목표로 삼을 경우 적함의 모든 아군 선원을 복귀시킵니다.
+
+주의: 재구성 텔레포트 강화장치가 적용되지 않으며, 이벤트에서도 텔레포터로 판정되지 않습니다.</text>
+
+<text name="tne_tip_exsystem_stabilizer" language="zh-Hans">팁: 이온 안정기는 시스템의 이온 피해를 완전히 제거하며, 해킹이나 은폐장, 정신 지배 장비의 작동 후 후유증까지 제거할 수 있습니다.
+
+주의: 시스템의 이온 후유증은 작동이 종료된 후 발생하므로, 완전히 작동이 끝난 후 해제하십시오.</text>
+
+<text name="tne_tip_acid" language="zh-Hans">팁: 산성 무기는 피격 시스템을 천천히 파괴하며, 완파된 시스템 또는 빈 선실에는 균열을 일으킵니다. 또한 선실 내의 선원에게 초당 2의 피해를 가하며 수리 속도를 감소시킵니다.</text>
+<text name="erosion_chance" language="zh-Hans">부식 확률: \1%</text>  <!-- \1: chance, \2 is low/medium/high -->
+<text name="erosion_effect" language="zh-Hans">부식 피해: \1 (\2초)
+부식 속도: \3</text>  <!-- \1: total damage, \2: duration, \3: damage rate -->
+
+<text name="tne_tip_evo" language="zh-Hans">팁: 성장형 무기는 다음 섹터로 넘어갈 때마다 에너지를 충전하며, 에너지가 가득 찼을 때 창고 메뉴에서 업그레이드할 수 있습니다.</text>
+
+<text name="tne_tip_evo_mod" language="zh-Hans">팁: 개조된 성장형 무기는 더 빠르게 강화된 대신 더이상 강화할 수 없습니다.</text>
+
+<text name="tne_tip_evo_final" language="zh-Hans">팁: 최종 형태까지 강화된 무기입니다. 무시무시한 위력을 자랑합니다!</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		CREW DRONE
+
+=============================================
+=============================================
+=============================================
+-->
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ TWIN DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_DRONE_TWINDRONE_NAME" language="zh-Hans">쌍둥이 전투 드론</text>
+<text name="TNE_TEXT_DRONE_TWINDRONE_SHORT" language="zh-Hans">Twin</text>
+<text name="TNE_TEXT_DRONE_TWINDRONE_DESC" language="zh-Hans">침투 시 임시 드론을 추가로 배치하는 특수 강습 드론입니다. 임시 드론은 전력을 소모하지 않지만, 드론 업그레이드의 효과도 받을 수 없습니다.
+    
+-최대 체력 135, 대인 공격력 1.1배
+-이동속도 0.7배
+-회복 불가
+-임시 드론 수명: 30초</text>
+
+<text name="TNE_TEXT_CREW_TWINDRONE_1_NAME" language="zh-Hans">쌍둥이 전투 드론 No.1</text>
+<text name="TNE_TEXT_CREW_TWINDRONE_1_POWER" language="zh-Hans">침투 시 추가 드론을 배치합니다.</text>
+<text name="TNE_TEXT_CREW_TWINDRONE_2_NAME" language="zh-Hans">쌍둥이 전투 드론 No.2</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ SWARM POD ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_DRONE_DRONEPOD_NAME" language="zh-Hans">무리 드론 포드</text>
+<text name="TNE_TEXT_DRONE_DRONEPOD_SHORT" language="zh-Hans">S. Pod</text>
+<text name="TNE_TEXT_DRONE_DRONEPOD_DESC" language="zh-Hans">드론을 위해 개조된 강습 포드로, 적함을 뚫고 들어가 소형 드론을 3기 풀어놓습니다. 드론 포드는 적함에 적중하기 전까지만 전력을 소모합니다.
+
+-사출 속도가 매우 느림
+-최대 체력 70, 이동 속도 2배
+-대인 공격력 및 시스템 파괴속도 2배
+-드론 수명: 20초</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ PEACE DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_CREW_PEACEDRONE_NAME" language="zh-Hans">평화 드론</text>
+<text name="TNE_TEXT_CREW_PEACEDRONE_POWER" language="zh-Hans">주기적으로 선실 내의 선원을 무장해제</text>
+
+<text name="TNE_TEXT_DRONE_PEACEDRONE_DEFEND_NAME" language="zh-Hans">평화 드론 [승선]</text>
+<text name="TNE_TEXT_DRONE_PEACEDRONE_DEFEND_SHORT" language="zh-Hans">Peace [A]</text>
+<text name="TNE_TEXT_DRONE_PEACEDRONE_DEFEND_DESC" language="zh-Hans">[현재 모드: 승선] 졸탄 비폭력주의자들에 의해 제작된 드론으로, 특수한 전자기파를 발산하여 선실 내의 선원의 전투와 시설 파괴, 능력 발동을 모두 불가능하게 합니다. 드론은 영향을 받지 않습니다.
+
+-최대 체력 125, 이동 속도 0.4배
+-전투 및 시스템 파괴 불가
+-잠긴 문 파괴 불가
+-10초마다 선실 내의 선원을 7초동안 무장 해제함</text>
+
+<text name="TNE_TEXT_DRONE_PEACEDRONE_BOARDER_NAME" language="zh-Hans">평화 드론 [강습]</text>
+<text name="TNE_TEXT_DRONE_PEACEDRONE_BOARDER_SHORT" language="zh-Hans">Peace [B]</text>
+<text name="TNE_TEXT_DRONE_PEACEDRONE_BOARDER_DESC" language="zh-Hans">[현재 모드: 강습] 졸탄 비폭력주의자들에 의해 제작된 드론으로, 특수한 전자기파를 발산하여 선실 내의 선원의 전투와 시설 파괴, 능력 발동을 모두 불가능하게 합니다. 드론은 영향을 받지 않습니다.
+
+-최대 체력 125, 이동 속도 0.4배
+-전투 및 시스템 파괴 불가
+-잠긴 문 파괴 불가
+-10초마다 선실 내의 선원을 7초동안 무장 해제함</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ EXO-BREACHER DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_CREW_EXOBREACHER_NAME" language="zh-Hans">발열성 돌파 드론</text>
+<text name="TNE_TEXT_CREW_EXOBREACHER_POWER" language="zh-Hans">주기적으로 폭발하여 체력을 40 잃지만 함체 및 시스템 피해를 가하고 화재를 일으킴</text>
+
+<text name="TNE_TEXT_DRONE_EXOBREACHER_NAME" language="zh-Hans">발열성 돌파 드론</text>
+<text name="TNE_TEXT_DRONE_EXOBREACHER_SHORT" language="zh-Hans">Exothermic</text>
+<text name="TNE_TEXT_DRONE_EXOBREACHER_DESC" language="zh-Hans">테르밋 폭발물이 적재된 드론입니다. 주기적으로 격렬하게 연소하여 적함을 난장판으로 만듭니다.
+    
+-최대 체력 200, 화재에 면역
+-전투 및 시스템 파괴 불가
+-이동 속도 0.6배, 잠긴 문을 5배 빠르게 파괴
+-8초마다 폭발하여 체력을 40 잃지만, 1의 함체 피해와 시스템 피해를 가하고 화재를 일으킴
+-전원이 공급되지 않으면 해체에 취약해져 대인 피해를 10배로 받음</text>
+
+<text name="TNE_TEXT_DRONE_EXOBREACHER_LOWPOWER_NAME" language="zh-Hans">발열성 돌파 드론†</text>
+<text name="TNE_TEXT_DRONE_EXOBREACHER_LOWPOWER_SHORT" language="zh-Hans">Exothermic†</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ VENT DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_CREW_VENTDRONE_NAME" language="zh-Hans">배기 드론</text>
+<text name="TNE_TEXT_CREW_VENTDRONE_POWER" language="zh-Hans">주기적으로 독성 가스 방출</text>
+
+<text name="TNE_TEXT_DRONE_VENTDRONE_DEFEND_NAME" language="zh-Hans">배기 드론 [승선]</text>
+<text name="TNE_TEXT_DRONE_VENTDRONE_DEFEND_SHORT" language="zh-Hans">Vent [A]</text>
+<text name="TNE_TEXT_DRONE_VENTDRONE_DEFEND_DESC" language="zh-Hans">[현재 모드: 승선] 셸의 가스 기술이 탑재된 드론으로, 위치한 선실의 산소를 빨아들인 후 독성 가스로 합성하여 방출합니다.
+
+-최대 체력 160, 이동 속도 0.6배
+-전투 및 시스템 파괴 불가, 잠긴 문을 50% 속도로 파괴
+-산소를 흡수, 독성 가스를 방출하여 선실의 적 선원들에게 초당 3의 피해를 가함
+-드론과 다음 종족들은 가스에 피해를 입지 않음:
+셸, 라니우스, 고스트, 흡혈초.</text>
+
+<text name="TNE_TEXT_DRONE_VENTDRONE_BOARDER_NAME" language="zh-Hans">배기 드론 [강습]</text>
+<text name="TNE_TEXT_DRONE_VENTDRONE_BOARDER_SHORT" language="zh-Hans">Vent [B]</text>
+<text name="TNE_TEXT_DRONE_VENTDRONE_BOARDER_DESC" language="zh-Hans">[현재 모드: 강습] 셸의 가스 기술이 탑재된 드론으로, 위치한 선실의 산소를 빨아들인 후 독성 가스로 합성하여 방출합니다.
+
+-최대 체력 160, 이동 속도 0.6배
+-전투 및 시스템 파괴 불가, 잠긴 문을 50% 속도로 파괴
+-산소를 흡수, 독성 가스를 방출하여 선실의 적 선원들에게 초당 3의 피해를 가함
+-드론과 다음 종족들은 가스에 피해를 입지 않음:
+셸, 라니우스, 고스트, 흡혈초.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ DISCHARGE DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_CREW_DISCHARGEDRONE_NAME" language="zh-Hans">방전 드론</text>
+<text name="TNE_TEXT_CREW_DISCHARGEDRONE_POWER" language="zh-Hans">위치한 선실의 전력을 2 제한 [조타실은 제한할 수 없음]</text>
+
+<text name="TNE_TEXT_DRONE_DISCHARGEDRONE_NAME" language="zh-Hans">방전 드론</text>
+<text name="TNE_TEXT_DRONE_DISCHARGEDRONE_SHORT" language="zh-Hans">Discharge</text>
+<text name="TNE_TEXT_DRONE_DISCHARGEDRONE_DESC" language="zh-Hans">위치한 선실의 전력을 흡수하는 드론입니다. 은폐 모듈이 탑재되어 있습니다.
+
+-최대 체력 30
+-이동 속도 1.5배, 문을 무시
+-전투 및 시스템 파괴 불가
+-위치한 선실의 출력을 2 제한 [조타실은 제한할 수 없음]
+-전원이 공급되는동안 은폐하여 적에게 조준되지 않음
+-방어 드론의 요격을 회피</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ SHIPWRECKER DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_CREW_SHIPWRECKER_NAME" language="zh-Hans">함선 파괴자</text>
+<text name="TNE_TEXT_CREW_SHIPWRECKER_POWER" language="zh-Hans">전력이 공급되는 동안 타이머 작동</text>
+
+<text name="TNE_TEXT_DRONE_SHIPWRECKER_NAME" language="zh-Hans">함선 파괴자</text>
+<text name="TNE_TEXT_DRONE_SHIPWRECKER_SHORT" language="zh-Hans">Shipwrecker</text>
+<text name="TNE_TEXT_DRONE_SHIPWRECKER_DESC" language="zh-Hans">극도로 파괴적인 고중량 폭탄입니다. 드론 시스템에 의해 제어되며, 착탄 시 타이머가 작동하여 일정 시간 후 엄청난 폭발을 일으켜 적함을 산산조각냅니다.
+
+-타이머 120초, 전력이 공급 중일 때만 타이머가 작동
+-타이머 만료 시, 함체 피해를 999 가함
+-어떠한 행동도 할 수 없지만, 파괴가 불가능함
+-방어 드론에 요격되지 않고, 선원에게 조준되지 않음</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		PLAYER SHIP BLUEPRINT
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="TNE_TEXT_PLAYER_SHIP_ICE_CLASS" language="zh-Hans">서리 고속함</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_ICE_NAME" language="zh-Hans">Glacier</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_ICE_DESC" language="zh-Hans">이 소형 함선은 냉각 기술로 무장하여 적함을 봉쇄하는데 특화되었습니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_ICE_2_NAME" language="zh-Hans">Hailstorm</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_ICE_2_DESC" language="zh-Hans">냉각 기술을 개조하여 무기 시스템에 연결하는데 성공했습니다. 이 함선은 그 결과물입니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_ICE_3_NAME" language="zh-Hans">Global Warming</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_ICE_3_DESC" language="zh-Hans">냉각 기술과 방화 기술을 동시에 갖춘 이 함선은 적함을 지옥으로 만들기에 안성맞춤입니다.</text>
+
+
+<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_CLASS" language="zh-Hans">벌처 순양함</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_NAME" language="zh-Hans">The Vulture</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_DESC" language="zh-Hans">레이저 기술이 상용화되지 않았던 시절에 활약하던 퇴역 순양함입니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_2_NAME" language="zh-Hans">Steel Rain</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_2_DESC" language="zh-Hans">레드-테일 이전에도 비슷한 발상을 한 사람은 있었습니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_3_NAME" language="zh-Hans">Bullet Biter</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_3_DESC" language="zh-Hans">이 함선에는 방어막 제어실이 없지만 대신 초기형 방어 시스템이 탑재되어 있습니다.</text>
+
+
+<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_CLASS" language="zh-Hans">스핏파이어 순양함</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_NAME" language="zh-Hans">Spitfire</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_DESC" language="zh-Hans">강력한 개조가 적용된 핀포인트 무기로 무장한 함선입니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_2_NAME" language="zh-Hans">Boards Away</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_2_DESC" language="zh-Hans">화물 운반용으로 쓰이던 견인 장비를 강습용으로 적절히 개조하여 장착한 함선입니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_3_NAME" language="zh-Hans">Double Trouble</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_3_DESC" language="zh-Hans">이 함선에 설치된 독특한 장비를 통해 적함을 더욱 긴 시간동안 방해할 수 있습니다.</text>
+
+<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_CLASS" language="zh-Hans">방랑자 순양함</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_NAME" language="zh-Hans">Meltdown</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_DESC" language="zh-Hans">생명체에게 특히 위험한 특수 폭탄으로 중무장한 함선입니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_2_NAME" language="zh-Hans">Hyper Express</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_2_DESC" language="zh-Hans">이 함선에 장착된 최신형 레이저는 어떠한 방어도 돌파할 수 있습니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_3_NAME" language="zh-Hans">Curly Braces</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_3_DESC" language="zh-Hans">오랜 동면 끝에 깨어난 이 무인선은 오랜 벗과 함께 멀티버스를 구할 준비가 되었습니다.</text>
+
+</FTL>

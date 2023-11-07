@@ -1,0 +1,48 @@
+<FTL>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ LASER WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<tne_sound_railgun_fire volume="5">weapons/launch_unused_1.ogg</tne_sound_railgun_fire>
+<tne_sound_cannon_fire volume="2">tne_sound_cannon_1.ogg</tne_sound_cannon_fire>
+<tne_sound_cannon_fire_2 volume="3">tne_sound_cannon_2.ogg</tne_sound_cannon_fire_2>
+
+<tne_sound_polar_star volume="5">tne_sound_polar_star.ogg</tne_sound_polar_star>
+<tne_sound_snake volume="9">tne_sound_snake.ogg</tne_sound_snake>
+
+<tne_sound_tachyon volume="8">tne_sound_tachyon.ogg</tne_sound_tachyon>
+
+<tne_sound_frontier_shot volume="2">tne_sound_frontier_shot.ogg</tne_sound_frontier_shot>
+<tne_sound_frontier_crit volume="2">tne_sound_frontier_crit.ogg</tne_sound_frontier_crit>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ BEAM WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<tne_sound_piss_beam volume="6">tne_sound_piss_beam.ogg</tne_sound_piss_beam>
+<tne_sound_spur_1 volume="7">tne_sound_spur_1.ogg</tne_sound_spur_1>
+<tne_sound_spur_2 volume="8">tne_sound_spur_2.ogg</tne_sound_spur_2>
+<tne_sound_spur_3 volume="9">tne_sound_spur_3.ogg</tne_sound_spur_3>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ BOMB WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<tne_sound_acid_bomb volume="6">tne_sound_acid_bomb.ogg</tne_sound_acid_bomb>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ MISC WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<tne_sound_repulsion volume="8">tne_sound_repulsion.ogg</tne_sound_repulsion>
+<tne_sound_ex_teleport volume="5">tne_sound_exteleport.ogg</tne_sound_ex_teleport>
+<tne_sound_ex_stabilizer volume="5">tne_sound_ionremover.ogg</tne_sound_ex_stabilizer>
+
+<!--★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ DRONES ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★-->
+
+<tne_sound_nuke volume="4">tne_sound_tne_sound_nuke.ogg</tne_sound_nuke>
+<tne_sound_tick volume="1">tne_sound_tick.ogg</tne_sound_tick>
+</FTL>

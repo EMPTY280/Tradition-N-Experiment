@@ -1,0 +1,132 @@
+	[ v1.0 ]	2023-08-29
+
+- First release
+
+	[ v1.1 ]	2023-09-06
+
+[ADD]
++ Added External Matter Transporter
++ Added External Ion Stabilizer
++ Added 'Estoc' Pinpoint
++ Added Spitfire cruiser A, B, C
+
+[ADJUST]
+- Railguns
+	- Reduced price
+- Autocannons
+	- Reduced cooldown
+	- Increased breach chance
+- External Systems 
+	- Adjusted price
+	- Reduced requierd power
+	- Ex. Recharger
+		- Adjusted max charge
+		- Adjusted activation threshold
+		- Updated description
+- Frost Patrol A, B, C
+	- Starting weapon max power -1
+	- Starting engine max power +1
+- Frost Patrol B
+	- Adjusted color
+- Vulture Cruiser B
+	- Fixed missed color
+- Vulture Cruiser C
+	- Starting weapon max power -1
+	- Starting engine max power +1
+
+[FIX]
+- Railguns
+	- Now can not harm normal shields when it hit energy shields
+- Fixed some store weapon list bug
+- Ex. Repelsion Field Generator
+	- Now can repel system damage from plasma weapons hitting shield
+	- Fixed system and personal damage bug
+
+	[ v1.11 ] 2023-09-07
+
+[FIX]
+- Players no longer 'evade' boarding drone's breach
+
+	[v1.11b] 2023-09-07
+
+[FIX]
+- fixed wrong Aether Shield Upgrade image on Spitfire cruiser.
+
+	[v1.11c] 2023-09-09
+
+[FIX]
+- fixed ships evading bombs that is already hit.
+
+	[v1.11d] 2023-09-11
+
+[FIX]
+- fixed ships evading targeted ABS
+- fixed wrong weapon id
+- fixed sylvan store's item list
+
+	[v1.11e] 2023-09-13
+
+[ADJUST]
+- now ships has their own hanger page
+- now ex. repel systems can not block ASB
+
+	[v1.12] 2023-09-16
+
+[ADJUST]
+- Changed Ion Stabilizer's sprite
+- Frost Patrol B is now anaerobic ship.
+
+[FIX]
+- External Repelsion Field Generator can block ASB AGAIN!
+
+	[v1.2]
+
+!! CONTENT IDs ARE CHANGED !!
+!! SAVE BELOW 1.2 IS INCOMPATIBLE !!
+
+[ADD]
+- Added 18 new weapons:
+    >> LASER
+    - 6 variants of 'PolarStar', Gains evolution energy on sector-jump, to become stronger!
+    - Tachyon Laser, An extremely fast laser, bypassing energy shields.
+    - 'Sasha', A special Chain Laser that increases the number of shots each fire.
+    - 'Frontier' Scatter Laser, Gains revenge crits when receiving hull damage.
+    - 'Blutsauger', Lose hull point to fire, hit enemy to repair your ship.
+
+    >> MISSILE
+    - Junk Bazooka, A fast-charging Missile weapon. fires 3 missiles at once.
+
+    >> BEAM
+    - Excreta Beam, Makes enemies vulnerable to ALL damages.
+    - Sapper Beam, Removes 2 layers or less of shields on contact. 
+
+    >> BOMB
+    - Acid Bomb, Does DoT to crews, and slowly destroys systems.
+    - Blackout Bomb, Slightly weakens crews, and prevent to repair and man systems.
+    - 'Atomic Punch', Make your crews immune to ALL damage!
+    - Quick Bomb Launcher, Pre-Emptive Bomb Launcher that can be fired 4 times.
+
+    >> PARTICLE
+    - After Burner, Charges other weapons when fire.
+
+- Added 7 new boarding drones:
+    - Twin Battle Drone : 2 Drones at single deployment.
+    - Peace Drone : Make crews unable to fight.
+    - Exothermic Breacher : Fully-loaded with thermite charge, to break system and hull.
+    - Swarm Drone Pod : Deployes 3 combat drones at impact, but has slow flying speed.
+    - Vent Drone : Releases Shell's toxic gas.
+    - Discharge Drone : A Robot Leech with built-in cloaking system.
+    - Shipwrecker : A devastating nuke bomb.
+
+- Added 9 new ships:
+    - Wanderer Cruiser A, B, C
+    - Auto Dropship A, B, C
+    - Mercenary Cruiser A, B, C
+
+[ADJUST]
+- Frost Patrols are now considered as pirate ship.
+- 'Estoc' Pinpoint's breach chance now increases by charge time.
+- Addon Weapons and Drones are now available in Transport C's store.
+
+[FIX]
+- fixed wrong colors in Vulture cruisers' preview.

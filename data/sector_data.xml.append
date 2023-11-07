@@ -1,0 +1,95 @@
+<FTL>
+
+<!--
+<mod:findLike type="sectorDescription">
+	<mod-append:priorityEvent name="TNE_EVENT_TF2STORE" min="1" max="1" priority="1" req="TNE_SPAWNCHECK_TF2" lvl="1"/>
+</mod:findLike>
+-->
+
+<mod:findName type="sectorDescription" name="SECRET_ANCIENT">
+	<mod:findLike type="rarityList">
+
+		<!--	WEAPONS		-->
+		<mod-append:blueprint name="TNE_POLARSTAR_1_0" rarity="0"/>
+
+		<mod-append:blueprint name="TNE_AUTOCANNON_1" rarity="0"/>
+		<mod-append:blueprint name="TNE_AUTOCANNON_2" rarity="0"/>
+		<mod-append:blueprint name="TNE_AUTOCANNON_3" rarity="0"/>
+		<mod-append:blueprint name="TNE_LASER_TACHYON" rarity="0"/>
+
+		<mod-append:blueprint name="TNE_RAILGUN_1" rarity="0"/>
+		<mod-append:blueprint name="TNE_RAILGUN_2" rarity="0"/>
+
+		<mod-append:blueprint name="TNE_BEAM_LOCKDOWN" rarity="0"/>
+
+		<mod-append:blueprint name="TNE_FOCUS_LOCKDOWN" rarity="0"/>
+		<mod-append:blueprint name="TNE_FOCUS_CAPACITOR" rarity="0"/>
+
+		<mod-append:blueprint name="TNE_BOMB_BLACKOUT" rarity="0"/>
+		<mod-append:blueprint name="TNE_BOMB_ACID" rarity="0"/>
+
+		<mod-append:blueprint name="TNE_EX_RECHARGER_MINOR" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_RECHARGER_1" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_RECHARGER_2" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_REPEL_MINOR" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_REPEL_1" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_REPEL_2" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_TELEPORTER" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_ION_STABILIZER" rarity="0"/>
+
+		<!--	DRONES		-->
+
+		<mod-append:blueprint name="TNE_TWINDRONE" rarity="0"/>
+		<mod-append:blueprint name="TNE_DRONEPOD" rarity="0"/>
+		<mod-append:blueprint name="TNE_PEACEDRONE_DEFEND" rarity="0"/>
+		<mod-append:blueprint name="TNE_EXOBREACHER" rarity="0"/>
+		<mod-append:blueprint name="TNE_VENTDRONE_DEFEND" rarity="0"/>
+		<mod-append:blueprint name="TNE_DISCHARGEDRONE" rarity="0"/>
+		<mod-append:blueprint name="TNE_SHIPWRECKER" rarity="0"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECRET_ROYAL">
+	<mod:findLike type="rarityList">
+
+		<!--	WEAPONS		-->
+		<mod-append:blueprint name="TNE_POLARSTAR_1_0" rarity="0"/>
+
+		<mod-append:blueprint name="TNE_AUTOCANNON_1" rarity="0"/>
+		<mod-append:blueprint name="TNE_AUTOCANNON_2" rarity="0"/>
+		<mod-append:blueprint name="TNE_AUTOCANNON_3" rarity="0"/>
+		<mod-append:blueprint name="TNE_LASER_TACHYON" rarity="0"/>
+
+		<mod-append:blueprint name="TNE_RAILGUN_1" rarity="0"/>
+		<mod-append:blueprint name="TNE_RAILGUN_2" rarity="0"/>
+
+		<mod-append:blueprint name="TNE_BEAM_LOCKDOWN" rarity="0"/>
+
+		<mod-append:blueprint name="TNE_FOCUS_LOCKDOWN" rarity="0"/>
+		<mod-append:blueprint name="TNE_FOCUS_CAPACITOR" rarity="0"/>
+		
+		<mod-append:blueprint name="TNE_BOMB_BLACKOUT" rarity="0"/>
+		<mod-append:blueprint name="TNE_BOMB_ACID" rarity="0"/>
+
+		<mod-append:blueprint name="TNE_EX_RECHARGER_MINOR" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_RECHARGER_1" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_RECHARGER_2" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_REPEL_MINOR" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_REPEL_1" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_REPEL_2" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_TELEPORTER" rarity="0"/>
+		<mod-append:blueprint name="TNE_EX_ION_STABILIZER" rarity="0"/>
+		
+		<!--	DRONES		-->
+
+		<mod-append:blueprint name="TNE_TWINDRONE" rarity="0"/>
+		<mod-append:blueprint name="TNE_DRONEPOD" rarity="0"/>
+		<mod-append:blueprint name="TNE_PEACEDRONE_DEFEND" rarity="0"/>
+		<mod-append:blueprint name="TNE_EXOBREACHER" rarity="0"/>
+		<mod-append:blueprint name="TNE_VENTDRONE_DEFEND" rarity="0"/>
+		<mod-append:blueprint name="TNE_DISCHARGEDRONE" rarity="0"/>
+		<mod-append:blueprint name="TNE_SHIPWRECKER" rarity="0"/>
+	</mod:findLike>
+</mod:findName>
+
+</FTL>

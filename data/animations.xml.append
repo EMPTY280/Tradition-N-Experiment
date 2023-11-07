@@ -1,0 +1,1226 @@
+<FTL>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		WEAPON BLUEPRINT
+
+=============================================
+=============================================
+=============================================
+-->
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ POLARSTARS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_polarstar_1" w="69" h="41" fw="23" fh="41">weapon_polar/tne_polarstar_1.png</animSheet>
+<weaponAnim name="tne_polarstar_1">
+	<sheet>tne_polarstar_1</sheet>
+	<desc length="3" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>1</fireFrame>
+	<firePoint x="18" y="3"/>
+	<mountPoint x="3" y="21"/>
+</weaponAnim>
+
+<animSheet name="tne_polarstar_2" w="99" h="57" fw="33" fh="57">weapon_polar/tne_polarstar_2.png</animSheet>
+<weaponAnim name="tne_polarstar_2">
+	<sheet>tne_polarstar_2</sheet>
+	<desc length="3" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>1</fireFrame>
+	<firePoint x="23" y="5"/>
+	<mountPoint x="3" y="36"/>
+</weaponAnim>
+
+<animSheet name="tne_machine_gun" w="93" h="79" fw="31" fh="79">weapon_polar/tne_machine_gun.png</animSheet>
+<weaponAnim name="tne_machine_gun">
+	<sheet>tne_machine_gun</sheet>
+	<desc length="3" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>1</fireFrame>
+	<firePoint x="19" y="6"/>
+	<mountPoint x="3" y="54"/>
+</weaponAnim>
+
+<animSheet name="tne_polarstar_3" w="105" h="72" fw="35" fh="72">weapon_polar/tne_polarstar_3.png</animSheet>
+<weaponAnim name="tne_polarstar_3">
+	<sheet>tne_polarstar_3</sheet>
+	<desc length="3" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>1</fireFrame>
+	<firePoint x="25" y="9"/>
+	<mountPoint x="3" y="49"/>
+</weaponAnim>
+
+<animSheet name="tne_polarstar_4" w="252" h="83" fw="36" fh="83">weapon_polar/tne_polarstar_4.png</animSheet>
+<weaponAnim name="tne_polarstar_4">
+	<sheet>tne_polarstar_4</sheet>
+	<desc length="7" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="22" y="15"/>
+	<mountPoint x="3" y="56"/>
+	<chargeImage>weapon_polar/tne_polarstar_4_glow.png</chargeImage>
+</weaponAnim>
+<animSheet name="tne_polarstar_proj" w="55" h="9" fw="55" fh="9">projectiles/tne_polarstar_proj.png</animSheet>
+<anim name="tne_polarstar_proj">
+	<sheet>tne_polarstar_proj</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="tne_snake_proj" w="400" h="26" fw="50" fh="26">projectiles/tne_snake_proj.png</animSheet>
+<anim name="tne_snake_proj">
+	<sheet>tne_snake_proj</sheet>
+	<desc length="8" x="0" y="0"/>
+	<time>0.2</time>
+</anim>
+<animSheet name="tne_snake_gun" w="112" h="84" fw="28" fh="84">weapon_polar/tne_snake_gun.png</animSheet>
+<weaponAnim name="tne_snake_gun">
+	<sheet>tne_snake_gun</sheet>
+	<desc length="3" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="22" y="13"/>
+	<mountPoint x="3" y="67"/>
+</weaponAnim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ LASER WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_cannon_proj" w="34" h="13" fw="34" fh="13">projectiles/tne_cannon_proj.png</animSheet>
+<anim name="tne_cannon_proj">
+	<sheet>tne_cannon_proj</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="tne_autocannon_0" w="264" h="91" fw="24" fh="91">weapon_cannons/tne_autocannon_0.png</animSheet>
+<weaponAnim name="tne_autocannon_0">
+	<sheet>tne_autocannon_0</sheet>
+	<desc length="11" x="0" y="0"/>
+	<chargedFrame>2</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint x="18" y="43"/>
+	<mountPoint x="5" y="46"/>
+</weaponAnim>
+
+<animSheet name="tne_autocannon_1" w="308" h="152" fw="28" fh="152">weapon_cannons/tne_autocannon_1.png</animSheet>
+<weaponAnim name="tne_autocannon_1">
+	<sheet>tne_autocannon_1</sheet>
+	<desc length="11" x="0" y="0"/>
+	<chargedFrame>2</chargedFrame>
+	<fireFrame>3</fireFrame>
+	<firePoint x="18" y="77"/>
+	<mountPoint x="5" y="79"/>
+</weaponAnim>
+
+<animSheet name="tne_autocannon_2" w="384" h="174" fw="32" fh="174">weapon_cannons/tne_autocannon_2.png</animSheet>
+<weaponAnim name="tne_autocannon_2">
+	<sheet>tne_autocannon_2</sheet>
+	<desc length="12" x="0" y="0"/>
+	<chargedFrame>3</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint x="18" y="77"/>
+	<mountPoint x="5" y="99"/>
+</weaponAnim>
+
+<animSheet name="tne_autocannon_3" w="416" h="212" fw="32" fh="212">weapon_cannons/tne_autocannon_3.png</animSheet>
+<weaponAnim name="tne_autocannon_3">
+	<sheet>tne_autocannon_3</sheet>
+	<desc length="13" x="0" y="0"/>
+	<chargedFrame>4</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint x="18" y="77"/>
+	<mountPoint x="5" y="134"/>
+</weaponAnim>
+
+<animSheet name="tne_tachyon" w="468" h="99" fw="36" fh="99">weapon_laser/tne_tachyon.png</animSheet>
+<weaponAnim name="tne_tachyon">
+	<sheet>tne_tachyon</sheet>
+	<desc length="13" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>6</fireFrame>
+	<firePoint x="23" y="9" />
+	<mountPoint x="2" y="53" />
+	<chargeImage>weapon_laser/tne_tachyon_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="tne_tachyon_hit" w="640" h="64" fw="64" fh="64">effects/tne_tachyon_hit.png</animSheet>
+<anim name="tne_tachyon_hit">
+	<sheet>tne_tachyon_hit</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>0.5</time>
+</anim>
+
+<animSheet name="tne_sasha_chain" w="102" h="77" fw="34" fh="77">weapon_laser/tne_sasha_chain.png</animSheet>
+<anim name="tne_sasha_chain">
+	<sheet>tne_sasha_chain</sheet>
+	<desc length="3" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<animSheet name="tne_sasha" w="340" h="77" fw="34" fh="77">weapon_laser/tne_sasha.png</animSheet>
+<weaponAnim name="tne_sasha">
+	<sheet>tne_sasha</sheet>
+	<desc length="10" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>6</fireFrame>
+	<firePoint x="20" y="15"/>
+	<mountPoint x="1" y="58"/>
+	<boost>tne_sasha_chain</boost>
+</weaponAnim>
+
+<animSheet name="tne_frontier_chain" w="29" h="70" fw="29" fh="70">weapon_laser/tne_frontier_chain.png</animSheet>
+<anim name="tne_frontier_chain">
+	<sheet>tne_frontier_chain</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<animSheet name="tne_frontier" w="261" h="70" fw="29" fh="70">weapon_laser/tne_frontier.png</animSheet>
+<weaponAnim name="tne_frontier">
+	<sheet>tne_frontier</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>4</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint x="17" y="23"/>
+	<mountPoint x="1" y="52"/>
+	<boost>tne_frontier_chain</boost>
+</weaponAnim>
+
+<animSheet name="tne_blutsauger" w="132" h="54" fw="22" fh="54">weapon_laser/tne_blutsauger.png</animSheet>
+<weaponAnim name="tne_blutsauger">
+	<sheet>tne_blutsauger</sheet>
+	<desc length="6" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="15" y="13" />
+	<mountPoint x="1" y="40" />
+	<chargeImage>weapon_laser/tne_blutsauger_glow.png</chargeImage>
+</weaponAnim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ MISSILE WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_rail_proj" w="32" h="80" fw="32" fh="80">projectiles/tne_rail_proj.png</animSheet>
+<anim name="tne_rail_proj">
+	<sheet>tne_rail_proj</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="tne_railgun_1" w="200" h="74" fw="25" fh="74">weapon_railguns/tne_railgun_1.png</animSheet>
+<weaponAnim name="tne_railgun_1">
+	<sheet>tne_railgun_1</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>4</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint x="15" y="35"/>
+	<mountPoint x="2" y="62"/>
+	<chargeImage>weapon_railguns/tne_railgun_1_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="tne_railgun_2" w="306" h="109" fw="34" fh="109">weapon_railguns/tne_railgun_2.png</animSheet>
+<weaponAnim name="tne_railgun_2">
+	<sheet>tne_railgun_2</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>6</fireFrame>
+	<firePoint x="18" y="50"/>
+	<mountPoint x="5" y="88"/>
+	<chargeImage>weapon_railguns/tne_railgun_2_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="tne_junk_missile_proj" w="69" h="23" fw="69" fh="23">projectiles/tne_junk_missile_proj.png</animSheet>
+<anim name="tne_junk_missile_proj">
+	<sheet>tne_junk_missile_proj</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="tne_junk_bazooka" w="240" h="125" fw="40" fh="125">weapon_missiles/tne_junk_bazooka.png</animSheet>
+<weaponAnim name="tne_junk_bazooka">
+	<sheet>tne_junk_bazooka</sheet>
+	<desc length="6" x="0" y="0"/>
+	<chargedFrame>4</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint x="19" y="35"/>
+	<mountPoint x="1" y="60"/>
+</weaponAnim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ BEAM WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_beam_lockdown" w="363" h="58" fw="33" fh="58">weapon_beams/tne_beam_lockdown.png</animSheet>
+<weaponAnim name="tne_beam_lockdown">
+	<sheet>tne_beam_lockdown</sheet>
+	<desc length="11" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="19" y="31"/>
+	<mountPoint x="7" y="44"/>
+	<chargeImage>weapon_beams/tne_beam_lockdown_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="tne_beam_excreta" w="481" h="103" fw="37" fh="103">weapon_beams/tne_beam_excreta.png</animSheet>
+<weaponAnim name="tne_beam_excreta">
+	<sheet>tne_beam_excreta</sheet>
+	<desc length="13" x="0" y="0"/>
+	<chargedFrame>8</chargedFrame>
+	<fireFrame>9</fireFrame>
+	<firePoint x="17" y="56"/>
+	<mountPoint x="3" y="72"/>
+</weaponAnim>
+<animSheet name="tne_piss_debuff" w="352" h="32" fw="32" fh="32">people/tne_piss_debuff.png</animSheet>
+<anim name="tne_piss_debuff">
+	<sheet>tne_piss_debuff</sheet>
+	<desc length="11" x="0" y="0"/>
+	<time>1.3</time>
+</anim>
+
+<animSheet name="tne_beam_sapper" w="232" h="79" fw="29" fh="79">weapon_beams/tne_beam_sapper.png</animSheet>
+<weaponAnim name="tne_beam_sapper">
+	<sheet>tne_beam_sapper</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>3</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint x="15" y="37"/>
+	<mountPoint x="1" y="73"/>
+	<chargeImage>weapon_beams/tne_beam_sapper_glow.png</chargeImage>
+</weaponAnim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ FOCUS WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_focus_lockdown" w="225" h="53" fw="25" fh="53">weapon_focus/tne_focus_lockdown.png</animSheet>
+<weaponAnim name="tne_focus_lockdown">
+	<sheet>tne_focus_lockdown</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="15" y="25"/>
+	<mountPoint x="5" y="40"/>
+	<chargeImage>weapon_focus/tne_focus_lockdown_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="tne_focus_capacitor_chain" w="216" h="104" fw="36" fh="104">weapon_focus/tne_focus_capacitor_chain.png</animSheet>
+<anim name="tne_focus_capacitor_chain">
+	<sheet>tne_focus_capacitor_chain</sheet>
+	<desc length="6" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<animSheet name="tne_focus_capacitor" w="504" h="104" fw="36" fh="104">weapon_focus/tne_focus_capacitor.png</animSheet>
+<weaponAnim name="tne_focus_capacitor">
+	<sheet>tne_focus_capacitor</sheet>
+	<desc length="14" x="0" y="0"/>
+	<chargedFrame>8</chargedFrame>
+	<fireFrame>9</fireFrame>
+	<firePoint  x="21" y="46"/>
+	<mountPoint x="6" y="96"/>
+	<chargeImage>weapon_focus/tne_focus_capacitor_glow.png</chargeImage>
+	<boost>tne_focus_capacitor_chain</boost>
+</weaponAnim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ BOMB WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_bomblauncher_blackout" w="495" h="49" fw="33" fh="49">weapon_bombs/tne_bomblauncher_blackout.png</animSheet>
+<weaponAnim name="tne_bomblauncher_blackout">
+	<sheet>tne_bomblauncher_blackout</sheet>
+	<desc length="15" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>12</fireFrame>
+	<firePoint x="20" y="21" />
+	<mountPoint x="4" y="32" />
+	<chargeImage>weapon_bombs/tne_bomblauncher_blackout_glow.png</chargeImage>
+</weaponAnim>
+<animSheet name="tne_bomb_blackout" w="525" h="35" fw="35" fh="35">weapon_bombs/tne_bomb_blackout.png</animSheet>
+<anim name="tne_bomb_blackout">
+	<sheet>tne_bomb_blackout</sheet>
+	<desc length="15" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<animSheet name="tne_dark_effect" w="140" h="35" fw="35" fh="35">effects/tne_dark_effect.png</animSheet>
+<anim name="tne_dark_effect">
+	<sheet>tne_dark_effect</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="tne_bomblauncher_acid" w="540" h="94" fw="36" fh="94">weapon_bombs/tne_bomblauncher_acid.png</animSheet>
+<weaponAnim name="tne_bomblauncher_acid">
+	<sheet>tne_bomblauncher_acid</sheet>
+	<desc length="15" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>12</fireFrame>
+	<firePoint x="20" y="44" />
+	<mountPoint x="4" y="69" />
+	<chargeImage>weapon_bombs/tne_bomblauncher_acid_glow.png</chargeImage>
+</weaponAnim>
+<animSheet name="tne_bomb_acid" w="525" h="35" fw="35" fh="35">weapon_bombs/tne_bomb_acid.png</animSheet>
+<anim name="tne_bomb_acid">
+	<sheet>tne_bomb_acid</sheet>
+	<desc length="15" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<animSheet name="tne_acid_debuff" w="384" h="32" fw="32" fh="32">people/tne_acid_debuff.png</animSheet>
+<anim name="tne_acid_debuff">
+	<sheet>tne_acid_debuff</sheet>
+	<desc length="12" x="0" y="0"/>
+	<time>0.75</time>
+</anim>
+<animSheet name="tne_acid_effect" w="140" h="35" fw="35" fh="35">effects/tne_acid_effect.png</animSheet>
+<anim name="tne_acid_effect">
+	<sheet>tne_acid_effect</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>1</time>
+</anim>
+<animSheet name="tne_acid_floor" w="35" h="35" fw="35" fh="35">effects/tne_acid_floor.png</animSheet>
+<anim name="tne_acid_floor">
+	<sheet>tne_acid_floor</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="tne_bomblauncher_quick" w="495" h="51" fw="33" fh="51">weapon_bombs/tne_bomblauncher_quick.png</animSheet>
+<weaponAnim name="tne_bomblauncher_quick">
+	<sheet>tne_bomblauncher_quick</sheet>
+	<desc length="15" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>12</fireFrame>
+	<firePoint x="20" y="19" />
+	<mountPoint x="1" y="26" />
+	<chargeImage>weapon_bombs/tne_bomblauncher_quick_glow.png</chargeImage>
+</weaponAnim>
+<animSheet name="tne_bomb_quick" w="525" h="35" fw="35" fh="35">weapon_bombs/tne_bomb_quick.png</animSheet>
+<anim name="tne_bomb_quick">
+	<sheet>tne_bomb_quick</sheet>
+	<desc length="15" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<animSheet name="tne_bomblauncher_atomic" w="495" h="51" fw="33" fh="51">weapon_bombs/tne_bomblauncher_atomic.png</animSheet>
+<weaponAnim name="tne_bomblauncher_atomic">
+	<sheet>tne_bomblauncher_atomic</sheet>
+	<desc length="15" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>12</fireFrame>
+	<firePoint x="20" y="21" />
+	<mountPoint x="1" y="31" />
+	<chargeImage>weapon_bombs/tne_bomblauncher_atomic_glow.png</chargeImage>
+</weaponAnim>
+<animSheet name="tne_bomb_atomic" w="525" h="35" fw="35" fh="35">weapon_bombs/tne_bomb_atomic.png</animSheet>
+<anim name="tne_bomb_atomic">
+	<sheet>tne_bomb_atomic</sheet>
+	<desc length="15" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<animSheet name="tne_atomic_buff" w="288" h="32" fw="32" fh="32">people/tne_atomic_buff.png</animSheet>
+<anim name="tne_atomic_buff">
+	<sheet>tne_atomic_buff</sheet>
+	<desc length="9" x="0" y="0"/>
+	<time>1.25</time>
+</anim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ PARTICLE WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_afterburner" w="192" h="90" fw="32" fh="90">weapon_particle/tne_afterburner.png</animSheet>
+<weaponAnim name="tne_afterburner">
+	<sheet>tne_afterburner</sheet>
+	<desc length="6" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="18" y="18"/>
+	<mountPoint x="1" y="62"/>
+		<chargeImage>weapon_particle/tne_afterburner_glow.png</chargeImage>
+</weaponAnim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ EXTERNAL SYSTEMS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_ex_charger_0" w="252" h="43" fw="28" fh="43">weapon_ex/tne_excharger_0.png</animSheet>
+<weaponAnim name="tne_ex_charger_0">
+	<sheet>tne_ex_charger_0</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>8</chargedFrame>
+	<fireFrame>8</fireFrame>
+	<firePoint x="0" y="0"/>
+	<mountPoint x="5" y="27"/>
+</weaponAnim>
+
+<animSheet name="tne_ex_charger_1" w="288" h="54" fw="32" fh="54">weapon_ex/tne_excharger_1.png</animSheet>
+<weaponAnim name="tne_ex_charger_1">
+	<sheet>tne_ex_charger_1</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>8</chargedFrame>
+	<fireFrame>8</fireFrame>
+	<firePoint x="0" y="0"/>
+	<mountPoint x="5" y="32"/>
+</weaponAnim>
+
+<animSheet name="tne_ex_charger_2" w="315" h="80" fw="35" fh="80">weapon_ex/tne_excharger_2.png</animSheet>
+<weaponAnim name="tne_ex_charger_2">
+	<sheet>tne_ex_charger_2</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>8</chargedFrame>
+	<fireFrame>8</fireFrame>
+	<firePoint x="0" y="0"/>
+	<mountPoint x="5" y="52"/>
+</weaponAnim>
+
+<animSheet name="tne_ex_repel_0" w="234" h="46" fw="26" fh="46">weapon_ex/tne_exrepel_0.png</animSheet>
+<weaponAnim name="tne_ex_repel_0">
+	<sheet>tne_ex_repel_0</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>8</chargedFrame>
+	<fireFrame>8</fireFrame>
+	<firePoint x="0" y="0"/>
+	<mountPoint x="5" y="26"/>
+</weaponAnim>
+
+<animSheet name="tne_ex_repel_1" w="288" h="58" fw="32" fh="58">weapon_ex/tne_exrepel_1.png</animSheet>
+<weaponAnim name="tne_ex_repel_1">
+	<sheet>tne_ex_repel_1</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>8</chargedFrame>
+	<fireFrame>8</fireFrame>
+	<firePoint x="0" y="0"/>
+	<mountPoint x="5" y="33"/>
+</weaponAnim>
+
+<animSheet name="tne_ex_repel_2" w="315" h="82" fw="35" fh="82">weapon_ex/tne_exrepel_2.png</animSheet>
+<weaponAnim name="tne_ex_repel_2">
+	<sheet>tne_ex_repel_2</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>8</chargedFrame>
+	<fireFrame>8</fireFrame>
+	<firePoint x="0" y="0"/>
+	<mountPoint x="5" y="53"/>
+</weaponAnim>
+
+<animSheet name="tne_ex_repel_over" w="378" h="71" fw="42" fh="71">weapon_ex/tne_exrepel_over.png</animSheet>
+<weaponAnim name="tne_ex_repel_over">
+	<sheet>tne_ex_repel_over</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>8</chargedFrame>
+	<fireFrame>8</fireFrame>
+	<firePoint x="0" y="0"/>
+	<mountPoint x="5" y="42"/>
+</weaponAnim>
+
+<animSheet name="tne_ex_tele" w="1000" h="98" fw="40" fh="98">weapon_ex/tne_exteleporter.png</animSheet>
+<weaponAnim name="tne_ex_tele">
+	<sheet>tne_ex_tele</sheet>
+	<desc length="25" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>6</fireFrame>
+	<firePoint x="0" y="0"/>
+	<mountPoint x="3" y="85"/>
+</weaponAnim>
+
+<animSheet name="tne_ex_stabilizer" w="943" h="97" fw="41" fh="97">weapon_ex/tne_exstabilizer.png</animSheet>
+<weaponAnim name="tne_ex_stabilizer">
+	<sheet>tne_ex_stabilizer</sheet>
+	<desc length="23" x="0" y="0"/>
+	<chargedFrame>9</chargedFrame>
+	<fireFrame>10</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="3" y="55"/>
+</weaponAnim>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		CREW DRONE ANIMATION
+
+=============================================
+=============================================
+=============================================
+-->
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ TWIN DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_drone_twin" w="280" h="210" fw="35" fh="35">people/tne_drone_twin_base.png</animSheet>
+<animSheet name="tne_drone_twin_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+
+<anim name="tne_drone_twin_death_right">
+	<sheet>tne_drone_twin_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_death_left">
+	<sheet>tne_drone_twin_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_twin_walk_down">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="4" x="0" y="5"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_walk_right">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="4" x="4" y="5"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_walk_up">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="4" x="0" y="4"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_walk_left">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="4" x="4" y="4"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_twin_shoot_down">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="3" x="0" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_shoot_right">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="3" x="3" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_shoot_up">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="3" x="2" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_shoot_left">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="3" x="5" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_twin_punch_down">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="3" x="0" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_punch_right">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="3" x="3" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_punch_up">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="3" x="2" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_punch_left">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="3" x="5" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_twin_power_down">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="7" x="0" y="2"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_power_up">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="7" x="0" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_fly">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+<anim name="tne_drone_twin_portrait">
+	<sheet>tne_drone_twin</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+<animSheet name="tne_drone_twin_2" w="280" h="210" fw="35" fh="35">people/tne_drone_twin_2_base.png</animSheet>
+<animSheet name="tne_drone_twin_2_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+
+<anim name="tne_drone_twin_2_death_right">
+	<sheet>tne_drone_twin_2_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_2_death_left">
+	<sheet>tne_drone_twin_2_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_twin_2_walk_down">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="4" x="0" y="5"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_2_walk_right">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="4" x="4" y="5"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_2_walk_up">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="4" x="0" y="4"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_2_walk_left">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="4" x="4" y="4"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_twin_2_shoot_down">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="3" x="0" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_2_shoot_right">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="3" x="3" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_2_shoot_up">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="3" x="2" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_2_shoot_left">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="3" x="5" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_twin_2_punch_down">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="1" x="0" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_2_punch_right">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="1" x="3" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_2_punch_up">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="1" x="2" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_2_punch_left">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="1" x="5" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_twin_2_power_down">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="7" x="0" y="2"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_2_power_up">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="7" x="0" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_twin_2_fly">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+<anim name="tne_drone_twin_2_portrait">
+	<sheet>tne_drone_twin_2</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ DRONE POD ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_drone_pod" w="35" h="45" fw="35" fh="45">people/tne_drone_pod_base.png</animSheet>
+<animSheet name="tne_drone_pod_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+
+<anim name="tne_drone_pod_death_right">
+	<sheet>tne_drone_pod_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_pod_death_left">
+	<sheet>tne_drone_pod_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_pod_fly">
+	<sheet>tne_drone_pod</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+<anim name="tne_drone_pod_walk_down">
+	<sheet>tne_drone_pod</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ PEACE DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_drone_peace" w="210" h="245" fw="35" fh="35">people/tne_drone_peace_base.png</animSheet>
+<animSheet name="tne_drone_peace_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+<animSheet name="tne_drone_peace_charge" w="210" h="35" fw="35" fh="35">people/tne_drone_peace_charge.png</animSheet>
+<animSheet name="tne_peace_debuff" w="32" h="32" fw="32" fh="32">people/tne_peace_debuff.png</animSheet>
+
+<anim name="tne_peace_debuff">
+	<sheet>tne_peace_debuff</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_peace_charge">
+	<sheet>tne_drone_peace_charge</sheet>
+	<desc length="6" x="0" y="0"/>
+	<time>1.5</time>
+</anim>
+<anim name="tne_drone_peace_death_right">
+	<sheet>tne_drone_peace_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_peace_death_left">
+	<sheet>tne_drone_peace_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_peace_walk_down">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="4" x="0" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_peace_walk_right">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="2" x="4" y="3"/>
+	<time>0.5</time>
+</anim>
+<anim name="tne_drone_peace_walk_up">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="4" x="0" y="2"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_peace_walk_left">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="2" x="4" y="2"/>
+	<time>0.5</time>
+</anim>
+
+<anim name="tne_drone_peace_shoot_down">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="2" x="0" y="6"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_peace_shoot_right">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="2" x="2" y="6"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_peace_shoot_up">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="2" x="0" y="5"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_peace_shoot_left">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="2" x="2" y="5"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_peace_punch_down">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="2" x="0" y="6"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_peace_punch_right">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="2" x="2" y="6"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_peace_punch_up">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="2" x="0" y="5"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_peace_punch_left">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="2" x="2" y="5"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_peace_power_down">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="5" x="0" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_peace_power_up">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="5" x="0" y="4"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_peace_fly">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="1" x="0" y="1"/>
+	<time>1</time>
+</anim>
+<anim name="tne_drone_peace_portrait">
+	<sheet>tne_drone_peace</sheet>
+	<desc length="1" x="0" y="1"/>
+	<time>1</time>
+</anim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ EXO-BREACHER DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_drone_exothermic" w="280" h="210" fw="35" fh="35">people/tne_drone_exothermic_base.png</animSheet>
+<animSheet name="tne_drone_exothermic_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+
+<anim name="tne_drone_exothermic_death_right">
+	<sheet>tne_drone_exothermic_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_exothermic_death_left">
+		<sheet>tne_drone_exothermic_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+
+<anim name="tne_drone_exothermic_walk_up">
+	<sheet>tne_drone_exothermic</sheet>
+	<desc length="4" x="4" y="1"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_exothermic_walk_down">
+		<sheet>tne_drone_exothermic</sheet>
+		<desc length="4" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_exothermic_walk_right">
+		<sheet>tne_drone_exothermic</sheet>
+		<desc length="2" x="4" y="0"/>
+		<time>0.5</time>
+	</anim>
+	<anim name="tne_drone_exothermic_walk_left">
+		<sheet>tne_drone_exothermic</sheet>
+		<desc length="2" x="6" y="0"/>
+		<time>0.5</time>
+	</anim>
+
+<anim name="tne_drone_exothermic_shoot_up">
+	<sheet>tne_drone_exothermic</sheet>
+	<desc length="4" x="4" y="3"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_exothermic_shoot_down">
+		<sheet>tne_drone_exothermic</sheet>
+		<desc length="4" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_exothermic_shoot_right">
+		<sheet>tne_drone_exothermic</sheet>
+		<desc length="4" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_exothermic_shoot_left">
+		<sheet>tne_drone_exothermic</sheet>
+		<desc length="4" x="4" y="2"/>
+		<time>1.0</time>
+	</anim>
+
+<anim name="tne_drone_exothermic_punch_up">
+	<sheet>tne_drone_exothermic</sheet>
+	<desc length="4" x="4" y="3"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_exothermic_punch_down">
+		<sheet>tne_drone_exothermic</sheet>
+		<desc length="4" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_exothermic_punch_right">
+		<sheet>tne_drone_exothermic</sheet>
+		<desc length="4" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_exothermic_punch_left">
+		<sheet>tne_drone_exothermic</sheet>
+		<desc length="4" x="4" y="2"/>
+		<time>1.0</time>
+	</anim>
+
+<anim name="tne_drone_exothermic_power_up">
+	<sheet>tne_drone_exothermic</sheet>
+	<desc length="7" x="0" y="5"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_exothermic_power_down">
+		<sheet>tne_drone_exothermic</sheet>
+		<desc length="7" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+
+<anim name="tne_drone_exothermic_fly">
+	<sheet>tne_drone_exothermic</sheet>
+	<desc length="1" x="0" y="1"/>
+	<time>1</time>
+</anim>
+<anim name="tne_drone_exothermic_portrait">
+	<sheet>tne_drone_exothermic</sheet>
+	<desc length="1" x="0" y="1"/>
+	<time>1</time>
+</anim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ VENT DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_drone_vent" w="280" h="315" fw="35" fh="35">people/tne_drone_vent_base.png</animSheet>
+<animSheet name="tne_drone_vent_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+
+<anim name="tne_drone_vent_death_right">
+	<sheet>tne_drone_vent_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_vent_death_left">
+	<sheet>tne_drone_vent_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_vent_walk_down">
+	<sheet>tne_drone_vent</sheet>
+	<desc length="6" x="0" y="8"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_vent_walk_right">
+		<sheet>tne_drone_vent</sheet>
+		<desc length="6" x="0" y="6"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_vent_walk_up">
+		<sheet>tne_drone_vent</sheet>
+		<desc length="6" x="0" y="7"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_vent_walk_left">
+		<sheet>tne_drone_vent</sheet>
+		<desc length="6" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+
+<anim name="tne_drone_vent_shoot_down">
+	<sheet>tne_drone_vent</sheet>
+	<desc length="4" x="4" y="2"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_vent_shoot_right">
+		<sheet>tne_drone_vent</sheet>
+		<desc length="4" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_vent_shoot_up">
+		<sheet>tne_drone_vent</sheet>
+		<desc length="4" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_vent_shoot_left">
+		<sheet>tne_drone_vent</sheet>
+		<desc length="4" x="4" y="1"/>
+		<time>1.0</time>
+	</anim>
+
+<anim name="tne_drone_vent_punch_down">
+	<sheet>tne_drone_vent</sheet>
+	<desc length="4" x="4" y="2"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_vent_punch_right">
+		<sheet>tne_drone_vent</sheet>
+		<desc length="4" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_vent_punch_up">
+		<sheet>tne_drone_vent</sheet>
+		<desc length="4" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_vent_punch_left">
+		<sheet>tne_drone_vent</sheet>
+		<desc length="4" x="4" y="1"/>
+		<time>1.0</time>
+	</anim>
+
+<anim name="tne_drone_vent_power_down">
+	<sheet>tne_drone_vent</sheet>
+	<desc length="7" x="0" y="4"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_vent_power_up">
+		<sheet>tne_drone_vent</sheet>
+		<desc length="7" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+
+<anim name="tne_drone_vent_fly">
+	<sheet>tne_drone_vent</sheet>
+	<desc length="1" x="0" y="4"/>
+	<time>1</time>
+</anim>
+<anim name="tne_drone_vent_portrait">
+	<sheet>tne_drone_vent</sheet>
+	<desc length="1" x="0" y="4"/>
+	<time>1</time>
+</anim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ DISCHARGE DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_drone_discharge" w="210" h="105" fw="35" fh="35">people/tne_drone_discharge_base.png</animSheet>
+<animSheet name="tne_drone_discharge_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+
+<anim name="tne_drone_discharge_death_right">
+	<sheet>tne_drone_discharge_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_discharge_death_left">
+	<sheet>tne_drone_discharge_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_discharge_walk_down">
+	<sheet>tne_drone_discharge</sheet>
+	<desc length="4" x="2" y="0"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_discharge_walk_right">
+		<sheet>tne_drone_discharge</sheet>
+		<desc length="4" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_discharge_walk_up">
+		<sheet>tne_drone_discharge</sheet>
+		<desc length="4" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_discharge_walk_left">
+		<sheet>tne_drone_discharge</sheet>
+		<desc length="4" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+
+<anim name="tne_drone_discharge_power_down">
+	<sheet>tne_drone_discharge</sheet>
+	<desc length="6" x="0" y="2"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_discharge_power_up">
+		<sheet>tne_drone_discharge</sheet>
+		<desc length="6" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+
+<anim name="tne_drone_discharge_fly">
+	<sheet>tne_drone_discharge</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+<anim name="tne_drone_discharge_portrait">
+	<sheet>tne_drone_discharge</sheet>
+	<desc length="1" x="0" y="2"/>
+	<time>1</time>
+</anim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ SHIPWRECKER DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<animSheet name="tne_drone_shipwrecker" w="210" h="70" fw="35" fh="35">people/tne_drone_shipwrecker_base.png</animSheet>
+
+<animSheet name="tne_drone_shipwrecker_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+
+<anim name="tne_drone_shipwrecker_death_right">
+	<sheet>tne_drone_shipwrecker_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="tne_drone_shipwrecker_death_left">
+	<sheet>tne_drone_shipwrecker_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="tne_drone_shipwrecker_walk_down">
+	<sheet>tne_drone_shipwrecker</sheet>
+	<desc length="1" x="1" y="1"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_shipwrecker_walk_right">
+		<sheet>tne_drone_shipwrecker</sheet>
+		<desc length="1" x="1" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_shipwrecker_walk_up">
+		<sheet>tne_drone_shipwrecker</sheet>
+		<desc length="1" x="1" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="tne_drone_shipwrecker_walk_left">
+		<sheet>tne_drone_shipwrecker</sheet>
+		<desc length="1" x="1" y="1"/>
+		<time>1.0</time>
+	</anim>
+
+<anim name="tne_drone_shipwrecker_power_down">
+	<sheet>tne_drone_shipwrecker</sheet>
+	<desc length="4" x="2" y="1"/>
+	<time>1.0</time>
+</anim>
+	<anim name="tne_drone_shipwrecker_power_up">
+		<sheet>tne_drone_shipwrecker</sheet>
+		<desc length="4" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+
+<animSheet name="tne_drone_shipwrecker_fly" w="210" h="70" fw="35" fh="70">people/tne_drone_shipwrecker.png</animSheet>
+<anim name="tne_drone_shipwrecker_fly">
+	<sheet>tne_drone_shipwrecker_fly</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+<anim name="tne_drone_shipwrecker_portrait">
+	<sheet>tne_drone_shipwrecker</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+</FTL>

@@ -1,0 +1,12 @@
+<FTL>
+
+<event name="TNE_EVENT_TF2STORE">
+	<preventQuest/>
+	<beaconType id="tne_map_icon_tf2" global="true">
+		<color r="179" g="118" b="51" a="1"/>
+	</beaconType>
+	<variable name="tne_variable_tf2_store" op="set" val="1"/>
+	<store>TNE_STORE_TF2</store>
+</event>
+
+</FTL>

@@ -1,0 +1,510 @@
+<FTL>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		EVO WEAPON MENU
+
+=============================================
+=============================================
+=============================================
+-->
+
+<mod:findName type="event" name="STORAGE_CHECK_BUTTON">
+	<mod-append:choice req="TNE_LIST_EVO_WEAPONS_ALL" blue="false">
+		 <text id="TNE_TEXT_EVENT_STORAGE_EVO"></text> 
+		 <event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+	</mod-append:choice>
+</mod:findName>
+
+<event name="TNE_EVO_WEAPONS_MENU_LOAD">
+	<loadEvent>TNE_EVO_WEAPONS_MENU</loadEvent>
+</event>
+
+<event name="TNE_EVO_WEAPONS_MENU">
+	<text id="TNE_TEXT_EVENT_EVO_MENU"></text>
+
+	<choice req="TNE_LIST_EVO_WEAPONS_1_NOT_FULL" blue="false" hidden="true" lvl="1">
+		<text id="TNE_TEXT_EVENT_EVO_1_NOT_FULL"></text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="TNE_POLARSTAR_1_2" blue="false" hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_1_FULL"></text>
+		<event load="TNE_EVO_POLARSTAR_1_TO_2"/>
+	</choice>
+
+	<choice req="TNE_LIST_EVO_WEAPONS_2_ALL" blue="false" hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_2_CAN_MOD"></text>
+		<event load="TNE_MOD_POLARSTAR_2_SELECT"/>
+	</choice>
+	<choice req="TNE_LIST_EVO_WEAPONS_2_NOT_FULL" blue="false" hidden="true" lvl="1">
+		<text id="TNE_TEXT_EVENT_EVO_2_NOT_FULL"></text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="TNE_POLARSTAR_2_2" blue="false" hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_2_FULL"></text>
+		<event load="TNE_EVO_POLARSTAR_2_TO_3"/>
+	</choice>
+
+	<choice req="TNE_LIST_EVO_WEAPONS_3_ALL" blue="false" hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_3_CAN_MOD"></text>
+		<event load="TNE_MOD_POLARSTAR_3_SELECT"/>
+	</choice>
+	<choice req="TNE_LIST_EVO_WEAPONS_3_NOT_FULL" blue="false" hidden="true" lvl="1">
+		<text id="TNE_TEXT_EVENT_EVO_3_NOT_FULL"></text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="TNE_POLARSTAR_3_3" blue="false" hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_3_FULL"></text>
+		<event load="TNE_EVO_POLARSTAR_3_TO_4"/>
+	</choice>
+
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_RETURN"></text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ UPGRADE LV 1 ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<event name="TNE_EVO_POLARSTAR_1_TO_2">
+	<text id="TNE_TEXT_EVENT_EVO_1_UPGRADE"></text>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_CONFIRM"></text>
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_TEXT_1"></text>
+			<remove name="TNE_POLARSTAR_1_2"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text>
+				<event>
+					<text id="TNE_TEXT_EVENT_EVO_TEXT_2"></text> 
+					<weapon name="TNE_POLARSTAR_2_0"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"></text>
+						<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_NEVERMIND"></text>
+		<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+	</choice>
+</event>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ UPGRADE LV 2 ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<event name="TNE_EVO_POLARSTAR_2_TO_3">
+	<text id="TNE_TEXT_EVENT_EVO_2_UPGRADE"></text>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_CONFIRM"></text>
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_TEXT_1"></text>
+			<remove name="TNE_POLARSTAR_2_2"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text>
+				<event>
+					<text id="TNE_TEXT_EVENT_EVO_TEXT_2"></text> 
+					<weapon name="TNE_POLARSTAR_3_0"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"></text>
+						<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_NEVERMIND"></text>
+		<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+	</choice>
+</event>
+
+<event name="TNE_MOD_POLARSTAR_2_SELECT">
+	<loadEventList seeded="false" first="true" default="TNE_MOD_POLARSTAR_2_2">
+		<event name="TNE_MOD_POLARSTAR_2_0" req="TNE_POLARSTAR_2_0"/>
+		<event name="TNE_MOD_POLARSTAR_2_1" req="TNE_POLARSTAR_2_1"/>
+	</loadEventList>
+</event>
+
+<event name="TNE_MOD_POLARSTAR_2_0">
+	<text id="TNE_TEXT_EVENT_EVO_2_MOD"></text>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_CONFIRM_MOD"></text>
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_1"></text>
+			<remove name="TNE_POLARSTAR_2_0"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text>
+				<event>
+					<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_2"></text> 
+					<weapon name="TNE_MACHINEGUN"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"></text>
+						<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_NEVERMIND"></text>
+		<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+	</choice>
+</event>
+
+<event name="TNE_MOD_POLARSTAR_2_1">
+	<text id="TNE_TEXT_EVENT_EVO_2_MOD"></text>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_CONFIRM_MOD"></text>
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_1"></text>
+			<remove name="TNE_POLARSTAR_2_1"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text>
+				<event>
+					<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_2"></text> 
+					<weapon name="TNE_MACHINEGUN"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"></text>
+						<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_NEVERMIND"></text>
+		<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+	</choice>
+</event>
+
+<event name="TNE_MOD_POLARSTAR_2_2">
+	<text id="TNE_TEXT_EVENT_EVO_2_MOD"></text>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_CONFIRM_MOD"></text>
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_1"></text>
+			<remove name="TNE_POLARSTAR_2_2"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text>
+				<event>
+					<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_2"></text> 
+					<weapon name="TNE_MACHINEGUN"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"></text>
+						<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_NEVERMIND"></text>
+		<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+	</choice>
+</event>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ UPGRADE LV 3 ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<event name="TNE_EVO_POLARSTAR_3_TO_4">
+	<text id="TNE_TEXT_EVENT_EVO_3_UPGRADE"></text>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_CONFIRM"></text>
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_TEXT_1"></text>
+			<remove name="TNE_POLARSTAR_3_3"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text>
+				<event>
+					<text id="TNE_TEXT_EVENT_EVO_TEXT_2"></text> 
+					<weapon name="TNE_POLARSTAR_4"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"></text>
+						<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_NEVERMIND"></text>
+		<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+	</choice>
+</event>
+
+<event name="TNE_MOD_POLARSTAR_3_SELECT">
+	<loadEventList seeded="false" first="true" default="TNE_MOD_POLARSTAR_3_3">
+		<event name="TNE_MOD_POLARSTAR_3_0" req="TNE_POLARSTAR_3_0"/>
+		<event name="TNE_MOD_POLARSTAR_3_1" req="TNE_POLARSTAR_3_1"/>
+		<event name="TNE_MOD_POLARSTAR_3_2" req="TNE_POLARSTAR_3_2"/>
+	</loadEventList>
+</event>
+
+<event name="TNE_MOD_POLARSTAR_3_0">
+	<text id="TNE_TEXT_EVENT_EVO_3_MOD"></text>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_CONFIRM_MOD"></text>
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_1"></text>
+			<remove name="TNE_POLARSTAR_3_0"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text>
+				<event>
+					<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_2"></text> 
+					<weapon name="TNE_SNAKE"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"></text>
+						<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_NEVERMIND"></text>
+		<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+	</choice>
+</event>
+
+<event name="TNE_MOD_POLARSTAR_3_1">
+	<text id="TNE_TEXT_EVENT_EVO_3_MOD"></text>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_CONFIRM_MOD"></text>
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_1"></text>
+			<remove name="TNE_POLARSTAR_3_1"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text>
+				<event>
+					<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_2"></text> 
+					<weapon name="TNE_SNAKE"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"></text>
+						<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_NEVERMIND"></text>
+		<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+	</choice>
+</event>
+
+<event name="TNE_MOD_POLARSTAR_3_2">
+	<text id="TNE_TEXT_EVENT_EVO_3_MOD"></text>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_CONFIRM_MOD"></text>
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_1"></text>
+			<remove name="TNE_POLARSTAR_3_2"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text>
+				<event>
+					<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_2"></text> 
+					<weapon name="TNE_SNAKE"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"></text>
+						<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_NEVERMIND"></text>
+		<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+	</choice>
+</event>
+
+<event name="TNE_MOD_POLARSTAR_3_3">
+	<text id="TNE_TEXT_EVENT_EVO_3_MOD"></text>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_CONFIRM_MOD"></text>
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_1"></text>
+			<remove name="TNE_POLARSTAR_3_3"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text>
+				<event>
+					<text id="TNE_TEXT_EVENT_EVO_MOD_TEXT_2"></text> 
+					<weapon name="TNE_SNAKE"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"></text>
+						<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_EVO_NEVERMIND"></text>
+		<event load="TNE_EVO_WEAPONS_MENU_LOAD"/>
+	</choice>
+</event>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		TOGGLE MENU
+
+=============================================
+=============================================
+=============================================
+-->
+
+<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
+	<mod-append:choice req="TNE_PEACEDRONE_DEFEND" blue="false">
+		 <text id="TNE_TEXT_EVENT_PEACEDRONE_DEFEND"/>
+		 <event load="COMBAT_CHECK_PEACE_BATTLE"/>
+	</mod-append:choice>
+	<mod-append:choice req="TNE_PEACEDRONE_BOARDER" blue="false">
+		 <text id="TNE_TEXT_EVENT_PEACEDRONE_BOARDER"/>
+		 <event load="COMBAT_CHECK_PEACE_BOARDER"/>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_VENTDRONE_DEFEND" blue="false">
+		 <text id="TNE_TEXT_EVENT_VENTDRONE_DEFEND"/>
+		 <event load="COMBAT_CHECK_VENT_BATTLE"/>
+	</mod-append:choice>
+	<mod-append:choice req="TNE_VENTDRONE_BOARDER" blue="false">
+		 <text id="TNE_TEXT_EVENT_VENTDRONE_BOARDER"/>
+		 <event load="COMBAT_CHECK_VENT_BOARDER"/>
+	</mod-append:choice>
+</mod:findName>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		TOGGLE DRONES
+
+=============================================
+=============================================
+=============================================
+-->
+
+<!--		★★★★★★★★★★★★★★★		-->
+<!--		★★★ PEACE DRONE ★★★		-->
+<!--		★★★★★★★★★★★★★★★		-->
+
+<event name="COMBAT_CHECK_PEACE_BATTLE">
+	<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_TO_BOARDER"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+			<remove name="TNE_PEACEDRONE_DEFEND"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+					<drone name="TNE_PEACEDRONE_BOARDER"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+		<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+	</choice>
+</event>
+<event name="COMBAT_CHECK_PEACE_BOARDER">
+	<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_TO_DEFEND"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+			<remove name="TNE_PEACEDRONE_BOARDER"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+					<drone name="TNE_PEACEDRONE_DEFEND"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+		<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+	</choice>
+</event>
+
+<!--		★★★★★★★★★★★★★★★		-->
+<!--		★★★ VENT DRONE ★★★		-->
+<!--		★★★★★★★★★★★★★★★		-->
+
+<event name="COMBAT_CHECK_VENT_BATTLE">
+	<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_TO_BOARDER"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+			<remove name="TNE_VENTDRONE_DEFEND"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+					<drone name="TNE_VENTDRONE_BOARDER"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+		<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+	</choice>
+</event>
+<event name="COMBAT_CHECK_VENT_BOARDER">
+	<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_TO_DEFEND"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+			<remove name="TNE_VENTDRONE_BOARDER"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+					<drone name="TNE_VENTDRONE_DEFEND"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+		<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+	</choice>
+</event>
+</FTL>

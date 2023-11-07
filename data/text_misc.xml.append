@@ -1,0 +1,57 @@
+<FTL>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		ITEM TIPS
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="tne_tip_autocannon">Tip: Autocannons pierce ALL shields, but can NOT pop shield bubbles and projectiles deal reduced damage by same number of shield it pierced. Projectiles will remain even if its damage is reduced to 0, so can cause breaches.</text>
+
+<text name="tne_tip_railgun">Tip: Railguns fire extremely fast projectiles that pierce and damage shields at the same time.</text>
+
+<text name="tne_tip_exsystem">Tip: External Systems can be mounted on weapon system, can NOT be shot, but provide unique effects by draining charge.</text>
+
+<text name="tne_tip_exsystem_tele">Tip: Matter Transporter sends allies in weapon system to targeted room. If you target your own ship's weapon system, returns ALL your crews in enemy ship to weapon system.
+
+Warning: 'Reconstructive Teleport' is NOT compatible, and can NOT be used in any events as a teleporter system</text>
+
+<text name="tne_tip_exsystem_stabilizer">Tip: Ion Stabilizer fully removes ion effect on system, and also can remove cooldown of system like hacking, cloaking, and mind control.
+
+Warning: cooldown of system starts after the system is fully acted. so to remove cooldown, use Stabilizer after the system using is over.</text>
+
+<text name="erosion_chance">Erosion Chance: \1%</text>  <!-- \1: chance, \2 is low/medium/high -->
+<text name="erosion_effect">Erosion Damage: \1 (\2 seconds)
+Erosion Speed: \3</text>  <!-- \1: total damage, \2: duration, \3: damage rate -->
+
+<text name="tne_tip_acid">Tip: Acidic weapon does damage over time to hit room, and causes breaches on fully-damaged system or unsystemed room. crews in affected room will lose 2 HP per seconds and repair slower.</text>
+
+<text name="tne_tip_blackout">Tip: If a crew is in a blacked out room, they will move 20% slower, take 30% more damage from combat, and cannot repair and man system. Also, their ability to revealing rooms / detecting lifeforms will be unabled. Drones are immune to this effect.</text>
+
+<text name="tne_tip_evo">Tip: Evo-Weapons gain energies every sector-jump, and if it is fully charged, can be upgraded at storage menu. </text>
+
+<text name="tne_tip_evo_mod">Tip: Modified Evo-Weapons becomes stronger earlier, but cannot be upgraded anymore.</text>
+
+<text name="tne_tip_evo_final">Tip: Final from of Evo-Weapon. Shows TREMENDOUS POWER!</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+				MAP ICON
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="tne_map_icon_tf2">STORE [PIRATE]</text>
+
+</FTL>

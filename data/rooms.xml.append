@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<roomLayout name="tne_engines_gw">
+	<computerGlow x="6" y="1" dir="UP" />
+</roomLayout>
+
+<roomLayout name="tne_shields_gw">
+	<computerGlow x="75" y="18" dir="DOWN" />
+</roomLayout>
+
+<roomLayout name="tne_weapons_gw">
+	<computerGlow x="75" y="0" dir="UP" />
+</roomLayout>
+

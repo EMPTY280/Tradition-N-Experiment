@@ -1,0 +1,614 @@
+<FTL>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		WEAPON BLUEPRINT
+
+=============================================
+=============================================
+=============================================
+-->
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ POLARSTARS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_POLARSTAR_1_NAME">'PolarStar' Lv. 1</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_1_SHORT">'PolarStar' I</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_1_0_DESC">A weak laser weapon that fires 2 projectiles. It carries the mark of the Northern Star.
+
+[2 Sectors left to Upgrade]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_1_1_DESC">A weak laser weapon that fires 2 projectiles. It carries the mark of the Northern Star.
+
+[1 Sector left to Upgrade]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_1_2_DESC">A weak laser weapon that fires 2 projectiles. It carries the mark of the Northern Star.
+
+[Can be Upgraded]</text>
+
+<text name="TNE_TEXT_WEAPON_POLARSTAR_2_NAME">'PolarStar' Lv. 2</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_2_SHORT">'PolarStar' II</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_2_0_DESC">A laser weapon that fires 3 projectiles. It carries the mark of the Northern Star.
+
+[2 Sectors left to Upgrade]
+[Can be Modified]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_2_1_DESC">3A laser weapon that fires 3 projectiles. It carries the mark of the Northern Star.
+
+[1 Sector left to Upgrade]
+[Can be Modified]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_2_2_DESC">A laser weapon that fires 3 projectiles. It carries the mark of the Northern Star.
+
+[Can be Upgraded]
+[Can be Modified]</text>
+<text name="TNE_TEXT_WEAPON_MACHINEGUN_NAME">'MachineGun'</text>
+<text name="TNE_TEXT_WEAPON_MACHINEGUN_SHORT">'MachineGun'</text>
+<text name="TNE_TEXT_WEAPON_MACHINEGUN_DESC">inaccurate, but powerful assault laser weapon that sprays 5 projectiles.</text>
+
+<text name="TNE_TEXT_WEAPON_POLARSTAR_3_NAME">'PolarStar' Lv. 3</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_3_SHORT">'PolarStar' III</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_3_0_DESC">A powerful laser weapon that fires 5 projectiles. It carries the mark of the Northern Star.
+
+[3 Sectors left to Upgrade]
+[Can be Modified]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_3_1_DESC">A powerful laser weapon that fires 5 projectiles. It carries the mark of the Northern Star.
+
+[2 Sectors left to Upgrade]
+[Can be Modified]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_3_2_DESC">A powerful laser weapon that fires 5 projectiles. It carries the mark of the Northern Star.
+
+[1 Sector left to Upgrade]
+[Can be Modified]</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_3_3_DESC">A powerful laser weapon that fires 5 projectiles. It carries the mark of the Northern Star.
+
+[Can be Upgraded]
+[Can be Modified]</text>
+<text name="TNE_TEXT_WEAPON_SNAKE_NAME">'Snake'</text>
+<text name="TNE_TEXT_WEAPON_SNAKE_SHORT">'Snake'</text>
+<text name="TNE_TEXT_WEAPON_SNAKE_DESC">Destructive incendiary weapon that pierces 2 shields and sets fire on hit.</text>
+
+<text name="TNE_TEXT_WEAPON_POLARSTAR_4_NAME">'Spur'</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_4_SHORT">'Spur'</text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_4_DESC">Final form of the PolarStar. Fires devastating beam that completely ignores ALL shields. Damage increases as it charged.
+
+Stats:
+	Required Power: 4
+	Charge Time: 10 - 22 seconds
+
+	Beam Length: 105
+	Beam Speed: 35
+
+	Base Hull Damage: 1 - 3
+	Total System Damage: 2 - 4
+	Total Crew Damage: 15 - 45
+	Shield Piercing: 10
+
+	Fire Chance: 10 - 30%
+	Breach Chance: 30 - 50%
+
+	Buy/Sell Price: 150~/75~
+</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ LASER WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_0_NAME">Single Shot Cannon</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_0_SHORT">S. Cannon</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_0_DESC">An old-tech weapon that fires physical projectiles. Pierces ALL shields but deals reduced damage by same number of shield it pierced. Unlike other Autocannons, itcan fire only one round at a time due to reduced production cost.</text>
+
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_1_NAME">AutoCannon MK I</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_1_SHORT">A. Cannon I</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_1_DESC">An old-tech weapon that fires physical projectiles. Pierces ALL shields but deals reduced damage by same number of shield it pierced.</text>
+
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_2_NAME">AutoCannon MK II</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_2_SHORT">A. Cannon II</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_2_DESC">An old-tech weapon that fires physical projectiles. Pierces ALL shields but deals reduced damage by same number of shield it pierced.</text>
+
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_3_NAME">AutoCannon MK III</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_3_SHORT">A. Cannon III</text>
+<text name="TNE_TEXT_WEAPON_AUTOCANNON_3_DESC">An old-tech weapon that fires physical projectiles. Pierces ALL shields but deals reduced damage by same number of shield it pierced.</text>
+
+<text name="TNE_TEXT_WEAPON_LASER_TACHYON_NAME">Tachyon Laser</text>
+<text name="TNE_TEXT_WEAPON_LASER_TACHYON_SHORT">Tachyon</text>
+<text name="TNE_TEXT_WEAPON_LASER_TACHYON_DESC">A high-end laser weapon that fires a projectile Faster-Than-Light. It not only ignores common shields, also energy shields!
+
+	Stats:
+	Required Power: 3
+	Charge Time: 17 seconds
+	Accuracy Bonus: +100%
+
+	Shots Per Charge: 1
+
+	Base Hull Damage: 3
+	Total System Damage: 3
+	Total Crew Damage: 45
+	Shield Piercing: 10
+	Ignores Energy Shields
+
+	Buy/Sell Price: 120~/60~
+</text>
+
+<text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_NAME">'Sasha'</text>
+<text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_SHORT">'Sasha'</text>
+<text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_DESC">A special Chain Laser that increases the number of shots each fire.
+
+	Stats:
+	Required Power: 3
+	Charge Time: 14 seconds
+	Chain Effect: Increase shots by 1
+	Max Shots: 6
+
+	Shots Per Charge: 3
+
+	Base Hull Damage: 1
+	Total System Damage: 1
+	Total Crew Damage: 15
+
+	Fire Chance: 10%
+
+	Buy/Sell Price: 120~/60~
+</text>
+
+<text name="TNE_TEXT_WEAPON_LASER_FRONTIER_NAME">'Frontier' Scatter Laser</text>
+<text name="TNE_TEXT_WEAPON_LASER_FRONTIER_SHORT">'Frontier'</text>
+<text name="TNE_TEXT_WEAPON_LASER_FRONTIER_DESC">A Laser weapon that sprays inaccurate projectiles. Taking hull damage makes next shot Critical Hit.
+
+		Critical Hit: Does double damage, +1 ion damage.</text>
+
+<text name="TNE_TEXT_WEAPON_LASER_BLOOD_NAME">'Blutsauger'</text>
+<text name="TNE_TEXT_WEAPON_LASER_BLOOD_SHORT">'Blutsauger'</text>
+<text name="TNE_TEXT_WEAPON_LASER_BLOOD_DESC">A Laser weapon that repairs your ship by 1 point on every projectile hit. Requires 1 hull point to fire.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ MISSILE WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_RAILGUN_1_NAME">'Icarus' Railgun</text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_1_SHORT">'Icarus'</text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_1_DESC">A weapon that fires metal projectiles with rapid acceleration. Pierces all shields and does shield damage equal to hull damage.</text>
+
+<text name="TNE_TEXT_WEAPON_RAILGUN_2_NAME">'Daedalus' Railgun</text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_2_SHORT">'Daedalus'</text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_2_DESC">A weapon that fires metal projectiles with rapid acceleration. Pierces all shields and does shield damage equal to hull damage.</text>
+
+<text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_NAME">Junk Bazooka</text>
+<text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_SHORT">J. Bazooka</text>
+<text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_DESC">A Missile weapon that fires 3 missiles at once. Each projectiles will be fired with small spread.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ BEAM WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_BEAM_LOCKDOWN_NAME">'Kakivak' Beam</text>
+<text name="TNE_TEXT_WEAPON_BEAM_LOCKDOWN_SHORT">'Kakivak'</text>
+<text name="TNE_TEXT_WEAPON_BEAM_LOCKDOWN_DESC">A Beam weapon that freezes targeted rooms.</text>
+
+<text name="TNE_TEXT_WEAPON_BEAM_PISS_NAME">Excreta Beam</text>
+<text name="TNE_TEXT_WEAPON_BEAM_PISS_SHORT">Excreta</text>
+<text name="TNE_TEXT_WEAPON_BEAM_PISS_DESC">Fires stream of disgusting fluid, causing enemies to lose WILL TO LIVE so making them take 50% more damage from ALL sources for 20 seconds.</text>
+
+<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_NAME">'Sapper' Beam</text>
+<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_SHORT">'Sapper'</text>
+<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_DESC">A special Beam that can disrupt shields. It can instantly remove 2 layers or less of shields on contact.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ FOCUS WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_NAME">'Ulu' Pinpoint</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_SHORT">'Ulu'</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_DESC">A Focus weapon that freezes targeted rooms. does lower damage than standard Pinpoints, but pierces 1 shield.</text>
+
+<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_NAME">'Estoc' Pinpoint</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_SHORT">'Estoc'</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_DESC">A capacitor modified, powerful Pinpoint. Does massive damage on full charge, but also can be shot faster to deal weak damage.
+
+		Stats:
+		Required Power: 4
+		Charge Time: 8 - 32 seconds
+
+		Beam Length: 1
+		Beam Speed: 1
+
+		Base Hull Damage: 2 - 8
+		Total System Damage: 2 - 8
+		Total Crew Damage: 30 - 120
+
+		Breach Chance: 20 - 80%
+
+		Buy/Sell Price: 110~/55~
+</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ BOMB WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_BOMB_BLACKOUT_NAME">Blackout Bomb</text>
+<text name="TNE_TEXT_WEAPON_BOMB_BLACKOUT_SHORT">Blackout B.</text>
+<text name="TNE_TEXT_WEAPON_BOMB_BLACKOUT_DESC">Self-teleporting explosive that does minor damage and spreads perception-disrupting nanomachines. Nanomachines will remain for 25 seconds. Can target your own ship.</text>
+
+<text name="TNE_TEXT_WEAPON_BOMB_ACID_NAME">Acid Bomb</text>
+<text name="TNE_TEXT_WEAPON_BOMB_ACID_SHORT">Acid B.</text>
+<text name="TNE_TEXT_WEAPON_BOMB_ACID_DESC">Self-teleporting explosive that sprays acidic fluid. Can target your own ship.</text>
+
+<text name="TNE_TEXT_WEAPON_BOMB_ATOMIC_NAME">'Atomic Punch'</text>
+<text name="TNE_TEXT_WEAPON_BOMB_ATOMIC_SHORT">'Atomic Punch'</text>
+<text name="TNE_TEXT_WEAPON_BOMB_ATOMIC_DESC">This stimulant launcher is fulla radiation, which is pretty great for givin' people superpowers. It makes allied crews move 50% faster and invurnerable to ALL damage, but cannot fight and savotage. Can target your own ship.</text>
+
+<text name="TNE_TEXT_WEAPON_BOMB_QUICK_NAME">Quick Bomb Launcher</text>
+<text name="TNE_TEXT_WEAPON_BOMB_QUICK_SHORT">Quick B.</text>
+<text name="TNE_TEXT_WEAPON_BOMB_QUICK_DESC">A Preemptive Bomb Launcher that can be fired 4 times. Can target your own ship.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ PARTICLE WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_NAME">Afterburner</text>
+<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_SHORT">Afterburner</text>
+<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_DESC">A special Particle Accelerator that charges other weapons when fired. Other Afterburner will be excluded from charge.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ EXTERNAL SYSTEMS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_NAME">Minor External Recharger</text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_SHORT">M. Recharge</text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by transmitting its own charge. Minor version is charged very fast, but has lower max charge.
+
+		Stats:
+		Requires no power
+		Can't be shot
+
+		Max Charge: 5 seconds
+		Activate: 3 seconds (60%)
+
+		Effect: Transmits charge time
+
+		Buy/Sell Price: 50~/25~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_NAME">External Recharger MK I</text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_SHORT">Recharge I</text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by transmitting its own charge. 
+
+		Stats:
+		Requires no power
+		Can't be shot
+
+		Max Charge: 10 seconds
+		Activate: 6 seconds (60%)
+
+		Effect: Transmits charge time
+
+		Buy/Sell Price: 80~/40~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_NAME">External Recharger MK II</text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_SHORT">Recharge II</text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by transmitting its own charge. It is an improved version that has higher max charge.
+
+		Stats:
+		Required Power: 1
+		Can't be shot
+
+		Max Charge: 16 seconds
+		Activate: 8 seconds (50%)
+
+		Effect: Transmits charge time
+
+		Buy/Sell Price: 110~/55~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_NAME">Minor External Repulsion Field Generator</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_SHORT">M. Repel</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by draining its own charge. Minor version is charged very fast, but has lower max charge.
+
+		Stats:
+		Requires no power
+		Can't be shot
+
+		Max Charge: 10 seconds
+		Activate: 10 seconds (100%)
+		Charge On Jump: 10 seconds (100%)
+
+		Effect: Repel hull or system damage
+		Active Cost: 10 seconds per 1 damage (100%)
+
+		Buy/Sell Price: 50~/25~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_REPEL_1_NAME">External Repulsion Field Generator MK I</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_1_SHORT">Repel I</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_1_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its own charge. 
+
+		Stats:
+		Requires no power
+		Can't be shot
+
+		Max Charge: 60 seconds
+		Activate: 20 seconds (33.3%)
+		Charge On Jump: 20 seconds (33.3%)
+
+		Effect: Repel hull or system damage
+		Active Cost: 20 seconds per 1 damage (33.3%)
+
+		Buy/Sell Price: 80~/40~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_REPEL_2_NAME">External Repulsion Field Generator MK II</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_2_SHORT">Repel II</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_2_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its own charge. It is an improved version that has higher max charge.
+
+		Stats:
+		Required Power: 1
+		Can't be shot
+
+		Max Charge: 100 seconds
+		Activate: 20 seconds (20%)
+		Charge On Jump: 40 seconds (40%)
+
+		Effect: Repel hull or system damage
+		Active Cost: 20 seconds per 1 damage (20%)
+
+		Buy/Sell Price: 120~/60~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_NAME">Overcharged External Repulsion Field Generator</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_SHORT">Over. Repel</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its own charge. It is an modified version that is fully charged on jump.
+
+		Stats:
+		Required Power: 1
+		Can't be shot
+
+		Max Charge: 100 seconds
+		Activate: 20 seconds (20%)
+		Charge On Jump: 100 seconds (100%)
+
+		Effect: Repel hull or system damage
+		Active Cost: 20 seconds per 1 damage (20%)
+
+		Buy/Sell Price: 120~/60~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_TELEPORTER_NAME">External Matter Transporter</text>
+<text name="TNE_TEXT_WEAPON_EX_TELEPORTER_SHORT">Transporter</text>
+<text name="TNE_TEXT_WEAPON_EX_TELEPORTER_DESC">An assistance equipment mounted on weapon system, sends allies in weapon system to targeted room after short delay. Crew manning weapon system will be excepted from transportation target. Can target your own ship.
+
+Important: If you target your own ship's weapon system, returns ALL of your crews in enemy ship to your weapon system.
+
+		Stats:
+		Required Power: 2
+
+		Max Charge: 20 seconds
+		Charge On Jump: 20 seconds (100%)
+
+		Effect: Teleport crew
+		Active Cost: 20 seconds (100%)
+
+		Buy/Sell Price: 100~/50~
+</text>
+
+<text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_NAME">External Ion Stabilizer</text>
+<text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_SHORT">Stabilizer</text>
+<text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_DESC">An assistance equipment mounted on weapon system, removes ion effect on targeted system after short delay. Can (and Must) target your own ship.
+
+		Stats:
+		Required Power: 1
+
+		Max Charge: 80 seconds
+		Charge On Jump: 60 seconds (75%)
+
+		Effect: Remove ion effect
+		Active Cost: 80 seconds (100%)
+
+		Buy/Sell Price: 50~/25~
+</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		CREW DRONE
+
+=============================================
+=============================================
+=============================================
+-->
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ TWIN DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_DRONE_TWINDRONE_NAME">Twin Battle Drone</text>
+<text name="TNE_TEXT_DRONE_TWINDRONE_SHORT">Twin</text>
+<text name="TNE_TEXT_DRONE_TWINDRONE_DESC">A special battle drone that additionally deploys temporary drone on board. temp drone does not require power, but cannot have benefits of drone upgrades.
+
+-135 HP, 1.1x combat damage
+-0.7x movement speed
+-Cannot heal
+-Temp drone lifetime: 30 seconds</text>
+
+<text name="TNE_TEXT_CREW_TWINDRONE_1_NAME">Twin Battle Drone No.1</text>
+<text name="TNE_TEXT_CREW_TWINDRONE_1_POWER">Deploys additional temporary drone on breach.</text>
+<text name="TNE_TEXT_CREW_TWINDRONE_2_NAME">Twin Battle Drone No.2</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ SWARM POD ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_DRONE_DRONEPOD_NAME">Swarm Drone Pod</text>
+<text name="TNE_TEXT_DRONE_DRONEPOD_SHORT">S. Pod</text>
+<text name="TNE_TEXT_DRONE_DRONEPOD_DESC">A boarding-pod modified for drones. breaches into the enemy ship and releases 3 small combat drones. Drone Pod only requires power until they hit the enemy ship.
+
+-Very slow flight speed
+-70 HP, 2x movement speed
+-2x combat damage, 2x sabotage speed
+-Drone lifetime: 20 seconds</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ PEACE DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_CREW_PEACEDRONE_NAME">Peace Drone</text>
+<text name="TNE_TEXT_CREW_PEACEDRONE_POWER">Periodic Ability: Neutralizes crews in room.</text>
+
+<text name="TNE_TEXT_DRONE_PEACEDRONE_DEFEND_NAME">Peace Drone [Anti-Pers]</text>
+<text name="TNE_TEXT_DRONE_PEACEDRONE_DEFEND_SHORT">Peace [A]</text>
+<text name="TNE_TEXT_DRONE_PEACEDRONE_DEFEND_DESC">[CURRENT MODE: Anti-Personnel] A Drone created by Zoltan Pacifists. It emits particular electromagnetic waves that make every crew in room unable to fight, sabotage, and use abilities. Drones are immune to this effect.
+
+-125 HP, 0.4x movement speed
+-Cannot fight and sabotage
+-Cannot destroy locked door
+-Neutralizes crews in room for 7 seconds every 10 seconds</text>
+
+<text name="TNE_TEXT_DRONE_PEACEDRONE_BOARDER_NAME">Peace Drone [Boarding]</text>
+<text name="TNE_TEXT_DRONE_PEACEDRONE_BOARDER_SHORT">Peace [B]</text>
+<text name="TNE_TEXT_DRONE_PEACEDRONE_BOARDER_DESC">[CURRENT MODE: Boarding] A Drone created by Zoltan Pacifists. It emits particular electromagnetic waves that make every crew in room unable to fight, sabotage, and use abilities. Drones are immune to this effect.
+
+-125 HP, 0.4x movement speed
+-Cannot fight and sabotage
+-Cannot destroy locked door
+-Neutralizes crews in room for 7 seconds every 10 seconds</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ EXO-BREACHER DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_CREW_EXOBREACHER_NAME">Exothermic Breacher</text>
+<text name="TNE_TEXT_CREW_EXOBREACHER_POWER">Periodic Ability: Lose 40 HP, Do Hull and System damage, and setting fire</text>
+
+<text name="TNE_TEXT_DRONE_EXOBREACHER_NAME">Exothermic Breacher</text>
+<text name="TNE_TEXT_DRONE_EXOBREACHER_SHORT">Exothermic</text>
+<text name="TNE_TEXT_DRONE_EXOBREACHER_DESC">A Drone loaded with thermite explosives. it periodically combusts itself, making mayhem on enemy ship.
+    
+-200 HP, Immune to fire damage
+-Cannot fight and sabotage
+-0.6x movement speed, destroys locked doors at 5.0x speed.
+-Explodes every 8 seconds; lose 40 HP, do 1 hull and system damage, and set fire
+-When unpowered, it will be vulnerable to defuse so takes 10x combat damage</text>
+
+<text name="TNE_TEXT_DRONE_EXOBREACHER_LOWPOWER_NAME">Exothermic Breacher†</text>
+<text name="TNE_TEXT_DRONE_EXOBREACHER_LOWPOWER_SHORT">Exothermic†</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ VENT DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_CREW_VENTDRONE_NAME">Vent Drone</text>
+<text name="TNE_TEXT_CREW_VENTDRONE_POWER">Periodic Ability: Releases toxic gas</text>
+
+<text name="TNE_TEXT_DRONE_VENTDRONE_DEFEND_NAME">Vent Drone [Anti-Pers]</text>
+<text name="TNE_TEXT_DRONE_VENTDRONE_DEFEND_SHORT" >Vent [A]</text>
+<text name="TNE_TEXT_DRONE_VENTDRONE_DEFEND_DESC">[CURRENT MODE: Anti-Personnel] This drone is equipped with Shell's gas tech. It absorbs oxygen in located room and then releases toxic gas.
+
+-160 HP, 0.6x movement speed
+-Cannot fight and sabotage, destroys locked doors at 50% speed.
+-Absorbs oxygen and releases gas to do 3 damage per sec to enemies in room
+-Drones and the following species will be immune to the gas:
+Shells, Lanius, Ghosts, Vampweeds.</text>
+
+<text name="TNE_TEXT_DRONE_VENTDRONE_BOARDER_NAME">Vent Drone [Boarding]</text>
+<text name="TNE_TEXT_DRONE_VENTDRONE_BOARDER_SHORT">Vent [B]</text>
+<text name="TNE_TEXT_DRONE_VENTDRONE_BOARDER_DESC">[CURRENT MODE: Boarding] This drone is equipped with Shell's gas tech. It absorbs oxygen in located room and then releases toxic gas.
+
+-160 HP, 0.6x movement speed
+-Cannot fight and sabotage, destroys locked doors at 50% speed.
+-Absorbs oxygen and releases gas to do 3 damage per sec to enemies in room
+-Drones and the following species will be immune to the gas:
+Shells, Lanius, Ghosts, Vampweeds.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ DISCHARGE DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_CREW_DISCHARGEDRONE_NAME">Discharge Drone</text>
+<text name="TNE_TEXT_CREW_DISCHARGEDRONE_POWER">Drains 2 power bar from enemy system [cannot limit Piloting]</text>
+
+<text name="TNE_TEXT_DRONE_DISCHARGEDRONE_NAME">Discharge Drone</text>
+<text name="TNE_TEXT_DRONE_DISCHARGEDRONE_SHORT">Discharge</text>
+<text name="TNE_TEXT_DRONE_DISCHARGEDRONE_DESC">This drone drains power from located system. and also comes with cloaking module.
+
+-30 HP
+-1.5x movement speed, phase through doors
+-Cannot fight and sabotage
+-Drains 2 power bar from enemy system [cannot limit Piloting]
+-Cloaks while powered to avoid being targeted by crew.
+-Evades anti-drone shots</text>
+
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ SHIPWRECKER DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_CREW_SHIPWRECKER_NAME">Shipwrecker</text>
+<text name="TNE_TEXT_CREW_SHIPWRECKER_POWER">Activates timer while powered</text>
+
+<text name="TNE_TEXT_DRONE_SHIPWRECKER_NAME">The Shipwrecker</text>
+<text name="TNE_TEXT_DRONE_SHIPWRECKER_SHORT">Shipwrecker</text>
+<text name="TNE_TEXT_DRONE_SHIPWRECKER_DESC">An extremely destructive heavy explosive. It is controlled by drone system. and will start timer on boarding. on timeout, it will make HUGE explosion, shattering the enemy ship into pieces.
+
+-120 seconds timer, will be only activated while powered
+-On timeout: does 999 hull damage
+-Cannot do anything, but indestructible.
+-Evades anti-drone shots, Avoids being targeted by crew</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		PLAYER SHIP BLUEPRINT
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="TNE_TEXT_PLAYER_SHIP_ICE_CLASS">Frost Patrol</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_ICE_NAME">Glacier</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_ICE_DESC">This small ship is armed with cryo-tech, specialized to locking enemy ships down.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_ICE_2_NAME">Hailstorm</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_ICE_2_DESC">They modified cryo-tech and succeeded to apply it to weapon system. This ship is a result.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_ICE_3_NAME">Global Warming</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_ICE_3_DESC">This ship, armed with cryo and pyro-tech, is perfect to bring chaos to enemy ship.</text>
+
+
+<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_CLASS">Vulture Cruiser</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_NAME">The Vulture</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_DESC">A decommissioned cruiser that served in a time when laser tech was not rolled out.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_2_NAME">Steel Rain</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_2_DESC">There was someone who had a same idea before Red-Tail.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_3_NAME">Bullet Biter</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_VULTURE_3_DESC">This cruiser has no shield system but has prototype defence system.</text>
+
+
+<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_CLASS">Spitfire Cruiser</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_NAME">Spitfire</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_DESC">A ship armed with powerfully modified pinpoint weapon.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_2_NAME">Boards Away</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_2_DESC">The ship is equipped with attractor system used for cargo transport but modified for boarding.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_3_NAME">Double Trouble</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_SPITFIRE_3_DESC">The unique equipment installed on this ship allows it to disrupt enemy ships for a longer period of time.</text>
+
+
+<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_CLASS">Wanderer Cruiser</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_NAME">Meltdown</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_DESC">A ship heavily armed with special bombs especially dangerous to lifeforms.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_2_NAME">Hyper Express</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_2_DESC">A high-end weapon equipped on this ship can pass through any defence.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_3_NAME">Curly Braces</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_3_DESC">Awakening from a long hibernation, this unmanned ship is ready to save the multiverse with its old buddy.</text>
+
+</FTL>

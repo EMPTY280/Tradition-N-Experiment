@@ -1,0 +1,151 @@
+<FTL>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		EVO EVENT 
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="TNE_TEXT_EVENT_EVO_1">Your Evo-weapon starts to change...</text>
+<text name="TNE_TEXT_EVENT_EVO_2">The weapon gained energy.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ STORAGE MENU ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_EVENT_STORAGE_EVO">Check the Evo-Weapons.</text>
+<text name="TNE_TEXT_EVENT_EVO_MENU">Which weapon would you like to check?</text>
+<text name="TNE_TEXT_EVENT_EVO_RETURN">Nevermind.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_1_NOT_FULL">(PolarStar Lv. 1) It's not enough energy to upgrade.</text>
+<text name="TNE_TEXT_EVENT_EVO_1_FULL">(PolarStar Lv. 1) Upgrade weapon to Lv. 2.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_2_NOT_FULL">(PolarStar Lv. 2) It's not enough energy to upgrade.</text>
+<text name="TNE_TEXT_EVENT_EVO_2_CAN_MOD">(PolarStar Lv. 2) Modify weapon.</text>
+<text name="TNE_TEXT_EVENT_EVO_2_FULL">(PolarStar Lv. 2) Upgrade weapon to Lv. 3.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_3_NOT_FULL">(PolarStar Lv. 3) It's not enough energy to upgrade.</text>
+<text name="TNE_TEXT_EVENT_EVO_3_CAN_MOD">(PolarStar Lv. 3) Modify weapon.</text>
+<text name="TNE_TEXT_EVENT_EVO_3_FULL">(PolarStar Lv. 3) Upgrade weapon to final form.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_CONFIRM">Upgrade weapon. [CANNOT be reverted!]</text>
+<text name="TNE_TEXT_EVENT_EVO_CONFIRM_MOD">Modify weapon. [CANNOT be reverted!]</text>
+<text name="TNE_TEXT_EVENT_EVO_NEVERMIND">Nevermind.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_TEXT_1">	You start to upgrade Evo-weapon...</text>
+<text name="TNE_TEXT_EVENT_EVO_TEXT_2">	Your Evo-weapon has been upgraded.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_MOD_TEXT_1">	You start to modify Evo-weapon...</text>
+<text name="TNE_TEXT_EVENT_EVO_MOD_TEXT_2">	Your Evo-weapon has been modified.</text>
+
+<text name="TNE_TEXT_EVENT_EVO_1_UPGRADE">Do you really want to upgrade weapon?
+
+	----------------------------------------------
+	Charge Time: 10 seconds > 11 seconds
+
+	Shots Per Charge: 2 > 3
+
+	Breach Chance: 0% > 10%
+
+	Sell Price: 40 > 45
+	----------------------------------------------</text>
+<text name="TNE_TEXT_EVENT_EVO_2_UPGRADE">Do you really want to upgrade weapon?
+
+	----------------------------------------------
+	Required Power: 2 > 3
+	Charge Time: 11 seconds > 15 seconds
+
+	Shots Per Charge: 3 > 5
+
+	Fire Chance: 0% > 10%
+	Breach Chance: 10% > 20%
+
+	Sell Price: 45 > 50
+	----------------------------------------------</text>
+<text name="TNE_TEXT_EVENT_EVO_2_MOD">Do you really want to modify weapon?
+
+	----------------------------------------------
+	Charge Time: 11 seconds > 16 seconds
+
+	Shot Radius: 0 > 100
+	Shots Per Charge: 3 > 5
+
+	Breach Chance: 10% > 0%
+	----------------------------------------------</text>
+<text name="TNE_TEXT_EVENT_EVO_3_UPGRADE">Do you really want to upgrade weapon?
+
+	----------------------------------------------
+	Weapon Type: Laser > Beam
+	Beam Length: 105
+	Beam Speed: 35
+
+	Required Power: 3 > 4
+	Charge Time: 15 seconds > 10 - 22 seconds
+
+	Base Hull Damage: 1 > 1 - 3
+	Total System Damage: 1 > 2 - 4
+	Shield Piercing: 0 > 10
+
+	Fire Chance: 10% > 10 - 30%
+	Breach Chance: 20% > 20 - 40%
+
+	Sell Price: 50 > 55
+	----------------------------------------------</text>
+<text name="TNE_TEXT_EVENT_EVO_3_MOD">Do you really want to modify weapon?
+
+	----------------------------------------------
+	Charge Time: 15 seconds > 14 seconds
+	Accuracy Bonus: 0% > 10%
+
+	Shots Per Charge: 5 > 3
+
+	Shield Piercing: 0 > 2
+
+	Fire Chance: 10% > 100%
+	Breach Chance: 20% > 0%
+
+	----------------------------------------------</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		TOGGLE EVENT 
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="TNE_TEXT_EVENT_NEXT">Continue...</text>
+<text name="TNE_TEXT_EVENT_TOGGLE_CANCLE">Return to the toggle menu.</text>
+
+<text name="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK">Are you sure you want to change the drone's settings?</text>
+<text name="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING">You start calibrating the drone...</text>
+<text name="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE">You finish calibrating the drone successfully.</text>
+
+<text name="TNE_TEXT_EVENT_TOGGLE_DRONE_TO_BOARDER">Set the drone to Boarding Mode.</text>
+<text name="TNE_TEXT_EVENT_TOGGLE_DRONE_TO_DEFEND">Set the drone to Defensive Mode.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ PEACE DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_EVENT_PEACEDRONE_DEFEND">(Peace Drone) Set the state of the drone. [Current mode: Anti-Person]</text>
+<text name="TNE_TEXT_EVENT_PEACEDRONE_BOARDER">(Peace Drone) Set the state of the drone. [Current mode: Boarder]</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ VENT DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_EVENT_VENTDRONE_DEFEND">(Vent Drone) Set the state of the drone. [Current mode: Anti-Person]</text>
+<text name="TNE_TEXT_EVENT_VENTDRONE_BOARDER">(Vent Drone) Set the state of the drone. [Current mode: Boarder]</text>
+
+</FTL>

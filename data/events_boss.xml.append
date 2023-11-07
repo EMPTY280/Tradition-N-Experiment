@@ -1,0 +1,7 @@
+<FTL>
+<mod:findName type="event" name="LASTSTAND_WARP">
+	<mod-append:triggeredEvent event="TNE_EVO_CHECK_START" thisFight="false" clearOnJump="false">
+		<time amount="0.0"/>
+	</mod-append:triggeredEvent>
+</mod:findName>
+</FTL>

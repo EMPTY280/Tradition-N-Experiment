@@ -1,0 +1,199 @@
+<FTL>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		EVO WEAPON
+
+=============================================
+=============================================
+=============================================
+-->
+
+<!--★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ CHECK ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★-->
+
+<mod:findName type="event" name="LOAD_ATLAS_MARKER">
+	<mod-append:triggeredEvent event="TNE_EVO_CHECK_START" thisFight="false" clearOnJump="false">
+		<time amount="0.0"/>
+	</mod-append:triggeredEvent>
+</mod:findName>
+
+<event name="TNE_EVO_CHECK_START">
+	<loadEvent>TNE_EVO_3_CHECK_2_TO_3</loadEvent>
+</event>
+
+<event name="TNE_EVO_3_CHECK_2_TO_3">
+	<loadEventList seeded="false" first="true" default="TNE_EVO_3_CHECK_1_TO_2">
+		<event name="TNE_EVO_3_EXP_2_TO_3" req="TNE_POLARSTAR_3_2"/>
+	</loadEventList>
+</event>
+
+<event name="TNE_EVO_3_CHECK_1_TO_2">
+	<loadEventList seeded="false" first="true" default="TNE_EVO_3_CHECK_0_TO_1">
+		<event name="TNE_EVO_3_EXP_1_TO_2" req="TNE_POLARSTAR_3_1"/>
+	</loadEventList>
+</event>
+
+<event name="TNE_EVO_3_CHECK_0_TO_1">
+	<loadEventList seeded="false" first="true" default="TNE_EVO_2_CHECK_1_TO_2">
+		<event name="TNE_EVO_3_EXP_0_TO_1" req="TNE_POLARSTAR_3_0"/>
+	</loadEventList>
+</event>
+
+<event name="TNE_EVO_2_CHECK_1_TO_2">
+	<loadEventList seeded="false" first="true" default="TNE_EVO_2_CHECK_0_TO_1">
+		<event name="TNE_EVO_2_EXP_1_TO_2" req="TNE_POLARSTAR_2_1"/>
+	</loadEventList>
+</event>
+
+<event name="TNE_EVO_2_CHECK_0_TO_1">
+	<loadEventList seeded="false" first="true" default="TNE_EVO_1_CHECK_1_TO_2">
+		<event name="TNE_EVO_2_EXP_0_TO_1" req="TNE_POLARSTAR_2_0"/>
+	</loadEventList>
+</event>
+
+<event name="TNE_EVO_1_CHECK_1_TO_2">
+	<loadEventList seeded="false" first="true" default="TNE_EVO_1_CHECK_0_TO_1">
+		<event name="TNE_EVO_1_EXP_1_TO_2" req="TNE_POLARSTAR_1_1"/>
+	</loadEventList>
+</event>
+
+<event name="TNE_EVO_1_CHECK_0_TO_1">
+	<loadEventList seeded="false" first="true" default="TNE_EVO_CHECK_END">
+		<event name="TNE_EVO_1_EXP_0_TO_1" req="TNE_POLARSTAR_1_0"/>
+	</loadEventList>
+</event>
+
+<event name="TNE_EVO_CHECK_END">
+	<event/>
+</event>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ CHARGE LV 1 ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<event name="TNE_EVO_1_EXP_1_TO_2">
+	<text id="TNE_TEXT_EVENT_EVO_1"></text> 
+	<remove name="TNE_POLARSTAR_1_1"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_NEXT"></text> 
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_2"></text> 
+			<weapon name="TNE_POLARSTAR_1_2"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text> 
+				<event load="TNE_EVO_1_CHECK_1_TO_2"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="TNE_EVO_1_EXP_0_TO_1">
+	<text id="TNE_TEXT_EVENT_EVO_1"></text> 
+	<remove name="TNE_POLARSTAR_1_0"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_NEXT"></text> 
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_2"></text> 
+			<weapon name="TNE_POLARSTAR_1_1"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text> 
+				<event load="TNE_EVO_1_CHECK_0_TO_1"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ CHARGE LV 2 ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<event name="TNE_EVO_2_EXP_1_TO_2">
+	<text id="TNE_TEXT_EVENT_EVO_1"></text> 
+	<remove name="TNE_POLARSTAR_2_1"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_NEXT"></text> 
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_2"></text> 
+			<weapon name="TNE_POLARSTAR_2_2"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text> 
+				<event load="TNE_EVO_2_CHECK_1_TO_2"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="TNE_EVO_2_EXP_0_TO_1">
+	<text id="TNE_TEXT_EVENT_EVO_1"></text> 
+	<remove name="TNE_POLARSTAR_2_0"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_NEXT"></text> 
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_2"></text> 
+			<weapon name="TNE_POLARSTAR_2_1"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text> 
+				<event load="TNE_EVO_2_CHECK_0_TO_1"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ CHARGE LV 3 ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<event name="TNE_EVO_3_EXP_2_TO_3">
+	<text id="TNE_TEXT_EVENT_EVO_1"></text> 
+	<remove name="TNE_POLARSTAR_3_2"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_NEXT"></text> 
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_2"></text> 
+			<weapon name="TNE_POLARSTAR_3_3"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text> 
+				<event load="TNE_EVO_3_CHECK_2_TO_3"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="TNE_EVO_3_EXP_1_TO_2">
+	<text id="TNE_TEXT_EVENT_EVO_1"></text> 
+	<remove name="TNE_POLARSTAR_3_1"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_NEXT"></text> 
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_2"></text> 
+			<weapon name="TNE_POLARSTAR_3_2"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text> 
+				<event load="TNE_EVO_3_CHECK_1_TO_2"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="TNE_EVO_3_EXP_0_TO_1">
+	<text id="TNE_TEXT_EVENT_EVO_1"></text> 
+	<remove name="TNE_POLARSTAR_3_0"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_NEXT"></text> 
+		<event>
+			<text id="TNE_TEXT_EVENT_EVO_2"></text> 
+			<weapon name="TNE_POLARSTAR_3_1"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"></text> 
+				<event load="TNE_EVO_3_CHECK_0_TO_1"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+</FTL>

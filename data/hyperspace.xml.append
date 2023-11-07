@@ -1,0 +1,1066 @@
+<FTL>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		LOAD SCRIPTS
+
+=============================================
+=============================================
+=============================================
+-->
+
+<mod:findLike type="scripts">
+    <mod-append:script>data/lua_scripts/TNE_LUA_UTILITY.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_CHAINSTEP.lua</mod-append:script>
+	
+    <mod-append:script>data/lua_scripts/TNE_LUA_TACHYON.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_SPUR.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_LOCKDOWN.lua</mod-append:script>
+	<mod-append:script>data/lua_scripts/TNE_LUA_ESTOC.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_SHIELD_DAMAGE.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_SHIELD_DAMAGE_DOWN.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_STABILIZER.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_EX_SYSTEMS.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_CHAIN_SHOTS.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_FRONTIER.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_BLOOD.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_SAPPER.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_AFTERBURNER.lua</mod-append:script>
+</mod:findLike>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		CREW DRONE
+
+=============================================
+=============================================
+=============================================
+-->
+
+<crew>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ TWIN DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+	<race name="tne_drone_twin">
+		<selectable>true</selectable>
+		<controllable>true</controllable>
+
+		<maxHealth>13500</maxHealth>
+		<healSpeed>0</healSpeed>
+
+		<canFight>true</canFight>
+		<canSabotage>true</canSabotage>
+		<canRepair>false</canRepair>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<canTeleport>false</canTeleport>
+		<resistsMindControl>true</resistsMindControl>
+
+		<droneAI>
+			<fightAI/>
+			<returnToDroneRoom/>
+		</droneAI>
+
+		<damageMultiplier>1.1</damageMultiplier>
+		<fireDamageMultiplier>0.25</fireDamageMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<stunMultiplier>0.25</stunMultiplier>
+
+		<powerEffect>
+			<req>
+				<minHealth>5000</minHealth>
+			</req>
+			<buttonText>TWIN</buttonText>
+			<tooltip>DEPOLY TWIN DRONE.</tooltip>
+			<cooldownColor r="0" g="0" b="0"/>
+			<activateWhenReady>true</activateWhenReady>
+			<!-- <powerCharges>9999999</powerCharges> -->
+
+			<jumpCooldown>full</jumpCooldown>
+			<cooldown>0</cooldown>
+
+			<spawnCrew>
+				<number>1</number>
+				<race>tne_drone_twin_2</race>
+				<name>Twin Drone</name>
+				<lifetime>30</lifetime>
+				<statBoosts>
+					<statBoost name="noClone">
+						<boostType>SET</boostType>
+						<value>true</value>
+						<shipTarget>ALL</shipTarget>
+						<crewTarget>ALL</crewTarget>
+						<priority>999999</priority>
+					</statBoost>
+				</statBoosts>
+			</spawnCrew>
+			<statBoosts>
+				<statBoost name="maxHealth">
+					<boostType>MULT</boostType>
+					<amount>0.01</amount>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>SELF</crewTarget>
+					<duration>99999999</duration>
+				</statBoost>
+			</statBoosts>
+		</powerEffect>
+	</race>
+	<race name="tne_drone_twin_2">
+		<selectable>true</selectable>
+		<controllable>true</controllable>
+
+		<maxHealth>135</maxHealth>
+		<healSpeed>0</healSpeed>
+		<lowHealthThreshold>0</lowHealthThreshold>
+		<noSlot>true</noSlot>
+		<noClone>true</noClone>
+
+		<canFight>true</canFight>
+		<canSabotage>true</canSabotage>
+		<canRepair>false</canRepair>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<canTeleport>false</canTeleport>
+		<resistsMindControl>true</resistsMindControl>
+
+		<droneAI>
+			<fightAI/>
+			<returnToDroneRoom/>
+		</droneAI>
+
+		<damageMultiplier>1.1</damageMultiplier>
+		<fireDamageMultiplier>0.25</fireDamageMultiplier>
+		<moveSpeedMultiplier>0.7</moveSpeedMultiplier>
+		<stunMultiplier>0.25</stunMultiplier>
+
+		<hasCustomDeathAnimation>true</hasCustomDeathAnimation>
+		<deathSounds>
+			<deathSound>technicianDroneDeath</deathSound>
+		</deathSounds>
+	</race>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ DRONE POD ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+	<race name="tne_drone_pod">
+		<selectable>true</selectable>
+		<controllable>true</controllable>
+
+		<maxHealth>50</maxHealth>
+		<healSpeed>0</healSpeed>
+
+		<canFight>true</canFight>
+		<canSabotage>true</canSabotage>
+		<canRepair>false</canRepair>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<canTeleport>false</canTeleport>
+		<resistsMindControl>true</resistsMindControl>
+
+		<damageMultiplier>0.0</damageMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<moveSpeedMultiplier>0.0</moveSpeedMultiplier>
+		<stunMultiplier>0.0</stunMultiplier>
+
+		<powerEffect>
+			<buttonText>DEPLOY</buttonText>
+			<tooltip>DEPOLY SMALL DRONES.</tooltip>
+			<cooldownColor r="0" g="0" b="0"/>
+			<activateWhenReady>true</activateWhenReady>
+			<!-- <powerCharges>9999999</powerCharges> -->
+
+			<jumpCooldown>full</jumpCooldown>
+			<cooldown>0</cooldown>
+			<selfHealth>-99999</selfHealth>
+
+			<spawnCrew>
+				<number>3</number>
+				<name>C. Drone</name>
+				<race>human_technician_drone</race>
+				<lifetime>20</lifetime>
+				<statBoosts>
+					<statBoost name="noClone">
+						<boostType>SET</boostType>
+						<value>true</value>
+						<shipTarget>ALL</shipTarget>
+						<crewTarget>ALL</crewTarget>
+						<priority>999999</priority>
+					</statBoost>
+				</statBoosts>
+			</spawnCrew>
+		</powerEffect>
+	</race>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ PEACE DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+	<race name="tne_drone_peace">
+		<selectable>true</selectable>
+		<controllable>true</controllable>
+
+		<maxHealth>125</maxHealth>
+
+		<canFight>false</canFight>
+		<canSabotage>false</canSabotage>
+		<canRepair>false</canRepair>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<canTeleport>false</canTeleport>
+		<resistsMindControl>true</resistsMindControl>
+
+		<damageMultiplier>0.0</damageMultiplier>
+		<doorDamageMultiplier>0.0</doorDamageMultiplier>
+		<fireDamageMultiplier>0.25</fireDamageMultiplier>
+		<moveSpeedMultiplier>0.4</moveSpeedMultiplier>
+		<stunMultiplier>0.25</stunMultiplier>
+
+		<powerEffect>
+			<cooldown>8.52</cooldown>
+			<jumpCooldown>reset</jumpCooldown>
+			<activateWhenReady>true</activateWhenReady>
+			<onDeath>cancel</onDeath>
+
+			<powerSounds>
+				<powerSound>ionBoarderCharge</powerSound>
+			</powerSounds>
+
+			<effectAnim>tne_drone_peace_charge</effectAnim>
+			<animFrame followCrew="true">5</animFrame>
+
+			<req>
+				<enemyInRoom/>
+			</req>
+			<friendlyFire>true</friendlyFire>
+
+			<buttonText>PEACE</buttonText>
+			<tooltip>MAKE CREW PEACEFUL</tooltip>
+			<cooldownColor r="0" g="0" b="0"/>
+
+			<statBoosts>
+				<statBoost name="canFight">
+					<boostType>SET</boostType>
+					<value>false</value>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>ALL</crewTarget>
+					<droneTarget>CREW</droneTarget>
+					<boostAnim>tne_peace_debuff</boostAnim>
+					<duration>7</duration>
+					<blackList>
+						<tne_drone_twin_2/>
+						<human_technician_drone/>
+					</blackList>
+				</statBoost>
+				<statBoost name="canSabotage">
+					<boostType>SET</boostType>
+					<value>false</value>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>ALL</crewTarget>
+					<droneTarget>CREW</droneTarget>
+					<duration>7</duration>
+					<blackList>
+						<tne_drone_twin_2/>
+						<human_technician_drone/>
+					</blackList>
+				</statBoost>
+				<statBoost name="silenced">
+					<boostType>SET</boostType>
+					<value>true</value>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>ALL</crewTarget>
+					<droneTarget>CREW</droneTarget>
+					<duration>7</duration>
+					<blackList>
+						<tne_drone_twin_2/>
+						<human_technician_drone/>
+					</blackList>
+				</statBoost>
+			</statBoosts>
+			<temporaryEffect>
+				<duration>1.48</duration>
+				<cooldownColor r="0" g="0" b="0"/>
+				<controllable>false</controllable>
+				<canMove>false</canMove>
+				<moveSpeedMultiplier>0</moveSpeedMultiplier>
+				<animSheet baseVisible="false"/>
+			</temporaryEffect>
+		</powerEffect>
+	</race>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ EXO-BREACHER DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+	<race name="tne_drone_exothermic">
+		<selectable>true</selectable>
+		<controllable>true</controllable>
+
+		<maxHealth>200</maxHealth>
+
+		<canFight>false</canFight>
+		<canSabotage>false</canSabotage>
+		<canRepair>false</canRepair>
+		<canSuffocate>false</canSuffocate>
+		<canBurn>false</canBurn>
+		<canMan>false</canMan>
+		<canTeleport>false</canTeleport>
+		<resistsMindControl>true</resistsMindControl>
+
+		<droneAI>
+			<fightAI/>
+			<returnToDroneRoom/>
+		</droneAI>
+
+		<damageMultiplier>1.0</damageMultiplier>
+		<doorDamageMultiplier>5.0</doorDamageMultiplier>
+		<fireDamageMultiplier>0.25</fireDamageMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<stunMultiplier>0.25</stunMultiplier>
+		<damageTakenMultiplier>10.0</damageTakenMultiplier>
+
+		<animBase>mantis</animBase>
+		<animSheet>tne_drone_exothermic</animSheet>
+
+		<powerEffect>
+			<cooldown>8.0</cooldown>
+			<jumpCooldown>reset</jumpCooldown>
+			<activateWhenReady>true</activateWhenReady>
+
+			<powerSounds>
+				<powerSound>fireBomb</powerSound>
+			</powerSounds>
+			<effectAnim>explosion_random</effectAnim>
+
+			<req>
+				<systemInRoom/>
+			</req>
+			<friendlyFire>false</friendlyFire>
+
+			<buttonText>DETONATE</buttonText>
+			<tooltip>DO HULL, SYSTEM DAMAGE AND SET FIRE</tooltip>
+			<cooldownColor r="0" g="0" b="0"/>
+
+			<fireChance>10</fireChance>
+			<damage>1</damage>
+			<persDamage>-1</persDamage>
+			<selfHealth>-40</selfHealth>
+		</powerEffect>
+
+		<passiveStatBoosts>  
+			<statBoost name="damageTakenMultiplier">
+				<boostType>MULT</boostType>
+				<amount>0.1</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>SELF</crewTarget>
+				<priority>0</priority>
+			</statBoost>
+		</passiveStatBoosts>
+
+		<hasCustomDeathAnimation>true</hasCustomDeathAnimation>
+		<deathSounds>
+			<deathSound>technicianDroneDeath</deathSound>
+		</deathSounds>
+	</race>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ VENT DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+	<race name="tne_drone_vent">
+		<selectable>true</selectable>
+		<controllable>true</controllable>
+
+		<maxHealth>160</maxHealth>
+
+		<canFight>false</canFight>
+		<canSabotage>false</canSabotage>
+		<canRepair>false</canRepair>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<canTeleport>false</canTeleport>
+		<resistsMindControl>true</resistsMindControl>
+
+		<droneAI>
+			<fightAI/>
+			<returnToDroneRoom/>
+		</droneAI>
+
+		<damageMultiplier>1.0</damageMultiplier>
+		<doorDamageMultiplier>0.5</doorDamageMultiplier>
+		<fireDamageMultiplier>0.25</fireDamageMultiplier>
+		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<stunMultiplier>0.25</stunMultiplier>
+
+		<animBase>mantis</animBase>
+		<animSheet>tne_drone_vent</animSheet>
+
+		<powerEffect>
+			<cooldown>1.5</cooldown>
+			<jumpCooldown>reset</jumpCooldown>
+			<activateWhenReady>true</activateWhenReady>
+
+			<buttonText>TOXIC GAS</buttonText>
+			<tooltip>RELEASE TOXIC GAS</tooltip>
+			<cooldownColor r="0" g="0" b="0"/>
+			<roomStatBoosts>
+				<statBoost name="trueHealAmount">
+					<maxStacks>1</maxStacks>
+					<duration>1.55</duration>
+					<boostType>FLAT</boostType>
+					<amount>-3</amount>
+					<shipTarget>ALL</shipTarget>
+					<crewTarget>ENEMIES</crewTarget>
+					<droneTarget>CREW</droneTarget>
+					<priority>999</priority>
+					<roomAnim renderLayer="0">
+						<anim animType="default" animBorder="0">nothing</roomAnim>
+						<tileAnim>gas_1x1</tileAnim> 
+		            </roomAnim>
+		            <blackList load="LIST_CREW_GAS"/>
+				</statBoost>
+			</roomStatBoosts>
+		</powerEffect>
+
+		<passiveStatBoosts>  
+			<statBoost name="oxygenChangeSpeed">
+				<boostType>SET</boostType>
+				<amount>-0.5</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>SELF</crewTarget>
+				<priority>0</priority>
+			</statBoost>
+		</passiveStatBoosts>
+
+		<hasCustomDeathAnimation>true</hasCustomDeathAnimation>
+		<deathSounds>
+			<deathSound>technicianDroneDeath</deathSound>
+		</deathSounds>
+	</race>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ DISCHARGE DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+	<race name="tne_drone_discharge">
+		<selectable>true</selectable>
+		<controllable>true</controllable>
+
+		<maxHealth>30</maxHealth>
+
+		<canFight>false</canFight>
+		<canSabotage>false</canSabotage>
+		<canRepair>false</canRepair>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<canTeleport>false</canTeleport>
+		<resistsMindControl>true</resistsMindControl>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+
+		<droneAI>
+			<fightAI/>
+			<returnToDroneRoom/>
+		</droneAI>
+
+		<damageMultiplier>1.0</damageMultiplier>
+		<doorDamageMultiplier>0.0</doorDamageMultiplier>
+		<fireDamageMultiplier>0.25</fireDamageMultiplier>
+		<moveSpeedMultiplier>1.5</moveSpeedMultiplier>
+		<stunMultiplier>0.25</stunMultiplier>
+
+		<powerDrain>2</powerDrain>
+
+		<passiveStatBoosts>  
+			<statBoost name="validTarget">
+				<boostType>SET</boostType>
+				<value>false</value>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>SELF</crewTarget>
+				<priority>999</priority>
+			</statBoost>
+		</passiveStatBoosts>
+
+		<hasCustomDeathAnimation>true</hasCustomDeathAnimation>
+		<deathSounds>
+			<deathSound>technicianDroneDeath</deathSound>
+		</deathSounds>
+	</race>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ SHIPWRCKER DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+	<race name="tne_drone_shipwrecker">
+		<selectable>false</selectable>
+		<controllable>false</controllable>
+
+		<maxHealth>121</maxHealth>
+		<invulnerable>true</invulnerable>
+		<validTarget>false</validTarget>
+		<healSpeed>0</healSpeed>
+		<lowHealthThreshold>0</lowHealthThreshold>
+
+		<canFight>false</canFight>
+		<canMove>false</canMove>
+		<canSabotage>false</canSabotage>
+		<canRepair>false</canRepair>
+		<canSuffocate>false</canSuffocate>
+		<canBurn>false</canBurn>
+		<canMan>false</canMan>
+		<canTeleport>false</canTeleport>
+		<resistsMindControl>true</resistsMindControl>
+
+		<noAI>true</noAI>
+
+		<powerEffect>
+			<cooldown>1</cooldown>
+			<jumpCooldown>reset</jumpCooldown>
+			<activateWhenReady>true</activateWhenReady>
+
+			<buttonText>COUNTDOWN</buttonText>
+			<tooltip>TICK AND TOCK</tooltip>
+			<selfHealth>99999</selfHealth>
+
+			<powerSounds>
+				<powerSound>tne_sound_tick</powerSound>
+			</powerSounds>
+
+			<statBoosts>
+				<statBoost name="maxHealth">
+					<boostType>ADD</boostType>
+					<amount>-1</amount>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>SELF</crewTarget>
+				</statBoost>
+			</statBoosts>
+		</powerEffect>
+
+		<powerEffect>
+			<cooldown>1</cooldown>
+			<jumpCooldown>reset</jumpCooldown>
+			<activateWhenReady>true</activateWhenReady>
+			<req>
+				<maxHealth>1</maxHealth>
+			</req>
+
+			<fireChance>10</fireChance>
+			<damage>999</damage>
+			<buttonText>NUKE BOMB</buttonText>
+			<tooltip>BOOOOOOOOOM!</tooltip>
+
+			<statBoosts>
+				<statBoost name="maxHealth">
+					<boostType>ADD</boostType>
+					<amount>-1</amount>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>SELF</crewTarget>
+				</statBoost>
+			</statBoosts>
+
+			<powerSounds>
+				<powerSound>tne_sound_nuke</powerSound>
+			</powerSounds>
+			<effectAnim>explosion_random</effectAnim>
+		</powerEffect>
+
+
+		<damageMultiplier>0.0</damageMultiplier>
+		<allDamageTakenMultiplier>0</allDamageTakenMultiplier>
+		<doorDamageMultiplier>0.0</doorDamageMultiplier>
+		<fireDamageMultiplier>0.0</fireDamageMultiplier>
+		<moveSpeedMultiplier>0.0</moveSpeedMultiplier>
+		<stunMultiplier>0.0</stunMultiplier>
+
+		<hasCustomDeathAnimation>true</hasCustomDeathAnimation>
+	</race>
+</crew>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		DRONE SETTING
+
+=============================================
+=============================================
+=============================================
+-->
+
+<drones>
+	<drone name="TNE_TWINDRONE">
+        <crewBlueprint>tne_drone_twin</crewBlueprint>
+		<tooltipName>Twin Drone</tooltipName>
+	</drone>
+
+	<drone name="TNE_DRONEPOD">
+	    <crewBlueprint>tne_drone_pod</crewBlueprint>
+		<tooltipName>S. Pod</tooltipName>
+	</drone>
+
+	<drone name="TNE_PEACEDRONE_DEFEND">
+	    <crewBlueprint>tne_drone_peace</crewBlueprint>
+		<tooltipName>Peace</tooltipName>
+	</drone>
+	<drone name="TNE_PEACEDRONE_BOARDER">
+	    <crewBlueprint>tne_drone_peace</crewBlueprint>
+		<tooltipName>Peace</tooltipName>
+	</drone>
+
+	<drone name="TNE_EXOBREACHER">
+	    <crewBlueprint>tne_drone_exothermic</crewBlueprint>
+		<tooltipName>Exothermic</tooltipName>
+	</drone>
+	<drone name="TNE_EXOBREACHER_LOWPOWER">
+	    <crewBlueprint>tne_drone_exothermic</crewBlueprint>
+		<tooltipName>Exothermic</tooltipName>
+	</drone>
+
+	<drone name="TNE_VENTDRONE_DEFEND">
+	    <crewBlueprint>tne_drone_vent</crewBlueprint>
+		<tooltipName>Vent</tooltipName>
+	</drone>
+	<drone name="TNE_VENTDRONE_BOARDER">
+	    <crewBlueprint>tne_drone_vent</crewBlueprint>
+		<tooltipName>Vent</tooltipName>
+	</drone>
+
+	<drone name="TNE_DISCHARGEDRONE">
+	    <crewBlueprint>tne_drone_discharge</crewBlueprint>
+		<tooltipName>Discharge</tooltipName>
+	</drone>
+
+	<drone name="TNE_SHIPWRECKER">
+	    <crewBlueprint>tne_drone_shipwrecker</crewBlueprint>
+		<tooltipName>Shipwrecker</tooltipName>
+	</drone>
+</drones>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+					SHIHPS
+
+=============================================
+=============================================
+=============================================
+-->
+
+<mod:findLike type="ships">
+	<mod:findLike type="shipOrder">
+		<mod-append:ship>TNE_PLAYER_SHIP_ICE</mod-append:ship>
+		<mod-append:ship>TNE_PLAYER_SHIP_VULTURE</mod-append:ship>
+		<mod-append:ship>TNE_PLAYER_SHIP_SPITFIRE</mod-append:ship>
+		<mod-append:ship>TNE_PLAYER_SHIP_WANDERER</mod-append:ship>
+		<mod-append:empty/>
+
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+
+	</mod:findLike>
+
+	<mod-append:ship name="TNE_PLAYER_SHIP_ICE" a="true" b="true" c="true" super="luminal" />
+	<mod-append:customShip name="TNE_PLAYER_SHIP_ICE">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<rooms>
+			<room id="10">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_ICE_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<rooms>
+			<room id="8">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_ICE_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<rooms>
+			<room id="1">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+
+	<mod-append:ship name="TNE_PLAYER_SHIP_VULTURE" a="true" b="true" c="true" super="luminal" />
+	<mod-append:customShip name="TNE_PLAYER_SHIP_VULTURE">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_FEDERATION</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<rooms>
+			<room id="14">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_VULTURE_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_FEDERATION</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<rooms>
+			<room id="5">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_VULTURE_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_FEDERATION</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<rooms>
+			<room id="8">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+
+	<mod-append:ship name="TNE_PLAYER_SHIP_SPITFIRE" a="true" b="true" c="true" super="luminal" />
+	<mod-append:customShip name="TNE_PLAYER_SHIP_SPITFIRE">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_FEDERATION</hiddenAug>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_SPITFIRE_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_FEDERATION</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<rooms>
+			<room id="6">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_SPITFIRE_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_FEDERATION</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<rooms>
+			<room id="7">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+
+	<mod-append:ship name="TNE_PLAYER_SHIP_WANDERER" a="true" b="true" c="true" super="luminal" />
+	<mod-append:customShip name="TNE_PLAYER_SHIP_WANDERER">
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<rooms>
+			<room id="4">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_WANDERER_2">
+		<hiddenAug>SHIP_CIVILIAN</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<rooms>
+			<room id="17">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_WANDERER_3">
+		<hiddenAug>SHIP_AUTO</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>6</crewLimit>
+	</mod-append:customShip>
+</mod:findLike>
+
+
+
+<mod:findWithChildLike type="ships" child-type="ship" reverse="true" start="1" limit="1">
+	<mod:selector name="TNE_PLAYER_SHIP_ICE" />
+	<mod:findName type="ship" name="TNE_PLAYER_SHIP_ICE">
+		<mod:setAttributes super="luminal" a="true" b="true" c="true" />
+	</mod:findName>
+</mod:findWithChildLike>
+
+<mod:findWithChildLike type="ships" child-type="ship" reverse="true" start="1" limit="1">
+	<mod:selector name="TNE_PLAYER_SHIP_VULTURE" />
+	<mod:findName type="ship" name="TNE_PLAYER_SHIP_VULTURE">
+		<mod:setAttributes super="luminal" a="true" b="true" c="true" />
+	</mod:findName>
+</mod:findWithChildLike>
+
+<mod:findWithChildLike type="ships" child-type="ship" reverse="true" start="1" limit="1">
+	<mod:selector name="TNE_PLAYER_SHIP_SPITFIRE" />
+	<mod:findName type="ship" name="TNE_PLAYER_SHIP_SPITFIRE">
+		<mod:setAttributes super="luminal" a="true" b="true" c="true" />
+	</mod:findName>
+</mod:findWithChildLike>
+
+<mod:findWithChildLike type="ships" child-type="ship" reverse="true" start="1" limit="1">
+	<mod:selector name="TNE_PLAYER_SHIP_WANDERER" />
+	<mod:findName type="ship" name="TNE_PLAYER_SHIP_WANDERER">
+		<mod:setAttributes super="luminal" a="true" b="true" c="true"/>
+	</mod:findName>
+</mod:findWithChildLike>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+				EVENTS
+
+=============================================
+=============================================
+=============================================
+-->
+
+<events>
+
+<!--					CUSTOM STORE SPAWN					-->
+
+	<variable name="tne_variable_tf2_store" op="set" val="0"/>
+	
+	<req name="TNE_SPAWNCHECK_TF2" type="all">
+		<req lvl="2" max_lvl="3">
+			<name>loc_sector_count</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>tne_variable_tf2_store</name>
+		</req>
+	</req>
+</events>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+				STORE
+
+=============================================
+=============================================
+=============================================
+-->
+
+<mod:findLike type="store">
+<!--					TF2 STORE					-->
+	<mod-append:customStore id="TNE_STORE_TF2">
+		<resource>
+			<type>fuel</type>
+			<count min="5" max="12"/>
+			<price>-1</price>
+		</resource>
+		<resource>
+			<type>missiles</type>
+			<count min="4" max="7"/>
+			<price>-1</price>
+		</resource>
+        <itemPurchaseLimit>1</itemPurchaseLimit>
+		<category type="WEAPONS">
+			<item>
+                <blueprint>TNE_WEAPONS_TF2</blueprint>
+                <price>-1</price>
+            </item>    
+            <item>
+                <blueprint>TNE_WEAPONS_TF2</blueprint>
+                <price>-1</price>
+            </item>    
+            <item>
+                <blueprint>TNE_WEAPONS_TF2</blueprint>
+                <price>-1</price>
+            </item>    
+        </category>
+        <category type="WEAPONS">
+            <item/>
+            <item/>
+            <item/>
+        </category>
+    </mod-append:customStore>
+
+<!--					WALLACE BEACON					-->
+
+	<mod:findLike type="customStore">
+		<mod:selector id="STORE_ULTIMATE_SYLVAN"/>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_BEAM_LOCKDOWN</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_FOCUS_LOCKDOWN</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_EX_RECHARGER_MINOR</blueprint>
+				</item>	
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_EX_RECHARGER_1</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_EX_RECHARGER_2</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_EX_REPEL_MINOR</blueprint>
+				</item>	
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_EX_REPEL_1</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_EX_REPEL_2</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_EX_REPEL_OVER</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_RAILGUN_1</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_RAILGUN_2</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_AUTOCANNON_0</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_AUTOCANNON_1</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_AUTOCANNON_2</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_AUTOCANNON_3</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_FOCUS_CAPACITOR</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_EX_TELEPORTER</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_EX_ION_STABILIZER</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_BOMB_BLACKOUT</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_BOMB_ACID</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_LASER_TACHYON</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_POLARSTAR_1_0</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_POLARSTAR_2_0</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_MACHINEGUN</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_POLARSTAR_3_0</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_SNAKE</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_POLARSTAR_4</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_JUNK_BAZOOKA</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_BOMB_ATOMIC</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_PARTICLE_AFTERBURNER</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_LASER_SASHA</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_LASER_FRONTIER</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_BOMB_QUICK</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_LASER_BLOOD</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_BEAM_PISS</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_BEAM_SAPPER</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="DRONES">
+					<item>
+						<blueprint>TNE_TWINDRONE</blueprint>
+					</item>
+					<item>
+						<blueprint>TNE_DRONEPOD</blueprint>
+					</item>
+					<item>
+						<blueprint>TNE_PEACEDRONE_DEFEND</blueprint>
+					</item>
+			</mod-append:category>
+			<mod-append:category type="DRONES">
+					<item>
+						<blueprint>TNE_EXOBREACHER</blueprint>
+					</item>
+					<item>
+						<blueprint>TNE_VENTDRONE_DEFEND</blueprint>
+					</item>
+					<item>
+						<blueprint>TNE_DISCHARGEDRONE</blueprint>
+					</item>
+			</mod-append:category>
+			<mod-append:category type="DRONES">
+					<item>
+						<blueprint>TNE_SHIPWRECKER</blueprint>
+					</item>
+			</mod-append:category>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findLike>
+
+</FTL>
