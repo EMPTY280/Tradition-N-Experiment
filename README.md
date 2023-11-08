@@ -5,7 +5,7 @@ FTL: Multiverse를 위한 애드온 모드입니다.
 Requires Hyperspace v1.8↑  
 하이퍼스페이스 v1.8 버전 이상이 필요합니다.
 
-Languages :  English / Korean
+Languages :  English / Korean  
 언어 : 영어 / 한국어  
 
 You can get more information about mod at [Wiki](https://github.com/EMPTY280/Tradition-N-Experiment/wiki)  
