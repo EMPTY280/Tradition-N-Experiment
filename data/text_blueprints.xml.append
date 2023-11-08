@@ -191,7 +191,7 @@ Stats:
 
 <text name="TNE_TEXT_WEAPON_BEAM_SAPPER_NAME">'Sapper' Beam</text>
 <text name="TNE_TEXT_WEAPON_BEAM_SAPPER_SHORT">'Sapper'</text>
-<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_DESC">A special Beam that can disrupt shields. It can instantly remove 2 layers or less of shields on contact.</text>
+<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_DESC">A special Beam that can disrupt shields. It can instantly remove shields that is less than or equal to 2 layers.</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ FOCUS WEAPONS ★★★		-->
