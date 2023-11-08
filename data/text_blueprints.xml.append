@@ -199,7 +199,7 @@ Stats:
 
 <text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_NAME">'Ulu' Pinpoint</text>
 <text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_SHORT">'Ulu'</text>
-<text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_DESC">A Focus weapon that freezes targeted rooms. does lower damage than standard Pinpoints, but pierces 1 shield.</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_DESC">A Pinpoint weapon that freezes targeted rooms. does lower damage than standard Pinpoints, but pierces 1 shield.</text>
 
 <text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_NAME">'Estoc' Pinpoint</text>
 <text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_SHORT">'Estoc'</text>
