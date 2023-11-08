@@ -87,7 +87,7 @@ Stats:
 	Fire Chance: 10 - 30%
 	Breach Chance: 30 - 50%
 
-	Buy/Sell Price: 150~/75~
+	Buy/Sell Price: 110~/55~
 </text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
@@ -148,7 +148,7 @@ Stats:
 
 	Fire Chance: 10%
 
-	Buy/Sell Price: 120~/60~
+	Buy/Sell Price: 110~/55~
 </text>
 
 <text name="TNE_TEXT_WEAPON_LASER_FRONTIER_NAME">'Frontier' Scatter Laser</text>
@@ -235,7 +235,7 @@ Stats:
 
 <text name="TNE_TEXT_WEAPON_BOMB_ATOMIC_NAME">'Atomic Punch'</text>
 <text name="TNE_TEXT_WEAPON_BOMB_ATOMIC_SHORT">'Atomic Punch'</text>
-<text name="TNE_TEXT_WEAPON_BOMB_ATOMIC_DESC">This stimulant launcher is fulla radiation, which is pretty great for givin' people superpowers. It makes allied crews move 50% faster and invurnerable to ALL damage, but cannot fight and savotage. Can target your own ship.</text>
+<text name="TNE_TEXT_WEAPON_BOMB_ATOMIC_DESC">This stimulant launcher is fulla radiation, which is pretty great for givin' people superpowers. It makes allied crews move 50% faster and invulnerable to ALL damage, but cannot fight and sabotage. Can target your own ship.</text>
 
 <text name="TNE_TEXT_WEAPON_BOMB_QUICK_NAME">Quick Bomb Launcher</text>
 <text name="TNE_TEXT_WEAPON_BOMB_QUICK_SHORT">Quick B.</text>
@@ -247,7 +247,7 @@ Stats:
 
 <text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_NAME">Afterburner</text>
 <text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_SHORT">Afterburner</text>
-<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_DESC">A special Particle Accelerator that charges other weapons when fired. Other Afterburner will be excluded from charge.</text>
+<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_DESC">A special Particle Accelerator that charges other weapons when fired. Other Afterburners will be excluded from charge.</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ EXTERNAL SYSTEMS ★★★		-->
@@ -530,7 +530,7 @@ Shells, Lanius, Ghosts, Vampweeds.</text>
 
 <text name="TNE_TEXT_DRONE_DISCHARGEDRONE_NAME">Discharge Drone</text>
 <text name="TNE_TEXT_DRONE_DISCHARGEDRONE_SHORT">Discharge</text>
-<text name="TNE_TEXT_DRONE_DISCHARGEDRONE_DESC">This drone drains power from located system. and also comes with cloaking module.
+<text name="TNE_TEXT_DRONE_DISCHARGEDRONE_DESC">This drone drains power from located system. Contains self-cloaking module.
 
 -30 HP
 -1.5x movement speed, phase through doors

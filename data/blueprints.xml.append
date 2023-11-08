@@ -883,7 +883,7 @@ POLASTAR 4
 	<power>2</power>
 	<cost>50</cost>
 	<bp>5</bp>
-	<rarity>1</rarity>
+	<rarity>2</rarity>
 	<image>tne_rail_proj</image>
 	<launchSounds>
 		<sound>tne_sound_railgun_fire</sound>
@@ -920,7 +920,7 @@ POLASTAR 4
 	<power>3</power>
 	<cost>65</cost>
 	<bp>5</bp>
-	<rarity>2</rarity>
+	<rarity>3</rarity>
 	<image>tne_rail_proj</image>
 	<launchSounds>
 		<sound>tne_sound_railgun_fire</sound>
@@ -1147,7 +1147,7 @@ POLASTAR 4
 	<cooldown>32</cooldown>
 	<speed>1</speed>
 	<power>4</power>
-	<cost>120</cost>
+	<cost>110</cost>
 	<bp>2</bp>
 	<rarity>5</rarity>
 	<image>beam_contact</image>

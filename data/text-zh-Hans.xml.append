@@ -251,7 +251,7 @@
 	방화 확률: 10 - 30%
 	균열 발생 확률: 30 - 50%
 
-	구매/판매 가격: 150~/75~
+	구매/판매 가격: 110~/55~
 </text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
@@ -732,7 +732,7 @@
 
 <text name="TNE_TEXT_DRONE_DISCHARGEDRONE_NAME" language="zh-Hans">방전 드론</text>
 <text name="TNE_TEXT_DRONE_DISCHARGEDRONE_SHORT" language="zh-Hans">Discharge</text>
-<text name="TNE_TEXT_DRONE_DISCHARGEDRONE_DESC" language="zh-Hans">위치한 선실의 전력을 흡수하는 드론입니다. 은폐 모듈이 탑재되어 있습니다.
+<text name="TNE_TEXT_DRONE_DISCHARGEDRONE_DESC" language="zh-Hans">위치한 선실의 전력을 흡수하는 드론입니다. 자체 은폐 모듈이 탑재되어 있습니다.
 
 -최대 체력 30
 -이동 속도 1.5배, 문을 무시
