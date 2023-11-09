@@ -275,11 +275,11 @@ POLASTAR 2
 	<fireTime>0.06</fireTime>
 	<speed>100</speed>
 	<damage>1</damage>
-	<shots>5</shots>
+	<shots>4</shots>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
-	<cooldown>16</cooldown>
+	<cooldown>14</cooldown>
 	<power>2</power>
 	<cost>90</cost>
 	<bp>7</bp>

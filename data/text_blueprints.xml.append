@@ -44,7 +44,7 @@
 [Can be Modified]</text>
 <text name="TNE_TEXT_WEAPON_MACHINEGUN_NAME">'MachineGun'</text>
 <text name="TNE_TEXT_WEAPON_MACHINEGUN_SHORT">'MachineGun'</text>
-<text name="TNE_TEXT_WEAPON_MACHINEGUN_DESC">inaccurate, but powerful assault laser weapon that sprays 5 projectiles.</text>
+<text name="TNE_TEXT_WEAPON_MACHINEGUN_DESC">An inaccurate assault laser weapon that sprays 4 projectiles.</text>
 
 <text name="TNE_TEXT_WEAPON_POLARSTAR_3_NAME">'PolarStar' Lv. 3</text>
 <text name="TNE_TEXT_WEAPON_POLARSTAR_3_SHORT">'PolarStar' III</text>

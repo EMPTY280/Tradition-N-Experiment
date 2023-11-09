@@ -208,7 +208,7 @@
 [개조 가능]</text>
 <text name="TNE_TEXT_WEAPON_MACHINEGUN_NAME" language="zh-Hans">'머신건'</text>
 <text name="TNE_TEXT_WEAPON_MACHINEGUN_SHORT" language="zh-Hans">'MachineGun'</text>
-<text name="TNE_TEXT_WEAPON_MACHINEGUN_DESC" language="zh-Hans">명중률이 매우 낮은 대신 5발의 투사체를 흩뿌리는 강력한 돌격 레이저입니다.</text>
+<text name="TNE_TEXT_WEAPON_MACHINEGUN_DESC" language="zh-Hans">4발의 투사체를 흩뿌리는 부정확한 돌격 레이저입니다.</text>
 
 <text name="TNE_TEXT_WEAPON_POLARSTAR_3_NAME" language="zh-Hans">'폴라스타' Lv. 3</text>
 <text name="TNE_TEXT_WEAPON_POLARSTAR_3_SHORT" language="zh-Hans">'PolarStar' III</text>
