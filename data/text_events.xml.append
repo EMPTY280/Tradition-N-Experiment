@@ -71,10 +71,10 @@
 <text name="TNE_TEXT_EVENT_EVO_2_MOD">Do you really want to modify weapon?
 
 	----------------------------------------------
-	Charge Time: 11 seconds > 16 seconds
+	Charge Time: 11 seconds > 14 seconds
 
 	Shot Radius: 0 > 100
-	Shots Per Charge: 3 > 5
+	Shots Per Charge: 3 > 4
 
 	Breach Chance: 10% > 0%
 	----------------------------------------------</text>
