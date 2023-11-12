@@ -793,7 +793,7 @@
 
 	<mod-append:ship name="TNE_PLAYER_SHIP_WANDERER" a="true" b="true" c="true" super="luminal" />
 	<mod-append:customShip name="TNE_PLAYER_SHIP_WANDERER">
-		<hiddenAug>SHIP_SHELL</hiddenAug>
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<rooms>
 			<room id="4">
