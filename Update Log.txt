@@ -125,6 +125,7 @@
 
 [ADJUST]
 - Frost Patrols are now considered as pirate ship.
+- Frost A's room layout's slightly changed
 - 'Estoc' Pinpoint's breach chance now increases by charge time.
 - Addon Weapons and Drones are now available in Transport C's store.
 

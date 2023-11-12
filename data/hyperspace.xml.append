@@ -649,6 +649,32 @@
 =============================================
 =============================================
 
+					AUGMENTS
+
+=============================================
+=============================================
+=============================================
+-->
+
+<mod:findName type="req" name="LIST_CHECK_ENERGY_SHIELD">
+	<mod-append:name>TNE_RAZORBACK</mod-append:name>
+</mod:findName>
+
+<augments>
+	<aug name="TNE_RAZORBACK">
+		<superShield>
+			<value>3</value>
+			<color r="255" g="255" b="0" a="0.4"/>
+			<shieldImage>ship/enemy_shields_white.png</shieldImage>
+		</superShield>
+	</aug>
+</augments>
+
+<!--
+=============================================
+=============================================
+=============================================
+
 					SHIHPS
 
 =============================================
@@ -656,18 +682,20 @@
 =============================================
 -->
 
+
 <mod:findLike type="ships">
 	<mod:findLike type="shipOrder">
 		<mod-append:ship>TNE_PLAYER_SHIP_ICE</mod-append:ship>
 		<mod-append:ship>TNE_PLAYER_SHIP_VULTURE</mod-append:ship>
 		<mod-append:ship>TNE_PLAYER_SHIP_SPITFIRE</mod-append:ship>
 		<mod-append:ship>TNE_PLAYER_SHIP_WANDERER</mod-append:ship>
-		<mod-append:empty/>
 
 		<mod-append:empty/>
 		<mod-append:empty/>
 		<mod-append:empty/>
-		<mod-append:empty/>
+		<mod-append:ship>TNE_PLAYER_SHIP_TF2</mod-append:ship>
+		
+		<mod-append:ship>TNE_PLAYER_SHIP_DROP</mod-append:ship>
 		<mod-append:empty/>
 
 	</mod:findLike>
@@ -765,7 +793,7 @@
 
 	<mod-append:ship name="TNE_PLAYER_SHIP_WANDERER" a="true" b="true" c="true" super="luminal" />
 	<mod-append:customShip name="TNE_PLAYER_SHIP_WANDERER">
-		<hiddenAug>SHIP_PIRATE</hiddenAug>
+		<hiddenAug>SHIP_SHELL</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<rooms>
 			<room id="4">
@@ -789,8 +817,67 @@
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>6</crewLimit>
 	</mod-append:customShip>
-</mod:findLike>
 
+	<mod-append:ship name="TNE_PLAYER_SHIP_DROP" a="true" b="true" c="true" super="luminal" />
+	<mod-append:customShip name="TNE_PLAYER_SHIP_DROP">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_AUTO</hiddenAug>
+		<crewLimit>6</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_DROP_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_AUTO</hiddenAug>
+		<rooms>
+			<room id="2">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+		<crewLimit>6</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_DROP_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_AUTO</hiddenAug>
+		<crewLimit>6</crewLimit>
+	</mod-append:customShip>
+
+	<mod-append:ship name="TNE_PLAYER_SHIP_TF2" a="true" b="true" c="true" super="luminal" />
+	<mod-append:customShip name="TNE_PLAYER_SHIP_TF2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
+		<crewLimit>9</crewLimit>
+		<crew>
+			<human_soldier room="0" name="Soldier"/>  <!--piloting-->
+			<phantom_goul room="8" name="Pyro"/>  <!--engines-->
+			<shell room="3" name="Demoman"/>  <!--weapons-->
+		</crew>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_TF2_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
+		<rooms>
+			<room id="15">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+		<crewLimit>9</crewLimit>
+		<crew>
+			<rock_crusader room="0" name="heavy"/>  <!--piloting-->
+			<engi room="11" name="Engineer"/>  <!--engines-->
+			<human_medic room="8" name="Medic"/>  <!--weapons-->
+		</crew>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_TF2_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
+		<crewLimit>9</crewLimit>
+		<crew>
+			<mantis_warlord room="0" name="Scout"/>  <!--piloting-->
+			<human_angel room="9" name="Sniper"/>  <!--engines-->
+			<slug_saboteur room="4" name="Spy"/>  <!--weapons-->
+		</crew>
+	</mod-append:customShip>
+
+</mod:findLike>
 
 
 <mod:findWithChildLike type="ships" child-type="ship" reverse="true" start="1" limit="1">
@@ -818,6 +905,20 @@
 	<mod:selector name="TNE_PLAYER_SHIP_WANDERER" />
 	<mod:findName type="ship" name="TNE_PLAYER_SHIP_WANDERER">
 		<mod:setAttributes super="luminal" a="true" b="true" c="true"/>
+	</mod:findName>
+</mod:findWithChildLike>
+
+<mod:findWithChildLike type="ships" child-type="ship" reverse="true" start="1" limit="1">
+	<mod:selector name="TNE_PLAYER_SHIP_DROP" />
+	<mod:findName type="ship" name="TNE_PLAYER_SHIP_DROP">
+		<mod:setAttributes super="luminal" a="true" b="true" c="true"/>
+	</mod:findName>
+</mod:findWithChildLike>
+
+<mod:findWithChildLike type="ships" child-type="ship" reverse="true" start="1" limit="1">
+	<mod:selector name="TNE_PLAYER_SHIP_TF2" />
+	<mod:findName type="ship" name="TNE_PLAYER_SHIP_TF2">
+		<mod:setAttributes super="luminal" a="true" b="true" c="true" />
 	</mod:findName>
 </mod:findWithChildLike>
 

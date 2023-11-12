@@ -2016,6 +2016,27 @@ POLASTAR 4
 =============================================
 =============================================
 
+		AUGMENT BLUEPRINT
+
+=============================================
+=============================================
+=============================================
+-->
+
+<augBlueprint name="TNE_RAZORBACK">
+	<title id="TNE_TEXT_AUG_RAZORBACK_NAME"></title>
+	<desc id="TNE_TEXT_AUG_RAZORBACK_DESC"></desc>
+	<cost>60</cost>
+	<bp>8</bp>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<!--
+=============================================
+=============================================
+=============================================
+
 		PLAYER SHIP BLUEPRINT
 
 =============================================
@@ -2906,5 +2927,444 @@ POLASTAR 4
 	<health amount="30" />
 	<maxPower amount="8" />
 	<aug name="NO_GHOST" />
+</shipBlueprint>
+
+<shipBlueprint name="TNE_PLAYER_SHIP_DROP" layout="tne_ship_dropship" img="tne_ship_dropship">
+	<class id="TNE_TEXT_PLAYER_SHIP_DROP_CLASS"></class>
+	<name id="TNE_TEXT_PLAYER_SHIP_DROP_NAME"></name>
+	<desc id="TNE_TEXT_PLAYER_SHIP_DROP_DESC"></desc>
+	<systemList>
+		<battery max="2" power="1" room="12" start="false" img="room_battery_2" />
+		<cloaking power="1" room="7" start="false" img="room_cloaking_orchid_3" />
+		<clonebay power="1" room="10" start="false">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="2" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="4" room="5" start="true" img="room_drones" />
+		<engines power="2" room="13" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="1" start="false" img="room_hacking_drop" />
+		<medbay power="1" room="10" start="false" img="room_medbay_drop">
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="4" start="false" img="room_mind_drop" />
+		<oxygen power="1" room="8" start="false" img="room_oxygen_4" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="3" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="3" room="6" start="true" img="room_shields_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="9" start="false" />
+		<weapons max="8" power="1" room="11" start="true" img="room_weapons_8">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3">
+		<weapon name="TNE_EX_REPEL_2" />
+	</weaponList>
+	<droneList drones="30" count="3">
+		<drone name="TNE_TWINDRONE" />
+		<drone name="TNE_DRONEPOD" />
+		<drone name="REPAIR" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="7" />
+	<aug name="NO_GHOST"/>
+	<aug name="EX_DEFENSE_SCRAMBLER"/>
+</shipBlueprint>
+
+<shipBlueprint name="TNE_PLAYER_SHIP_DROP_2" layout="tne_ship_dropship_2" img="tne_ship_dropship_2">
+	<class id="TNE_TEXT_PLAYER_SHIP_DROP_CLASS"></class>
+	<name id="TNE_TEXT_PLAYER_SHIP_DROP_2_NAME"></name>
+	<desc id="TNE_TEXT_PLAYER_SHIP_DROP_2_DESC"></desc>
+	<systemList>
+		<battery max="2" power="1" room="11" start="true" img="room_battery_2" />
+		<cloaking power="1" room="1" start="false" img="room_cloaking_orchid_3" />
+		<clonebay power="1" room="14" start="false">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="9" start="true" img="room_doors_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="5" room="3" start="true" img="room_drones_15" />
+		<engines power="2" room="13" start="true" img="room_tne_engines_drop_b">
+			<slot>
+				<direction>right</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="0" start="false" img="room_hacking_3" />
+		<medbay power="1" room="14" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="6" start="true" img="room_mind_drop" />
+		<oxygen power="1" room="12" start="false" img="room_oxygen_4" />
+		<pilot power="1" room="10" start="true" img="room_tne_pilot_drop_b">
+			<slot>
+				<direction>right</direction>
+				<number>2</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="8" start="true" img="room_sensors_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="5" start="true" img="room_shields_11">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="2" start="false" />
+		<weapons max="8" power="2" room="4" start="false" img="room_weapons_8">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>2</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<weaponList missiles="0" count="2" />
+	<droneList drones="20" count="4">
+		<drone name="TNE_PEACEDRONE_BOARDER" />
+		<drone name="TNE_VENTDRONE_BOARDER" />
+		<drone name="TNE_DISCHARGEDRONE" />
+		<drone name="REPAIR" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="7" />
+	<aug name="NO_GHOST" />
+	<aug name="EX_O2_MASKS" />
+	<aug name="EX_MEDBAY_NANO" />
+</shipBlueprint>
+<shipBlueprint name="TNE_PLAYER_SHIP_DROP_3" layout="tne_ship_dropship_3" img="tne_ship_dropship_3">
+	<class id="TNE_TEXT_PLAYER_SHIP_DROP_CLASS"></class>
+	<name id="TNE_TEXT_PLAYER_SHIP_DROP_3_NAME"></name>
+	<desc id="TNE_TEXT_PLAYER_SHIP_DROP_3_DESC"></desc>
+	<systemList>
+		<battery max="2" power="1" room="14" start="false" img="room_battery_8" />
+		<cloaking power="1" room="10" start="false" img="room_cloaking_4" />
+		<clonebay power="1" room="2" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="3" start="true" img="room_doors_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="4" room="6" start="true" img="room_drones_orchid_3" />
+		<engines power="2" room="13" start="true" img="room_engines_8">
+			<slot>
+				<direction>left</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="5" start="false" img="room_hacking_2" />
+		<medbay power="1" room="2" start="false" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="8" start="false" img="room_mind_11" />
+		<oxygen power="1" room="1" start="false" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="4" start="true" img="room_sensors_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="7" start="true" img="room_shields_10">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="11" start="false" />
+		<weapons max="8" power="2" room="9" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3">
+		<weapon name="LASER_HEAVY_PIERCE" />
+	</weaponList>
+	<droneList drones="20" count="3">
+		<drone name="TNE_EXOBREACHER_LOWPOWER" />
+		<drone name="TNE_EXOBREACHER_LOWPOWER" />
+		<drone name="TNE_SHIPWRECKER" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="7" />
+	<aug name="NO_GHOST" />
+	<aug name="EX_DEFENSE_SCRAMBLER" />
+</shipBlueprint>
+
+<shipBlueprint name="TNE_PLAYER_SHIP_TF2" layout="tne_ship_tf2" img="tne_ship_tf2">
+	<class id="TNE_TEXT_PLAYER_SHIP_TF2_CLASS"></class>
+	<name id="TNE_TEXT_PLAYER_SHIP_TF2_NAME"></name>
+	<desc id="TNE_TEXT_PLAYER_SHIP_TF2_DESC"></desc>
+	<systemList>
+		<battery max="2" power="1" room="5" start="false" img="room_battery_14" />
+		<cloaking power="1" room="7" start="false" img="room_cloaking" />
+		<clonebay power="1" room="1" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="15" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="13" start="false" img="room_drones_3" />
+		<engines power="2" room="8" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="14" start="false" img="room_hacking_9" />
+		<medbay power="1" room="1" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="10" start="false" img="room_mind_12" />
+		<oxygen power="1" room="6" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="16" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="1" room="4" start="true" img="room_shields_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="2" start="true" />
+		<weapons max="8" power="5" room="3" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="20" count="4">
+		<weapon name="TNE_JUNK_BAZOOKA" />
+		<weapon name="TNE_PARTICLE_AFTERBURNER" />
+		<weapon name="TNE_BOMB_QUICK" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="20" />
+	<maxPower amount="8" />
+	<aug name="RECYCLER" />
+</shipBlueprint>
+<shipBlueprint name="TNE_PLAYER_SHIP_TF2_2" layout="tne_ship_tf2_2" img="tne_ship_tf2_2">
+	<class id="TNE_TEXT_PLAYER_SHIP_TF2_CLASS"></class>
+	<name id="TNE_TEXT_PLAYER_SHIP_TF2_2_NAME"></name>
+	<desc id="TNE_TEXT_PLAYER_SHIP_TF2_2_DESC"></desc>
+	<systemList>
+		<battery max="2" power="1" room="12" start="false" img="room_battery" />
+		<cloaking power="1" room="16" start="false" img="room_cloaking_orchid_3" />
+		<clonebay power="1" room="10" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="3" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="6" start="false" img="room_drones_orchid_3" />
+		<engines power="3" room="11" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="7" start="false" img="room_hacking_2" />
+		<medbay power="1" room="10" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="14" start="false" img="room_mind_9" />
+		<oxygen power="1" room="1" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="5" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="9" start="false" img="room_shields_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="15" start="false" />
+		<weapons max="8" power="5" room="8" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="8" count="4">
+		<weapon name="TNE_LASER_SASHA" />
+		<weapon name="TNE_LASER_FRONTIER" />
+		<weapon name="TNE_LASER_BLOOD" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="8" />
+	<aug name="SYSTEM_CASING_NEW" />
+</shipBlueprint>
+
+<shipBlueprint name="TNE_PLAYER_SHIP_TF2_3" layout="tne_ship_tf2_3" img="tne_ship_tf2_3">
+	<class id="TNE_TEXT_PLAYER_SHIP_TF2_CLASS"></class>
+	<name id="TNE_TEXT_PLAYER_SHIP_TF2_3_NAME"></name>
+	<desc id="TNE_TEXT_PLAYER_SHIP_TF2_3_DESC"></desc>
+	<systemList>
+		<battery max="2" power="1" room="11" start="false" img="room_battery_14" />
+		<cloaking power="1" room="1" start="true" img="room_cloaking" />
+		<clonebay power="1" room="12" start="true">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="3" start="true" img="room_doors_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="14" start="false" img="room_drones_orchid_3" />
+		<engines power="2" room="9" start="true" img="room_engines_9">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="16" start="false" img="room_hacking_2" />
+		<medbay power="1" room="12" start="false" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="15" start="false" img="room_mind_3" />
+		<oxygen power="1" room="10" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="2" start="true" img="room_sensors_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="5" start="false" img="room_shields_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="8" start="true" />
+		<weapons max="8" power="4" room="4" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="8" count="4">
+		<weapon name="TNE_BOMB_ATOMIC" />
+		<weapon name="TNE_BEAM_PISS" />
+		<weapon name="TNE_BEAM_SAPPER" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="15" />
+	<maxPower amount="8" />
+	<aug name="TNE_RAZORBACK" />
 </shipBlueprint>
 </FTL>

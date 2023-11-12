@@ -762,6 +762,21 @@
 =============================================
 =============================================
 
+			AUGMETNS
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="TNE_TEXT_AUG_RAZORBACK_NAME" language="zh-Hans">레이저백</text>
+<text name="TNE_TEXT_AUG_RAZORBACK_DESC" language="zh-Hans">3의 내구도를 가진 에너지 방어막입니다.</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
 		PLAYER SHIP BLUEPRINT
 
 =============================================
@@ -810,5 +825,25 @@
 
 	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_3_NAME" language="zh-Hans">Curly Braces</text>
 	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_3_DESC" language="zh-Hans">오랜 동면 끝에 깨어난 이 무인선은 오랜 벗과 함께 멀티버스를 구할 준비가 되었습니다.</text>
+
+<text name="TNE_TEXT_PLAYER_SHIP_DROP_CLASS" language="zh-Hans">무인 강하선</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_DROP_NAME" language="zh-Hans">Meteor Shower</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_DROP_DESC" language="zh-Hans">이 함선에는 무기가 없지만, 대신 엄청나게 많은 대인 드론을 적재하고 있습니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_DROP_2_NAME" language="zh-Hans">Assisted Homicide</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_DROP_2_DESC" language="zh-Hans">이 의료선에는 날뛰는 환자를 제압하기 위한 보조 드론도 함께 제공됩니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_DROP_3_NAME" language="zh-Hans">Thermite</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_DROP_3_DESC" language="zh-Hans">집채만한 구멍을 뚫어주마.</text>
+
+<text name="TNE_TEXT_PLAYER_SHIP_TF2_CLASS" language="zh-Hans">용병 순양함</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_TF2_NAME" language="zh-Hans">KA-BOOM</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_TF2_DESC" language="zh-Hans">이 함선은 무지막지한 폭발물 세례를 퍼부을 수 있지만, 자원의 압박이 크게 다가옵니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_TF2_2_NAME" language="zh-Hans">Kritzkrieg</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_TF2_2_DESC" language="zh-Hans">이 함선에는 어떠한 방어 장비도 없지만, 복수의 수단은 갖추고 있습니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_TF2_3_NAME" language="zh-Hans">Force-A-Nature</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_TF2_3_DESC" language="zh-Hans">이 함선은 내구도가 매우 낮지만, 다양한 장비와 강력한 선원들을 갖추고 있습니다.</text>
 
 </FTL>

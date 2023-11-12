@@ -561,6 +561,21 @@ Shells, Lanius, Ghosts, Vampweeds.</text>
 =============================================
 =============================================
 
+			AUGMETNS
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="TNE_TEXT_AUG_RAZORBACK_NAME">Razorback</text>
+<text name="TNE_TEXT_AUG_RAZORBACK_DESC">An Energy Shield with an integrity of 3 hitpoints.</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
 		PLAYER SHIP BLUEPRINT
 
 =============================================
@@ -610,5 +625,25 @@ Shells, Lanius, Ghosts, Vampweeds.</text>
 
 	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_3_NAME">Curly Braces</text>
 	<text name="TNE_TEXT_PLAYER_SHIP_WANDERER_3_DESC">Awakening from a long hibernation, this unmanned ship is ready to save the multiverse with its old buddy.</text>
+
+<text name="TNE_TEXT_PLAYER_SHIP_DROP_CLASS">Auto Dropship</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_DROP_NAME">Meteor Shower</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_DROP_DESC">This ship has no weapon but carrying a huge number of anti-personnel drones.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_DROP_2_NAME">Assisted Homicide</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_DROP_2_DESC">This medical ship comes with auxiliary drones to subdue rampaging patients.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_DROP_3_NAME">Thermite</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_DROP_3_DESC">A really big fxxking hole, coming right up.</text>
+
+<text name="TNE_TEXT_PLAYER_SHIP_TF2_CLASS">Mercenary Cruiser</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_TF2_NAME">KA-BOOM</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_TF2_DESC">This ship can lay down a barrage of explosives, but it also puts a huge strain on resources.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_TF2_2_NAME">Kritzkrieg</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_TF2_2_DESC">This ship has no defence equipment, but is equipped with means of revenge.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_TF2_3_NAME">Force-A-Nature</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_TF2_3_DESC">This ship has fragile hull, but also variety of equipments and powerful crews.</text>
 
 </FTL>

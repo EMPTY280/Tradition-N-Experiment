@@ -12,3 +12,10 @@
 	<computerGlow x="75" y="0" dir="UP" />
 </roomLayout>
 
+<roomLayout name="tne_engines_drop_b">
+	<computerGlow x="88" y="7" dir="RIGHT" />
+</roomLayout>
+
+<roomLayout name="tne_pilot_drop_b">
+	<computerGlow name="glow_pilot" x="89" y="8" dir="RIGHT" />
+</roomLayout>
