@@ -332,7 +332,6 @@
 <mod:findName type="blueprintList" name="BLUELIST_BEAMS_DAMAGE">
 	<mod-append:name>TNE_BEAM_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_POLARSTAR_4</mod-append:name>
-	<mod-append:name>TNE_BEAM_SAPPER</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_WEAPONS_BEAM_POWERFUL">
