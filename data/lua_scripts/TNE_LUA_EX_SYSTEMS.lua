@@ -3,6 +3,9 @@ local vter = mods.TNE.vter
 -------------------------------- Ex Systems Data -----------------------------------------------
 
 local function Recharger_func(weapon, exSystem)
+	if (weapon.cooldown.second < 0) then
+		return
+	end
 	if weapon.chargeLevel < 1 then
 		local chargeCount = math.min(weapon.cooldown.second - weapon.cooldown.first, exSystem.cooldown.first)
 		exSystem.cooldown.first = exSystem.cooldown.first - chargeCount
