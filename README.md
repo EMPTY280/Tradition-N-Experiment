@@ -1,6 +1,6 @@
 # Tradition-N-Experiment
-An addon-mod for FTL: Multiverse.  
-FTL: Multiverse를 위한 애드온 모드입니다.  
+An add-on for FTL: Multiverse.  
+FTL: Multiverse를 위한 애드온입니다.  
 
 Requires Hyperspace v1.8↑  
 하이퍼스페이스 v1.8 버전 이상이 필요합니다.
