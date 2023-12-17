@@ -82,7 +82,6 @@
 
 	<mod-append:name>TNE_POLARSTAR_4</mod-append:name>
 
-
 	<mod-append:name>TNE_AUTOCANNON_0</mod-append:name>
 	<mod-append:name>TNE_AUTOCANNON_1</mod-append:name>
 	<mod-append:name>TNE_AUTOCANNON_2</mod-append:name>
@@ -95,6 +94,7 @@
 	<mod-append:name>TNE_RAILGUN_1</mod-append:name>
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
 	<mod-append:name>TNE_JUNK_BAZOOKA</mod-append:name>
+	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
 
 	<mod-append:name>TNE_BEAM_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_BEAM_PISS</mod-append:name>
@@ -136,6 +136,7 @@
 	<mod-append:name>TNE_RAILGUN_1</mod-append:name>
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
 	<mod-append:name>TNE_JUNK_BAZOOKA</mod-append:name>
+	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
 
 	<mod-append:name>TNE_BEAM_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_BEAM_PISS</mod-append:name>
@@ -162,6 +163,48 @@
 	<mod-append:name>TNE_EX_ION_STABILIZER</mod-append:name>
 </mod:findName>
 
+<blueprintList name="TNE_LIST_WEAPONS_WASTE">
+	<name>TNE_POLARSTAR_1_0</name>
+
+	<name>TNE_AUTOCANNON_0</name>
+	<name>TNE_AUTOCANNON_1</name>
+	<name>TNE_AUTOCANNON_2</name>
+	<name>TNE_AUTOCANNON_3</name>
+	<name>TNE_LASER_TACHYON</name>
+	<name>TNE_LASER_SASHA</name>
+	<name>TNE_LASER_FRONTIER</name>
+	<name>TNE_LASER_BLOOD</name>
+
+	<name>TNE_RAILGUN_1</name>
+	<name>TNE_RAILGUN_2</name>
+	<name>TNE_JUNK_BAZOOKA</name>
+	<name>TNE_MISSILES_BREACH</name>
+
+	<name>TNE_BEAM_LOCKDOWN</name>
+	<name>TNE_BEAM_PISS</name>
+	<name>TNE_BEAM_SAPPER</name>
+	
+	<name>TNE_FOCUS_LOCKDOWN</name>
+	<name>TNE_FOCUS_CAPACITOR</name>
+
+	<name>TNE_BOMB_BLACKOUT</name>
+	<name>TNE_BOMB_ACID</name>
+	<name>TNE_BOMB_ATOMIC</name>
+	<name>TNE_BOMB_QUICK</name>
+	
+	<name>TNE_PARTICLE_AFTERBURNER</name>
+
+	<name>TNE_EX_RECHARGER_MINOR</name>
+	<name>TNE_EX_RECHARGER_1</name>
+	<name>TNE_EX_RECHARGER_2</name>
+	<name>TNE_EX_REPEL_MINOR</name>
+	<name>TNE_EX_REPEL_1</name>
+	<name>TNE_EX_REPEL_2</name>
+	<name>TNE_EX_REPEL_OVER</name>
+	<name>TNE_EX_TELEPORTER</name>
+	<name>TNE_EX_ION_STABILIZER</name>
+</blueprintList>
+
 <mod:findName type="blueprintList" name="SHOP_ITEM_WEAPONS_LASERS">
 	<mod-append:name>TNE_POLARSTAR_1_0</mod-append:name>
 
@@ -174,6 +217,7 @@
 <mod:findName type="blueprintList" name="SHOP_WEAPONS_BALLISTICS">
 	<mod-append:name>TNE_RAILGUN_1</mod-append:name>
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
+	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
 </mod:findName>
 
 
@@ -229,6 +273,7 @@
 <mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_MISSILES_SPECIAL">
 	<mod-append:name>TNE_RAILGUN_1</mod-append:name>
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
+	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_RUSTY_LASER">
@@ -288,6 +333,7 @@
 
 	<mod-append:name>TNE_RAILGUN_1</mod-append:name>
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
+	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
 	
 	<mod-append:name>TNE_FOCUS_CAPACITOR</mod-append:name>
 </mod:findName>
@@ -298,12 +344,14 @@
 	<mod-append:name>TNE_RAILGUN_1</mod-append:name>
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
 	<mod-append:name>TNE_JUNK_BAZOOKA</mod-append:name>
+	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_MISSILES_DAMAGE">
 	<mod-append:name>TNE_RAILGUN_1</mod-append:name>
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
 	<mod-append:name>TNE_JUNK_BAZOOKA</mod-append:name>
+	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
 </mod:findName>
 
 					<!-- BOMBS -->
@@ -411,6 +459,25 @@
 		<mod-append:name>TNE_VENTDRONE_BOARDER</mod-append:name>
 	<mod-append:name>TNE_DISCHARGEDRONE</mod-append:name>
 	<mod-append:name>TNE_SHIPWRECKER</mod-append:name>
+	<mod-append:name>TNE_DRONE_PRIORITY</mod-append:name>
+	<mod-append:name>TNE_DRONE_ACTIVE_OVERCHARGER</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_SHIELD</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_ENGINE</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_OXYGEN</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_WEAPON</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_DRONE</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_MEDBAY</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_PILOT</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_SENSOR</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_DOOR</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_TELEPORTER</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_CLOAK</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_ARTILLERY</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_BATTERY</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_CLONE</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_MIND</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_HACKING</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_TEMPORAL</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_DRONES_ALL_CRAPBUCKET">
@@ -422,6 +489,27 @@
 	<mod-append:name>TNE_VENTDRONE_DEFEND</mod-append:name>
 	<mod-append:name>TNE_DISCHARGEDRONE</mod-append:name>
 	<mod-append:name>TNE_SHIPWRECKER</mod-append:name>
+	<mod-append:name>TNE_DRONE_PRIORITY</mod-append:name>
+	<mod-append:name>TNE_DRONE_ACTIVE_OVERCHARGER</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_SHIELD</mod-append:name>
+</mod:findName>
+
+<blueprintList name="TNE_LIST_DRONES_WASTE">
+	<name>TNE_TWINDRONE</name>
+	<name>TNE_DRONEPOD</name>
+	<name>TNE_PEACEDRONE_DEFEND</name>
+	<name>TNE_EXOBREACHER</name>
+	<name>TNE_EXOBREACHER_LOWPOWER</name>
+	<name>TNE_VENTDRONE_DEFEND</name>
+	<name>TNE_DISCHARGEDRONE</name>
+	<name>TNE_SHIPWRECKER</name>
+	<name>TNE_DRONE_PRIORITY</name>
+	<name>TNE_DRONE_ACTIVE_OVERCHARGER</name>
+	<name>TNE_DRONE_LOCKON_SHIELD</name>
+</blueprintList>
+
+<mod:findName type="blueprintList" name="BLUELIST_DRONES_OVERCHARGER">
+	<mod-append:name>TNE_DRONE_ACTIVE_OVERCHARGER</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_DRONES_BOARDING">
@@ -445,6 +533,11 @@
 		<mod-append:name>TNE_VENTDRONE_BOARDER</mod-append:name>
 </mod:findName>
 
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_DRONES_COMBAT">
+	<mod-append:name>TNE_DRONE_PRIORITY</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_SHIELD</mod-append:name>
+</mod:findName>
+
 <mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_DRONES_CREW">
 	<mod-append:name>TNE_TWINDRONE</mod-append:name>
 	<mod-append:name>TNE_DRONEPOD</mod-append:name>
@@ -460,7 +553,26 @@
 
 <mod:findName type="blueprintList" name="LIST_CHECK_TOGGLES_AND_AMPS">
 	<mod-append:name>TNE_PEACEDRONE_DEFEND</mod-append:name>
+		<mod-append:name>TNE_PEACEDRONE_BOARDER</mod-append:name>
 	<mod-append:name>TNE_VENTDRONE_DEFEND</mod-append:name>
+		<mod-append:name>TNE_VENTDRONE_BOARDER</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_SHIELD</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_ENGINE</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_OXYGEN</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_WEAPON</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_DRONE</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_MEDBAY</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_PILOT</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_SENSOR</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_DOOR</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_TELEPORTER</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_CLOAK</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_ARTILLERY</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_BATTERY</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_CLONE</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_MIND</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_HACKING</mod-append:name>
+	<mod-append:name>TNE_DRONE_LOCKON_TEMPORAL</mod-append:name>
 </mod:findName>
 
 </FTL>

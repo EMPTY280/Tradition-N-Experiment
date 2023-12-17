@@ -29,6 +29,9 @@
     <mod-append:script>data/lua_scripts/TNE_LUA_BLOOD.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_SAPPER.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_AFTERBURNER.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_INTEL_DRONE.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_ACTIVE_DRONE.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_OXYGEN_BURN.lua</mod-append:script>
 </mod:findLike>
 
 <!--
@@ -691,13 +694,12 @@
 		<mod-append:ship>TNE_PLAYER_SHIP_WANDERER</mod-append:ship>
 
 		<mod-append:empty/>
-		<mod-append:empty/>
-		<mod-append:empty/>
+		<mod-append:ship>TNE_PLAYER_SHIP_MODULAR</mod-append:ship>
 		<mod-append:ship>TNE_PLAYER_SHIP_TF2</mod-append:ship>
-		
 		<mod-append:ship>TNE_PLAYER_SHIP_DROP</mod-append:ship>
+		
+		<mod-append:ship>TNE_PLAYER_SHIP_STUPIDGHOST</mod-append:ship>
 		<mod-append:empty/>
-
 	</mod:findLike>
 
 	<mod-append:ship name="TNE_PLAYER_SHIP_ICE" a="true" b="true" c="true" super="luminal" />
@@ -795,11 +797,6 @@
 	<mod-append:customShip name="TNE_PLAYER_SHIP_WANDERER">
 		<hiddenAug>SHIP_PIRATE</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<rooms>
-			<room id="4">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 		<crewLimit>8</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_WANDERER_2">
@@ -877,6 +874,34 @@
 		</crew>
 	</mod-append:customShip>
 
+	<mod-append:ship name="TNE_PLAYER_SHIP_MODULAR" a="true" b="true" c="true" super="luminal" />
+	<mod-append:customShip name="TNE_PLAYER_SHIP_MODULAR">
+		<hiddenAug>SHIP_CIVILIAN</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<rooms>
+			<room id="3">
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_MODULAR_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_CIVILIAN</hiddenAug>
+		<crewLimit>12</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_MODULAR_3">
+		<hiddenAug>SHIP_CIVILIAN</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+
+	<mod-append:ship name="TNE_PLAYER_SHIP_STUPIDGHOST" a="true" b="false" c="false" super="luminal" />
+	<mod-append:customShip name="TNE_PLAYER_SHIP_STUPIDGHOST">
+		<hiddenAug>SHIP_GHOST</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>6</crewLimit>
+	</mod-append:customShip>
 </mod:findLike>
 
 
@@ -919,6 +944,20 @@
 	<mod:selector name="TNE_PLAYER_SHIP_TF2" />
 	<mod:findName type="ship" name="TNE_PLAYER_SHIP_TF2">
 		<mod:setAttributes super="luminal" a="true" b="true" c="true" />
+	</mod:findName>
+</mod:findWithChildLike>
+
+<mod:findWithChildLike type="ships" child-type="ship" reverse="true" start="1" limit="1">
+	<mod:selector name="TNE_PLAYER_SHIP_MODULAR" />
+	<mod:findName type="ship" name="TNE_PLAYER_SHIP_MODULAR">
+		<mod:setAttributes super="luminal" a="true" b="true" c="true" />
+	</mod:findName>
+</mod:findWithChildLike>
+
+<mod:findWithChildLike type="ships" child-type="ship" reverse="true" start="1" limit="1">
+	<mod:selector name="TNE_PLAYER_SHIP_STUPIDGHOST" />
+	<mod:findName type="ship" name="TNE_PLAYER_SHIP_STUPIDGHOST">
+		<mod:setAttributes super="luminal" a="true" />
 	</mod:findName>
 </mod:findWithChildLike>
 
@@ -1133,6 +1172,11 @@
 					<blueprint>TNE_BEAM_SAPPER</blueprint>
 				</item>
 			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_MISSILES_BREACH</blueprint>
+				</item>
+			</mod-append:category>
 			<mod-append:category type="DRONES">
 					<item>
 						<blueprint>TNE_TWINDRONE</blueprint>
@@ -1158,6 +1202,17 @@
 			<mod-append:category type="DRONES">
 					<item>
 						<blueprint>TNE_SHIPWRECKER</blueprint>
+					</item>
+					<item>
+						<blueprint>TNE_DRONE_PRIORITY</blueprint>
+					</item>
+					<item>
+						<blueprint>TNE_DRONE_LOCKON_SHIELD</blueprint>
+					</item>
+			</mod-append:category>
+			<mod-append:category type="DRONES">
+					<item>
+						<blueprint>TNE_DRONE_ACTIVE_OVERCHARGER</blueprint>
 					</item>
 			</mod-append:category>
 		</mod:findLike>

@@ -19,6 +19,7 @@
 
 		<mod-append:blueprint name="TNE_RAILGUN_1" rarity="0"/>
 		<mod-append:blueprint name="TNE_RAILGUN_2" rarity="0"/>
+		<mod-append:blueprint name="TNE_MISSILES_BREACH" rarity="0"/>
 
 		<mod-append:blueprint name="TNE_BEAM_LOCKDOWN" rarity="0"/>
 
@@ -37,6 +38,16 @@
 		<mod-append:blueprint name="TNE_EX_TELEPORTER" rarity="0"/>
 		<mod-append:blueprint name="TNE_EX_ION_STABILIZER" rarity="0"/>
 
+		<mod-append:blueprint name="TNE_BOMB_ATOMIC" rarity="0"/>
+		<mod-append:blueprint name="TNE_BOMB_QUICK" rarity="0"/>
+		<mod-append:blueprint name="TNE_PARTICLE_AFTERBURNER" rarity="0"/>
+		<mod-append:blueprint name="TNE_LASER_SASHA" rarity="0"/>
+		<mod-append:blueprint name="TNE_LASER_FRONTIER" rarity="0"/>
+		<mod-append:blueprint name="TNE_LASER_BLOOD" rarity="0"/>
+		<mod-append:blueprint name="TNE_BEAM_PISS" rarity="0"/>
+		<mod-append:blueprint name="TNE_BEAM_SAPPER" rarity="0"/>
+		<mod-append:blueprint name="TNE_JUNK_BAZOOKA" rarity="0"/>
+
 		<!--	DRONES		-->
 
 		<mod-append:blueprint name="TNE_TWINDRONE" rarity="0"/>
@@ -46,6 +57,9 @@
 		<mod-append:blueprint name="TNE_VENTDRONE_DEFEND" rarity="0"/>
 		<mod-append:blueprint name="TNE_DISCHARGEDRONE" rarity="0"/>
 		<mod-append:blueprint name="TNE_SHIPWRECKER" rarity="0"/>
+		<mod-append:blueprint name="TNE_DRONE_PRIORITY" rarity="0"/>
+		<mod-append:blueprint name="TNE_DRONE_ACTIVE_OVERCHARGER" rarity="0"/>
+		<mod-append:blueprint name="TNE_DRONE_LOCKON_SHIELD" rarity="0"/>
 	</mod:findLike>
 </mod:findName>
 
@@ -62,6 +76,7 @@
 
 		<mod-append:blueprint name="TNE_RAILGUN_1" rarity="0"/>
 		<mod-append:blueprint name="TNE_RAILGUN_2" rarity="0"/>
+		<mod-append:blueprint name="TNE_MISSILES_BREACH" rarity="0"/>
 
 		<mod-append:blueprint name="TNE_BEAM_LOCKDOWN" rarity="0"/>
 
@@ -80,6 +95,16 @@
 		<mod-append:blueprint name="TNE_EX_TELEPORTER" rarity="0"/>
 		<mod-append:blueprint name="TNE_EX_ION_STABILIZER" rarity="0"/>
 		
+		<mod-append:blueprint name="TNE_BOMB_ATOMIC" rarity="0"/>
+		<mod-append:blueprint name="TNE_BOMB_QUICK" rarity="0"/>
+		<mod-append:blueprint name="TNE_PARTICLE_AFTERBURNER" rarity="0"/>
+		<mod-append:blueprint name="TNE_LASER_SASHA" rarity="0"/>
+		<mod-append:blueprint name="TNE_LASER_FRONTIER" rarity="0"/>
+		<mod-append:blueprint name="TNE_LASER_BLOOD" rarity="0"/>
+		<mod-append:blueprint name="TNE_BEAM_PISS" rarity="0"/>
+		<mod-append:blueprint name="TNE_BEAM_SAPPER" rarity="0"/>
+		<mod-append:blueprint name="TNE_JUNK_BAZOOKA" rarity="0"/>
+
 		<!--	DRONES		-->
 
 		<mod-append:blueprint name="TNE_TWINDRONE" rarity="0"/>
@@ -89,6 +114,9 @@
 		<mod-append:blueprint name="TNE_VENTDRONE_DEFEND" rarity="0"/>
 		<mod-append:blueprint name="TNE_DISCHARGEDRONE" rarity="0"/>
 		<mod-append:blueprint name="TNE_SHIPWRECKER" rarity="0"/>
+		<mod-append:blueprint name="TNE_DRONE_PRIORITY" rarity="0"/>
+		<mod-append:blueprint name="TNE_DRONE_ACTIVE_OVERCHARGER" rarity="0"/>
+		<mod-append:blueprint name="TNE_DRONE_LOCKON_SHIELD" rarity="0"/>
 	</mod:findLike>
 </mod:findName>
 

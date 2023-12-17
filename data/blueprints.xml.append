@@ -985,6 +985,48 @@ POLASTAR 4
     <iconImage>missile</iconImage>
 </weaponBlueprint>
 
+<weaponBlueprint name="TNE_MISSILES_BREACH">
+	<type>MISSILES</type>
+	<tip>tip_missiles</tip>
+	<title id="TNE_TEXT_MISSILES_BREACH_NAME"></title>
+	<short id="TNE_TEXT_MISSILES_BREACH_SHORT"></short>
+	<desc id="TNE_TEXT_MISSILES_BREACH_DESC"></desc>
+	<tooltip>...</tooltip>
+	<damage>3</damage>
+    <hullBust>1</hullBust>
+	<accuracyMod>10</accuracyMod>
+	<missiles>1</missiles>
+	<speed>50</speed>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<stunChance>2</stunChance>
+	<cooldown>16</cooldown>
+	<power>2</power>
+	<cost>70</cost>
+	<bp>2</bp>
+	<rarity>4</rarity>
+	<image>tne_missile_breach</image>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>explosion_heavy</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>tne_missiles_breach</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ BEAM WEAPONS ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
@@ -1429,11 +1471,11 @@ POLASTAR 4
 	<persDamage>2</persDamage>
 	<accuracyMod>30</accuracyMod>
 	<missiles>1</missiles>
-	<freeMissileChance>33</freeMissileChance>
+	<freeMissileChance>50</freeMissileChance>
 	<shots>1</shots>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
-	<breachChance>3</breachChance>
+	<breachChance>5</breachChance>
 	<cooldown>0.5</cooldown>
 	<boost>
 		<type>cooldown</type>
@@ -1742,6 +1784,430 @@ POLASTAR 4
 	<weaponArt>tne_ex_stabilizer</weaponArt>
 	<iconImage>bomb</iconImage>
 </weaponBlueprint>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		DRONE BLUEPRINT
+
+=============================================
+=============================================
+=============================================
+-->
+
+<weaponBlueprint name="TNE_DRONEWEAPON_PRIORITY">
+	<type>LASER</type>
+	<title>PRIORITY SHOT</title>
+	<damage>1</damage>
+	<sp>1</sp>
+	<shots>1</shots>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<rarity>0</rarity>
+	<image>laser_burst</image>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_burst_1</weaponArt>
+</weaponBlueprint>
+<droneBlueprint name="TNE_DRONE_PRIORITY">
+	<type>COMBAT</type>
+	<tip>tip_combat</tip>
+	<title id="TNE_TEXT_DRONE_PRIORITY_NAME"></title>
+	<short id="TNE_TEXT_DRONE_PRIORITY_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_PRIORITY_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>18</speed>
+	<cost>90</cost>
+	<bp>3</bp>
+	<droneImage>tne_drone_intel</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_PRIORITY</weaponBlueprint>
+	<rarity>4</rarity>
+	<iconImage>combat</iconImage>
+</droneBlueprint>
+
+<weaponBlueprint name="TNE_DRONEWEAPON_ACTIVE_OVERCHARGER">
+	<type>LASER</type>
+	<title>DRONE OVERCHARGER</title>
+	<damage>1</damage>
+	<sp>0</sp>
+	<shots>1</shots>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<rarity>0</rarity>
+	<image>ion_barrage</image>
+	<launchSounds>
+		<sound>shieldDroneActivate</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_burst_1</weaponArt>
+</weaponBlueprint>
+<droneBlueprint name="TNE_DRONE_ACTIVE_OVERCHARGER">
+	<type>DEFENSE</type>
+	<target>LASERS</target>
+	<tip>tip_defense</tip>
+	<title id="TNE_TEXT_DRONE_ACTIVE_OVERCHARGER_NAME"></title>
+	<short id="TNE_TEXT_DRONE_ACTIVE_OVERCHARGER_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_ACTIVE_OVERCHARGER_DESC"></desc>
+	<power>3</power>
+	<cooldown>1500</cooldown>
+	<dodge>0</dodge>
+	<speed>15</speed>
+	<cost>70</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_active_charge</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_ACTIVE_OVERCHARGER</weaponBlueprint>
+	<iconImage>defense</iconImage>
+	<rarity>4</rarity>
+</droneBlueprint>
+
+<weaponBlueprint name="TNE_DRONEWEAPON_LOCKON">
+	<type>LASER</type>
+	<title>LOCK-ON SHOT</title>
+	<damage>1</damage>
+	<sp>0</sp>
+	<shots>0</shots>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<rarity>0</rarity>
+	<image>laser_burst</image>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_burst_1</weaponArt>
+</weaponBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_SHIELD">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_SHIELD_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_SHIELD_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_SHIELD_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_shield</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>4</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_ENGINE">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_ENGINE_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_ENGINE_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_ENGINE_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_engine</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_OXYGEN">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_OXYGEN_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_OXYGEN_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_OXYGEN_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_oxygen</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_WEAPON">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_WEAPON_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_WEAPON_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_WEAPON_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_weapon</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_DRONE">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_DRONE_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_DRONE_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_DRONE_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_drone</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_MEDBAY">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_MEDBAY_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_MEDBAY_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_MEDBAY_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_medbay</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_PILOT">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_PILOT_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_PILOT_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_PILOT_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_pilot</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_SENSOR">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_SENSOR_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_SENSOR_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_SENSOR_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_sensor</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_DOOR">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_DOOR_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_DOOR_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_DOOR_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_door</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_TELEPORTER">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_TELEPORTER_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_TELEPORTER_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_TELEPORTER_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_teleporter</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_CLOAK">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_CLOAK_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_CLOAK_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_CLOAK_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_cloak</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_ARTILLERY">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_ARTILLERY_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_ARTILLERY_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_ARTILLERY_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_artillery</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_BATTERY">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_BATTERY_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_BATTERY_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_BATTERY_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_battery</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_CLONE">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_CLONE_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_CLONE_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_CLONE_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_clone</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_MIND">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_MIND_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_MIND_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_MIND_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_mind</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_HACKING">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_HACKING_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_HACKING_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_HACKING_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_hacking</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+<droneBlueprint name="TNE_DRONE_LOCKON_TEMPORAL">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title id="TNE_TEXT_DRONE_LOCKON_TEMPORAL_NAME"></title>
+	<short id="TNE_TEXT_DRONE_LOCKON_TEMPORAL_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_LOCKON_TEMPORAL_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>25</speed>
+	<cost>90</cost>
+	<bp>2</bp>
+	<droneImage>tne_drone_lockon_temporal</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_LOCKON</weaponBlueprint>
+	<iconImage>combat</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
 
 <!--
 =============================================
@@ -2760,7 +3226,7 @@ POLASTAR 4
 				<number>0</number>
 			</slot>
 		</shields>
-		<teleporter power="1" room="4" start="false" />
+		<teleporter power="1" room="4" start="true" />
 		<weapons max="8" power="3" room="3" start="true" img="room_weapons">
 			<slot>
 				<direction>up</direction>
@@ -2954,13 +3420,13 @@ POLASTAR 4
 				<number>0</number>
 			</slot>
 		</engines>
-		<hacking power="1" room="1" start="false" img="room_hacking_drop" />
-		<medbay power="1" room="10" start="false" img="room_medbay_drop">
+		<hacking power="1" room="1" start="false" img="room_tne_hacking_drop" />
+		<medbay power="1" room="10" start="false" img="room_tne_medbay_drop">
 			<slot>
 				<number>0</number>
 			</slot>
 		</medbay>
-		<mind power="1" room="4" start="false" img="room_mind_drop" />
+		<mind power="1" room="4" start="false" img="room_tne_mind_drop" />
 		<oxygen power="1" room="8" start="false" img="room_oxygen_4" />
 		<pilot power="1" room="0" start="true" img="room_pilot">
 			<slot>
@@ -3367,4 +3833,308 @@ POLASTAR 4
 	<maxPower amount="8" />
 	<aug name="TNE_RAZORBACK" />
 </shipBlueprint>
+
+<shipBlueprint name="TNE_PLAYER_SHIP_MODULAR" layout="tne_ship_modular" img="tne_ship_modular">
+	<class id="TNE_TEXT_PLAYER_SHIP_MODULAR_CLASS"></class>
+	<name id="TNE_TEXT_PLAYER_SHIP_MODULAR_NAME"></name>
+	<desc id="TNE_TEXT_PLAYER_SHIP_MODULAR_DESC"></desc>
+	<systemList>
+		<battery power="1" max="2" room="14" start="true" img="room_battery_17" />
+		<cloaking power="1" room="5" start="false" img="room_cloaking_8" />
+		<clonebay power="1" room="2" start="false">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="8" start="true" img="room_doors_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones power="2" max="8" room="11" start="false" img="room_drones_orchid_3" />
+		<engines power="2" room="1" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="6" start="false" img="room_hacking_2" />
+		<medbay power="1" room="2" start="true" img="room_medbay_4">
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="9" start="false" img="room_mind_4" />
+		<oxygen power="1" room="18" start="true" img="room_oxygen_5" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="4" start="true" img="room_sensors_orchid_2">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</sensors>
+		<shields power="2" max="8" room="7" start="true" img="room_shields_9">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="3" start="false" />
+		<weapons power="3" max="8" room="13" start="true" img="room_weapons_3">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="12" count="4">
+		<weapon name="SHOTGUN_1" />
+		<weapon name="TNE_MISSILES_BREACH" />
+	</weaponList>
+	<droneList drones="6" count="2" />
+	<health amount="30" />
+	<maxPower amount="8" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="engi" />
+	<aug name="COMBAT_OXYGEN_JAMMER" />
+</shipBlueprint>
+
+<shipBlueprint name="TNE_PLAYER_SHIP_MODULAR_2" layout="tne_ship_modular_2" img="tne_ship_modular_2">
+	<class id="TNE_TEXT_PLAYER_SHIP_MODULAR_CLASS"></class>
+	<name id="TNE_TEXT_PLAYER_SHIP_MODULAR_2_NAME"></name>
+	<desc id="TNE_TEXT_PLAYER_SHIP_MODULAR_2_DESC"></desc>
+	<systemList>
+		<battery power="1" max="2" room="24" start="false" img="room_battery_3" />
+		<cloaking power="1" room="15" start="false" img="room_cloaking_3" />
+		<clonebay power="1" room="21" start="false">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="12" start="true" img="room_doors_5">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones power="3" max="8" room="3" start="true" img="room_drones_15" />
+		<engines power="1" room="10" start="true" img="room_engines_11">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="13" start="false" img="room_hacking_2" />
+		<medbay power="1" room="21" start="true" img="room_tne_medbay_modular">
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="23" start="false" img="room_mind_3" />
+		<oxygen power="1" room="5" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_tne_pilot_modular">
+			<slot>
+				<direction>right</direction>
+				<number>2</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="22" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields power="2" max="8" room="16" start="true" img="room_tne_shields_gw">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="14" start="true" />
+		<weapons power="2" max="8" room="2" start="true" img="room_tne_weapons_modular">
+			<slot>
+				<direction>right</direction>
+				<number>3</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="ION_CHAINGUN" />
+	</weaponList>
+	<droneList drones="15" count="4">
+		<drone name="TNE_DRONE_PRIORITY" />
+		<drone name="TNE_DRONE_LOCKON_SHIELD" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="8" />
+	<crewCount amount="1" class="human_soldier" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="engi" />
+	<aug name="DRONE_RECOVERY" />
+</shipBlueprint>
+
+<shipBlueprint name="TNE_PLAYER_SHIP_MODULAR_3" layout="tne_ship_modular_3" img="tne_ship_modular_3">
+	<class id="TNE_TEXT_PLAYER_SHIP_MODULAR_CLASS"></class>
+	<name id="TNE_TEXT_PLAYER_SHIP_MODULAR_3_NAME"></name>
+	<desc id="TNE_TEXT_PLAYER_SHIP_MODULAR_3_DESC"></desc>
+	<systemList>
+		<battery power="1" max="2" room="0" start="false" img="room_battery_13" />
+		<cloaking power="1" room="11" start="false" img="room_cloaking_3" />
+		<clonebay power="1" room="9" start="false">
+			<slot>
+				<number>2</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="2" start="true" img="room_tne_doors_modular">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones power="3" max="8" room="4" start="true" img="room_drones_10" />
+		<engines power="2" room="1" start="true" img="room_engines_orchid_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="18" start="false" img="room_hacking_7" />
+		<medbay power="1" room="9" start="true" img="room_tne_medbay_modular_c">
+			<slot>
+				<number>2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="6" start="false" img="room_mind_2" />
+		<oxygen power="1" room="5" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="3" start="true" img="room_pilot_2">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="7" start="true" img="room_sensors_orchid_2">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</sensors>
+		<shields power="2" max="8" room="19" start="false" img="room_tne_shields_gw">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="8" start="false" />
+		<weapons power="3" max="8" room="14" start="true" img="room_tne_weapons_gw">
+			<slot>
+				<direction>up</direction>
+				<number>2</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3">
+		<weapon name="BEAM_ADAPT" />
+		<weapon name="TNE_EX_RECHARGER_2" />
+	</weaponList>
+	<droneList drones="12" count="3">
+		<drone name="TNE_DRONE_ACTIVE_OVERCHARGER" />
+		<drone name="DRONE_SHIELD_POWERLESS" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="9" />
+	<crewCount amount="1" class="human_engineer" />
+	<crewCount amount="1" class="human_engineer" />
+	<crewCount amount="1" class="human_engineer" />
+	<aug name="DRONE_RECOVERY" />
+</shipBlueprint>
+
+<shipBlueprint name="TNE_PLAYER_SHIP_STUPIDGHOST" layout="tne_ship_stupidghost" img="tne_ship_stupidghost">
+	<class id="TNE_TEXT_PLAYER_SHIP_WRECKED_CLASS"></class>
+	<name id="TNE_TEXT_PLAYER_SHIP_WRECKED_NAME"></name>
+	<desc id="TNE_TEXT_PLAYER_SHIP_WRECKED_DESC"></desc>
+	<systemList>
+		<battery power="1" max="2" room="8" start="true" img="room_battery_3" />
+		<cloaking power="1" room="13" start="true" img="blank_glow" />
+		<clonebay power="1" room="3" start="false">
+			<slot>
+				<number>2</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="1" start="true" img="room_doors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones power="3" max="8" room="11" start="true" img="room_drones_3" />
+		<engines power="1" room="6" start="true" img="room_engines_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="7" start="false" img="room_hacking" />
+		<medbay power="1" room="3" start="true" img="room_medbay_7">
+			<slot>
+				<number>2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="15" start="false" img="blank_glow" />
+		<oxygen power="1" room="12" start="false" img="room_oxygen_2" />
+		<pilot power="1" room="2" start="true" img="room_pilot_a">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="0" start="true" img="room_sensors_4">
+			<slot>
+				<direction>left</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields power="1" max="8" room="5" start="true" img="room_shields_11">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="2" room="10" start="true" />
+		<weapons power="4" max="8" room="4" start="true" img="room_weapons_11">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="14" count="3">
+		<weapon name="TNE_LIST_WEAPONS_WASTE" />
+		<weapon name="TNE_LIST_WEAPONS_WASTE" />
+	</weaponList>
+	<droneList drones="9" count="3">
+		<drone name="TNE_LIST_DRONES_WASTE" />
+	</droneList>
+	<health amount="8" />
+	<maxPower amount="9" />
+	<crewCount amount="1" class="phantom" />
+	<crewCount amount="1" class="lanius" />
+	<aug name="CREW_STIMS" />
+</shipBlueprint>
+
 </FTL>

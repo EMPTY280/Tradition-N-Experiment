@@ -30,6 +30,7 @@ end)
 -- Crit Charge
 
 local function ChargeCrit(ship)
+	if (ship.weaponSystem == nil) then return end
 	local weapons = ship.weaponSystem.weapons
 	if (weapons == nil) then return end 
 	for w in vter(weapons) do

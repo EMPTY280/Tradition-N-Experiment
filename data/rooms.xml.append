@@ -19,3 +19,11 @@
 <roomLayout name="tne_pilot_drop_b">
 	<computerGlow name="glow_pilot" x="89" y="8" dir="RIGHT" />
 </roomLayout>
+
+<roomLayout name="tne_pilot_modular">
+	<computerGlow name="glow_pilot" x="89" y="9" dir="RIGHT" />
+</roomLayout>
+
+<roomLayout name="tne_weapons_modular">
+	<computerGlow x="123" y="6" dir="RIGHT" />
+</roomLayout>

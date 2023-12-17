@@ -148,4 +148,48 @@
 <text name="TNE_TEXT_EVENT_VENTDRONE_DEFEND">(Vent Drone) Set the state of the drone. [Current mode: Anti-Person]</text>
 <text name="TNE_TEXT_EVENT_VENTDRONE_BOARDER">(Vent Drone) Set the state of the drone. [Current mode: Boarder]</text>
 
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ LOCK-ON DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_EVENT_LOCKON_RESET">Change the drone's target.</text>
+
+<text name="TNE_TEXT_EVENT_LOCKON_SHIELD">(Lock-on Drone) Set the state of the drone. [Current Target: Shields]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_ENGINE">(Lock-on Drone) Set the state of the drone. [Current Target: Engines]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_OXYGEN">(Lock-on Drone) Set the state of the drone. [Current Target: Oxygen]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_WEAPON">(Lock-on Drone) Set the state of the drone. [Current Target: Weapons]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_DRONE">(Lock-on Drone) Set the state of the drone. [Current Target: Drones]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_MEDBAY">(Lock-on Drone) Set the state of the drone. [Current Target: Medbay]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_PILOT">(Lock-on Drone) Set the state of the drone. [Current Target: Piloting]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SENSOR">(Lock-on Drone) Set the state of the drone. [Current Target: Sensor]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_DOOR">(Lock-on Drone) Set the state of the drone. [Current Target: Door]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_TELEPORTER">(Lock-on Drone) Set the state of the drone. [Current Target: Teleporter]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_CLOAK">(Lock-on Drone) Set the state of the drone. [Current Target: Cloaking]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_ARTILLERY">(Lock-on Drone) Set the state of the drone. [Current Target: Artilleries]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_BATTERY">(Lock-on Drone) Set the state of the drone. [Current Target: Battery]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_CLONE">(Lock-on Drone) Set the state of the drone. [Current Target: Clone]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_MIND">(Lock-on Drone) Set the state of the drone. [Current Target: Mind]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_HACKING">(Lock-on Drone) Set the state of the drone. [Current Target: Hacking]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_TEMPORAL">(Lock-on Drone) Set the state of the drone. [Current Target: Temporal]</text>
+
+<text name="TNE_TEXT_EVENT_LOCKON_ASK">What enemy systems do you want your drone to target?</text>
+
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_SHIELD">Shields.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_ENGINE">Engines.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_OXYGEN">Oxygen.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_WEAPON">Weapons.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_DRONE">Drones.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_MEDBAY">Medbay.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_PILOT">Piloting.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_SENSOR">Sensor.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_DOOR">Door Control.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_TELEPORTER">Teleporter.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_CLOAK">Cloaking.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_ARTILLERY">Artilleries.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_BATTERY">Backup Battery.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_CLONE">Clone Bay.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_MIND">Mind Control.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_HACKING">Hacking.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_TEMPORAL">Temporal Manipulator.</text>
+
 </FTL>

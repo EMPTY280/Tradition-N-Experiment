@@ -369,20 +369,394 @@
 <mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="TNE_PEACEDRONE_DEFEND" blue="false">
 		 <text id="TNE_TEXT_EVENT_PEACEDRONE_DEFEND"/>
-		 <event load="COMBAT_CHECK_PEACE_BATTLE"/>
+		 <event load="TNE_COMBAT_CHECK_PEACE_BATTLE"/>
 	</mod-append:choice>
 	<mod-append:choice req="TNE_PEACEDRONE_BOARDER" blue="false">
 		 <text id="TNE_TEXT_EVENT_PEACEDRONE_BOARDER"/>
-		 <event load="COMBAT_CHECK_PEACE_BOARDER"/>
+		 <event load="TNE_COMBAT_CHECK_PEACE_BOARDER"/>
 	</mod-append:choice>
 
 	<mod-append:choice req="TNE_VENTDRONE_DEFEND" blue="false">
 		 <text id="TNE_TEXT_EVENT_VENTDRONE_DEFEND"/>
-		 <event load="COMBAT_CHECK_VENT_BATTLE"/>
+		 <event load="TNE_COMBAT_CHECK_VENT_BATTLE"/>
 	</mod-append:choice>
 	<mod-append:choice req="TNE_VENTDRONE_BOARDER" blue="false">
 		 <text id="TNE_TEXT_EVENT_VENTDRONE_BOARDER"/>
-		 <event load="COMBAT_CHECK_VENT_BOARDER"/>
+		 <event load="TNE_COMBAT_CHECK_VENT_BOARDER"/>
+	</mod-append:choice>
+
+		<mod-append:choice req="TNE_DRONE_LOCKON_SHIELD" blue="false"><!-- SHIELD -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SHIELD"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_SHIELD"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_ENGINE" blue="false"><!-- ENGINE -->
+		<text id="TNE_TEXT_EVENT_LOCKON_ENGINE"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_ENGINE"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_OXYGEN" blue="false"><!-- OXYGEN -->
+		<text id="TNE_TEXT_EVENT_LOCKON_OXYGEN"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_OXYGEN"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_WEAPON" blue="false"><!-- WEAPON -->
+		<text id="TNE_TEXT_EVENT_LOCKON_WEAPON"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_WEAPON"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_DRONE" blue="false"><!-- DRONE -->
+		<text id="TNE_TEXT_EVENT_LOCKON_DRONE"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_DRONE"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_MEDBAY" blue="false"><!-- MEDBAY -->
+		<text id="TNE_TEXT_EVENT_LOCKON_MEDBAY"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_MEDBAY"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_PILOT" blue="false"><!-- PILOT -->
+		<text id="TNE_TEXT_EVENT_LOCKON_PILOT"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_PILOT"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_SENSOR" blue="false"><!-- SENSOR -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SENSOR"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_SENSOR"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_DOOR" blue="false"><!-- DOOR -->
+		<text id="TNE_TEXT_EVENT_LOCKON_DOOR"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_DOOR"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_TELEPORTER" blue="false"><!-- TELEPORTER -->
+		<text id="TNE_TEXT_EVENT_LOCKON_TELEPORTER"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_TELEPORTER"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_CLOAK" blue="false"><!-- CLOAK -->
+		<text id="TNE_TEXT_EVENT_LOCKON_CLOAK"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_CLOAK"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_ARTILLERY" blue="false"><!-- ARTILLERY -->
+		<text id="TNE_TEXT_EVENT_LOCKON_ARTILLERY"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_ARTILLERY"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_BATTERY" blue="false"><!-- BATTERY -->
+		<text id="TNE_TEXT_EVENT_LOCKON_BATTERY"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_BATTERY"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_CLONE" blue="false"><!-- CLONE -->
+		<text id="TNE_TEXT_EVENT_LOCKON_CLONE"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_CLONE"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_MIND" blue="false"><!-- MIND -->
+		<text id="TNE_TEXT_EVENT_LOCKON_MIND"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_MIND"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_HACKING" blue="false"><!-- HACKING -->
+		<text id="TNE_TEXT_EVENT_LOCKON_HACKING"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_HACKING"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_TEMPORAL" blue="false"><!-- TEMPORAL -->
+		<text id="TNE_TEXT_EVENT_LOCKON_TEMPORAL"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+			<choice hidden="true">	
+				<text id="TNE_TEXT_EVENT_LOCKON_RESET"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+					<remove name="TNE_DRONE_LOCKON_TEMPORAL"/>
+					<choice hidden="true">	
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="TNE_COMBAT_CHECK_LOCKON_SELECT"/>
+					</choice>
+				</event>
+			</choice>			
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
 	</mod-append:choice>
 </mod:findName>
 
@@ -402,7 +776,7 @@
 <!--		★★★ PEACE DRONE ★★★		-->
 <!--		★★★★★★★★★★★★★★★		-->
 
-<event name="COMBAT_CHECK_PEACE_BATTLE">
+<event name="TNE_COMBAT_CHECK_PEACE_BATTLE">
 	<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
 	<choice hidden="true">
 		<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_TO_BOARDER"/>
@@ -427,7 +801,7 @@
 		<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
 	</choice>
 </event>
-<event name="COMBAT_CHECK_PEACE_BOARDER">
+<event name="TNE_COMBAT_CHECK_PEACE_BOARDER">
 	<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
 	<choice hidden="true">
 		<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_TO_DEFEND"/>
@@ -457,7 +831,7 @@
 <!--		★★★ VENT DRONE ★★★		-->
 <!--		★★★★★★★★★★★★★★★		-->
 
-<event name="COMBAT_CHECK_VENT_BATTLE">
+<event name="TNE_COMBAT_CHECK_VENT_BATTLE">
 	<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
 	<choice hidden="true">
 		<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_TO_BOARDER"/>
@@ -482,7 +856,7 @@
 		<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
 	</choice>
 </event>
-<event name="COMBAT_CHECK_VENT_BOARDER">
+<event name="TNE_COMBAT_CHECK_VENT_BOARDER">
 	<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
 	<choice hidden="true">
 		<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_TO_DEFEND"/>
@@ -507,4 +881,217 @@
 		<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
 	</choice>
 </event>
+
+<!--		★★★★★★★★★★★★★★★		-->
+<!--		★★★ LOCK-ON DRONE ★★★		-->
+<!--		★★★★★★★★★★★★★★★		-->
+
+<event name="TNE_COMBAT_CHECK_LOCKON_SELECT">
+	<text id="TNE_TEXT_EVENT_LOCKON_ASK"/>
+
+	<choice hidden="true"><!-- SHIELD -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_SHIELD"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_SHIELD"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- ENGINE -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_ENGINE"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_ENGINE"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- OXYGEN -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_OXYGEN"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_OXYGEN"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- WEAPON -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_WEAPON"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_WEAPON"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- DRONE -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_DRONE"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_DRONE"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- MEDBAY -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_MEDBAY"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_MEDBAY"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- PILOT -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_PILOT"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_PILOT"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- SENSOR -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_SENSOR"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_SENSOR"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- DOOR -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_DOOR"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_DOOR"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- TELEPORTER -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_TELEPORTER"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_TELEPORTER"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- CLOAK -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_CLOAK"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_CLOAK"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- ARTILLERY -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_ARTILLERY"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_ARTILLERY"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- BATTERY -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_BATTERY"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_BATTERY"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- CLONE -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_CLONE"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_CLONE"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- MIND -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_MIND"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_MIND"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- HACKING -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_HACKING"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_HACKING"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice hidden="true"><!-- TEMPORAL -->
+		<text id="TNE_TEXT_EVENT_LOCKON_SELECT_TEMPORAL"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+			<drone name="TNE_DRONE_LOCKON_TEMPORAL"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
 </FTL>

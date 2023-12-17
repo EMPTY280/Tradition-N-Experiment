@@ -20,10 +20,10 @@
 <text name="TNE_TEXT_WEAPON_POLARSTAR_1_SHORT">'PolarStar' I</text>
 <text name="TNE_TEXT_WEAPON_POLARSTAR_1_0_DESC">A weak laser weapon that fires 2 projectiles. It carries the mark of the Northern Star.
 
-[2 Sectors left to Upgrade]</text>
+[Travel 2 Sectors to Upgrade]</text>
 <text name="TNE_TEXT_WEAPON_POLARSTAR_1_1_DESC">A weak laser weapon that fires 2 projectiles. It carries the mark of the Northern Star.
 
-[1 Sector left to Upgrade]</text>
+[Travel 1 Sector to Upgrade]</text>
 <text name="TNE_TEXT_WEAPON_POLARSTAR_1_2_DESC">A weak laser weapon that fires 2 projectiles. It carries the mark of the Northern Star.
 
 [Can be Upgraded]</text>
@@ -32,11 +32,11 @@
 <text name="TNE_TEXT_WEAPON_POLARSTAR_2_SHORT">'PolarStar' II</text>
 <text name="TNE_TEXT_WEAPON_POLARSTAR_2_0_DESC">A laser weapon that fires 3 projectiles. It carries the mark of the Northern Star.
 
-[2 Sectors left to Upgrade]
+[Travel 2 Sectors to Upgrade]
 [Can be Modified]</text>
 <text name="TNE_TEXT_WEAPON_POLARSTAR_2_1_DESC">3A laser weapon that fires 3 projectiles. It carries the mark of the Northern Star.
 
-[1 Sector left to Upgrade]
+[Travel 1 Sector to Upgrade]
 [Can be Modified]</text>
 <text name="TNE_TEXT_WEAPON_POLARSTAR_2_2_DESC">A laser weapon that fires 3 projectiles. It carries the mark of the Northern Star.
 
@@ -50,15 +50,15 @@
 <text name="TNE_TEXT_WEAPON_POLARSTAR_3_SHORT">'PolarStar' III</text>
 <text name="TNE_TEXT_WEAPON_POLARSTAR_3_0_DESC">A powerful laser weapon that fires 5 projectiles. It carries the mark of the Northern Star.
 
-[3 Sectors left to Upgrade]
+[Travel 3 Sectors to Upgrade]
 [Can be Modified]</text>
 <text name="TNE_TEXT_WEAPON_POLARSTAR_3_1_DESC">A powerful laser weapon that fires 5 projectiles. It carries the mark of the Northern Star.
 
-[2 Sectors left to Upgrade]
+[Travel 2 Sectors to Upgrade]
 [Can be Modified]</text>
 <text name="TNE_TEXT_WEAPON_POLARSTAR_3_2_DESC">A powerful laser weapon that fires 5 projectiles. It carries the mark of the Northern Star.
 
-[1 Sector left to Upgrade]
+[Travel 1 Sector to Upgrade]
 [Can be Modified]</text>
 <text name="TNE_TEXT_WEAPON_POLARSTAR_3_3_DESC">A powerful laser weapon that fires 5 projectiles. It carries the mark of the Northern Star.
 
@@ -176,6 +176,10 @@ Stats:
 <text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_NAME">Junk Bazooka</text>
 <text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_SHORT">J. Bazooka</text>
 <text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_DESC">A Missile weapon that fires 3 missiles at once. Each projectiles will be fired with small spread.</text>
+
+<text name="TNE_TEXT_MISSILES_BREACH_NAME">'Erebus' Missiles</text>
+<text name="TNE_TEXT_MISSILES_BREACH_SHORT" >'Erebus'</text>
+<text name="TNE_TEXT_MISSILES_BREACH_DESC">This Missile rips breach and burns out all oxygen in the room upon impact.</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ BEAM WEAPONS ★★★		-->
@@ -406,6 +410,80 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 
 		Buy/Sell Price: 50~/25~
 </text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		DRONE
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="TNE_TEXT_DRONE_PRIORITY_NAME">Priority Drone</text>
+<text name="TNE_TEXT_DRONE_PRIORITY_SHORT">Priority</text>
+<text name="TNE_TEXT_DRONE_PRIORITY_DESC">An advanced Drone that prioritizes to attack the enemy key systems. It will ignore fully destroyed systems.
+	Priority: Shields > Engines > Weapons > Random</text>
+
+<text name="TNE_TEXT_DRONE_ACTIVE_OVERCHARGER_NAME">Active Shield Overcharger</text>
+<text name="TNE_TEXT_DRONE_ACTIVE_OVERCHARGER_SHORT">Active Over.</text>
+<text name="TNE_TEXT_DRONE_ACTIVE_OVERCHARGER_DESC">An active Defense Drone which can charge Energy Shields when it detects hostile shots.
+	Reload: 1500 MS</text>
+
+<text name="TNE_TEXT_DRONE_LOCKON_SHIELD_NAME">Lock-on Drone [Shields]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_SHIELD_SHORT">LO [Shield]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_SHIELD_DESC">[Current Target: Shields] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ENGINE_NAME">Lock-on Drone [Engines]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ENGINE_SHORT">LO [Engine]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ENGINE_DESC">[Current Target: Engines] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_OXYGEN_NAME">Lock-on Drone [Oxygen]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_OXYGEN_SHORT">LO [Oxygen]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_OXYGEN_DESC">[Current Target: Oxygen] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_WEAPON_NAME">Lock-on Drone [Weapons]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_WEAPON_SHORT">LO [Weapon]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_WEAPON_DESC">[Current Target: Weapons] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DRONE_NAME">Lock-on Drone [Drones]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DRONE_SHORT">LO [Drone]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DRONE_DESC">[Current Target: Drones] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MEDBAY_NAME">Lock-on Drone [Medbay]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MEDBAY_SHORT">LO [Medbay]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MEDBAY_DESC">[Current Target: Medbay] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_PILOT_NAME">Lock-on Drone [Piloting]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_PILOT_SHORT">LO [Pilot]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_PILOT_DESC">[Current Target: Piloting] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_SENSOR_NAME">Lock-on Drone [Sensor]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_SENSOR_SHORT">LO [Sensor]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_SENSOR_DESC">[Current Target: Sensor] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DOOR_NAME">Lock-on Drone [Door]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DOOR_SHORT">LO [Door]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DOOR_DESC">[Current Target: Door] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TELEPORTER_NAME">Lock-on Drone [Teleporter]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TELEPORTER_SHORT">LO [Teleporter]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TELEPORTER_DESC">[Current Target: Teleporter] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLOAK_NAME">Lock-on Drone [Cloaking]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLOAK_SHORT">LO [Cloak]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLOAK_DESC">[Current Target: Cloaking] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ARTILLERY_NAME">Lock-on Drone [Artilleries]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ARTILLERY_SHORT">LO [Artillery]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ARTILLERY_DESC">[Current Target: Artilleries] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_BATTERY_NAME">Lock-on Drone [Battery]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_BATTERY_SHORT">LO [Battery]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_BATTERY_DESC">[Current Target: Battery] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLONE_NAME">Lock-on Drone [Clone]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLONE_SHORT">LO [Clonebay]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLONE_DESC">[Current Target: Clone] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MIND_NAME">Lock-on Drone [Mind]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MIND_SHORT">LO [Mind]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MIND_DESC">[Current Target: Mind] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_HACKING_NAME">Lock-on Drone [Hacking]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_HACKING_SHORT">LO [Hacking]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_HACKING_DESC">[Current Target: Hacking] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_NAME">Lock-on Drone [Temporal]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_SHORT">LO [Temporal]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_DESC">[Current Target: Temporal] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack a random rooms.</text>
 
 <!--
 =============================================
@@ -645,5 +723,19 @@ Shells, Lanius, Ghosts, Vampweeds.</text>
 
 	<text name="TNE_TEXT_PLAYER_SHIP_TF2_3_NAME">Force-A-Nature</text>
 	<text name="TNE_TEXT_PLAYER_SHIP_TF2_3_DESC">This ship has fragile hull, but also variety of equipments and powerful crews.</text>
+
+<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_CLASS">Modular Cruiser</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_NAME">Donut</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_DESC">This ship looks more like a cluster of debris, but it functions very well.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_2_NAME">UES Contact Light</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_2_DESC">It is a transport vessel carrying many advanced drones.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_3_NAME">Tetromino</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_3_DESC">As always, patience is needed to deliver a powerful blow.</text>
+
+<text name="TNE_TEXT_PLAYER_SHIP_WRECKED_CLASS">TNE Wrecked Bomber</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_WRECKED_NAME">Flying Waste</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_WRECKED_DESC">A piece of waste that you won't even give an eye unless you're Lanius or Ghost.</text>
 
 </FTL>

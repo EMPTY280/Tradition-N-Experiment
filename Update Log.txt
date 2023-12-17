@@ -79,7 +79,7 @@
 [FIX]
 - External Repelsion Field Generator can block ASB AGAIN!
 
-	[v1.2]
+	[v1.2] 2023-11-12
 
 !! CONTENT IDs ARE CHANGED !!
 !! SAVE BELOW 1.2 IS INCOMPATIBLE !!
@@ -125,9 +125,35 @@
 
 [ADJUST]
 - Frost Patrols are now considered as pirate ship.
-- Frost A's room layout's slightly changed
 - 'Estoc' Pinpoint's breach chance now increases by charge time.
 - Addon Weapons and Drones are now available in Transport C's store.
 
 [FIX]
 - fixed wrong colors in Vulture cruisers' preview.
+
+	[v1.21] 2023-12-18
+
+[ADD]
+- Added 1 Missile:
+    - 'Erebus' Missiles : Rips breach, and empties all oxygen in the target room
+
+- Added 3 Drones:
+    - Priority Drone : An attack Drone which prioritize to hit key systems
+    - Lock-on Drone : An attack Drone that allows you to set targets.
+    - Active Shield Overcharger : Charges Energy Shields on detecting hostile shots.
+
+- Added 4 new ships:
+    - Modular Cruiser A, B, C
+    - TNE Wrecked Bomber
+
+[ADJUST]
+- Quick Bomb Launcher
+    - Increased Free Missile Chance : 33% -> 50%
+    - Increased Breach Chance : 30% -> 50%
+- Description of 'PolarStar' was slightly changed
+- Wanderer A
+    - Now starts with teleporter installed.
+
+[FIX]
+- Fixed Single Shot Cannon's animation
+- Minor fix on TNE_LUA_FRONTIER.lua

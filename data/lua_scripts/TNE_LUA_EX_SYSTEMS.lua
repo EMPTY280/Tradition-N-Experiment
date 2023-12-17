@@ -354,9 +354,8 @@ end)
 
 function PreIgniteEx()
 	local playerShip = Hyperspace.ships.player
-	if (playerShip == nil) then return end
+	if (playerShip.weaponSystem == nil) then return end
 	local weapons = playerShip.weaponSystem.weapons
-
 
 	if weapons then
 		for w in vter(weapons) do

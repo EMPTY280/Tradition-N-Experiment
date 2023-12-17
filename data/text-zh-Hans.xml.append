@@ -164,6 +164,50 @@
 <text name="TNE_TEXT_EVENT_VENTDRONE_DEFEND" language="zh-Hans">(배기 드론) 드론의 상태를 조정한다. [현재 모드: 승선]</text>
 <text name="TNE_TEXT_EVENT_VENTDRONE_BOARDER" language="zh-Hans">(배기 드론) 드론의 상태를 조정한다. [현재 모드: 강습]</text>
 
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ LOCK-ON DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_EVENT_LOCKON_RESET" language="zh-Hans">드론의 목표를 변경한다.</text>
+
+<text name="TNE_TEXT_EVENT_LOCKON_SHIELD" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 방어막]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_ENGINE" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 엔진]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_OXYGEN" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 산소]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_WEAPON" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 무기]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_DRONE" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 드론]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_MEDBAY" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 의료]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_PILOT" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 조타]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SENSOR" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 센서]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_DOOR" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 문]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_TELEPORTER" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 텔레포터]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_CLOAK" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 은폐장]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_ARTILLERY" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 함포]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_BATTERY" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 배터리]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_CLONE" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 클론]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_MIND" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 정신지배]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_HACKING" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 해킹]</text>
+<text name="TNE_TEXT_EVENT_LOCKON_TEMPORAL" language="zh-Hans">(정조준 드론) 드론의 상태를 조정한다. [현재 목표: 시간조율기]</text>
+
+<text name="TNE_TEXT_EVENT_LOCKON_ASK" language="zh-Hans">드론이 어느 시스템을 목표로 하도록 합니까?</text>
+
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_SHIELD" language="zh-Hans">방어막 제어실.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_ENGINE" language="zh-Hans">엔진.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_OXYGEN" language="zh-Hans">산소실.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_WEAPON" language="zh-Hans">무기 관제실.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_DRONE" language="zh-Hans">드론 관제실.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_MEDBAY" language="zh-Hans">의료실.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_PILOT" language="zh-Hans">조타실.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_SENSOR" language="zh-Hans">센서.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_DOOR" language="zh-Hans">문 제어실.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_TELEPORTER" language="zh-Hans">텔레포터.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_CLOAK" language="zh-Hans">은폐장.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_ARTILLERY" language="zh-Hans">함포.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_BATTERY" language="zh-Hans">배터리.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_CLONE" language="zh-Hans">클론 복제실.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_MIND" language="zh-Hans">정신지배 장비.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_HACKING" language="zh-Hans">해킹 장비.</text>
+<text name="TNE_TEXT_EVENT_LOCKON_SELECT_TEMPORAL" language="zh-Hans">시간조율기.</text>
+
 <!--
 =============================================
 =============================================
@@ -340,6 +384,10 @@
 <text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_NAME" language="zh-Hans">쓰레기 바주카</text>
 <text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_SHORT" language="zh-Hans">J. Bazooka</text>
 <text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_DESC" language="zh-Hans">한 번에 3발의 미사일을 쏟아붇는 미사일 발사기입니다. 각 발사체는 약간의 편차로 탈선되어 발사됩니다.</text>
+
+<text name="TNE_TEXT_MISSILES_BREACH_NAME" language="zh-Hans">'에레보스' 미사일</text>
+<text name="TNE_TEXT_MISSILES_BREACH_SHORT" language="zh-Hans">'Erebus'</text>
+<text name="TNE_TEXT_MISSILES_BREACH_DESC" language="zh-Hans">이 미사일은 충돌 시 균열을 발생시키는 동시에 선실의 산소 입자를 모조리 태워 무산소 상태로 만듭니다.</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ BEAM WEAPONS ★★★		-->
@@ -614,6 +662,80 @@
 =============================================
 =============================================
 
+		DRONE
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="TNE_TEXT_DRONE_PRIORITY_NAME" language="zh-Hans">우선순위 드론</text>
+<text name="TNE_TEXT_DRONE_PRIORITY_SHORT" language="zh-Hans">Priority</text>
+<text name="TNE_TEXT_DRONE_PRIORITY_DESC" language="zh-Hans">적의 주요 시스템을 우선적으로 타격하는 고급 드론입니다. 완파된 시스템은 무시합니다.
+	우선순위: 방어막 > 엔진 > 무기 > 무작위</text>
+
+<text name="TNE_TEXT_DRONE_ACTIVE_OVERCHARGER_NAME" language="zh-Hans">능동형 방어막 과충전기</text>
+<text name="TNE_TEXT_DRONE_ACTIVE_OVERCHARGER_SHORT" language="zh-Hans">Active Over.</text>
+<text name="TNE_TEXT_DRONE_ACTIVE_OVERCHARGER_DESC" language="zh-Hans">공격을 감지하면 에너지 방어막을 충전하는 능동형 방어 드론입니다.
+	재장전: 1500 MS</text>
+
+<text name="TNE_TEXT_DRONE_LOCKON_SHIELD_NAME" language="zh-Hans">정조준 드론 [방어막]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_SHIELD_SHORT" language="zh-Hans">LO [Shield]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_SHIELD_DESC" language="zh-Hans">[현재 목표: 방어막] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ENGINE_NAME" language="zh-Hans">정조준 드론 [엔진]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ENGINE_SHORT" language="zh-Hans">LO [Engine]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ENGINE_DESC" language="zh-Hans">[현재 목표: 엔진] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_OXYGEN_NAME" language="zh-Hans">정조준 드론 [산소]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_OXYGEN_SHORT" language="zh-Hans">LO [Oxygen]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_OXYGEN_DESC" language="zh-Hans">[현재 목표: 산소] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_WEAPON_NAME" language="zh-Hans">정조준 드론 [무기]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_WEAPON_SHORT" language="zh-Hans">LO [Weapon]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_WEAPON_DESC" language="zh-Hans">[현재 목표: 무기] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DRONE_NAME" language="zh-Hans">정조준 드론 [드론]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DRONE_SHORT" language="zh-Hans">LO [Drone]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DRONE_DESC" language="zh-Hans">[현재 목표: 드론] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MEDBAY_NAME" language="zh-Hans">정조준 드론 [의료]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MEDBAY_SHORT" language="zh-Hans">LO [Medbay]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MEDBAY_DESC" language="zh-Hans">[현재 목표: 의료] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_PILOT_NAME" language="zh-Hans">정조준 드론 [조타]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_PILOT_SHORT" language="zh-Hans">LO [Pilot]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_PILOT_DESC" language="zh-Hans">[현재 목표: 조타] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_SENSOR_NAME" language="zh-Hans">정조준 드론 [센서]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_SENSOR_SHORT" language="zh-Hans">LO [Sensor]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_SENSOR_DESC" language="zh-Hans">[현재 목표: 센서] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DOOR_NAME" language="zh-Hans">정조준 드론 [문]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DOOR_SHORT" language="zh-Hans">LO [Door]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DOOR_DESC" language="zh-Hans">[현재 목표: 문] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TELEPORTER_NAME" language="zh-Hans">정조준 드론 [텔레포터]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TELEPORTER_SHORT" language="zh-Hans">LO [Teleporter]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TELEPORTER_DESC" language="zh-Hans">[현재 목표: 텔레포터] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLOAK_NAME" language="zh-Hans">정조준 드론 [은폐장]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLOAK_SHORT" language="zh-Hans">LO [Cloak]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLOAK_DESC" language="zh-Hans">[현재 목표: 은폐장] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ARTILLERY_NAME" language="zh-Hans">정조준 드론 [함포]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ARTILLERY_SHORT" language="zh-Hans">LO [Artillery]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ARTILLERY_DESC" language="zh-Hans">[현재 목표: 함포] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_BATTERY_NAME" language="zh-Hans">정조준 드론 [배터리]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_BATTERY_SHORT" language="zh-Hans">LO [Battery]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_BATTERY_DESC" language="zh-Hans">[현재 목표: 배터리] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLONE_NAME" language="zh-Hans">정조준 드론 [클론]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLONE_SHORT" language="zh-Hans">LO [Clonebay]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLONE_DESC" language="zh-Hans">[현재 목표: 클론] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MIND_NAME" language="zh-Hans">정조준 드론 [정신지배]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MIND_SHORT" language="zh-Hans">LO [Mind]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MIND_DESC" language="zh-Hans">[현재 목표: 정신지배] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_HACKING_NAME" language="zh-Hans">정조준 드론 [해킹]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_HACKING_SHORT" language="zh-Hans">LO [Hacking]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_HACKING_DESC" language="zh-Hans">[현재 목표: 해킹] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_NAME" language="zh-Hans">정조준 드론 [시간조율기]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_SHORT" language="zh-Hans">LO [Temporal]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_DESC" language="zh-Hans">[현재 목표: 시간조율기] 지정한 시스템을 집중적으로 공격하는 드론입니다. 지정된 시스템이 완파되면 무작위 선실을 공격합니다.</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
 		CREW DRONE
 
 =============================================
@@ -845,5 +967,19 @@
 
 	<text name="TNE_TEXT_PLAYER_SHIP_TF2_3_NAME" language="zh-Hans">Force-A-Nature</text>
 	<text name="TNE_TEXT_PLAYER_SHIP_TF2_3_DESC" language="zh-Hans">이 함선은 내구도가 매우 낮지만, 다양한 장비와 강력한 선원들을 갖추고 있습니다.</text>
+
+<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_CLASS" language="zh-Hans">모듈형 순양함</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_NAME" language="zh-Hans">Donut</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_DESC" language="zh-Hans">이 함선은 잔해 더미에 더 가깝게 생겼지만 작동성은 훌륭합니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_2_NAME" language="zh-Hans">UES Contact Light</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_2_DESC" language="zh-Hans">고급 드론을 다수 적재한 운송용 선박입니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_3_NAME" language="zh-Hans">Tetromino</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_3_DESC" language="zh-Hans">언제나 그렇듯 강력한 한 방을 위해서라면 인내가 필요한 법입니다.</text>
+
+<text name="TNE_TEXT_PLAYER_SHIP_WRECKED_CLASS" language="zh-Hans">TNE 부서진 폭격기</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_WRECKED_NAME" language="zh-Hans">Flying Waste</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_WRECKED_DESC" language="zh-Hans">라니우스나 고스트가 아니라면 쳐다도 보지 않을 폐기물입니다.</text>
 
 </FTL>

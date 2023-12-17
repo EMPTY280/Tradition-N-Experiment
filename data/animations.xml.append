@@ -253,6 +253,23 @@
 	<mountPoint x="1" y="60"/>
 </weaponAnim>
 
+<animSheet name="tne_missile_breach" w="32" h="85" fw="32" fh="85">projectiles/tne_missile_breach.png</animSheet>
+<anim name="tne_missile_breach">
+	<sheet>tne_missile_breach</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="tne_missiles_breach" w="455" h="61" fw="35" fh="61">weapon_missiles/tne_missiles_breach.png</animSheet>
+<weaponAnim name="tne_missiles_breach">
+	<sheet>tne_missiles_breach</sheet>
+	<desc length="13" x="0" y="0"/>
+	<chargedFrame>11</chargedFrame>
+	<fireFrame>12</fireFrame>
+	<firePoint x="21" y="15"/>
+	<mountPoint x="6" y="39"/>
+</weaponAnim>
+
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ BEAM WEAPONS ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
