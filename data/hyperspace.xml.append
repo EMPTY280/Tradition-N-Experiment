@@ -554,7 +554,6 @@
 				<maxHealth>1</maxHealth>
 			</req>
 
-			<fireChance>10</fireChance>
 			<damage>999</damage>
 			<breachChance>10</breachChance>
 			<buttonText>NUKE BOMB</buttonText>
