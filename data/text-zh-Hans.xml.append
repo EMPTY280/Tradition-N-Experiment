@@ -462,6 +462,14 @@
 <text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_SHORT" language="zh-Hans">Afterburner</text>
 <text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_DESC" language="zh-Hans">발사할 때 다른 무기들을 약간 충전시켜주는 특별한 입자 가속기입니다. 다른 재연소기는 충전에서 제외됩니다.</text>
 
+<text name="TNE_TEXT_WEAPON_ELECTRON_1_NAME" language="zh-Hans">전자 가속기 마크 I</text>
+<text name="TNE_TEXT_WEAPON_ELECTRON_1_SHORT" language="zh-Hans">Elec I</text>
+<text name="TNE_TEXT_WEAPON_ELECTRON_1_DESC" language="zh-Hans">피해가 전무하지만 방어막을 효율적으로 제거하는 전자를 발사합니다. 에너지 방어막에는 2배의 피해를 가합니다.</text>
+
+<text name="TNE_TEXT_WEAPON_ELECTRON_2_NAME" language="zh-Hans">전자 가속기 마크 II</text>
+<text name="TNE_TEXT_WEAPON_ELECTRON_2_SHORT" language="zh-Hans">Elec II</text>
+<text name="TNE_TEXT_WEAPON_ELECTRON_2_DESC" language="zh-Hans">피해가 전무하지만 방어막을 효율적으로 제거하는 전자를 발사합니다. 에너지 방어막에는 2배의 피해를 가합니다.</text>
+
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ EXTERNAL SYSTEMS ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->

@@ -253,6 +253,14 @@ Stats:
 <text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_SHORT">Afterburner</text>
 <text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_DESC">A special Particle Accelerator that charges other weapons when fired. Other Afterburners will be excluded from charge.</text>
 
+<text name="TNE_TEXT_WEAPON_ELECTRON_1_NAME">Electron Accelerator MK I</text>
+<text name="TNE_TEXT_WEAPON_ELECTRON_1_SHORT">Elec I</text>
+<text name="TNE_TEXT_WEAPON_ELECTRON_1_DESC">Shoots electrons which do no damage but remove shields effectively. Does double damage to energy shields.</text>
+
+<text name="TNE_TEXT_WEAPON_ELECTRON_2_NAME">Electron Accelerator MK II</text>
+<text name="TNE_TEXT_WEAPON_ELECTRON_2_SHORT">Elec II</text>
+<text name="TNE_TEXT_WEAPON_ELECTRON_2_DESC">Shoots electrons which do no damage but remove shields effectively. Does double damage to energy shields.</text>
+
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ EXTERNAL SYSTEMS ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->

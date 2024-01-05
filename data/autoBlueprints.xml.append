@@ -109,6 +109,8 @@
 	<mod-append:name>TNE_BOMB_QUICK</mod-append:name>
 
 	<mod-append:name>TNE_PARTICLE_AFTERBURNER</mod-append:name>
+	<mod-append:name>TNE_ELECTRON_1</mod-append:name>
+	<mod-append:name>TNE_ELECTRON_2</mod-append:name>
 
 	<mod-append:name>TNE_EX_RECHARGER_MINOR</mod-append:name>
 	<mod-append:name>TNE_EX_RECHARGER_1</mod-append:name>
@@ -151,6 +153,8 @@
 	<mod-append:name>TNE_BOMB_QUICK</mod-append:name>
 	
 	<mod-append:name>TNE_PARTICLE_AFTERBURNER</mod-append:name>
+	<mod-append:name>TNE_ELECTRON_1</mod-append:name>
+	<mod-append:name>TNE_ELECTRON_2</mod-append:name>
 
 	<mod-append:name>TNE_EX_RECHARGER_MINOR</mod-append:name>
 	<mod-append:name>TNE_EX_RECHARGER_1</mod-append:name>
@@ -193,6 +197,8 @@
 	<name>TNE_BOMB_QUICK</name>
 	
 	<name>TNE_PARTICLE_AFTERBURNER</name>
+	<name>TNE_ELECTRON_1</name>
+	<name>TNE_ELECTRON_2</name>
 
 	<name>TNE_EX_RECHARGER_MINOR</name>
 	<name>TNE_EX_RECHARGER_1</name>

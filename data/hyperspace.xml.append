@@ -556,22 +556,14 @@
 
 			<fireChance>10</fireChance>
 			<damage>999</damage>
+			<breachChance>10</breachChance>
 			<buttonText>NUKE BOMB</buttonText>
 			<tooltip>BOOOOOOOOOM!</tooltip>
-
-			<statBoosts>
-				<statBoost name="maxHealth">
-					<boostType>ADD</boostType>
-					<amount>-1</amount>
-					<shipTarget>CURRENT_ROOM</shipTarget>
-					<crewTarget>SELF</crewTarget>
-				</statBoost>
-			</statBoosts>
 
 			<powerSounds>
 				<powerSound>tne_sound_nuke</powerSound>
 			</powerSounds>
-			<effectAnim>explosion_random</effectAnim>
+			<effectAnim></effectAnim>
 		</powerEffect>
 
 
@@ -582,7 +574,7 @@
 		<moveSpeedMultiplier>0.0</moveSpeedMultiplier>
 		<stunMultiplier>0.0</stunMultiplier>
 
-		<hasCustomDeathAnimation>true</hasCustomDeathAnimation>
+		<hasCustomDeathAnimation>false</hasCustomDeathAnimation>
 	</race>
 </crew>
 
@@ -1175,6 +1167,12 @@
 			<mod-append:category type="WEAPONS">
 				<item>
 					<blueprint>TNE_MISSILES_BREACH</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_ELECTRON_1</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_ELECTRON_2</blueprint>
 				</item>
 			</mod-append:category>
 			<mod-append:category type="DRONES">

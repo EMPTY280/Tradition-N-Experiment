@@ -157,3 +157,19 @@
 [FIX]
 - Fixed Single Shot Cannon's animation
 - Minor fix on TNE_LUA_FRONTIER.lua
+
+	[v1.22]
+
+[ADD]
+- Electron Accelerator MK I / II : does no damage but good to remove shields.
+
+[ADJUST]
+- The Shipwrecker : required power reduced to 3 (from 4)
+- 'Machine Gun' : shot radius decreased to 50 (from 100)
+- Modular Cruiser B
+    - Adaptive Ion is replaced to Electron Accelerator MK I
+    - Changed room layout
+
+[FIX]
+- The Shipwrecker now plays explosion sound on detonate
+- Frost Patrol C's sensor room interior

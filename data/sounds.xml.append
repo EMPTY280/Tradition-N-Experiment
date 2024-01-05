@@ -43,6 +43,6 @@
 <!--		★★★ DRONES ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★-->
 
-<tne_sound_nuke volume="4">tne_sound_tne_sound_nuke.ogg</tne_sound_nuke>
+<tne_sound_nuke volume="4">tne_sound_nuke.ogg</tne_sound_nuke>
 <tne_sound_tick volume="1">tne_sound_tick.ogg</tne_sound_tick>
 </FTL>

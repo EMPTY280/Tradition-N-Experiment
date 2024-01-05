@@ -271,7 +271,7 @@ POLASTAR 2
 	<tip>tne_tip_evo_mod</tip>
 	<desc id="TNE_TEXT_WEAPON_MACHINEGUN_DESC"></desc>
 	<tooltip>...</tooltip>
-	<radius>100</radius>
+	<radius>50</radius>
 	<fireTime>0.06</fireTime>
 	<speed>100</speed>
 	<damage>1</damage>
@@ -1543,6 +1543,98 @@ POLASTAR 4
 	<weaponArt>tne_afterburner</weaponArt>
 </weaponBlueprint>
 
+<weaponBlueprint name="TNE_ELECTRON_1">
+	<type>BURST</type>
+	<drone_targetable>0</drone_targetable>
+	<title id="TNE_TEXT_WEAPON_ELECTRON_1_NAME"></title>
+	<short id="TNE_TEXT_WEAPON_ELECTRON_1_SHORT"></short>
+	<desc id="TNE_TEXT_WEAPON_ELECTRON_1_DESC"></desc>
+	<tooltip></tooltip>
+	<damage>0</damage>
+	<sysDamage>0</sysDamage>
+	<radius>35</radius>
+	<accuracyMod>10</accuracyMod>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>2</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>13</cooldown>
+	<power>1</power>
+	<cost>60</cost>
+	<bp>2</bp>
+	<rarity>4</rarity>
+	<spin>0</spin>
+	<projectiles>
+		<projectile count="3" fake="false">tne_electron_proj</projectile>
+	</projectiles>
+	<explosion>explosion_stun_ion</explosion>
+	<launchSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>tne_electron_1</weaponArt>
+</weaponBlueprint>
+
+<weaponBlueprint name="TNE_ELECTRON_2">
+	<type>BURST</type>
+	<drone_targetable>0</drone_targetable>
+	<title id="TNE_TEXT_WEAPON_ELECTRON_2_NAME"></title>
+	<short id="TNE_TEXT_WEAPON_ELECTRON_2_SHORT"></short>
+	<desc id="TNE_TEXT_WEAPON_ELECTRON_2_DESC"></desc>
+	<tooltip></tooltip>
+	<damage>0</damage>
+	<sysDamage>0</sysDamage>
+	<radius>38</radius>
+	<accuracyMod>10</accuracyMod>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>2</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>15</cooldown>
+	<power>2</power>
+	<cost>80</cost>
+	<bp>2</bp>
+	<rarity>5</rarity>
+	<spin>0</spin>
+	<projectiles>
+		<projectile count="5" fake="false">tne_electron_proj</projectile>
+	</projectiles>
+	<explosion>explosion_stun_ion</explosion>
+	<launchSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>tne_electron_2</weaponArt>
+</weaponBlueprint>
+
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ EXTERNAL SYSTEMS ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
@@ -2469,7 +2561,7 @@ POLASTAR 4
 	<title id="TNE_TEXT_DRONE_SHIPWRECKER_NAME"></title>
 	<short id="TNE_TEXT_DRONE_SHIPWRECKER_SHORT"></short>
 	<desc id="TNE_TEXT_DRONE_SHIPWRECKER_DESC"></desc>
-	<power>4</power>
+	<power>3</power>
 	<speed>15</speed>
 	<dodge>10</dodge>
 	<cost>130</cost>
@@ -2698,7 +2790,7 @@ POLASTAR 4
 				<number>1</number>
 			</slot>
 		</pilot>
-		<sensors power="1" room="12" start="true" img="room_tne_sensors">
+		<sensors power="1" room="12" start="true" img="room_sensors">
 			<slot>
 				<direction>down</direction>
 				<number>1</number>
@@ -3920,7 +4012,7 @@ POLASTAR 4
 				<number>0</number>
 			</slot>
 		</clonebay>
-		<doors power="2" room="12" start="true" img="room_doors_5">
+		<doors power="2" room="11" start="true" img="room_doors_5">
 			<slot>
 				<direction>right</direction>
 				<number>0</number>
@@ -3941,7 +4033,7 @@ POLASTAR 4
 		</medbay>
 		<mind power="1" room="23" start="false" img="room_mind_3" />
 		<oxygen power="1" room="5" start="true" img="room_oxygen_2" />
-		<pilot power="1" room="0" start="true" img="room_tne_pilot_modular">
+		<pilot power="1" room="12" start="true" img="room_tne_pilot_modular">
 			<slot>
 				<direction>right</direction>
 				<number>2</number>
@@ -3970,7 +4062,7 @@ POLASTAR 4
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>4</droneSlots>
 	<weaponList missiles="0" count="4">
-		<weapon name="ION_CHAINGUN" />
+		<weapon name="TNE_ELECTRON_1" />
 	</weaponList>
 	<droneList drones="15" count="4">
 		<drone name="TNE_DRONE_PRIORITY" />

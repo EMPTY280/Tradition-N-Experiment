@@ -48,6 +48,9 @@
 		<mod-append:blueprint name="TNE_BEAM_SAPPER" rarity="0"/>
 		<mod-append:blueprint name="TNE_JUNK_BAZOOKA" rarity="0"/>
 
+		<mod-append:blueprint name="TNE_ELECTRON_1" rarity="0"/>
+		<mod-append:blueprint name="TNE_ELECTRON_2" rarity="0"/>
+
 		<!--	DRONES		-->
 
 		<mod-append:blueprint name="TNE_TWINDRONE" rarity="0"/>
@@ -105,6 +108,9 @@
 		<mod-append:blueprint name="TNE_BEAM_SAPPER" rarity="0"/>
 		<mod-append:blueprint name="TNE_JUNK_BAZOOKA" rarity="0"/>
 
+		<mod-append:blueprint name="TNE_ELECTRON_1" rarity="0"/>
+		<mod-append:blueprint name="TNE_ELECTRON_2" rarity="0"/>
+		
 		<!--	DRONES		-->
 
 		<mod-append:blueprint name="TNE_TWINDRONE" rarity="0"/>
