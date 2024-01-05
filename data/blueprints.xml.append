@@ -1562,7 +1562,7 @@ POLASTAR 4
 	<power>1</power>
 	<cost>60</cost>
 	<bp>2</bp>
-	<rarity>4</rarity>
+	<rarity>3</rarity>
 	<spin>0</spin>
 	<projectiles>
 		<projectile count="3" fake="false">tne_electron_proj</projectile>
@@ -1608,7 +1608,7 @@ POLASTAR 4
 	<power>2</power>
 	<cost>80</cost>
 	<bp>2</bp>
-	<rarity>5</rarity>
+	<rarity>4</rarity>
 	<spin>0</spin>
 	<projectiles>
 		<projectile count="5" fake="false">tne_electron_proj</projectile>
