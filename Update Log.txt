@@ -172,4 +172,5 @@
 
 [FIX]
 - The Shipwrecker now plays explosion sound on detonate
+- The Shipwrecker now Ignores Hull Damage Resistance Equipments
 - Frost Patrol C's sensor room interior
