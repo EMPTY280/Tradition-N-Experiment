@@ -315,7 +315,7 @@ Stats:
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_NAME">Minor External Repulsion Field Generator</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_SHORT">M. Repel</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by draining its own charge. Minor version is charged very fast, but has lower max charge.
+<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its own charge. Minor version is charged very fast, but has lower max charge.
 
 		Stats:
 		Requires no power

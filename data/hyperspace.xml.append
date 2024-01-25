@@ -849,7 +849,7 @@
 		</rooms>
 		<crewLimit>9</crewLimit>
 		<crew>
-			<rock_crusader room="0" name="heavy"/>  <!--piloting-->
+			<rock_crusader room="0" name="Heavy"/>  <!--piloting-->
 			<engi room="11" name="Engineer"/>  <!--engines-->
 			<human_medic room="8" name="Medic"/>  <!--weapons-->
 		</crew>

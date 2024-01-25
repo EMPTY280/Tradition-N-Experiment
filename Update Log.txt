@@ -174,3 +174,10 @@
 - The Shipwrecker now plays explosion sound on detonate
 - The Shipwrecker now Ignores Hull Damage Resistance Equipments
 - Frost Patrol C's sensor room interior
+
+	[v1.22b] 2024-01-25
+
+[FIX]
+- 'MachineGun' modify description
+- Fixed Minor Repel descroption
+- Fixed lua codes

@@ -273,6 +273,7 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_SYSTEM, function(ship, pr
 end)
 
 script.on_internal_event(Defines.InternalEvents.DAMAGE_BEAM, function(ship, projectile, location, damage, newTile, beamHit)
+	if (ship.weaponSystem == nil) then return end
 	local weapons = ship.weaponSystem.weapons
 	if weapons then
 		local room = Hyperspace.ShipGraph.GetShipInfo(ship.iShipId):GetSelectedRoom(location.x,location.y,true)
