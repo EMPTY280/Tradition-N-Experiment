@@ -181,3 +181,19 @@
 - 'MachineGun' modify description
 - Fixed Minor Repel descroption
 - Fixed lua codes
+
+	[v1.23]
+
+ ! ! !   COMPATIBILITY UPDATE FOR MV 5.4   ! ! !
+
+[ADD]
+- Added map icons
+
+[ADJUST]
+- Priority Drone
+    - Speed increased to 25 (from 18)
+    - Shield Piercing decreased to 0 (from 1)
+
+- Lock-on Drone
+    - Speed decreased to 18 (from 25)
+    - Shield Piercing increased to 1 (from 0)

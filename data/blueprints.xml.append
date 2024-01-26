@@ -1893,7 +1893,7 @@ POLASTAR 4
 	<type>LASER</type>
 	<title>PRIORITY SHOT</title>
 	<damage>1</damage>
-	<sp>1</sp>
+	<sp>0</sp>
 	<shots>1</shots>
 	<fireChance>0</fireChance>
 	<breachChance>1</breachChance>
@@ -1927,7 +1927,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>18</speed>
+	<speed>25</speed>
 	<cost>90</cost>
 	<bp>3</bp>
 	<droneImage>tne_drone_intel</droneImage>
@@ -1986,7 +1986,7 @@ POLASTAR 4
 	<type>LASER</type>
 	<title>LOCK-ON SHOT</title>
 	<damage>1</damage>
-	<sp>0</sp>
+	<sp>1</sp>
 	<shots>0</shots>
 	<fireChance>1</fireChance>
 	<breachChance>0</breachChance>
@@ -2020,7 +2020,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_shield</droneImage>
@@ -2037,7 +2037,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_engine</droneImage>
@@ -2054,7 +2054,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_oxygen</droneImage>
@@ -2071,7 +2071,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_weapon</droneImage>
@@ -2088,7 +2088,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_drone</droneImage>
@@ -2105,7 +2105,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_medbay</droneImage>
@@ -2122,7 +2122,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_pilot</droneImage>
@@ -2139,7 +2139,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_sensor</droneImage>
@@ -2156,7 +2156,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_door</droneImage>
@@ -2173,7 +2173,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_teleporter</droneImage>
@@ -2190,7 +2190,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_cloak</droneImage>
@@ -2207,7 +2207,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_artillery</droneImage>
@@ -2224,7 +2224,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_battery</droneImage>
@@ -2241,7 +2241,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_clone</droneImage>
@@ -2258,7 +2258,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_mind</droneImage>
@@ -2275,7 +2275,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_hacking</droneImage>
@@ -2292,7 +2292,7 @@ POLASTAR 4
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>25</speed>
+	<speed>18</speed>
 	<cost>90</cost>
 	<bp>2</bp>
 	<droneImage>tne_drone_lockon_temporal</droneImage>
@@ -2674,6 +2674,7 @@ POLASTAR 4
 	<crewCount amount="1" class="engi" />
 	<crewCount amount="1" class="crystal" />
 	<aug name="EX_FIRE_EXTINGUISHERS" />
+    <mv-mapImage>tne_map_icon_ice</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_ICE_2" layout="tne_ship_ice_2" img="tne_ship_ice_2">
@@ -2749,6 +2750,7 @@ POLASTAR 4
 	<crewCount amount="1" class="engi_separatist_nano" />
 	<crewCount amount="1" class="lanius" />
 	<aug name="EX_FIRE_EXTINGUISHERS" />
+    <mv-mapImage>tne_map_icon_ice</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_ICE_3" layout="tne_ship_ice_3" img="tne_ship_ice_3">
@@ -2824,6 +2826,7 @@ POLASTAR 4
 	<crewCount amount="1" class="orchid_vampweed" />
 	<crewCount amount="1" class="zoltan" />
 	<aug name="EX_FIRE_EXTINGUISHERS" />
+    <mv-mapImage>tne_map_icon_ice</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_VULTURE" layout="tne_ship_vulture" img="tne_ship_vulture">
@@ -2898,6 +2901,7 @@ POLASTAR 4
 	<crewCount amount="1" class="zoltan" />
 	<crewCount amount="1" class="engi" />
 	<aug name="EXPLOSIVE_REPLICATOR" />
+    <mv-mapImage>tne_map_icon_vulture</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_VULTURE_2" layout="tne_ship_vulture_2" img="tne_ship_vulture_2">
@@ -2974,6 +2978,7 @@ POLASTAR 4
 	<crewCount amount="1" class="zoltan" />
 	<crewCount amount="1" class="engi" />
 	<aug name="EX_AUTO_COOLDOWN" />
+    <mv-mapImage>tne_map_icon_vulture</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_VULTURE_3" layout="tne_ship_vulture_3" img="tne_ship_vulture_3">
@@ -3048,6 +3053,7 @@ POLASTAR 4
 	<crewCount amount="1" class="human_soldier" />
 	<crewCount amount="1" class="human" />
 	<crewCount amount="1" class="engi" />
+    <mv-mapImage>tne_map_icon_vulture</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_SPITFIRE" layout="tne_ship_spitfire" img="tne_ship_spitfire">
@@ -3120,6 +3126,7 @@ POLASTAR 4
 	<crewCount amount="1" class="human" />
 	<crewCount amount="1" class="human" />
 	<crewCount amount="1" class="human" />
+    <mv-mapImage>tne_map_icon_spitfire</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_SPITFIRE_2" layout="tne_ship_spitfire_2" img="tne_ship_spitfire_2">
@@ -3192,6 +3199,7 @@ POLASTAR 4
 	<crewCount amount="1" class="human" />
 	<crewCount amount="1" class="human_medic" />
 	<crewCount amount="1" class="human_soldier" />
+    <mv-mapImage>tne_map_icon_spitfire</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_SPITFIRE_3" layout="tne_ship_spitfire_3" img="tne_ship_spitfire_3">
@@ -3265,6 +3273,7 @@ POLASTAR 4
 	<crewCount amount="1" class="slug" />
 	<crewCount amount="1" class="human" />
 	<aug name="EX_HACKING_STUN" />
+    <mv-mapImage>tne_map_icon_spitfire</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_WANDERER" layout="tne_ship_wanderer" img="tne_ship_wanderer">
@@ -3338,6 +3347,7 @@ POLASTAR 4
 	<crewCount amount="1" class="shell" />
 	<crewCount amount="1" class="shell" />
 	<crewCount amount="1" class="shell" />
+    <mv-mapImage>tne_map_icon_wanderer</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_WANDERER_2" layout="tne_ship_wanderer_2" img="tne_ship_wanderer_2">
@@ -3411,6 +3421,7 @@ POLASTAR 4
 	<crewCount amount="1" class="human_engineer" />
 	<crewCount amount="1" class="human_medic" />
 	<crewCount amount="1" class="human_soldier" />
+    <mv-mapImage>tne_map_icon_wanderer</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_WANDERER_3" layout="tne_ship_wanderer_3" img="tne_ship_wanderer_3">
@@ -3485,6 +3496,7 @@ POLASTAR 4
 	<health amount="30" />
 	<maxPower amount="8" />
 	<aug name="NO_GHOST" />
+    <mv-mapImage>tne_map_icon_wanderer</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_DROP" layout="tne_ship_dropship" img="tne_ship_dropship">
@@ -3560,6 +3572,7 @@ POLASTAR 4
 	<maxPower amount="7" />
 	<aug name="NO_GHOST"/>
 	<aug name="EX_DEFENSE_SCRAMBLER"/>
+    <mv-mapImage>tne_map_icon_drop</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_DROP_2" layout="tne_ship_dropship_2" img="tne_ship_dropship_2">
@@ -3635,6 +3648,7 @@ POLASTAR 4
 	<aug name="NO_GHOST" />
 	<aug name="EX_O2_MASKS" />
 	<aug name="EX_MEDBAY_NANO" />
+    <mv-mapImage>tne_map_icon_drop</mv-mapImage>
 </shipBlueprint>
 <shipBlueprint name="TNE_PLAYER_SHIP_DROP_3" layout="tne_ship_dropship_3" img="tne_ship_dropship_3">
 	<class id="TNE_TEXT_PLAYER_SHIP_DROP_CLASS"></class>
@@ -3709,6 +3723,7 @@ POLASTAR 4
 	<maxPower amount="7" />
 	<aug name="NO_GHOST" />
 	<aug name="EX_DEFENSE_SCRAMBLER" />
+    <mv-mapImage>tne_map_icon_drop</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_TF2" layout="tne_ship_tf2" img="tne_ship_tf2">
@@ -3781,6 +3796,7 @@ POLASTAR 4
 	<health amount="20" />
 	<maxPower amount="8" />
 	<aug name="RECYCLER" />
+    <mv-mapImage>tne_map_icon_tf2</mv-mapImage>
 </shipBlueprint>
 <shipBlueprint name="TNE_PLAYER_SHIP_TF2_2" layout="tne_ship_tf2_2" img="tne_ship_tf2_2">
 	<class id="TNE_TEXT_PLAYER_SHIP_TF2_CLASS"></class>
@@ -3852,6 +3868,7 @@ POLASTAR 4
 	<health amount="30" />
 	<maxPower amount="8" />
 	<aug name="SYSTEM_CASING_NEW" />
+    <mv-mapImage>tne_map_icon_tf2</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_TF2_3" layout="tne_ship_tf2_3" img="tne_ship_tf2_3">
@@ -3924,6 +3941,7 @@ POLASTAR 4
 	<health amount="15" />
 	<maxPower amount="8" />
 	<aug name="TNE_RAZORBACK" />
+    <mv-mapImage>tne_map_icon_tf2</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_MODULAR" layout="tne_ship_modular" img="tne_ship_modular">
@@ -3998,6 +4016,7 @@ POLASTAR 4
 	<crewCount amount="1" class="human" />
 	<crewCount amount="1" class="engi" />
 	<aug name="COMBAT_OXYGEN_JAMMER" />
+    <mv-mapImage>tne_map_icon_modular_1</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_MODULAR_2" layout="tne_ship_modular_2" img="tne_ship_modular_2">
@@ -4075,6 +4094,7 @@ POLASTAR 4
 	<crewCount amount="1" class="human" />
 	<crewCount amount="1" class="engi" />
 	<aug name="DRONE_RECOVERY" />
+    <mv-mapImage>tne_map_icon_modular_2</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_MODULAR_3" layout="tne_ship_modular_3" img="tne_ship_modular_3">
@@ -4152,6 +4172,7 @@ POLASTAR 4
 	<crewCount amount="1" class="human_engineer" />
 	<crewCount amount="1" class="human_engineer" />
 	<aug name="DRONE_RECOVERY" />
+    <mv-mapImage>tne_map_icon_modular_3</mv-mapImage>
 </shipBlueprint>
 
 <shipBlueprint name="TNE_PLAYER_SHIP_STUPIDGHOST" layout="tne_ship_stupidghost" img="tne_ship_stupidghost">
@@ -4227,6 +4248,7 @@ POLASTAR 4
 	<crewCount amount="1" class="phantom" />
 	<crewCount amount="1" class="lanius" />
 	<aug name="CREW_STIMS" />
+    <mv-mapImage>map_icon_mup_stupidghost</mv-mapImage>
 </shipBlueprint>
 
 </FTL>
