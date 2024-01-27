@@ -11,7 +11,9 @@ local function Recharger_func(weapon, exSystem)
 		exSystem.cooldown.first = exSystem.cooldown.first - chargeCount
 		weapon.cooldown.first = weapon.cooldown.first + chargeCount
 		if weapon.cooldown.first == weapon.cooldown.second then	
-			weapon:ForceCoolup()
+			local newChargeLevel = weapon.chargeLevel + 1
+			weapon.chargeLevel = newChargeLevel
+			weapon.cooldown.first = 0
 			return true
 		end
 	end
