@@ -13,7 +13,9 @@ local function Recharger_func(weapon, exSystem)
 		if weapon.cooldown.first == weapon.cooldown.second then	
 			local newChargeLevel = weapon.chargeLevel + 1
 			weapon.chargeLevel = newChargeLevel
-			weapon.cooldown.first = 0
+			if (weapon.blueprint.chargeLevels > 1) then
+				weapon.cooldown.first = 0
+			end
 			return true
 		end
 	end

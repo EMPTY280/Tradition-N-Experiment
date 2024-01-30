@@ -127,7 +127,7 @@ Stats:
 	Shield Piercing: 10
 	Ignores Energy Shields
 
-	Buy/Sell Price: 120~/60~
+	Buy/Sell Price: 100~/50~
 </text>
 
 <text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_NAME">'Sasha'</text>
@@ -148,7 +148,7 @@ Stats:
 
 	Fire Chance: 10%
 
-	Buy/Sell Price: 110~/55~
+	Buy/Sell Price: 80~/40~
 </text>
 
 <text name="TNE_TEXT_WEAPON_LASER_FRONTIER_NAME">'Frontier' Scatter Laser</text>
@@ -222,7 +222,7 @@ Stats:
 
 		Breach Chance: 20 - 80%
 
-		Buy/Sell Price: 110~/55~
+		Buy/Sell Price: 100~/50~
 </text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
@@ -278,7 +278,7 @@ Stats:
 
 		Effect: Transmits charge time
 
-		Buy/Sell Price: 50~/25~
+		Buy/Sell Price: 40~/20~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_NAME">External Recharger MK I</text>
@@ -294,7 +294,7 @@ Stats:
 
 		Effect: Transmits charge time
 
-		Buy/Sell Price: 80~/40~
+		Buy/Sell Price: 70~/35~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_NAME">External Recharger MK II</text>
@@ -310,7 +310,7 @@ Stats:
 
 		Effect: Transmits charge time
 
-		Buy/Sell Price: 110~/55~
+		Buy/Sell Price: 100~/50~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_NAME">Minor External Repulsion Field Generator</text>
@@ -328,7 +328,7 @@ Stats:
 		Effect: Repel hull or system damage
 		Active Cost: 10 seconds per 1 damage (100%)
 
-		Buy/Sell Price: 50~/25~
+		Buy/Sell Price: 40~/20~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_1_NAME">External Repulsion Field Generator MK I</text>
@@ -346,7 +346,7 @@ Stats:
 		Effect: Repel hull or system damage
 		Active Cost: 20 seconds per 1 damage (33.3%)
 
-		Buy/Sell Price: 80~/40~
+		Buy/Sell Price: 70~/35~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_2_NAME">External Repulsion Field Generator MK II</text>
@@ -364,7 +364,7 @@ Stats:
 		Effect: Repel hull or system damage
 		Active Cost: 20 seconds per 1 damage (20%)
 
-		Buy/Sell Price: 120~/60~
+		Buy/Sell Price: 100~/50~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_NAME">Overcharged External Repulsion Field Generator</text>
@@ -382,7 +382,7 @@ Stats:
 		Effect: Repel hull or system damage
 		Active Cost: 20 seconds per 1 damage (20%)
 
-		Buy/Sell Price: 120~/60~
+		Buy/Sell Price: 100~/50~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_TELEPORTER_NAME">External Matter Transporter</text>
@@ -408,13 +408,13 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 <text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_DESC">An assistance equipment mounted on weapon system, removes ion effect on targeted system after short delay. Can (and Must) target your own ship.
 
 		Stats:
-		Required Power: 1
+		Requires no power
 
-		Max Charge: 80 seconds
-		Charge On Jump: 60 seconds (75%)
+		Max Charge: 60 seconds
+		Charge On Jump: 60 seconds (100%)
 
 		Effect: Remove ion effect
-		Active Cost: 80 seconds (100%)
+		Active Cost: 60 seconds (100%)
 
 		Buy/Sell Price: 50~/25~
 </text>

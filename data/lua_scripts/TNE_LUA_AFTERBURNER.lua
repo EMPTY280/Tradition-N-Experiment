@@ -18,9 +18,15 @@ script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projec
 				if (w.cooldown.second > 0) then
 					local bonusCharge = w.cooldown.second * weaponData.chargeBonus;
 					w.cooldown.first = math.min(w.cooldown.first + bonusCharge, w.cooldown.second)
-					if (w.cooldown.first == w.cooldown.second) then
-						w:ForceCoolup()
+					if w.cooldown.first == w.cooldown.second then	
+						local newChargeLevel = w.chargeLevel + 1
+						w.chargeLevel = newChargeLevel
+						if (w.blueprint.chargeLevels > 1) then
+							w.cooldown.first = 0
+						end
+						return true
 					end
+
 				end
 			end
 		end

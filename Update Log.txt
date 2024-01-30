@@ -182,7 +182,7 @@
 - Fixed Minor Repel descroption
 - Fixed lua codes
 
-	[v1.23]
+	[v1.23] 2024-01-26
 
  ! ! !   COMPATIBILITY UPDATE FOR MV 5.4   ! ! !
 
@@ -197,3 +197,81 @@
 - Lock-on Drone
     - Speed decreased to 18 (from 25)
     - Shield Piercing increased to 1 (from 0)
+
+	[v1.23b] 2024-01-27
+
+[FIX]
+- Ex. Rechargers no longer fully charges chargable-weapons. (weapons like Charge Laser)
+
+	[v1.23c] 2024-01-30
+
+[ADJUST]
+- Electron Accelerator MK I
+    - Price decreased to 50 from 60
+- Electron Accelerator MK II
+    - Fire chance decreased to 10% from 20%
+    - Price decreased to 70 from 80
+- Single Shot Cannon
+    - Breach chance increased to 30% from 20%
+- Autocannon MK I
+    - Cooldown decreased to 13 from 14
+    - Breach chance increased to 30% from 20%
+    - Price decreased to 50 from 60
+- Autocannon MK II
+    - Cooldown decreased to 15 from 17
+    - Breach chance increased to 40% from 30%
+    - Price decreased to 75 from 80
+- Autocannon MK III
+    - Cooldown decreased to 18 from 20
+    - Breach chance increased to 50% from 40%
+    - Price decreased to 90 from 100
+- Tachyon Laser
+    - Price decreased to 100 from 120
+- 'Sasha'
+    - Price decreased to 80 from 110
+- 'Frontier' Scatter Laser
+    - Price decreased to 75 from 90
+- Railgun MK I
+    - Price decreased to 40 from 50
+- Railgun MK II
+    - Price decreased to 55 from 65
+- 'Estoc' Pinpoint
+    - Price decreased to 100 from 110
+- Acid Bomb
+    - Required Power decreased to 1 from 2
+    - Cooldown decreased to 14 from 18
+    - Price decreased to 60 from 70
+- 'Atomic Punch'
+    - Cooldown decreased to 10 from 16
+    - Price decreased to 50 from 65
+- Quick Bomb Launcher
+    - Accuracy Bonus increased to +100% from +30%
+- Minor External Recharger
+    - Price decreased to 40 from 50
+- External Recharger MK I
+    - Price decreased to 70 from 80
+- External Recharger MK II
+    - Price decreased to 100 from 110
+- Minor External Repulsion Field Generator
+    - Price decreased to 40 from 50
+- External Repulsion Field Generator MK I
+    - Price decreased to 70 from 80
+- External Repulsion Field Generator MK II
+    - Price decreased to 100 from 120
+- Overcharged External Repulsion Field Generator
+    - Price decreased to 100 from 120
+- External Ion Stabilizer
+    - Required Power decreased to 0 from 1
+    - Cooldown decreased to 60 from 80
+
+- Active Shield Overcharger
+    - Price increased to 70 from 80
+- Vent Drone
+    - Price decreased to 55 from 65
+- The Shipwrecker
+    - Price decreased to 100 from 130
+
+[FIX]
+- Fixed Ex. Rechargers and Afterburner function
+- Fixed weapon sprites having wrong border color
+- Fixed drone sprites having wrong border color
