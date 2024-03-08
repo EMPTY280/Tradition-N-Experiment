@@ -205,8 +205,8 @@ Stats:
 <text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_SHORT">'Ulu'</text>
 <text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_DESC">A Pinpoint weapon that freezes targeted rooms. does lower damage than standard Pinpoints, but pierces 1 shield.</text>
 
-<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_NAME">'Estoc' Pinpoint</text>
-<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_SHORT">'Estoc'</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_NAME">'Katar' Pinpoint</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_SHORT">'Katar'</text>
 <text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_DESC">A capacitor modified, powerful Pinpoint. Does massive damage on full charge, but also can be shot faster to deal weak damage.
 
 		Stats:
@@ -313,8 +313,8 @@ Stats:
 		Buy/Sell Price: 100~/50~
 </text>
 
-<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_NAME">Minor External Repulsion Field Generator</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_SHORT">M. Repel</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_NAME">Minor External Repulsor</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_SHORT">M. Repulsor</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its own charge. Minor version is charged very fast, but has lower max charge.
 
 		Stats:
@@ -331,8 +331,8 @@ Stats:
 		Buy/Sell Price: 40~/20~
 </text>
 
-<text name="TNE_TEXT_WEAPON_EX_REPEL_1_NAME">External Repulsion Field Generator MK I</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_1_SHORT">Repel I</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_1_NAME">External Repulsor MK I</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_1_SHORT">Repulsor I</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_1_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its own charge. 
 
 		Stats:
@@ -349,8 +349,8 @@ Stats:
 		Buy/Sell Price: 70~/35~
 </text>
 
-<text name="TNE_TEXT_WEAPON_EX_REPEL_2_NAME">External Repulsion Field Generator MK II</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_2_SHORT">Repel II</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_2_NAME">External Repulsor MK II</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_2_SHORT">Repulsor II</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_2_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its own charge. It is an improved version that has higher max charge.
 
 		Stats:
@@ -367,8 +367,8 @@ Stats:
 		Buy/Sell Price: 100~/50~
 </text>
 
-<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_NAME">Overcharged External Repulsion Field Generator</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_SHORT">Over. Repel</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_NAME">Overcharged External Repulsor</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_SHORT">Over. Repulsor</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its own charge. It is an modified version that is fully charged on jump.
 
 		Stats:

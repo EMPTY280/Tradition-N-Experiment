@@ -1,3 +1,5 @@
+<version>^1.10.0</version>
+
 <FTL>
 
 <!--
@@ -15,6 +17,8 @@
 <mod:findLike type="scripts">
     <mod-append:script>data/lua_scripts/TNE_LUA_UTILITY.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_CHAINSTEP.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_PRE_IGNITE.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_RENDERBOX.lua</mod-append:script>
 	
     <mod-append:script>data/lua_scripts/TNE_LUA_TACHYON.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_SPUR.lua</mod-append:script>

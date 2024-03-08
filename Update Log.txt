@@ -275,3 +275,23 @@
 - Fixed Ex. Rechargers and Afterburner function
 - Fixed weapon sprites having wrong border color
 - Fixed drone sprites having wrong border color
+
+	[v1.23d] 2024-03-09
+
+[ADJUST]
+- Added custom chain state text to some weapons
+- External Repulsion Field Generators
+    - Renamed to External Repulsor
+- Acid Bomb
+    - DoT increased to 4HP/sec (from 2HP/sec)
+    - Cooldown Decreased to 13 from 14
+- Quick Bomb Launcher
+    - Price decreased to 90 from 100
+- 'Erebus' Missiles
+    - Removed Hullbust effect
+- 'Estoc' Pinpoint
+    - Renamed to 'Katar'
+
+[FIX]
+- Fixed some xml tags
+- Fixed External Matter Transporter's target check

@@ -319,8 +319,12 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(ship, 
 		local crews = playerShip.vCrewList
 		for c in vter(crews) do
 			local extend = Hyperspace.Get_CrewMember_Extend(c)
-			local isInWeaponSys = (c.iRoomId == weaponSysId)
+
+			local isInWeaponSys = c:InsideRoom(weaponSysId)
+
 			local canTeleport = (c.iShipId == 0 and c.bMindControlled == false) or (c.iShipId ~= 0 and c.bMindControlled)
+			canTeleport = canTeleport and c:CanTeleport()
+
 			local isCrew = c:IsCrew()
 			if (isInWeaponSys) and (c.bActiveManning == false) and canTeleport and isCrew then
 				extend:InitiateTeleport(ship.iShipId, targetRoomId, 0)

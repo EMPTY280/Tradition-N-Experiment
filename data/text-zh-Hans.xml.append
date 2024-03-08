@@ -413,8 +413,8 @@
 <text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_SHORT" language="zh-Hans">'Ulu'</text>
 <text name="TNE_TEXT_WEAPON_FOCUS_LOCKDOWN_DESC" language="zh-Hans">피격된 선실을 냉동시켜 봉쇄하는 핀포인트 무기입니다. 표준 핀포인트보다 공격력이 낮은 대신 방어막을 한 장 관통합니다.</text>
 
-<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_NAME" language="zh-Hans">'에스터크' 핀포인트</text>
-<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_SHORT" language="zh-Hans">'Estoc'</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_NAME" language="zh-Hans">'카타르' 핀포인트</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_SHORT" language="zh-Hans">'Katar'</text>
 <text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_DESC" language="zh-Hans">축전기 개조가 적용된 강력한 핀포인트입니다. 충분히 충전된다면 막강한 피해를 가할 수 있으며, 낮은 피해로 빠르게 발사할 수도 있습니다.
 
 		능력치:
@@ -523,7 +523,7 @@
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_NAME" language="zh-Hans">소형 외장 반발장 생성기</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_SHORT" language="zh-Hans">M. Repel</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_SHORT" language="zh-Hans">M. Repulsor</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 함체 또는 시스템 피해를 받을 때 충전량을 소비하여 방어합니다. 소형 버전은 매우 빠르게 충전되지만, 최대 방어력이 낮습니다.
 
 		능력치:
@@ -541,7 +541,7 @@
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_1_NAME" language="zh-Hans">외장 반발장 생성기 마크 I</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_1_SHORT" language="zh-Hans">Repel I</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_1_SHORT" language="zh-Hans">Repulsor I</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_1_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 함체 또는 시스템 피해를 받을 때 충전량을 소비하여 방어합니다. 
 
 		능력치:
@@ -559,7 +559,7 @@
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_2_NAME" language="zh-Hans">외장 반발장 생성기 마크 II</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_2_SHORT" language="zh-Hans">Repel II</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_2_SHORT" language="zh-Hans">Repulsor II</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_2_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 함체 또는 시스템 피해를 받을 때 충전량을 소비하여 방어합니다. 최대 방어력이 강화된 개선 버전입니다.
 
 		능력치:
@@ -577,7 +577,7 @@
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_NAME" language="zh-Hans">과충전된 외장 반발장 생성기</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_SHORT" language="zh-Hans">Over. Repel</text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_SHORT" language="zh-Hans">Over. Repulsor</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_DESC" language="zh-Hans">무기 시스템에 장착하는 보조 장비로, 함체 또는 시스템 피해를 받을 때 충전량을 소비하여 방어합니다. 도약 즉시 완충되는 개조된 장비입니다.
 
 		능력치:
@@ -654,7 +654,7 @@
 
 주의: 시스템의 이온 후유증은 작동이 종료된 후 발생하므로, 완전히 작동이 끝난 후 해제하십시오.</text>
 
-<text name="tne_tip_acid" language="zh-Hans">팁: 산성 무기는 피격 시스템을 천천히 파괴하며, 완파된 시스템 또는 빈 선실에는 균열을 일으킵니다. 또한 선실 내의 선원에게 초당 2의 피해를 가하며 수리 속도를 감소시킵니다.</text>
+<text name="tne_tip_acid" language="zh-Hans">팁: 산성 무기는 피격 시스템을 천천히 파괴하며, 완파된 시스템 또는 빈 선실에는 균열을 일으킵니다. 또한 선실 내의 선원에게 초당 4의 피해를 가하며 수리 속도를 감소시킵니다.</text>
 <text name="erosion_chance" language="zh-Hans">부식 확률: \1%</text>  <!-- \1: chance, \2 is low/medium/high -->
 <text name="erosion_effect" language="zh-Hans">부식 피해: \1 (\2초)
 부식 속도: \3</text>  <!-- \1: total damage, \2: duration, \3: damage rate -->

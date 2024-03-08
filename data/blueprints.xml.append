@@ -993,7 +993,7 @@ POLASTAR 4
 	<desc id="TNE_TEXT_MISSILES_BREACH_DESC"></desc>
 	<tooltip>...</tooltip>
 	<damage>3</damage>
-    <hullBust>1</hullBust>
+    <hullBust>0</hullBust>
 	<accuracyMod>10</accuracyMod>
 	<missiles>1</missiles>
 	<speed>50</speed>
@@ -1240,7 +1240,7 @@ POLASTAR 4
 			<priority>0</priority>
 			<droneTarget>CREW</droneTarget>
 			<roomAnim renderLayer="3">
-				<anim animType="default" animBorder="2">nothing</roomAnim>
+				<anim animType="default" animBorder="2">nothing</anim>
 				<tileAnim>tne_dark_effect</tileAnim> 
             </roomAnim>
 		</statBoost>
@@ -1332,7 +1332,7 @@ POLASTAR 4
 	<sp>0</sp>
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
-	<cooldown>14</cooldown>
+	<cooldown>13</cooldown>
 	<power>1</power>
 	<roomStatBoostChance>10</roomStatBoostChance>
 	<roomStatBoosts>
@@ -1340,14 +1340,14 @@ POLASTAR 4
 			<duration>25</duration>
 			<maxStacks>1</maxStacks>
 			<boostType>FLAT</boostType>
-			<amount>-2</amount>
+			<amount>-4</amount>
 			<affectsSelf>true</affectsSelf>
 			<shipTarget>ALL</shipTarget>
 			<crewTarget>ALL</crewTarget>
 			<droneTarget>ALL</droneTarget>
 			<priority>0</priority>
 			<roomAnim renderLayer="0">
-				<anim animType="default" animBorder="0">nothing</roomAnim>
+				<anim animType="default" animBorder="0">nothing</anim>
 				<tileAnim>tne_acid_floor</tileAnim> 
                 		</roomAnim>
 				<boostAnim>tne_acid_debuff</boostAnim>
@@ -1483,7 +1483,7 @@ POLASTAR 4
 		<count>4</count>
 	</boost>
 	<power>0</power>
-	<cost>100</cost>
+	<cost>90</cost>
 	<bp>4</bp>
 	<rarity>5</rarity>
 	<image>tne_bomb_quick</image>
