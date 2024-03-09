@@ -2,8 +2,8 @@
 An add-on for FTL: Multiverse.  
 FTL: Multiverse를 위한 애드온입니다.  
 
-Requires Hyperspace v1.8↑  
-하이퍼스페이스 v1.8 버전 이상이 필요합니다.
+Requires Hyperspace v1.10↑  
+하이퍼스페이스 v1.10 버전 이상이 필요합니다.
 
 Languages :  English / Korean  
 언어 : 영어 / 한국어  
