@@ -295,7 +295,7 @@
 	방화 확률: 10 - 30%
 	균열 발생 확률: 30 - 50%
 
-	구매/판매 가격: 110~/55~
+	기본 가격: 110~
 </text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
@@ -324,7 +324,7 @@
 
 	능력치:
 	필요 전력량: 3
-	충전 시간: 17초
+	충전 시간: 19초
 	명중률 보너스: +100%
 
 	발사체 수: 1
@@ -335,7 +335,7 @@
 	방어막 관통도: 10
 	에너지 방어막을 무시함
 
-	구매/판매 가격: 100~/50~
+	기본 가격: 100~
 </text>
 
 <text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_NAME" language="zh-Hans">'사샤'</text>
@@ -356,7 +356,7 @@
 
 	방화 확률: 10%
 
-	구매/판매 가격: 80~/40~
+	기본 가격: 80~
 </text>
 
 <text name="TNE_TEXT_WEAPON_LASER_FRONTIER_NAME" language="zh-Hans">'개척자' 산발형 레이저</text>
@@ -430,7 +430,7 @@
 
 		균열 발생 확률: 20 - 80%
 
-		구매/판매 가격: 100~/50~
+		기본 가격: 100~
 </text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
@@ -453,6 +453,130 @@
 <text name="TNE_TEXT_WEAPON_BOMB_QUICK_NAME" language="zh-Hans">신속 폭탄 발사기</text>
 <text name="TNE_TEXT_WEAPON_BOMB_QUICK_SHORT" language="zh-Hans">Quick B.</text>
 <text name="TNE_TEXT_WEAPON_BOMB_QUICK_DESC" language="zh-Hans">4번 연속으로 발사할 수 있는 선제 폭탄 발사기입니다. 당신의 함선을 목표로 삼을 수 있습니다.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ GRENADE WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_GRENADE_1_NAME" language="zh-Hans">유탄 발사기 마크 I</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_1_SHORT" language="zh-Hans">Grenade I</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_1_DESC" language="zh-Hans">유탄 발사기는 충돌 시 파편을 방사하여 주변 선실에 추가 피해를 가합니다.
+
+		능력치:
+		필요 전력량: 1
+		충전 시간: 14초
+		미사일 소모: 1
+		명중률 보너스: +10% / +100%
+
+		파편 산발 범위: 75
+		발사체/파편 수: 1 / 3
+		
+		기본 선체 피해량: 1 / 0
+		시스템 피해: 1 / 1
+		선원 피해: 15 / 15
+		방어막 관통도: 10
+		
+		균열 발생 확률: 30% / 30%
+		기절 확률: 50% (3초) / 0%
+
+		기본 가격: 50~
+</text>
+
+<text name="TNE_TEXT_WEAPON_GRENADE_2_NAME" language="zh-Hans">유탄 발사기 마크 II</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_2_SHORT" language="zh-Hans">Grenade II</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_2_DESC" language="zh-Hans">유탄 발사기는 충돌 시 파편을 방사하여 주변 선실에 추가 피해를 가합니다.
+
+		능력치:
+		필요 전력량: 2
+		충전 시간: 16.5초
+		미사일 소모: 1
+		명중률 보너스: +10% / +100%
+
+		파편 산발 범위: 90
+		발사체/파편 수: 1 / 5
+		
+		기본 선체 피해량: 1 / 0
+		시스템 피해: 1 / 1
+		선원 피해: 30 / 15
+		방어막 관통도: 10
+		
+		균열 발생 확률: 40% / 30%
+		기절 확률: 50% (3초) / 0%
+
+		기본 가격: 60~
+</text>
+
+<text name="TNE_TEXT_WEAPON_GRENADE_FIRE_NAME" language="zh-Hans">소이 유탄</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_FIRE_SHORT" language="zh-Hans">Fire G.</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_FIRE_DESC" language="zh-Hans">화재를 일으키는 파편을 넓은 범위에 방사하는 유탄 발사기입니다.
+
+		능력치:
+		필요 전력량: 2
+		충전 시간: 19초
+		미사일 소모: 1
+		명중률 보너스: +10% / +100%
+
+		파편 산발 범위: 105
+		발사체/파편 수: 1 / 3
+		
+		기본 선체 피해량: 1 / 0
+		시스템 피해: 1 / 0
+		선원 피해: 15 / 15
+		방어막 관통도: 10
+		
+		화재 확률: 100% / 100%
+		기절 확률: 50% (3초) / 0%
+
+		기본 가격: 70~
+</text>
+
+<text name="TNE_TEXT_WEAPON_GRENADE_HULL_NAME" language="zh-Hans">함체 파괴 유탄</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_HULL_SHORT" language="zh-Hans">Anti-Hull G.</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_HULL_DESC" language="zh-Hans">이 유탄에서 방사된 파편은 균열을 발생시키는 동시에 함체에도 피해를 입힙니다.
+
+		능력치:
+		필요 전력량: 2
+		충전 시간: 20초
+		미사일 소모: 1
+		명중률 보너스: +10% / +100%
+
+		파편 산발 범위: 90
+		발사체/파편 수: 1 / 3
+		
+		기본 선체 피해량: 1 / 1
+		시스템 피해: 1 / 1
+		선원 피해: 30 / 15
+		방어막 관통도: 10
+		
+		균열 발생 확률: 100% / 100%
+		기절 확률: 50% (3초) / 0%
+
+		기본 가격: 70~
+</text>
+
+<text name="TNE_TEXT_WEAPON_GRENADE_3_NAME" language="zh-Hans">유탄 기관포</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_3_SHORT" language="zh-Hans">Automatic G.</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_3_DESC" language="zh-Hans">매우 많은 수의 파편을 흩뿌리는 유탄 3발을 점사하는 강력한 유탄발사기입니다.
+
+		능력치:
+		필요 전력량: 4
+		충전 시간: 26초
+		미사일 소모: 1
+		명중률 보너스: +10% / +100%
+
+		파편 산발 범위: 125
+		발사체/파편 수: 3 / 6
+		
+		기본 선체 피해량: 1 / 0
+		시스템 피해: 1 / 1
+		선원 피해: 15 / 15
+		방어막 관통도: 10
+		
+		균열 발생 확률: 20% / 30%
+		기절 확률: 50% (3초) / 0%
+
+		기본 가격: 105~
+</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ PARTICLE WEAPONS ★★★		-->
@@ -487,7 +611,7 @@
 
 		효과: 충전량 이전
 
-		구매/판매 가격: 40~/20~
+		기본 가격: 40~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_NAME" language="zh-Hans">외장 재충전기 마크 I</text>
@@ -503,7 +627,7 @@
 
 		효과: 충전량 이전
 
-		구매/판매 가격: 70~/35~
+		기본 가격: 70~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_NAME" language="zh-Hans">외장 재충전기 마크 II</text>
@@ -519,7 +643,7 @@
 
 		효과: 충전량 이전
 
-		구매/판매 가격: 100~/50~
+		기본 가격: 100~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_NAME" language="zh-Hans">소형 외장 반발장 생성기</text>
@@ -537,7 +661,7 @@
 		효과: 함체 또는 시스템 피해 방어
 		효과 비용: 피해 1당 10초 (100%)
 
-		구매/판매 가격: 40~/20~
+		기본 가격: 40~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_1_NAME" language="zh-Hans">외장 반발장 생성기 마크 I</text>
@@ -555,7 +679,7 @@
 		효과: 함체 또는 시스템 피해 방어
 		효과 비용: 피해 1당 20초 (33.3%)
 
-		구매/판매 가격: 70~/35~
+		기본 가격: 70~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_2_NAME" language="zh-Hans">외장 반발장 생성기 마크 II</text>
@@ -573,7 +697,7 @@
 		효과: 함체 또는 시스템 피해 방어
 		효과 비용: 피해 1당 20초 (20%)
 
-		구매/판매 가격: 100~/50~
+		기본 가격: 100~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_NAME" language="zh-Hans">과충전된 외장 반발장 생성기</text>
@@ -591,7 +715,7 @@
 		효과: 함체 또는 시스템 피해 방어
 		효과 비용: 피해 1당 20초 (20%)
 
-		구매/판매 가격: 100~/50~
+		기본 가격: 100~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_TELEPORTER_NAME" language="zh-Hans">외장 물질 전송기</text>
@@ -609,7 +733,7 @@
 		효과: 선원 텔레포트
 		효과 비용: 20초 (100%)
 
-		구매/판매 가격: 100~/50~
+		기본 가격: 100~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_NAME" language="zh-Hans">외장 이온 안정기</text>
@@ -625,7 +749,7 @@
 		효과: 이온 후유증 제거
 		효과 비용: 60초 (100%)
 
-		구매/판매 가격: 50~/25~
+		기본 가격: 50~
 </text>
 
 <!--
@@ -658,6 +782,8 @@
 <text name="erosion_chance" language="zh-Hans">부식 확률: \1%</text>  <!-- \1: chance, \2 is low/medium/high -->
 <text name="erosion_effect" language="zh-Hans">부식 피해: \1 (\2초)
 부식 속도: \3</text>  <!-- \1: total damage, \2: duration, \3: damage rate -->
+
+<text name="tne_tip_grenade" language="zh-Hans">팁: 유탄 발사기는 충돌 시 파편을 방사하여 주변 선실에 추가 피해를 가합니다. 발사 범위를 지녔지만 유탄 자체는 항상 조준 지점 중심을 향해 발사됩니다.</text>
 
 <text name="tne_tip_evo" language="zh-Hans">팁: 성장형 무기는 다음 섹터로 넘어갈 때마다 에너지를 충전하며, 에너지가 가득 찼을 때 창고 메뉴에서 업그레이드할 수 있습니다.</text>
 

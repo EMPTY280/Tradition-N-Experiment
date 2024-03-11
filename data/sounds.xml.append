@@ -32,6 +32,12 @@
 <tne_sound_acid_bomb volume="6">tne_sound_acid_bomb.ogg</tne_sound_acid_bomb>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ GRENADE WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<tne_sound_grenade volume="3">tne_sound_grenade.wav</tne_sound_grenade>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ MISC WEAPONS ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 

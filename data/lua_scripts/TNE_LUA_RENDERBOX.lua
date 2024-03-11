@@ -11,6 +11,7 @@ renderboxTextTable["TNE_EX_REPEL_OVER"] = 1
 
 renderboxTextTable["TNE_LASER_SASHA"] = 2 --"Shots"
 
+renderboxTextTable["TNE_LASER_FRONTIER"] = 3 --"Charged"
 
 local RechargerText = { }
 RechargerText[""] = { s1 = "Charging", s2 = "Ready" }
@@ -23,6 +24,10 @@ RepulsorText["zh-Hans"] = " 저항"
 local ShotsText = { }
 ShotsText[""] = "Shots +"
 ShotsText["zh-Hans"] = "발사체 +"
+
+local CritText = { }
+CritText[""] = "Crit-Charged"
+CritText["zh-Hans"] = "치명타 충전됨"
 
 script.on_internal_event(Defines.InternalEvents.WEAPON_RENDERBOX, function(weapon, cooldown, maxCooldown, firstLine, secondLine)
 
@@ -42,6 +47,12 @@ script.on_internal_event(Defines.InternalEvents.WEAPON_RENDERBOX, function(weapo
 		secondLine = string.format("%d", weapon.boostLevel) .. RepulsorText[language]
 	elseif (data == 2) then
 		secondLine = ShotsText[language] .. string.format("%d", weapon.boostLevel)
+	elseif (data == 3) then
+		if (weapon.boostLevel == 0) then
+			secondLine = ""
+		else
+			secondLine = CritText[language]
+		end
 	end
 
 	return Defines.Chain.CONTINUE, firstLine, secondLine

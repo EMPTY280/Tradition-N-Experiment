@@ -284,7 +284,7 @@
     - Renamed to External Repulsor
 - Acid Bomb
     - DoT increased to 4HP/sec (from 2HP/sec)
-    - Cooldown Decreased to 13 from 14
+    - Cooldown decreased to 13 from 14
 - Quick Bomb Launcher
     - Price decreased to 90 from 100
 - 'Erebus' Missiles
@@ -295,3 +295,27 @@
 [FIX]
 - Fixed some xml tags
 - Fixed External Matter Transporter's target check
+
+	[v1.24]
+
+[ADD]
+- Added Grenade Launchers
+    - Grenade Launcher MK I
+    - Grenade Launcher MK II
+    - Fire Grenade
+    - Anti-Hull Grenade
+    - Automatic Grenade Launcher
+
+[ADJUST]
+- Electron Accelerators
+    - Accuracy bonus decreased to 0% from 10%
+    - Fire Chance decreased to 0% from 20%/10%
+- Tachyon Laser
+    - Cooldown increased to 19 from 17
+- Modular Cruiser C
+    - Now starts with Cloaking installed
+
+[FIX]
+- 'Frontier' Scatter Laser
+    - Added missing chain state text
+- Changed "Buy/Sell Price" text for some weapons

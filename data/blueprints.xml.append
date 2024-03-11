@@ -713,7 +713,7 @@ POLASTAR 4
 	<sp>10</sp>
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
-	<cooldown>17</cooldown>
+	<cooldown>19</cooldown>
 	<power>3</power>
 	<cost>100</cost>
 	<bp>7</bp>
@@ -1499,6 +1499,336 @@ POLASTAR 4
 </weaponBlueprint>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ GRENADE WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<weaponBlueprint name="TNE_GRENADE_SUB">
+	<type>LASER</type>
+	<title></title>
+	<short></short>
+	<desc></desc>
+	<tooltip>...</tooltip>
+	<damage>0</damage>
+	<accuracyMod>100</accuracyMod>
+	<sysDamage>1</sysDamage>
+	<persDamage>1</persDamage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>3</breachChance>
+	<cooldown>-1</cooldown>
+	<power>0</power>
+	<cost>0</cost>
+	<bp>7</bp>
+	<speed>25</speed>
+	<spin>720</spin>
+	<rarity>0</rarity>
+	<image>debris_small</image>
+	<launchSounds></launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>tne_grenade_1</weaponArt>
+	<iconImage>laser</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="TNE_GRENADE_1">
+	<type>MISSILES</type>
+	<tip>tne_tip_grenade</tip>
+	<title id="TNE_TEXT_WEAPON_GRENADE_1_NAME"></title>
+	<short id="TNE_TEXT_WEAPON_GRENADE_1_SHORT"></short>
+	<desc></desc>
+	<descriptionOverride id="TNE_TEXT_WEAPON_GRENADE_1_DESC"></descriptionOverride>
+	<tooltip>...</tooltip>
+	<damage>1</damage>
+	<accuracyMod>10</accuracyMod>
+	<missiles>1</missiles>
+	<radius>75</radius>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+	<breachChance>3</breachChance>
+	<stunChance>5</stunChance>
+	<cooldown>14</cooldown>
+	<power>1</power>
+	<cost>50</cost>
+	<bp>6</bp>
+	<rarity>3</rarity>
+	<image>tne_grenade_proj</image>
+	<launchSounds>
+		<sound>tne_sound_grenade</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>tne_grenade_1</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="TNE_GRENADE_2">
+	<type>MISSILES</type>
+	<tip>tne_tip_grenade</tip>
+	<title id="TNE_TEXT_WEAPON_GRENADE_2_NAME"></title>
+	<short id="TNE_TEXT_WEAPON_GRENADE_2_SHORT"></short>
+	<desc></desc>
+	<descriptionOverride id="TNE_TEXT_WEAPON_GRENADE_2_DESC"></descriptionOverride>
+	<tooltip>...</tooltip>
+	<damage>1</damage>
+	<accuracyMod>10</accuracyMod>
+	<missiles>1</missiles>
+	<radius>90</radius>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+	<breachChance>4</breachChance>
+	<stunChance>5</stunChance>
+	<cooldown>16.5</cooldown>
+	<power>2</power>
+	<cost>60</cost>
+	<bp>6</bp>
+	<rarity>4</rarity>
+	<image>tne_grenade_proj</image>
+	<launchSounds>
+		<sound>tne_sound_grenade</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>tne_grenade_2</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="TNE_GRENADE_SUB_FIRE">
+	<type>LASER</type>
+	<title></title>
+	<short></short>
+	<desc></desc>
+	<tooltip>...</tooltip>
+	<damage>0</damage>
+	<accuracyMod>100</accuracyMod>
+	<sysDamage>0</sysDamage>
+	<persDamage>1</persDamage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>10</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>-1</cooldown>
+	<power>0</power>
+	<cost>0</cost>
+	<bp>7</bp>
+	<speed>25</speed>
+	<spin>720</spin>
+	<rarity>0</rarity>
+	<image>debris_small</image>
+	<launchSounds></launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>tne_grenade_1</weaponArt>
+	<iconImage>laser</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="TNE_GRENADE_FIRE">
+	<type>MISSILES</type>
+	<tip>tne_tip_grenade</tip>
+	<title id="TNE_TEXT_WEAPON_GRENADE_FIRE_NAME"></title>
+	<short id="TNE_TEXT_WEAPON_GRENADE_FIRE_SHORT"></short>
+	<desc></desc>
+	<descriptionOverride id="TNE_TEXT_WEAPON_GRENADE_FIRE_DESC"></descriptionOverride>
+	<tooltip>...</tooltip>
+	<damage>1</damage>
+	<accuracyMod>10</accuracyMod>
+	<missiles>1</missiles>
+	<radius>105</radius>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>10</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>5</stunChance>
+	<cooldown>19</cooldown>
+	<power>2</power>
+	<cost>70</cost>
+	<bp>6</bp>
+	<rarity>4</rarity>
+	<image>tne_grenade_fire_proj</image>
+	<launchSounds>
+		<sound>tne_sound_grenade</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>tne_grenade_fire</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="TNE_GRENADE_SUB_HULL">
+	<type>LASER</type>
+	<title></title>
+	<short></short>
+	<desc></desc>
+	<tooltip>...</tooltip>
+	<damage>1</damage>
+	<accuracyMod>100</accuracyMod>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<cooldown>-1</cooldown>
+	<power>0</power>
+	<cost>0</cost>
+	<bp>7</bp>
+	<speed>25</speed>
+	<spin>720</spin>
+	<rarity>0</rarity>
+	<image>debris_small</image>
+	<launchSounds></launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>tne_grenade_hull</weaponArt>
+	<iconImage>laser</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="TNE_GRENADE_HULL">
+	<type>MISSILES</type>
+	<tip>tne_tip_grenade</tip>
+	<title id="TNE_TEXT_WEAPON_GRENADE_HULL_NAME"></title>
+	<short id="TNE_TEXT_WEAPON_GRENADE_HULL_SHORT"></short>
+	<desc></desc>
+	<descriptionOverride id="TNE_TEXT_WEAPON_GRENADE_HULL_DESC"></descriptionOverride>
+	<tooltip>...</tooltip>
+	<damage>1</damage>
+	<accuracyMod>10</accuracyMod>
+	<missiles>1</missiles>
+	<radius>90</radius>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<stunChance>5</stunChance>
+	<cooldown>20</cooldown>
+	<power>2</power>
+	<cost>70</cost>
+	<bp>6</bp>
+	<rarity>4</rarity>
+	<image>tne_grenade_hull_proj</image>
+	<launchSounds>
+		<sound>tne_sound_grenade</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>tne_grenade_hull</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="TNE_GRENADE_3">
+	<type>MISSILES</type>
+	<tip>tne_tip_grenade</tip>
+	<title id="TNE_TEXT_WEAPON_GRENADE_3_NAME"></title>
+	<short id="TNE_TEXT_WEAPON_GRENADE_3_SHORT"></short>
+	<desc></desc>
+	<descriptionOverride id="TNE_TEXT_WEAPON_GRENADE_3_DESC"></descriptionOverride>
+	<tooltip>...</tooltip>
+	<damage>1</damage>
+	<accuracyMod>10</accuracyMod>
+	<missiles>1</missiles>
+	<radius>125</radius>
+	<shots>3</shots>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<stunChance>5</stunChance>
+	<cooldown>26</cooldown>
+	<power>4</power>
+	<cost>105</cost>
+	<bp>6</bp>
+	<rarity>5</rarity>
+	<image>tne_grenade_proj</image>
+	<launchSounds>
+		<sound>tne_sound_grenade</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>tne_grenade_3</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ PARTICLE WEAPONS ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 
@@ -1553,10 +1883,9 @@ POLASTAR 4
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<radius>35</radius>
-	<accuracyMod>10</accuracyMod>
 	<shots>1</shots>
 	<sp>0</sp>
-	<fireChance>2</fireChance>
+	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
 	<cooldown>13</cooldown>
 	<power>1</power>
@@ -1599,10 +1928,9 @@ POLASTAR 4
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<radius>38</radius>
-	<accuracyMod>10</accuracyMod>
 	<shots>1</shots>
 	<sp>0</sp>
-	<fireChance>1</fireChance>
+	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
 	<cooldown>15</cooldown>
 	<power>2</power>
@@ -4103,7 +4431,7 @@ POLASTAR 4
 	<desc id="TNE_TEXT_PLAYER_SHIP_MODULAR_3_DESC"></desc>
 	<systemList>
 		<battery power="1" max="2" room="0" start="false" img="room_battery_13" />
-		<cloaking power="1" room="11" start="false" img="room_cloaking_3" />
+		<cloaking power="1" room="11" start="true" img="room_cloaking_3" />
 		<clonebay power="1" room="9" start="false">
 			<slot>
 				<number>2</number>

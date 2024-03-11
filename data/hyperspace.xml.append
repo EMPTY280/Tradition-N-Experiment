@@ -36,6 +36,7 @@
     <mod-append:script>data/lua_scripts/TNE_LUA_INTEL_DRONE.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_ACTIVE_DRONE.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_OXYGEN_BURN.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_FRAG.lua</mod-append:script>
 </mod:findLike>
 
 <!--

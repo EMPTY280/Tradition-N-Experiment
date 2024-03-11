@@ -22,3 +22,5 @@ Tachyon Laser
 	https://pixabay.com/ko/sound-effects/mecha-sound-effects-designed-mecha-impact-01-120594/
 'Frontier' Scatter Laser
 	https://www.sounds-resource.com/pc_computer/tf2/sound/18547/
+Grenade Launchers
+	(Extracted from ITB)

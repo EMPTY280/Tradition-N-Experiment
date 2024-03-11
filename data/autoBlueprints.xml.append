@@ -96,6 +96,12 @@
 	<mod-append:name>TNE_JUNK_BAZOOKA</mod-append:name>
 	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
 
+	<mod-append:name>TNE_GRENADE_1</mod-append:name>
+	<mod-append:name>TNE_GRENADE_2</mod-append:name>
+	<mod-append:name>TNE_GRENADE_3</mod-append:name>
+	<mod-append:name>TNE_GRENADE_FIRE</mod-append:name>
+	<mod-append:name>TNE_GRENADE_HULL</mod-append:name>
+
 	<mod-append:name>TNE_BEAM_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_BEAM_PISS</mod-append:name>
 	<mod-append:name>TNE_BEAM_SAPPER</mod-append:name>
@@ -139,6 +145,12 @@
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
 	<mod-append:name>TNE_JUNK_BAZOOKA</mod-append:name>
 	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
+
+	<mod-append:name>TNE_GRENADE_1</mod-append:name>
+	<mod-append:name>TNE_GRENADE_2</mod-append:name>
+	<mod-append:name>TNE_GRENADE_3</mod-append:name>
+	<mod-append:name>TNE_GRENADE_FIRE</mod-append:name>
+	<mod-append:name>TNE_GRENADE_HULL</mod-append:name>
 
 	<mod-append:name>TNE_BEAM_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_BEAM_PISS</mod-append:name>
@@ -184,6 +196,12 @@
 	<name>TNE_JUNK_BAZOOKA</name>
 	<name>TNE_MISSILES_BREACH</name>
 
+	<name>TNE_GRENADE_1</name>
+	<name>TNE_GRENADE_2</name>
+	<name>TNE_GRENADE_3</name>
+	<name>TNE_GRENADE_FIRE</name>
+	<name>TNE_GRENADE_HULL</name>
+
 	<name>TNE_BEAM_LOCKDOWN</name>
 	<name>TNE_BEAM_PISS</name>
 	<name>TNE_BEAM_SAPPER</name>
@@ -224,6 +242,11 @@
 	<mod-append:name>TNE_RAILGUN_1</mod-append:name>
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
 	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
+	<mod-append:name>TNE_GRENADE_1</mod-append:name>
+	<mod-append:name>TNE_GRENADE_2</mod-append:name>
+	<mod-append:name>TNE_GRENADE_3</mod-append:name>
+	<mod-append:name>TNE_GRENADE_FIRE</mod-append:name>
+	<mod-append:name>TNE_GRENADE_HULL</mod-append:name>
 </mod:findName>
 
 
@@ -280,6 +303,8 @@
 	<mod-append:name>TNE_RAILGUN_1</mod-append:name>
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
 	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
+	<mod-append:name>TNE_GRENADE_FIRE</mod-append:name>
+	<mod-append:name>TNE_GRENADE_HULL</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_RUSTY_LASER">
@@ -351,6 +376,11 @@
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
 	<mod-append:name>TNE_JUNK_BAZOOKA</mod-append:name>
 	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
+	<mod-append:name>TNE_GRENADE_1</mod-append:name>
+	<mod-append:name>TNE_GRENADE_2</mod-append:name>
+	<mod-append:name>TNE_GRENADE_3</mod-append:name>
+	<mod-append:name>TNE_GRENADE_FIRE</mod-append:name>
+	<mod-append:name>TNE_GRENADE_HULL</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_MISSILES_DAMAGE">
@@ -358,6 +388,11 @@
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
 	<mod-append:name>TNE_JUNK_BAZOOKA</mod-append:name>
 	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
+	<mod-append:name>TNE_GRENADE_1</mod-append:name>
+	<mod-append:name>TNE_GRENADE_2</mod-append:name>
+	<mod-append:name>TNE_GRENADE_3</mod-append:name>
+	<mod-append:name>TNE_GRENADE_FIRE</mod-append:name>
+	<mod-append:name>TNE_GRENADE_HULL</mod-append:name>
 </mod:findName>
 
 					<!-- BOMBS -->
@@ -420,11 +455,13 @@
 <mod:findName type="blueprintList" name="BLUELIST_FIRE_ALL">
 	<mod-append:name>TNE_SNAKE</mod-append:name>
 	<mod-append:name>TNE_PARTICLE_AFTERBURNER</mod-append:name>
+	<mod-append:name>TNE_GRENADE_FIRE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_WEAPONS_FIRE_ALL">
 	<mod-append:name>TNE_SNAKE</mod-append:name>
 	<mod-append:name>TNE_PARTICLE_AFTERBURNER</mod-append:name>
+	<mod-append:name>TNE_GRENADE_FIRE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_FIRE_NONBALLISTIC">

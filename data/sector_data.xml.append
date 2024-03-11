@@ -21,6 +21,12 @@
 		<mod-append:blueprint name="TNE_RAILGUN_2" rarity="0"/>
 		<mod-append:blueprint name="TNE_MISSILES_BREACH" rarity="0"/>
 
+		<mod-append:blueprint name="TNE_GRENADE_1" rarity="0"/>
+		<mod-append:blueprint name="TNE_GRENADE_2" rarity="0"/>
+		<mod-append:blueprint name="TNE_GRENADE_3" rarity="0"/>
+		<mod-append:blueprint name="TNE_GRENADE_FIRE" rarity="0"/>
+		<mod-append:blueprint name="TNE_GRENADE_HULL" rarity="0"/>
+
 		<mod-append:blueprint name="TNE_BEAM_LOCKDOWN" rarity="0"/>
 
 		<mod-append:blueprint name="TNE_FOCUS_LOCKDOWN" rarity="0"/>
@@ -80,6 +86,12 @@
 		<mod-append:blueprint name="TNE_RAILGUN_1" rarity="0"/>
 		<mod-append:blueprint name="TNE_RAILGUN_2" rarity="0"/>
 		<mod-append:blueprint name="TNE_MISSILES_BREACH" rarity="0"/>
+		
+		<mod-append:blueprint name="TNE_GRENADE_1" rarity="0"/>
+		<mod-append:blueprint name="TNE_GRENADE_2" rarity="0"/>
+		<mod-append:blueprint name="TNE_GRENADE_3" rarity="0"/>
+		<mod-append:blueprint name="TNE_GRENADE_FIRE" rarity="0"/>
+		<mod-append:blueprint name="TNE_GRENADE_HULL" rarity="0"/>
 
 		<mod-append:blueprint name="TNE_BEAM_LOCKDOWN" rarity="0"/>
 

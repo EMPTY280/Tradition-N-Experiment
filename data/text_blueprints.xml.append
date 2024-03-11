@@ -87,7 +87,7 @@ Stats:
 	Fire Chance: 10 - 30%
 	Breach Chance: 30 - 50%
 
-	Buy/Sell Price: 110~/55~
+	Default Price: 110~   -   Selling Price: 55~
 </text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
@@ -116,7 +116,7 @@ Stats:
 
 	Stats:
 	Required Power: 3
-	Charge Time: 17 seconds
+	Charge Time: 19 seconds
 	Accuracy Bonus: +100%
 
 	Shots Per Charge: 1
@@ -127,7 +127,7 @@ Stats:
 	Shield Piercing: 10
 	Ignores Energy Shields
 
-	Buy/Sell Price: 100~/50~
+	Default Price: 100~   -   Selling Price: 50~
 </text>
 
 <text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_NAME">'Sasha'</text>
@@ -148,7 +148,7 @@ Stats:
 
 	Fire Chance: 10%
 
-	Buy/Sell Price: 80~/40~
+	Default Price: 80~   -   Selling Price: 40~
 </text>
 
 <text name="TNE_TEXT_WEAPON_LASER_FRONTIER_NAME">'Frontier' Scatter Laser</text>
@@ -222,7 +222,7 @@ Stats:
 
 		Breach Chance: 20 - 80%
 
-		Buy/Sell Price: 100~/50~
+		Default Price: 100~   -   Selling Price: 50~
 </text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
@@ -244,6 +244,126 @@ Stats:
 <text name="TNE_TEXT_WEAPON_BOMB_QUICK_NAME">Quick Bomb Launcher</text>
 <text name="TNE_TEXT_WEAPON_BOMB_QUICK_SHORT">Quick B.</text>
 <text name="TNE_TEXT_WEAPON_BOMB_QUICK_DESC">A Preemptive Bomb Launcher that can be fired 4 times. Can target your own ship.</text>
+
+<text name="TNE_TEXT_WEAPON_GRENADE_1_NAME">Grenade Launcher MK I</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_1_SHORT">Grenade I</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_1_DESC">Grenade spreads fragments on impact, dealing extra damage to close rooms.
+
+		Stats:
+		Required Power: 1
+		Charge Time: 14 seconds
+		Missile Consumption: 1
+		Accuracy Bonus: +10% / +100%
+
+		Frag Spread Radius: 75
+		Shots/Frags Per Charge: 1 / 3
+		
+		Base Hull Damage: 1 / 0
+		Total System Damage: 1 / 1
+		Total Crew Damage: 15 / 15
+		Shield Piercing: 10
+		
+		Breach Chance: 30% / 30%
+		Stun Chance: 50% (3 seconds long) / 0%
+
+		Default Price: 50~   -   Selling Price: 25~
+</text>
+
+<text name="TNE_TEXT_WEAPON_GRENADE_2_NAME">Grenade Launcher MK II</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_2_SHORT">Grenade II</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_2_DESC">Grenade spreads fragments on impact, dealing extra damage to close rooms.
+
+		Stats:
+		Required Power: 2
+		Charge Time: 16.5 seconds
+		Missile Consumption: 1
+		Accuracy Bonus: +10% / +100%
+
+		Frag Spread Radius: 90
+		Shots/Frags Per Charge: 1 / 5
+		
+		Base Hull Damage: 1 / 0
+		Total System Damage: 1 / 1
+		Total Crew Damage: 30 / 15
+		Shield Piercing: 10
+		
+		Breach Chance: 40% / 30%
+		Stun Chance: 50% (3 seconds long) / 0%
+
+		Default Price: 60~   -   Selling Price: 30~
+</text>
+
+<text name="TNE_TEXT_WEAPON_GRENADE_FIRE_NAME">Fire Grenade</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_FIRE_SHORT">Fire G.</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_FIRE_DESC">This Grenade spreads burning frags over a wide area.
+
+		Stats:
+		Required Power: 2
+		Charge Time: 19 seconds
+		Missile Consumption: 1
+		Accuracy Bonus: +10% / +100%
+
+		Frag Spread Radius: 105
+		Shots/Frags Per Charge: 1 / 3
+		
+		Base Hull Damage: 1 / 0
+		Total System Damage: 1 / 0
+		Total Crew Damage: 15 / 15
+		Shield Piercing: 10
+		
+		Fire Chance: 100% / 100%
+		Stun Chance: 50% (3 seconds long) / 0%
+
+		Default Price: 70~   -   Selling Price: 35~
+</text>
+
+<text name="TNE_TEXT_WEAPON_GRENADE_HULL_NAME">Anti-Hull Grenade</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_HULL_SHORT">Anti-Hull G.</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_HULL_DESC">Fragments from this Grenade punch a breach and damage hull at the same time.
+
+		Stats:
+		Required Power: 2
+		Charge Time: 20 seconds
+		Missile Consumption: 1
+		Accuracy Bonus: +10% / +100%
+
+		Frag Spread Radius: 90
+		Shots/Frags Per Charge: 1 / 3
+		
+		Base Hull Damage: 1 / 1
+		Total System Damage: 1 / 1
+		Total Crew Damage: 30 / 15
+		Shield Piercing: 10
+		
+		Breach Chance: 100% / 100%
+		Stun Chance: 50% (3 seconds long) / 0%
+
+		Default Price: 70~   -   Selling Price: 35~
+</text>
+
+<text name="TNE_TEXT_WEAPON_GRENADE_3_NAME">Automatic Grenade Launcher</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_3_SHORT">Automatic G.</text>
+<text name="TNE_TEXT_WEAPON_GRENADE_3_DESC">This Grenade Launcher fires burst of 3 projectiles that has a lot of fragments to spread.
+
+		Stats:
+		Required Power: 4
+		Charge Time: 26 seconds
+		Missile Consumption: 1
+		Accuracy Bonus: +10% / +100%
+
+		Frag Spread Radius: 125
+		Shots/Frags Per Charge: 3 / 6
+		
+		Base Hull Damage: 1 / 0
+		Total System Damage: 1 / 1
+		Total Crew Damage: 15 / 15
+		Shield Piercing: 10
+		
+		Breach Chance: 20% / 30%
+		Stun Chance: 50% (3 seconds long) / 0%
+
+		Default Price: 105~   -   Selling Price: 52~
+</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ PARTICLE WEAPONS ★★★		-->
@@ -278,7 +398,7 @@ Stats:
 
 		Effect: Transmits charge time
 
-		Buy/Sell Price: 40~/20~
+		Default Price: 40~   -   Selling Price: 20~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_NAME">External Recharger MK I</text>
@@ -294,7 +414,7 @@ Stats:
 
 		Effect: Transmits charge time
 
-		Buy/Sell Price: 70~/35~
+		Default Price: 70~   -   Selling Price: 35~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_NAME">External Recharger MK II</text>
@@ -310,7 +430,7 @@ Stats:
 
 		Effect: Transmits charge time
 
-		Buy/Sell Price: 100~/50~
+		Default Price: 100~   -   Selling Price: 50~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_NAME">Minor External Repulsor</text>
@@ -328,7 +448,7 @@ Stats:
 		Effect: Repel hull or system damage
 		Active Cost: 10 seconds per 1 damage (100%)
 
-		Buy/Sell Price: 40~/20~
+		Default Price: 40~   -   Selling Price: 20~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_1_NAME">External Repulsor MK I</text>
@@ -346,7 +466,7 @@ Stats:
 		Effect: Repel hull or system damage
 		Active Cost: 20 seconds per 1 damage (33.3%)
 
-		Buy/Sell Price: 70~/35~
+		Default Price: 70~   -   Selling Price: 35~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_2_NAME">External Repulsor MK II</text>
@@ -364,7 +484,7 @@ Stats:
 		Effect: Repel hull or system damage
 		Active Cost: 20 seconds per 1 damage (20%)
 
-		Buy/Sell Price: 100~/50~
+		Default Price: 100~   -   Selling Price: 50~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_NAME">Overcharged External Repulsor</text>
@@ -382,7 +502,7 @@ Stats:
 		Effect: Repel hull or system damage
 		Active Cost: 20 seconds per 1 damage (20%)
 
-		Buy/Sell Price: 100~/50~
+		Default Price: 100~   -   Selling Price: 50~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_TELEPORTER_NAME">External Matter Transporter</text>
@@ -400,7 +520,7 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 		Effect: Teleport crew
 		Active Cost: 20 seconds (100%)
 
-		Buy/Sell Price: 100~/50~
+		Default Price: 100~   -   Selling Price: 50~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_NAME">External Ion Stabilizer</text>
@@ -416,7 +536,7 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 		Effect: Remove ion effect
 		Active Cost: 60 seconds (100%)
 
-		Buy/Sell Price: 50~/25~
+		Default Price: 50~   -   Selling Price: 25~
 </text>
 
 <!--
