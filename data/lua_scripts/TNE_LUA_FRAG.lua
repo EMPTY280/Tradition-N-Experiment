@@ -4,6 +4,8 @@ weaponTable["TNE_GRENADE_2"] = { subMunitions = 5, extraProj = "TNE_GRENADE_SUB"
 weaponTable["TNE_GRENADE_FIRE"] = { subMunitions = 3, extraProj = "TNE_GRENADE_SUB_FIRE" }
 weaponTable["TNE_GRENADE_HULL"] = { subMunitions = 3, extraProj = "TNE_GRENADE_SUB_HULL" }
 weaponTable["TNE_GRENADE_3"] = { subMunitions = 6, extraProj = "TNE_GRENADE_SUB" }
+weaponTable["TNE_KERNEL_FRAG"] = { subMunitions = 2, extraProj = "TNE_KERNEL_FRAG_SUB" }
+weaponTable["TNE_KERNEL_FRAG_ELITE"] = { subMunitions = 2, extraProj = "TNE_KERNEL_FRAG_ELITE_SUB" }
 
 script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(ship, projectile, location, damage, shipFriendlyFire)
 	local weaponData = nil
@@ -18,8 +20,8 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(ship, 
     local radius = Hyperspace.Global.GetInstance():GetBlueprints():GetWeaponBlueprint(weaponName).radius
     local extraProjBlueprint = Hyperspace.Global.GetInstance():GetBlueprints():GetWeaponBlueprint(weaponTable[weaponName].extraProj)
 
+    -- REAL FRAGS
     for i = 0, (weaponData.subMunitions - 1) do
-
         local distFromCenter = math.random(0, radius)
         local direction = (math.random() + i) * 2 / weaponData.subMunitions
         direction = direction * math.pi
@@ -31,4 +33,4 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(ship, 
             targetPoint, cs, projectile.heading)
         subMunition.bBroadcastTarget = true
     end
-end) 
+end)

@@ -102,6 +102,9 @@
 	<mod-append:name>TNE_GRENADE_FIRE</mod-append:name>
 	<mod-append:name>TNE_GRENADE_HULL</mod-append:name>
 
+	<mod-append:name>TNE_KERNEL_FRAG</mod-append:name>
+	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
+
 	<mod-append:name>TNE_BEAM_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_BEAM_PISS</mod-append:name>
 	<mod-append:name>TNE_BEAM_SAPPER</mod-append:name>
@@ -152,6 +155,9 @@
 	<mod-append:name>TNE_GRENADE_FIRE</mod-append:name>
 	<mod-append:name>TNE_GRENADE_HULL</mod-append:name>
 
+	<mod-append:name>TNE_KERNEL_FRAG</mod-append:name>
+	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
+
 	<mod-append:name>TNE_BEAM_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_BEAM_PISS</mod-append:name>
 	<mod-append:name>TNE_BEAM_SAPPER</mod-append:name>
@@ -201,6 +207,9 @@
 	<name>TNE_GRENADE_3</name>
 	<name>TNE_GRENADE_FIRE</name>
 	<name>TNE_GRENADE_HULL</name>
+
+	<name>TNE_KERNEL_FRAG</name>
+	<name>TNE_KERNEL_FRAG_ELITE</name>
 
 	<name>TNE_BEAM_LOCKDOWN</name>
 	<name>TNE_BEAM_PISS</name>
@@ -329,6 +338,22 @@
 	<mod-append:name>TNE_EX_ION_STABILIZER</mod-append:name>
 </mod:findName>
 
+<mod:findName type="blueprintList" name="SHOP_ORCHID_ITEM_WEAPONS">
+	<mod-append:name>TNE_KERNEL_FRAG</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ORCHID_ITEM_WEAPONS_KERNEL">
+	<mod-append:name>TNE_KERNEL_FRAG</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_KERNEL_SPECIAL">
+	<mod-append:name>TNE_KERNEL_FRAG</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_KERNEL_ELITE">
+	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
+</mod:findName>
+
 <!--
 ==============================================
 
@@ -350,6 +375,16 @@
 	<mod-append:name>TNE_BEAM_PISS</mod-append:name>
 	<mod-append:name>TNE_BEAM_SAPPER</mod-append:name>
 </blueprintList>
+
+					<!-- GIFT LIST -->
+
+<mod:findName type="blueprintList" name="GIFTLIST_KERNEL">
+	<mod-append:name>TNE_KERNEL_FRAG</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="GIFTLIST_KERNEL_ELITE">
+	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
+</mod:findName>
 
 					<!-- GENERIC -->
 
@@ -381,6 +416,8 @@
 	<mod-append:name>TNE_GRENADE_3</mod-append:name>
 	<mod-append:name>TNE_GRENADE_FIRE</mod-append:name>
 	<mod-append:name>TNE_GRENADE_HULL</mod-append:name>
+	<mod-append:name>TNE_KERNEL_FRAG</mod-append:name>
+	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_MISSILES_DAMAGE">
@@ -393,6 +430,18 @@
 	<mod-append:name>TNE_GRENADE_3</mod-append:name>
 	<mod-append:name>TNE_GRENADE_FIRE</mod-append:name>
 	<mod-append:name>TNE_GRENADE_HULL</mod-append:name>
+	<mod-append:name>TNE_KERNEL_FRAG</mod-append:name>
+	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
+</mod:findName>
+
+					<!-- KERNEL -->
+				
+<mod:findName type="blueprintList" name="LIST_LOOT_ORCHID">
+	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="JUDGELIST_ELITE">
+	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
 </mod:findName>
 
 					<!-- BOMBS -->

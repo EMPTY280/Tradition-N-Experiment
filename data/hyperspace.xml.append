@@ -1179,6 +1179,33 @@
 					<blueprint>TNE_ELECTRON_2</blueprint>
 				</item>
 			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_GRENADE_1</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_GRENADE_2</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_GRENADE_FIRE</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_GRENADE_HULL</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_GRENADE_3</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_KERNEL_FRAG</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_KERNEL_FRAG_ELITE</blueprint>
+				</item>
+			</mod-append:category>
 			<mod-append:category type="DRONES">
 					<item>
 						<blueprint>TNE_TWINDRONE</blueprint>

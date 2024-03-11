@@ -305,6 +305,8 @@
     - Fire Grenade
     - Anti-Hull Grenade
     - Automatic Grenade Launcher
+    - Frag Kernel
+    - Elite Frag Kernel
 
 [ADJUST]
 - Electron Accelerators

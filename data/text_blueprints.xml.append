@@ -251,11 +251,11 @@ Stats:
 
 		Stats:
 		Required Power: 1
-		Charge Time: 14 seconds
+		Charge Time: 13.5 seconds
 		Missile Consumption: 1
 		Accuracy Bonus: +10% / +100%
 
-		Frag Spread Radius: 75
+		Frag Spread Radius: 66
 		Shots/Frags Per Charge: 1 / 3
 		
 		Base Hull Damage: 1 / 0
@@ -275,11 +275,11 @@ Stats:
 
 		Stats:
 		Required Power: 2
-		Charge Time: 16.5 seconds
+		Charge Time: 15 seconds
 		Missile Consumption: 1
 		Accuracy Bonus: +10% / +100%
 
-		Frag Spread Radius: 90
+		Frag Spread Radius: 84
 		Shots/Frags Per Charge: 1 / 5
 		
 		Base Hull Damage: 1 / 0
@@ -299,11 +299,11 @@ Stats:
 
 		Stats:
 		Required Power: 2
-		Charge Time: 19 seconds
+		Charge Time: 18 seconds
 		Missile Consumption: 1
 		Accuracy Bonus: +10% / +100%
 
-		Frag Spread Radius: 105
+		Frag Spread Radius: 108
 		Shots/Frags Per Charge: 1 / 3
 		
 		Base Hull Damage: 1 / 0
@@ -323,11 +323,11 @@ Stats:
 
 		Stats:
 		Required Power: 2
-		Charge Time: 20 seconds
+		Charge Time: 18 seconds
 		Missile Consumption: 1
 		Accuracy Bonus: +10% / +100%
 
-		Frag Spread Radius: 90
+		Frag Spread Radius: 77
 		Shots/Frags Per Charge: 1 / 3
 		
 		Base Hull Damage: 2 / 1
@@ -351,7 +351,7 @@ Stats:
 		Missile Consumption: 1
 		Accuracy Bonus: +10% / +100%
 
-		Frag Spread Radius: 125
+		Frag Spread Radius: 120
 		Shots/Frags Per Charge: 3 / 6
 		
 		Base Hull Damage: 1 / 0
@@ -365,6 +365,59 @@ Stats:
 		Default Price: 105~   -   Selling Price: 52~
 </text>
 
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ KERNEL WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_KERNEL_FRAG_NAME">Frag Kernel</text>
+<text name="TNE_TEXT_WEAPON_KERNEL_FRAG_SHORT">Frag K.</text>
+<text name="TNE_TEXT_WEAPON_KERNEL_FRAG_DESC">This weapon uses seed pods of giant plants from the Orchid home planet as ammunition. Kernels pierce shields, but also have a 35% chance to ignore their ammunition cost.
+
+		Stats:
+		Required Power: 2
+		Charge Time: 18 seconds
+		Missile Consumption: 1
+		Chance for Ammo Replication: 35%
+		Accuracy Bonus: +0% / +100%
+
+		Frag Spread Radius: 84
+		Shots/Frags Per Charge: 2 / 2
+		
+		Base Hull Damage: 1 / 0
+		Total System Damage: 1 / 1
+		Total Crew Damage: 15 / 15
+		Shield Piercing: 10
+		
+		Breach Chance: 50% / 30%
+		Stun Chance: 50% (3 seconds long) / 0%
+
+		Default Price: 60~   -   Selling Price: 30~
+</text>
+
+<text name="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_NAME">Elite Frag Kernel</text>
+<text name="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_SHORT">€ Frag K.</text>
+<text name="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_DESC">This weapon uses seed pods of giant plants from the Orchid home planet as ammunition. Powerful Elite version with a guaranteed stun and higher chance to ignore their ammo cost.
+
+		Stats:
+		Required Power: 2
+		Charge Time: 18 seconds
+		Missile Consumption: 1
+		Chance for Ammo Replication: 50%
+		Accuracy Bonus: +0% / +100%
+
+		Frag Spread Radius: 84
+		Shots/Frags Per Charge: 2 / 2
+		
+		Base Hull Damage: 1 / 0
+		Total System Damage: 1 / 1
+		Total Crew Damage: 15 / 15
+		Shield Piercing: 10
+		
+		Breach Chance: 100% / 100%
+		Stun Chance: 100% (7 seconds long) / 0%
+
+		Default Price: 75~   -   Selling Price: 37~
+</text>
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ PARTICLE WEAPONS ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->

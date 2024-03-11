@@ -6,6 +6,24 @@
 </mod:findLike>
 -->
 
+<mod:findName type="sectorDescription" name="SECTOR_GATHERING">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="TNE_KERNEL_FRAG" rarity="4"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECTOR_GATHERING_UNIQUE">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="TNE_KERNEL_FRAG" rarity="4"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECTOR_PIRATE_UNIQUE">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="TNE_KERNEL_FRAG" rarity="4"/>
+	</mod:findLike>
+</mod:findName>
+
 <mod:findName type="sectorDescription" name="SECRET_ANCIENT">
 	<mod:findLike type="rarityList">
 
