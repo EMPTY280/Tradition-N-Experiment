@@ -1754,7 +1754,7 @@ POLASTAR 4
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_GRENADE_HULL_DESC"></descriptionOverride>
 	<tooltip>...</tooltip>
-	<damage>1</damage>
+	<damage>2</damage>
 	<accuracyMod>10</accuracyMod>
 	<missiles>1</missiles>
 	<radius>90</radius>

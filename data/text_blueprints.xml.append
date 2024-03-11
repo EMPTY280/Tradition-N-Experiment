@@ -284,7 +284,7 @@ Stats:
 		
 		Base Hull Damage: 1 / 0
 		Total System Damage: 1 / 1
-		Total Crew Damage: 30 / 15
+		Total Crew Damage: 15 / 15
 		Shield Piercing: 10
 		
 		Breach Chance: 40% / 30%
@@ -330,8 +330,8 @@ Stats:
 		Frag Spread Radius: 90
 		Shots/Frags Per Charge: 1 / 3
 		
-		Base Hull Damage: 1 / 1
-		Total System Damage: 1 / 1
+		Base Hull Damage: 2 / 1
+		Total System Damage: 2 / 1
 		Total Crew Damage: 30 / 15
 		Shield Piercing: 10
 		
