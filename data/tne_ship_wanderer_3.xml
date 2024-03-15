@@ -12,5 +12,11 @@
 	<mount x="504" y="180" rotate="true" mirror="true" gib="-1" slide="right" />
 	<mount x="504" y="380" rotate="true" mirror="false" gib="-1" slide="right" />
 </weaponMounts>
+<thrusters sync="true">
+    <thruster x="64" y="132">tne_thruster_wanderer</thruster>
+    <thruster x="64" y="373">tne_thruster_wanderer</thruster>
+    <thruster x="324" y="47">tne_thruster_wanderer</thruster>
+    <thruster x="324" y="458">tne_thruster_wanderer</thruster>
+</thrusters>
 <explosion />
 

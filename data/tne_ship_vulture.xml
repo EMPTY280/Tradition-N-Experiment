@@ -12,5 +12,10 @@
 	<mount x="420" y="123" rotate="true" mirror="true" gib="-1" slide="up" />
 	<mount x="420" y="295" rotate="true" mirror="false" gib="-1" slide="down" />
 </weaponMounts>
+<thrusters sync="true">
+    <thruster x="15" y="166">tne_thruster_vulture_mid</thruster>
+    <thruster x="67" y="76">tne_thruster_vulture_upper</thruster>
+    <thruster x="67" y="258">tne_thruster_vulture_lower</thruster>
+</thrusters>
 <explosion />
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
+<img x="-87" y="-38" w="549" h="322" />
+<offsets>
+	<floor x="81" y="32" />
+	<cloak x="0" y="0" />
+</offsets>
+<weaponMounts>
+	<mount x="419" y="21" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="418" y="302" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="463" y="127" rotate="true" mirror="true" gib="-1" slide="right" />
+	<mount x="463" y="198" rotate="true" mirror="false" gib="-1" slide="right" />
+</weaponMounts>
+<thrusters sync="true">
+    <thruster x="15" y="43">tne_thruster_vulture_mid</thruster>
+    <thruster x="15" y="193">tne_thruster_vulture_mid</thruster>
+</thrusters>
+<explosion />
+

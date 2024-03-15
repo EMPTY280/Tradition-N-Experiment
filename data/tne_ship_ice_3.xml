@@ -12,5 +12,9 @@
 	<mount x="358" y="40" rotate="true" mirror="true" gib="-1" slide="up" />
 	<mount x="357" y="284" rotate="true" mirror="false" gib="-1" slide="down" />
 </weaponMounts>
+<thrusters sync="true">
+    <thruster x="34" y="82">tne_thruster_frost_3</thruster>
+    <thruster x="34" y="202">tne_thruster_frost_3</thruster>
+</thrusters>
 <explosion />
 

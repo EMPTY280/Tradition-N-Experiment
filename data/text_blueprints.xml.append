@@ -719,7 +719,7 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 <text name="TNE_TEXT_DRONE_PEACEDRONE_DEFEND_SHORT">Peace [A]</text>
 <text name="TNE_TEXT_DRONE_PEACEDRONE_DEFEND_DESC">[CURRENT MODE: Anti-Personnel] A Drone created by Zoltan Pacifists. It emits particular electromagnetic waves that make every crew in room unable to fight, sabotage, and use abilities. Drones are immune to this effect.
 
--125 HP, 0.4x movement speed
+-125 HP, 0.8x movement speed
 -Cannot fight and sabotage
 -Cannot destroy locked door
 -Neutralizes crews in room for 7 seconds every 10 seconds</text>
@@ -728,7 +728,7 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 <text name="TNE_TEXT_DRONE_PEACEDRONE_BOARDER_SHORT">Peace [B]</text>
 <text name="TNE_TEXT_DRONE_PEACEDRONE_BOARDER_DESC">[CURRENT MODE: Boarding] A Drone created by Zoltan Pacifists. It emits particular electromagnetic waves that make every crew in room unable to fight, sabotage, and use abilities. Drones are immune to this effect.
 
--125 HP, 0.4x movement speed
+-125 HP, 0.8x movement speed
 -Cannot fight and sabotage
 -Cannot destroy locked door
 -Neutralizes crews in room for 7 seconds every 10 seconds</text>
@@ -764,7 +764,7 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 <text name="TNE_TEXT_DRONE_VENTDRONE_DEFEND_SHORT" >Vent [A]</text>
 <text name="TNE_TEXT_DRONE_VENTDRONE_DEFEND_DESC">[CURRENT MODE: Anti-Personnel] This drone is equipped with Shell's gas tech. It absorbs oxygen in located room and then releases toxic gas.
 
--160 HP, 0.6x movement speed
+-160 HP, 0.8x movement speed
 -Cannot fight and sabotage, destroys locked doors at 50% speed.
 -Absorbs oxygen and releases gas to do 3 damage per sec to enemies in room
 -Drones and the following species will be immune to the gas:
@@ -774,7 +774,7 @@ Shells, Lanius, Ghosts, Vampweeds.</text>
 <text name="TNE_TEXT_DRONE_VENTDRONE_BOARDER_SHORT">Vent [B]</text>
 <text name="TNE_TEXT_DRONE_VENTDRONE_BOARDER_DESC">[CURRENT MODE: Boarding] This drone is equipped with Shell's gas tech. It absorbs oxygen in located room and then releases toxic gas.
 
--160 HP, 0.6x movement speed
+-160 HP, 0.8x movement speed
 -Cannot fight and sabotage, destroys locked doors at 50% speed.
 -Absorbs oxygen and releases gas to do 3 damage per sec to enemies in room
 -Drones and the following species will be immune to the gas:
@@ -914,6 +914,16 @@ Shells, Lanius, Ghosts, Vampweeds.</text>
 
 	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_3_NAME">Tetromino</text>
 	<text name="TNE_TEXT_PLAYER_SHIP_MODULAR_3_DESC">As always, patience is needed to deliver a powerful blow.</text>
+
+<text name="TNE_TEXT_PLAYER_SHIP_GRENADIER_CLASS">Grenadier Cruiser</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_GRENADIER_NAME">The Buzzard</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_GRENADIER_DESC">A Federation vessel armed with high potential explosives launchers.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_GRENADIER_2_NAME">Rip and Tear</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_GRENADIER_2_DESC">This ship has great firepower, but lacks of power to supply.</text>
+	
+	<text name="TNE_TEXT_PLAYER_SHIP_GRENADIER_3_NAME">Overgrown</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_GRENADIER_3_DESC">Orchids were impressed by the Grenade Launchers so they modified conventional Kernel weapons.</text>
 
 <text name="TNE_TEXT_PLAYER_SHIP_WRECKED_CLASS">TNE Wrecked Bomber</text>
 	<text name="TNE_TEXT_PLAYER_SHIP_WRECKED_NAME">Flying Waste</text>

@@ -27,3 +27,7 @@
 <roomLayout name="tne_weapons_modular">
 	<computerGlow x="123" y="6" dir="RIGHT" />
 </roomLayout>
+
+<roomLayout name="tne_engines_grenadier">
+	<computerGlow x="40" y="88" dir="DOWN" />
+</roomLayout>

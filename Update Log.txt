@@ -307,6 +307,9 @@
     - Automatic Grenade Launcher
     - Frag Kernel
     - Elite Frag Kernel
+- Added 3 new ships:
+    - Grenadier Cruiser A, B, C
+- Added ship thruster animations
 
 [ADJUST]
 - Electron Accelerators
@@ -314,6 +317,10 @@
     - Fire Chance decreased to 0% from 20%/10%
 - Tachyon Laser
     - Cooldown increased to 19 from 17
+- Peace Drone
+    - Move Speed increased to 0.8x from 0.4x
+- Vent Drone
+    - Move Speed increased to 0.8x from 0.6x
 - Modular Cruiser C
     - Now starts with Cloaking installed
 

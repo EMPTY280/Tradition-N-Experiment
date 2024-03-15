@@ -229,7 +229,7 @@
 		<damageMultiplier>0.0</damageMultiplier>
 		<doorDamageMultiplier>0.0</doorDamageMultiplier>
 		<fireDamageMultiplier>0.25</fireDamageMultiplier>
-		<moveSpeedMultiplier>0.4</moveSpeedMultiplier>
+		<moveSpeedMultiplier>0.8</moveSpeedMultiplier>
 		<stunMultiplier>0.25</stunMultiplier>
 
 		<powerEffect>
@@ -405,7 +405,7 @@
 		<damageMultiplier>1.0</damageMultiplier>
 		<doorDamageMultiplier>0.5</doorDamageMultiplier>
 		<fireDamageMultiplier>0.25</fireDamageMultiplier>
-		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
+		<moveSpeedMultiplier>0.8</moveSpeedMultiplier>
 		<stunMultiplier>0.25</stunMultiplier>
 
 		<animBase>mantis</animBase>
@@ -689,7 +689,7 @@
 		<mod-append:ship>TNE_PLAYER_SHIP_SPITFIRE</mod-append:ship>
 		<mod-append:ship>TNE_PLAYER_SHIP_WANDERER</mod-append:ship>
 
-		<mod-append:empty/>
+		<mod-append:ship>TNE_PLAYER_SHIP_GRENADIER</mod-append:ship>
 		<mod-append:ship>TNE_PLAYER_SHIP_MODULAR</mod-append:ship>
 		<mod-append:ship>TNE_PLAYER_SHIP_TF2</mod-append:ship>
 		<mod-append:ship>TNE_PLAYER_SHIP_DROP</mod-append:ship>
@@ -703,31 +703,16 @@
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_PIRATE</hiddenAug>
 		<crewLimit>8</crewLimit>
-		<rooms>
-			<room id="10">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_ICE_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_PIRATE</hiddenAug>
 		<crewLimit>8</crewLimit>
-		<rooms>
-			<room id="8">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_ICE_3">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_PIRATE</hiddenAug>
 		<crewLimit>8</crewLimit>
-		<rooms>
-			<room id="1">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 	</mod-append:customShip>
 
 	<mod-append:ship name="TNE_PLAYER_SHIP_VULTURE" a="true" b="true" c="true" super="luminal" />
@@ -735,31 +720,16 @@
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_FEDERATION</hiddenAug>
 		<crewLimit>8</crewLimit>
-		<rooms>
-			<room id="14">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_VULTURE_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_FEDERATION</hiddenAug>
 		<crewLimit>8</crewLimit>
-		<rooms>
-			<room id="5">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_VULTURE_3">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_FEDERATION</hiddenAug>
 		<crewLimit>8</crewLimit>
-		<rooms>
-			<room id="8">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 	</mod-append:customShip>
 
 	<mod-append:ship name="TNE_PLAYER_SHIP_SPITFIRE" a="true" b="true" c="true" super="luminal" />
@@ -772,21 +742,11 @@
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_FEDERATION</hiddenAug>
 		<crewLimit>8</crewLimit>
-		<rooms>
-			<room id="6">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_SPITFIRE_3">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_FEDERATION</hiddenAug>
 		<crewLimit>8</crewLimit>
-		<rooms>
-			<room id="7">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 	</mod-append:customShip>
 
 	<mod-append:ship name="TNE_PLAYER_SHIP_WANDERER" a="true" b="true" c="true" super="luminal" />
@@ -799,11 +759,6 @@
 		<hiddenAug>SHIP_CIVILIAN</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>8</crewLimit>
-		<rooms>
-			<room id="17">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_WANDERER_3">
 		<hiddenAug>SHIP_AUTO</hiddenAug>
@@ -820,11 +775,6 @@
 	<mod-append:customShip name="TNE_PLAYER_SHIP_DROP_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_AUTO</hiddenAug>
-		<rooms>
-			<room id="2">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 		<crewLimit>6</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_DROP_3">
@@ -847,11 +797,6 @@
 	<mod-append:customShip name="TNE_PLAYER_SHIP_TF2_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<hiddenAug>SHIP_PIRATE</hiddenAug>
-		<rooms>
-			<room id="15">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 		<crewLimit>9</crewLimit>
 		<crew>
 			<rock_crusader room="0" name="Heavy"/>  <!--piloting-->
@@ -875,11 +820,6 @@
 		<hiddenAug>SHIP_CIVILIAN</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>8</crewLimit>
-		<rooms>
-			<room id="3">
-				<roomAnim renderLayer="2">tele_ico</roomAnim>
-			</room>
-		</rooms>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_MODULAR_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
@@ -889,6 +829,23 @@
 	<mod-append:customShip name="TNE_PLAYER_SHIP_MODULAR_3">
 		<hiddenAug>SHIP_CIVILIAN</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+
+	<mod-append:ship name="TNE_PLAYER_SHIP_GRENADIER" a="true" b="true" c="true" super="luminal" />
+	<mod-append:customShip name="TNE_PLAYER_SHIP_GRENADIER">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_FEDERATION</hiddenAug>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_GRENADIER_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_FEDERATION</hiddenAug>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_GRENADIER_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_ORCHID</hiddenAug>
 		<crewLimit>8</crewLimit>
 	</mod-append:customShip>
 
@@ -946,6 +903,13 @@
 <mod:findWithChildLike type="ships" child-type="ship" reverse="true" start="1" limit="1">
 	<mod:selector name="TNE_PLAYER_SHIP_MODULAR" />
 	<mod:findName type="ship" name="TNE_PLAYER_SHIP_MODULAR">
+		<mod:setAttributes super="luminal" a="true" b="true" c="true" />
+	</mod:findName>
+</mod:findWithChildLike>
+
+<mod:findWithChildLike type="ships" child-type="ship" reverse="true" start="1" limit="1">
+	<mod:selector name="TNE_PLAYER_SHIP_GRENADIER" />
+	<mod:findName type="ship" name="TNE_PLAYER_SHIP_GRENADIER">
 		<mod:setAttributes super="luminal" a="true" b="true" c="true" />
 	</mod:findName>
 </mod:findWithChildLike>

@@ -34,31 +34,21 @@ function PreIgniteEx()
 end
 script.on_internal_event(Defines.InternalEvents.JUMP_ARRIVE, function(ship) PreIgniteEx() end)
 
-script.on_game_event("FUEL_FLEET_DELAY", false, PreIgniteEx)
-script.on_game_event("FUEL_NOTHING", false, PreIgniteEx)
-script.on_game_event("FUEL_FREEMANTIS_CONFUSED", false, PreIgniteEx)
-script.on_game_event("FUEL_TRADER", false, PreIgniteEx)
-script.on_game_event("FUEL_EXPLORE", false, PreIgniteEx)
-script.on_game_event("FUEL_APPROACH", false, PreIgniteEx)
-script.on_game_event("FUEL_OFF_ENGI_DUBIOUS", false, PreIgniteEx)
-script.on_game_event("FUEL_ROCK", false, PreIgniteEx)
-script.on_game_event("NO_FUEL_REFUGEE_FRIENDLY", false, PreIgniteEx)
 
-script.on_game_event("FUEL_NOTHING_DISTRESS", false, PreIgniteEx)
-script.on_game_event("FUEL_SHELL_SCANS", false, PreIgniteEx)
-
-script.on_game_event("FUEL_SELLER_DISTRESS", false, PreIgniteEx)
-script.on_game_event("FUEL_TRADER_DISTRESS", false, PreIgniteEx)
-script.on_game_event("FUEL_ON_SLUG_OVERPRICED", false, PreIgniteEx)
-script.on_game_event("FUEL_ON_SLUG_CHUCKLE", false, PreIgniteEx)
-script.on_game_event("FUEL_ON_MANTIS_ATTACK", false, PreIgniteEx)
-script.on_game_event("FUEL_ON_REBEL_WARNING", false, PreIgniteEx)
-script.on_game_event("FUEL_ON_REBEL_ATTACK", false, PreIgniteEx)
-script.on_game_event("FUEL_ON_DYNASTY", false, PreIgniteEx)
-
-script.on_game_event("NO_FUEL_REFUGEE", false, PreIgniteEx)
+script.on_game_event("NO_FUEL", false, PreIgniteEx)
+script.on_game_event("NO_FUEL_DISTRESS", false, PreIgniteEx)
 
 script.on_game_event("NO_FUEL_FLEET", false, PreIgniteEx)
 script.on_game_event("NO_FUEL_FLEET_DLC", false, PreIgniteEx)
+
+
+script.on_game_event("FLEET_THREAT_VLOW", false, PreIgniteEx)
+script.on_game_event("FLEET_THREAT_LOW", false, PreIgniteEx)
+script.on_game_event("FLEET_THREAT_MLOW", false, PreIgniteEx)
+script.on_game_event("FLEET_THREAT_MEDIUM", false, PreIgniteEx)
+script.on_game_event("FLEET_THREAT_HIGH", false, PreIgniteEx)
+script.on_game_event("FLEET_THREAT_VHIGH", false, PreIgniteEx)
+script.on_game_event("FLEET_THREAT_CRITICAL", false, PreIgniteEx)
+script.on_game_event("FLEET_THREAT_CRITICAL_S8", false, PreIgniteEx)
 
 script.on_game_event("COMBAT_CHECK_FLAGSHIP", false, PreIgniteEx)

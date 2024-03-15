@@ -534,7 +534,7 @@
 	<chargedFrame>8</chargedFrame>
 	<fireFrame>9</fireFrame>
 	<firePoint x="13" y="12"/>
-	<mountPoint x="3" y="29"/>
+	<mountPoint x="5" y="29"/>
 </weaponAnim>
 
 <animSheet name="tne_kernel_frag_elite" w="312" h="45" fw="24" fh="45">weapon_kernel/tne_kernel_frag_elite.png</animSheet>
@@ -544,7 +544,7 @@
 	<chargedFrame>8</chargedFrame>
 	<fireFrame>9</fireFrame>
 	<firePoint x="13" y="12"/>
-	<mountPoint x="3" y="29"/>
+	<mountPoint x="5" y="29"/>
 </weaponAnim>
 
 <animSheet name="tne_kernel_frag_projectile" w="32" h="80" fw="32" fh="80">weapon_kernel/tne_kernel_pod.png</animSheet>
@@ -1389,6 +1389,60 @@
 	<sheet>tne_drone_shipwrecker</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>1</time>
+</anim>
+
+<!--
+=============================================
+=============================================
+=============================================
+
+		SHIP THRUSTERS
+
+=============================================
+=============================================
+=============================================
+-->
+
+<animSheet name="tne_thruster_vulture_mid" w="120" h="86" fw="30" fh="86">thrusters/tne_thruster_vulture_mid.png</animSheet>
+<anim name="tne_thruster_vulture_mid">
+	<sheet>tne_thruster_vulture_mid</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>0.5</time>
+</anim>
+
+<animSheet name="tne_thruster_vulture_upper" w="120" h="84" fw="30" fh="84">thrusters/tne_thruster_vulture_upper.png</animSheet>
+<anim name="tne_thruster_vulture_upper">
+	<sheet>tne_thruster_vulture_upper</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>0.5</time>
+</anim>
+
+<animSheet name="tne_thruster_vulture_lower" w="120" h="84" fw="30" fh="84">thrusters/tne_thruster_vulture_lower.png</animSheet>
+<anim name="tne_thruster_vulture_lower">
+	<sheet>tne_thruster_vulture_lower</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>0.5</time>
+</anim>
+
+<animSheet name="tne_thruster_frost" w="120" h="40" fw="30" fh="40">thrusters/tne_thruster_frost.png</animSheet>
+<anim name="tne_thruster_frost">
+	<sheet>tne_thruster_frost</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>0.5</time>
+</anim>
+
+<animSheet name="tne_thruster_frost_3" w="120" h="40" fw="30" fh="40">thrusters/tne_thruster_frost_3.png</animSheet>
+<anim name="tne_thruster_frost_3">
+	<sheet>tne_thruster_frost_3</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>0.5</time>
+</anim>
+
+<animSheet name="tne_thruster_wanderer" w="176" h="55" fw="44" fh="55">thrusters/tne_thruster_wanderer.png</animSheet>
+<anim name="tne_thruster_wanderer">
+	<sheet>tne_thruster_wanderer</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>0.5</time>
 </anim>
 
 </FTL>
