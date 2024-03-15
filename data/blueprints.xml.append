@@ -1601,7 +1601,7 @@ POLASTAR 4
 	<fireChance>0</fireChance>
 	<breachChance>4</breachChance>
 	<stunChance>5</stunChance>
-	<cooldown>15</cooldown>
+	<cooldown>16</cooldown>
 	<power>2</power>
 	<cost>60</cost>
 	<bp>6</bp>
