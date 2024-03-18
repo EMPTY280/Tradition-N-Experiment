@@ -296,7 +296,7 @@
 - Fixed some xml tags
 - Fixed External Matter Transporter's target check
 
-	[v1.24]
+	[v1.24] 2024-03-16
 
 [ADD]
 - Added Grenade Launchers
@@ -328,3 +328,11 @@
 - 'Frontier' Scatter Laser
     - Added missing chain state text
 - Changed "Buy/Sell Price" text for some weapons
+
+	[v1.24a] 2024-03-18
+
+[ADJUST]
+- Grenade Launchers
+    - Now spread more randomly
+- Anti-Hull Grenade
+    - Cooldown increased to 19 from 19
