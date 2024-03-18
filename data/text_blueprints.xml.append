@@ -323,16 +323,16 @@ Stats:
 
 		Stats:
 		Required Power: 2
-		Charge Time: 18 seconds
+		Charge Time: 19 seconds
 		Missile Consumption: 1
 		Accuracy Bonus: +10% / +100%
 
 		Frag Spread Radius: 77
 		Shots/Frags Per Charge: 1 / 3
 		
-		Base Hull Damage: 2 / 1
-		Total System Damage: 2 / 1
-		Total Crew Damage: 30 / 15
+		Base Hull Damage: 1 / 1
+		Total System Damage: 1 / 1
+		Total Crew Damage: 15 / 15
 		Shield Piercing: 10
 		
 		Breach Chance: 100% / 100%

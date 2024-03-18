@@ -23,7 +23,7 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(ship, 
     -- REAL FRAGS
     for i = 0, (weaponData.subMunitions - 1) do
         local distFromCenter = math.random(0, radius)
-        local direction = (math.random() + i) * 2 / weaponData.subMunitions
+        local direction = math.random() * 2--(math.random() + i) * 2 / weaponData.subMunitions
         direction = direction * math.pi
 
         local targetX = projectile.target.x + math.cos(direction) * distFromCenter
