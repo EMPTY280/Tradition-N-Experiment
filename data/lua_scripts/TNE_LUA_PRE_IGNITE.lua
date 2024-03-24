@@ -23,7 +23,10 @@ function PreIgniteEx()
 			if exSystemPreTable[w.blueprint.name] then
 				if w.powered then
 					local chargeRate = w.cooldown.second / w.baseCooldown
-					w.cooldown.first = exSystemPreTable[w.blueprint.name] * chargeRate
+					local igniteValue = exSystemPreTable[w.blueprint.name] * chargeRate
+					if (w.cooldown.first < igniteValue) then
+						w.cooldown.first = igniteValue
+					end
 				end
 			end
 			if coolupTable[w.blueprint.name] then
@@ -33,22 +36,4 @@ function PreIgniteEx()
 	end
 end
 script.on_internal_event(Defines.InternalEvents.JUMP_ARRIVE, function(ship) PreIgniteEx() end)
-
-
-script.on_game_event("NO_FUEL", false, PreIgniteEx)
-script.on_game_event("NO_FUEL_DISTRESS", false, PreIgniteEx)
-
-script.on_game_event("NO_FUEL_FLEET", false, PreIgniteEx)
-script.on_game_event("NO_FUEL_FLEET_DLC", false, PreIgniteEx)
-
-
-script.on_game_event("FLEET_THREAT_VLOW", false, PreIgniteEx)
-script.on_game_event("FLEET_THREAT_LOW", false, PreIgniteEx)
-script.on_game_event("FLEET_THREAT_MLOW", false, PreIgniteEx)
-script.on_game_event("FLEET_THREAT_MEDIUM", false, PreIgniteEx)
-script.on_game_event("FLEET_THREAT_HIGH", false, PreIgniteEx)
-script.on_game_event("FLEET_THREAT_VHIGH", false, PreIgniteEx)
-script.on_game_event("FLEET_THREAT_CRITICAL", false, PreIgniteEx)
-script.on_game_event("FLEET_THREAT_CRITICAL_S8", false, PreIgniteEx)
-
-script.on_game_event("COMBAT_CHECK_FLAGSHIP", false, PreIgniteEx)
+script.on_internal_event(Defines.InternalEvents.ON_WAIT, function(ship) PreIgniteEx() end)

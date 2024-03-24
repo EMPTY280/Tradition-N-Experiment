@@ -388,7 +388,7 @@ Stats:
 		Total Crew Damage: 15 / 15
 		Shield Piercing: 10
 		
-		Breach Chance: 50% / 30%
+		Breach Chance: 20% / 30%
 		Stun Chance: 50% (3 seconds long) / 0%
 
 		Default Price: 60~   -   Selling Price: 30~
@@ -413,7 +413,7 @@ Stats:
 		Total Crew Damage: 15 / 15
 		Shield Piercing: 10
 		
-		Breach Chance: 100% / 100%
+		Breach Chance: 50% / 50%
 		Stun Chance: 100% (7 seconds long) / 0%
 
 		Default Price: 75~   -   Selling Price: 37~
@@ -440,120 +440,120 @@ Stats:
 
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_NAME">Minor External Recharger</text>
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_SHORT">M. Recharge</text>
-<text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by transmitting its own charge. Minor version is charged very fast, but has lower max charge.
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by transferring its charge. Minor variation is charged very fast, but has lower max charge.
 
 		Stats:
 		Requires no power
 		Can't be shot
 
 		Max Charge: 5 seconds
-		Activate: 3 seconds (60%)
+		Activation Threshold: 3 seconds (60%)
 
-		Effect: Transmits charge time
+		Effect: Transfer charge time
 
 		Default Price: 40~   -   Selling Price: 20~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_NAME">External Recharger MK I</text>
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_SHORT">Recharge I</text>
-<text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by transmitting its own charge. 
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by transferring its charge. 
 
 		Stats:
 		Requires no power
 		Can't be shot
 
 		Max Charge: 10 seconds
-		Activate: 6 seconds (60%)
+		Activation Threshold: 6 seconds (60%)
 
-		Effect: Transmits charge time
+		Effect: Transfer charge time
 
 		Default Price: 70~   -   Selling Price: 35~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_NAME">External Recharger MK II</text>
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_SHORT">Recharge II</text>
-<text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by transmitting its own charge. It is an improved version that has higher max charge.
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by transferring its charge. It is an improved variation that has higher max charge.
 
 		Stats:
 		Required Power: 1
 		Can't be shot
 
 		Max Charge: 16 seconds
-		Activate: 8 seconds (50%)
+		Activation Threshold: 8 seconds (50%)
 
-		Effect: Transmits charge time
+		Effect: Transfer charge time
 
 		Default Price: 100~   -   Selling Price: 50~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_NAME">Minor External Repulsor</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_SHORT">M. Repulsor</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its own charge. Minor version is charged very fast, but has lower max charge.
+<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its charge. Minor variation is charged very fast, but has lower max charge.
 
 		Stats:
 		Requires no power
 		Can't be shot
 
 		Max Charge: 10 seconds
-		Activate: 10 seconds (100%)
+		Activation Threshold: 10 seconds (100%)
 		Charge On Jump: 10 seconds (100%)
 
 		Effect: Repel hull or system damage
-		Active Cost: 10 seconds per 1 damage (100%)
+		Activation Cost: 10 seconds per 1 damage (100%)
 
 		Default Price: 40~   -   Selling Price: 20~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_1_NAME">External Repulsor MK I</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_1_SHORT">Repulsor I</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_1_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its own charge. 
+<text name="TNE_TEXT_WEAPON_EX_REPEL_1_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its charge. 
 
 		Stats:
 		Requires no power
 		Can't be shot
 
 		Max Charge: 60 seconds
-		Activate: 20 seconds (33.3%)
+		Activation Threshold: 20 seconds (33.3%)
 		Charge On Jump: 20 seconds (33.3%)
 
 		Effect: Repel hull or system damage
-		Active Cost: 20 seconds per 1 damage (33.3%)
+		Activation Cost: 20 seconds per 1 damage (33.3%)
 
 		Default Price: 70~   -   Selling Price: 35~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_2_NAME">External Repulsor MK II</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_2_SHORT">Repulsor II</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_2_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its own charge. It is an improved version that has higher max charge.
+<text name="TNE_TEXT_WEAPON_EX_REPEL_2_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its charge. It is an improved variation that has higher max charge.
 
 		Stats:
 		Required Power: 1
 		Can't be shot
 
 		Max Charge: 100 seconds
-		Activate: 20 seconds (20%)
+		Activation Threshold: 20 seconds (20%)
 		Charge On Jump: 40 seconds (40%)
 
 		Effect: Repel hull or system damage
-		Active Cost: 20 seconds per 1 damage (20%)
+		Activation Cost: 20 seconds per 1 damage (20%)
 
 		Default Price: 100~   -   Selling Price: 50~
 </text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_NAME">Overcharged External Repulsor</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_SHORT">Over. Repulsor</text>
-<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its own charge. It is an modified version that is fully charged on jump.
+<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its charge. It is an modified variation that is fully charged on jump.
 
 		Stats:
 		Required Power: 1
 		Can't be shot
 
 		Max Charge: 100 seconds
-		Activate: 20 seconds (20%)
+		Activation Threshold: 20 seconds (20%)
 		Charge On Jump: 100 seconds (100%)
 
 		Effect: Repel hull or system damage
-		Active Cost: 20 seconds per 1 damage (20%)
+		Activation Cost: 20 seconds per 1 damage (20%)
 
 		Default Price: 100~   -   Selling Price: 50~
 </text>
@@ -571,7 +571,7 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 		Charge On Jump: 20 seconds (100%)
 
 		Effect: Teleport crew
-		Active Cost: 20 seconds (100%)
+		Activation Cost: 20 seconds (100%)
 
 		Default Price: 100~   -   Selling Price: 50~
 </text>
@@ -587,7 +587,7 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 		Charge On Jump: 60 seconds (100%)
 
 		Effect: Remove ion effect
-		Active Cost: 60 seconds (100%)
+		Activation Cost: 60 seconds (100%)
 
 		Default Price: 50~   -   Selling Price: 25~
 </text>
@@ -615,55 +615,55 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 	Reload: 1500 MS</text>
 
 <text name="TNE_TEXT_DRONE_LOCKON_SHIELD_NAME">Lock-on Drone [Shields]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_SHIELD_SHORT">LO [Shield]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_SHIELD_SHORT">Lock-on [SHD]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_SHIELD_DESC">[Current Target: Shields] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_ENGINE_NAME">Lock-on Drone [Engines]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_ENGINE_SHORT">LO [Engine]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ENGINE_SHORT">Lock-on [ENG]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_ENGINE_DESC">[Current Target: Engines] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_OXYGEN_NAME">Lock-on Drone [Oxygen]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_OXYGEN_SHORT">LO [Oxygen]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_OXYGEN_SHORT">Lock-on [OXY]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_OXYGEN_DESC">[Current Target: Oxygen] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_WEAPON_NAME">Lock-on Drone [Weapons]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_WEAPON_SHORT">LO [Weapon]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_WEAPON_SHORT">Lock-on [WEP]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_WEAPON_DESC">[Current Target: Weapons] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_DRONE_NAME">Lock-on Drone [Drones]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_DRONE_SHORT">LO [Drone]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DRONE_SHORT">Lock-on [DRN]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_DRONE_DESC">[Current Target: Drones] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_MEDBAY_NAME">Lock-on Drone [Medbay]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_MEDBAY_SHORT">LO [Medbay]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MEDBAY_SHORT">Lock-on [MED]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_MEDBAY_DESC">[Current Target: Medbay] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_PILOT_NAME">Lock-on Drone [Piloting]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_PILOT_SHORT">LO [Pilot]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_PILOT_SHORT">Lock-on [PIL]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_PILOT_DESC">[Current Target: Piloting] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_SENSOR_NAME">Lock-on Drone [Sensor]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_SENSOR_SHORT">LO [Sensor]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_SENSOR_SHORT">Lock-on [SEN]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_SENSOR_DESC">[Current Target: Sensor] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_DOOR_NAME">Lock-on Drone [Door]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_DOOR_SHORT">LO [Door]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_DOOR_SHORT">Lock-on [DOR]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_DOOR_DESC">[Current Target: Door] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_TELEPORTER_NAME">Lock-on Drone [Teleporter]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_TELEPORTER_SHORT">LO [Teleporter]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TELEPORTER_SHORT">Lock-on [TEL]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_TELEPORTER_DESC">[Current Target: Teleporter] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_CLOAK_NAME">Lock-on Drone [Cloaking]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_CLOAK_SHORT">LO [Cloak]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLOAK_SHORT">Lock-on [CLK]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_CLOAK_DESC">[Current Target: Cloaking] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_ARTILLERY_NAME">Lock-on Drone [Artilleries]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_ARTILLERY_SHORT">LO [Artillery]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_ARTILLERY_SHORT">Lock-on [ART]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_ARTILLERY_DESC">[Current Target: Artilleries] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_BATTERY_NAME">Lock-on Drone [Battery]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_BATTERY_SHORT">LO [Battery]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_BATTERY_SHORT">Lock-on [BAT]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_BATTERY_DESC">[Current Target: Battery] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
-<text name="TNE_TEXT_DRONE_LOCKON_CLONE_NAME">Lock-on Drone [Clone]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_CLONE_SHORT">LO [Clonebay]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLONE_NAME">Lock-on Drone [Clonebay]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_CLONE_SHORT">Lock-on [CLN]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_CLONE_DESC">[Current Target: Clone] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
-<text name="TNE_TEXT_DRONE_LOCKON_MIND_NAME">Lock-on Drone [Mind]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_MIND_SHORT">LO [Mind]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_MIND_DESC">[Current Target: Mind] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MIND_NAME">Lock-on Drone [Mind Control]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MIND_SHORT">Lock-on [MC]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_MIND_DESC">[Current Target: Mind Control] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_HACKING_NAME">Lock-on Drone [Hacking]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_HACKING_SHORT">LO [Hacking]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_HACKING_SHORT">Lock-on [HAC]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_HACKING_DESC">[Current Target: Hacking] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 <text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_NAME">Lock-on Drone [Temporal]</text>
-<text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_SHORT">LO [Temporal]</text>
+<text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_SHORT">Lock-on [TMP]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_DESC">[Current Target: Temporal] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
 
 <!--
@@ -716,7 +716,7 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 <text name="TNE_TEXT_CREW_PEACEDRONE_POWER">Periodic Ability: Neutralizes crews in room.</text>
 
 <text name="TNE_TEXT_DRONE_PEACEDRONE_DEFEND_NAME">Peace Drone [Anti-Pers]</text>
-<text name="TNE_TEXT_DRONE_PEACEDRONE_DEFEND_SHORT">Peace [A]</text>
+<text name="TNE_TEXT_DRONE_PEACEDRONE_DEFEND_SHORT">Peace [DEF]</text>
 <text name="TNE_TEXT_DRONE_PEACEDRONE_DEFEND_DESC">[CURRENT MODE: Anti-Personnel] A Drone created by Zoltan Pacifists. It emits particular electromagnetic waves that make every crew in room unable to fight, sabotage, and use abilities. Drones are immune to this effect.
 
 -125 HP, 0.8x movement speed
@@ -725,7 +725,7 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 -Neutralizes crews in room for 7 seconds every 10 seconds</text>
 
 <text name="TNE_TEXT_DRONE_PEACEDRONE_BOARDER_NAME">Peace Drone [Boarding]</text>
-<text name="TNE_TEXT_DRONE_PEACEDRONE_BOARDER_SHORT">Peace [B]</text>
+<text name="TNE_TEXT_DRONE_PEACEDRONE_BOARDER_SHORT">Peace [ATK]</text>
 <text name="TNE_TEXT_DRONE_PEACEDRONE_BOARDER_DESC">[CURRENT MODE: Boarding] A Drone created by Zoltan Pacifists. It emits particular electromagnetic waves that make every crew in room unable to fight, sabotage, and use abilities. Drones are immune to this effect.
 
 -125 HP, 0.8x movement speed
@@ -761,7 +761,7 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 <text name="TNE_TEXT_CREW_VENTDRONE_POWER">Periodic Ability: Releases toxic gas</text>
 
 <text name="TNE_TEXT_DRONE_VENTDRONE_DEFEND_NAME">Vent Drone [Anti-Pers]</text>
-<text name="TNE_TEXT_DRONE_VENTDRONE_DEFEND_SHORT" >Vent [A]</text>
+<text name="TNE_TEXT_DRONE_VENTDRONE_DEFEND_SHORT" >Vent [DEF]</text>
 <text name="TNE_TEXT_DRONE_VENTDRONE_DEFEND_DESC">[CURRENT MODE: Anti-Personnel] This drone is equipped with Shell's gas tech. It absorbs oxygen in located room and then releases toxic gas.
 
 -160 HP, 0.8x movement speed
@@ -771,7 +771,7 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 Shells, Lanius, Ghosts, Vampweeds.</text>
 
 <text name="TNE_TEXT_DRONE_VENTDRONE_BOARDER_NAME">Vent Drone [Boarding]</text>
-<text name="TNE_TEXT_DRONE_VENTDRONE_BOARDER_SHORT">Vent [B]</text>
+<text name="TNE_TEXT_DRONE_VENTDRONE_BOARDER_SHORT">Vent [ATK]</text>
 <text name="TNE_TEXT_DRONE_VENTDRONE_BOARDER_DESC">[CURRENT MODE: Boarding] This drone is equipped with Shell's gas tech. It absorbs oxygen in located room and then releases toxic gas.
 
 -160 HP, 0.8x movement speed

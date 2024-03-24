@@ -9,9 +9,9 @@ weaponTable["TNE_KERNEL_FRAG_ELITE"] = { subMunitions = 2, extraProj = "TNE_KERN
 
 script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(ship, projectile, location, damage, shipFriendlyFire)
 	local weaponData = nil
+    if (projectile == nil) then return end
     local weaponName = Hyperspace.Get_Projectile_Extend(projectile).name
 	pcall(function() weaponData = weaponTable[weaponName] end)
-
 	if (weaponData == nil) then return end
 
     local spaceManager = Hyperspace.Global.GetInstance():GetCApp().world.space

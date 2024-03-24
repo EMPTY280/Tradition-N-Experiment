@@ -1886,7 +1886,7 @@ POLASTAR 4
 	<shots>1</shots>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
-	<breachChance>10</breachChance>
+	<breachChance>5</breachChance>
 	<cooldown>-1</cooldown>
 	<power>0</power>
 	<cost>0</cost>
@@ -1930,7 +1930,7 @@ POLASTAR 4
 	<shots>2</shots>
 	<sp>10</sp>
 	<fireChance>0</fireChance>
-	<breachChance>5</breachChance>
+	<breachChance>2</breachChance>
 	<stunChance>5</stunChance>
 	<cooldown>18</cooldown>
 	<power>2</power>
@@ -1974,7 +1974,7 @@ POLASTAR 4
 	<shots>2</shots>
 	<sp>10</sp>
 	<fireChance>0</fireChance>
-	<breachChance>10</breachChance>
+	<breachChance>5</breachChance>
 	<stunChance>10</stunChance>
 	<stun>7</stun>
 	<cooldown>18</cooldown>

@@ -335,4 +335,16 @@
 - Grenade Launchers
     - Now spread more randomly
 - Anti-Hull Grenade
-    - Cooldown increased to 19 from 19
+    - Cooldown increased to 19 from 18
+
+	[v1.24b] 2024-03-24
+
+[ADJUST]
+- External Systems with pre-igniting effect
+    - Now pre-ignites on ship wating
+- Frag Kernel
+    - Breach Chance decreased to 20%/30% from 50%/30%
+- Elite Frag Kernel
+    - Breach Chance decreased to 50%/50% from 100%/100%
+- Some Drones
+    - Changed descriptions
