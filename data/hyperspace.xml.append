@@ -127,7 +127,8 @@
 
 		<maxHealth>135</maxHealth>
 		<healSpeed>0</healSpeed>
-		<lowHealthThreshold>0</lowHealthThreshold>
+		<lowHealthThreshold>-1</lowHealthThreshold>
+		<noWarning>true</noWarning>
 		<noSlot>true</noSlot>
 		<noClone>true</noClone>
 

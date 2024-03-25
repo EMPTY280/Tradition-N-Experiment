@@ -348,3 +348,11 @@
     - Breach Chance decreased to 50%/50% from 100%/100%
 - Some Drones
     - Changed descriptions
+
+	[v1.24c] 2024-03-25
+
+[FIX]
+- Twin drone
+    - Now won't play Low HP Sound
+- Wanderer type A
+    - Added missing teleporter icon
