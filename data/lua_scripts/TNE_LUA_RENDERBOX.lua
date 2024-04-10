@@ -24,6 +24,8 @@ RepulsorText["zh-Hans"] = " 저항"
 local ShotsText = { }
 ShotsText[""] = "Shots +"
 ShotsText["zh-Hans"] = "발사체 +"
+local ShotsMax = { }
+ShotsMax["TNE_LASER_SASHA"] = 3
 
 local CritText = { }
 CritText[""] = "Crit-Charged"
@@ -37,6 +39,7 @@ script.on_internal_event(Defines.InternalEvents.WEAPON_RENDERBOX, function(weapo
 	if not (RechargerText[language]) then
 		language = ""
 	end
+
 	if (data == 0) then
 		if (weapon.boostLevel == 0) then
 			secondLine = RechargerText[language].s1
@@ -46,6 +49,10 @@ script.on_internal_event(Defines.InternalEvents.WEAPON_RENDERBOX, function(weapo
 	elseif (data == 1) then
 		secondLine = string.format("%d", weapon.boostLevel) .. RepulsorText[language]
 	elseif (data == 2) then
+		local max = ShotsMax[weapon.blueprint.name]
+		if (weapon.boostLevel > max) then
+			weapon.boostLevel = max
+		end
 		secondLine = ShotsText[language] .. string.format("%d", weapon.boostLevel)
 	elseif (data == 3) then
 		if (weapon.boostLevel == 0) then

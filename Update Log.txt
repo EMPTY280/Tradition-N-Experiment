@@ -356,3 +356,25 @@
     - Now won't play Low HP Sound
 - Wanderer type A
     - Added missing teleporter icon
+
+	[v1.24d] 2024-04-11
+
+[ADJUST]
+- Blackout Bomb, Acid Bomb
+    - Crew damage increased to 30 from 0
+- Fire Grenade
+    - Frag increased to 4 from 3
+- Vent Drone
+    - Oxygen drain speed increased to 1.0 from 0.5
+
+[FIX]
+- External Matter Transporter 
+    - Fixed the weapon triggering no effect
+- External Ion Stabilizer
+    - Fixed wrong cooldown
+- 'Sasha'
+    - Fixed wrong chain text
+- Wanderer B, Modular Cruisers
+    - Fixed final sector intro
+- Grenadier B
+    - Fixed missing pixel

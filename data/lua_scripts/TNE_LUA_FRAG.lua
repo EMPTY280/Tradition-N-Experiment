@@ -1,7 +1,7 @@
 local weaponTable = { }
 weaponTable["TNE_GRENADE_1"] = { subMunitions = 3, extraProj = "TNE_GRENADE_SUB" }
 weaponTable["TNE_GRENADE_2"] = { subMunitions = 5, extraProj = "TNE_GRENADE_SUB" }
-weaponTable["TNE_GRENADE_FIRE"] = { subMunitions = 3, extraProj = "TNE_GRENADE_SUB_FIRE" }
+weaponTable["TNE_GRENADE_FIRE"] = { subMunitions = 4, extraProj = "TNE_GRENADE_SUB_FIRE" }
 weaponTable["TNE_GRENADE_HULL"] = { subMunitions = 3, extraProj = "TNE_GRENADE_SUB_HULL" }
 weaponTable["TNE_GRENADE_3"] = { subMunitions = 6, extraProj = "TNE_GRENADE_SUB" }
 weaponTable["TNE_KERNEL_FRAG"] = { subMunitions = 2, extraProj = "TNE_KERNEL_FRAG_SUB" }

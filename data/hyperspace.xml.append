@@ -442,7 +442,7 @@
 		<passiveStatBoosts>  
 			<statBoost name="oxygenChangeSpeed">
 				<boostType>SET</boostType>
-				<amount>-0.5</amount>
+				<amount>-1</amount>
 				<shipTarget>CURRENT_ROOM</shipTarget>
 				<crewTarget>SELF</crewTarget>
 				<priority>0</priority>
@@ -757,7 +757,7 @@
 		<crewLimit>8</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_WANDERER_2">
-		<hiddenAug>SHIP_CIVILIAN</hiddenAug>
+		<hiddenAug>SHIP_UNION</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>8</crewLimit>
 	</mod-append:customShip>
@@ -818,17 +818,17 @@
 
 	<mod-append:ship name="TNE_PLAYER_SHIP_MODULAR" a="true" b="true" c="true" super="luminal" />
 	<mod-append:customShip name="TNE_PLAYER_SHIP_MODULAR">
-		<hiddenAug>SHIP_CIVILIAN</hiddenAug>
+		<hiddenAug>SHIP_UNION</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>8</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_MODULAR_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_CIVILIAN</hiddenAug>
+		<hiddenAug>SHIP_UNION</hiddenAug>
 		<crewLimit>12</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_MODULAR_3">
-		<hiddenAug>SHIP_CIVILIAN</hiddenAug>
+		<hiddenAug>SHIP_UNION</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>8</crewLimit>
 	</mod-append:customShip>

@@ -1218,7 +1218,7 @@ POLASTAR 4
 	<tooltip>...</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
-	<persDamage>0</persDamage>
+	<persDamage>2</persDamage>
 	<accuracyMod>30</accuracyMod>
 	<missiles>1</missiles>
 	<shots>1</shots>
@@ -1325,7 +1325,7 @@ POLASTAR 4
 	<tooltip>...</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
-	<persDamage>0</persDamage>
+	<persDamage>2</persDamage>
 	<accuracyMod>30</accuracyMod>
 	<missiles>1</missiles>
 	<shots>1</shots>
@@ -2365,7 +2365,7 @@ POLASTAR 4
 	<accuracyMod>100</accuracyMod>
 	<shots>1</shots>
 	<sp>0</sp>
-	<cooldown>80</cooldown>
+	<cooldown>60</cooldown>
 	<power>0</power>
 	<cost>50</cost>
 	<bp>4</bp>

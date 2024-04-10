@@ -11,7 +11,7 @@ exSystemPreTable["TNE_EX_ION_STABILIZER"] = 60
 
 local coolupTable = { }
 coolupTable["TNE_EX_TELEPORTER"] = true
-local exTele= "TNE_EX_TELEPORTER"
+coolupTable["TNE_EX_ION_STABILIZER"] = true
 
 function PreIgniteEx()
 	local playerShip = Hyperspace.ships.player

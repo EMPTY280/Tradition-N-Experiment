@@ -517,7 +517,7 @@
 		명중률 보너스: +10% / +100%
 
 		파편 산발 범위: 108
-		발사체/파편 수: 1 / 3
+		발사체/파편 수: 1 / 4
 		
 		기본 선체 피해량: 1 / 0
 		시스템 피해: 1 / 0
@@ -609,7 +609,7 @@
 
 <text name="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_NAME" language="zh-Hans">엘리트 세열 낱알 포</text>
 <text name="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_SHORT" language="zh-Hans">€ Frag K.</text>
-<text name="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_DESC" language="zh-Hans">오키드 고향 행성에서 자라는 거대한 식물의 씨앗 꼬투리를 탄약으로 삼는 무기입니다. 방어막을 관통하며 35%의 확률로 탄약을 소모하지 않습니다. 확정적으로 선원을 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다.
+<text name="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_DESC" language="zh-Hans">오키드 고향 행성에서 자라는 거대한 식물의 씨앗 꼬투리를 탄약으로 삼는 무기입니다. 방어막을 관통하며 50%의 확률로 탄약을 소모하지 않습니다. 확정적으로 선원을 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다.
 
 		능력치:
 		필요 전력량: 2

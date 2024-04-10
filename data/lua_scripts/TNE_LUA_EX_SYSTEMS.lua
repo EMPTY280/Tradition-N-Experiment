@@ -124,6 +124,8 @@ exSystemReadyTable["TNE_EX_REPEL_1"] = { threshold = 20, maxCharge = 3, ready = 
 exSystemReadyTable["TNE_EX_REPEL_2"] = { threshold = 20, maxCharge = 5, ready = Repel_ready }
 exSystemReadyTable["TNE_EX_REPEL_OVER"] = { threshold = 20, maxCharge = 5, ready = Repel_ready }
 
+local exTele= "TNE_EX_TELEPORTER"
+
 local function is_Ex_Ready(exSys)
 	return exSys.cooldown.first >= exSystemReadyTable[exSys.blueprint.name].threshold * (exSys.cooldown.second / exSys.baseCooldown) and exSys.powered
 end
