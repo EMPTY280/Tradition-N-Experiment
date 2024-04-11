@@ -10,7 +10,7 @@ script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projec
 	local isLastShot = (weapon.queuedProjectiles:size() == 0)
 	if (isLastShot == false) then return end
 
-	local shipManager = Hyperspace.Global.GetInstance():GetShipManager(projectile.ownerId)
+	local shipManager = Hyperspace.ships(projectile.ownerId)
 	local weapons = shipManager.weaponSystem.weapons
 	for w in vter(weapons) do
 		if (weaponName[w.blueprint.name] == nil) then

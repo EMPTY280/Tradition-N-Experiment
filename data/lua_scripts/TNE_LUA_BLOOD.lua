@@ -8,7 +8,7 @@ script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projec
 
 	local firedShots = weaponData.Shots - weapon.queuedProjectiles:size()
 	if (firedShots == 1) then
-		local shipManager = Hyperspace.Global.GetInstance():GetShipManager(projectile.ownerId)
+		local shipManager = Hyperspace.ships(projectile.ownerId)
 		shipManager:DamageHull(weaponData.selfDamage, true);
 	end
 end)
@@ -20,6 +20,6 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(ship, 
 	pcall(function() weaponData = weaponName[Hyperspace.Get_Projectile_Extend(projectile).name] end)
 	if (weaponData == nil) then return end
 
-	local shipManager = Hyperspace.Global.GetInstance():GetShipManager(projectile.ownerId)
+	local shipManager = Hyperspace.ships(projectile.ownerId)
 	shipManager:DamageHull(-weaponData.hitHeal, true)
 end)
