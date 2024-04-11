@@ -378,3 +378,9 @@
     - Fixed final sector intro
 - Grenadier B
     - Fixed missing pixel
+
+	[v1.24e] 2024-04-11
+
+[FIX]
+- Afterburner
+    - Fixed giving extra shots to charge-weapons
