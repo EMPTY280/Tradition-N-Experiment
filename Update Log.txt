@@ -384,3 +384,19 @@
 [FIX]
 - Afterburner
     - Fixed giving extra shots to charge-weapons
+
+	[v1.24f] 2024-05-12
+
+[ADJUST]
+- External Repulsors
+  - No longer decreases crew damage
+
+- 'Sasha'
+  - Cooldown descreased to 13.5 from 14.5
+  - Max shots increased to 8 from 6
+
+[FIX]
+- External Repulsors
+    - Code overhauled
+- 'Sasha'
+    - First bolley firing 1 less shots

@@ -25,7 +25,7 @@ local ShotsText = { }
 ShotsText[""] = "Shots +"
 ShotsText["zh-Hans"] = "발사체 +"
 local ShotsMax = { }
-ShotsMax["TNE_LASER_SASHA"] = 3
+ShotsMax["TNE_LASER_SASHA"] = 5
 
 local CritText = { }
 CritText[""] = "Crit-Charged"

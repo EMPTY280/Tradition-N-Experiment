@@ -27,7 +27,12 @@
     <mod-append:script>data/lua_scripts/TNE_LUA_SHIELD_DAMAGE.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_SHIELD_DAMAGE_DOWN.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_STABILIZER.lua</mod-append:script>
-    <mod-append:script>data/lua_scripts/TNE_LUA_EX_SYSTEMS.lua</mod-append:script>
+
+    <mod-append:script>data/lua_scripts/TNE_LUA_EX_CHARGELV.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_EX_RECHARGERS.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_EX_REPULSORS.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_EX_TELEPORTER.lua</mod-append:script>
+
     <mod-append:script>data/lua_scripts/TNE_LUA_CHAIN_SHOTS.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_FRONTIER.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_BLOOD.lua</mod-append:script>
