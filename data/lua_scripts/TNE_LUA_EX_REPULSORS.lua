@@ -111,13 +111,17 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_SYSTEM, function(shipMana
 end)
 
 script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(shipManager, projectile, location, damage, shipFriendlyFire)
-	shipManager:DamageHull(-hullRepairBuffer, true)
-	hullRepairBuffer = 0
+	if (hullRepairBuffer > 0) then
+		shipManager:DamageHull(-hullRepairBuffer, true)
+		hullRepairBuffer = 0
+	end
 	return Defines.Chain.CONTINUE
 end)
 
 script.on_internal_event(Defines.InternalEvents.DAMAGE_BEAM, function(shipManager, projectile, location, damage, shipFriendlyFire)
-	shipManager:DamageHull(-hullRepairBuffer, true)
-	hullRepairBuffer = 0
+	if (hullRepairBuffer > 0) then
+		shipManager:DamageHull(-hullRepairBuffer, true)
+		hullRepairBuffer = 0
+	end
 	return Defines.Chain.CONTINUE
 end)
