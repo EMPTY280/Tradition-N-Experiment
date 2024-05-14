@@ -399,4 +399,9 @@
 - External Repulsors
     - Code overhauled
 - 'Sasha'
-    - First bolley firing 1 less shots
+    - First volley firing 1 less shots
+
+	[v1.24g] 2024-05-13
+
+[FIX]
+- Fixed: UI shake is not activated when taking hull damage

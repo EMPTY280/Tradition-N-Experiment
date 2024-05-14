@@ -755,7 +755,7 @@ POLASTAR 4
 	<boost>
 		<type>damage</type>
 		<amount>0.1</amount>
-		<count>3</count>
+		<count>5</count>
 	</boost>
 	<launchSounds>
 		<sound>lightLaser1</sound>
