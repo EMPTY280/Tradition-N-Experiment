@@ -1,8 +1,9 @@
 local vter = mods.TNE.vter
 
 local chainWeaponList = { }
-chainWeaponList["TNE_FOCUS_CAPACITOR"] = { fireThreshold = 8, chainStep = 4 }
+chainWeaponList["TNE_FOCUS_CAPACITOR"] = { fireThreshold = 7, chainStep = 3.5 }
 chainWeaponList["TNE_POLARSTAR_4"] = { fireThreshold = 10, chainStep = 6 }
+chainWeaponList["TNE_BEAM_CAPACITOR"] = { fireThreshold = 11, chainStep = 8 }
 
 ------------------------------------------------------------------------------------
 

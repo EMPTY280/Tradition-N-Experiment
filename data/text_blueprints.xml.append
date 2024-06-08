@@ -153,13 +153,48 @@ Stats:
 
 <text name="TNE_TEXT_WEAPON_LASER_FRONTIER_NAME">'Frontier' Scatter Laser</text>
 <text name="TNE_TEXT_WEAPON_LASER_FRONTIER_SHORT">'Frontier'</text>
-<text name="TNE_TEXT_WEAPON_LASER_FRONTIER_DESC">A Laser weapon that sprays inaccurate projectiles. Taking hull damage makes next shot Critical Hit.
+<text name="TNE_TEXT_WEAPON_LASER_FRONTIER_DESC">A Laser weapon that sprays inaccurate projectiles. Taking hull damage makes next shot Critical Shot.
 
-		Critical Hit: Does double damage, +1 ion damage.</text>
+		Stats:
+		Required Power: 2
+		Charge Time: 11 seconds
+
+		Shot Radius: 45
+		Shots per charge: 3
+
+		Base Hull Damage: 1
+		Total System Damage: 1
+		Total Crew Damage: 15
+
+		Fire Chance: 10%
+
+		Taking Hull Damage Activates Crit-Charge
+		Crit-Charge: Does Double Damage, +1 Ion Damage.
+
+		Default Price: 75~   -   Selling Price: 37~
+</text>
 
 <text name="TNE_TEXT_WEAPON_LASER_BLOOD_NAME">'Blutsauger'</text>
 <text name="TNE_TEXT_WEAPON_LASER_BLOOD_SHORT">'Blutsauger'</text>
-<text name="TNE_TEXT_WEAPON_LASER_BLOOD_DESC">A Laser weapon that repairs your ship by 1 point on every projectile hit. Requires 1 hull point to fire.</text>
+<text name="TNE_TEXT_WEAPON_LASER_BLOOD_DESC">This unique Laser weapon can repair your hull, by dismantling enemy's ship parts. because of its unstability, you take recoil damage when it is fired.
+
+		Stats:
+		Required Power: 1
+		Charge Time: 9 seconds
+
+		Shots per charge: 2
+
+		Base Hull Damage: 1
+		Total System Damage: 1
+		Total Crew Damage: 15
+
+		Fire Chance: 10%
+
+		Lose 1 Hull When Fired
+		Repair 1 Hull On Hit
+
+		Default Price: 70~   -   Selling Price: 35~
+</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ MISSILE WEAPONS ★★★		-->
@@ -167,11 +202,47 @@ Stats:
 
 <text name="TNE_TEXT_WEAPON_RAILGUN_1_NAME">'Icarus' Railgun</text>
 <text name="TNE_TEXT_WEAPON_RAILGUN_1_SHORT">'Icarus'</text>
-<text name="TNE_TEXT_WEAPON_RAILGUN_1_DESC">A weapon that fires metal projectiles with rapid acceleration. Pierces all shields and does shield damage equal to hull damage.</text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_1_DESC">A weapon that fires metal projectiles with rapid acceleration. Pierces all shields and does shield damage equal to hull damage.
+
+		Stats:
+		Required Power: 2
+		Charge Time: 14 seconds
+		Missile Consumption: 1
+		Accuracy Bonus: +10%
+
+		Shots per charge: 1
+
+		Base Hull Damage: 2
+		Total System Damage: 2
+		Total Crew Damage: 30
+		Shield Piercing: 10
+
+		Shield Damage: 2 Layers
+
+		Default Price: 40~   -   Selling Price: 20~
+</text>
 
 <text name="TNE_TEXT_WEAPON_RAILGUN_2_NAME">'Daedalus' Railgun</text>
 <text name="TNE_TEXT_WEAPON_RAILGUN_2_SHORT">'Daedalus'</text>
-<text name="TNE_TEXT_WEAPON_RAILGUN_2_DESC">A weapon that fires metal projectiles with rapid acceleration. Pierces all shields and does shield damage equal to hull damage.</text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_2_DESC">A weapon that fires metal projectiles with rapid acceleration. Pierces all shields and does shield damage equal to hull damage.
+
+		Stats:
+		Required Power: 3
+		Charge Time: 17 seconds
+		Missile Consumption: 1
+		Accuracy Bonus: +10%
+
+		Shots per charge: 1
+
+		Base Hull Damage: 3
+		Total System Damage: 3
+		Total Crew Damage: 45
+		Shield Piercing: 10
+
+		Shield Damage: 3 Layers
+
+		Default Price: 55~   -   Selling Price: 27~
+</text>
 
 <text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_NAME">Junk Bazooka</text>
 <text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_SHORT">J. Bazooka</text>
@@ -179,7 +250,27 @@ Stats:
 
 <text name="TNE_TEXT_MISSILES_BREACH_NAME">'Erebus' Missiles</text>
 <text name="TNE_TEXT_MISSILES_BREACH_SHORT" >'Erebus'</text>
-<text name="TNE_TEXT_MISSILES_BREACH_DESC">This Missile rips breach and burns out all oxygen in the room upon impact.</text>
+<text name="TNE_TEXT_MISSILES_BREACH_DESC">This Missile rips breach and burns out all oxygen in the room upon impact.
+
+		Stats:
+		Required Power: 2
+		Charge Time: 16 seconds
+		Missile Consumption: 1
+		Accuracy Bonus: +10%
+
+		Shots per charge: 1
+
+		Base Hull Damage: 3
+		Total System Damage: 3
+		Total Crew Damage: 45
+		Shield Piercing: 10
+
+		Breach Chance: 100%
+		Stun Chance: 20% (3 seconds long)
+		Oxygen Level Mod: -100%
+
+		Default Price: 70~   -   Selling Price: 35~
+</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ BEAM WEAPONS ★★★		-->
@@ -195,7 +286,89 @@ Stats:
 
 <text name="TNE_TEXT_WEAPON_BEAM_SAPPER_NAME">'Sapper' Beam</text>
 <text name="TNE_TEXT_WEAPON_BEAM_SAPPER_SHORT">'Sapper'</text>
-<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_DESC">A special Beam that can disrupt shields. It can instantly remove shields that is less than or equal to 2 layers.</text>
+<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_DESC">A special Beam that can disrupt shields. It can instantly remove shields that is less than or equal to 2 layers.
+
+		Stats:
+		Required Power: 2
+		Charge Time: 15 seconds
+
+		Beam Length: 75
+		Beam Speed: 5
+
+		Total System Damage: 2
+		Shield Piercing: 2
+
+		Removes Shields Less Than or Equal to 2 Layers
+
+		Default Price: 80~   -   Selling Price: 40~
+</text>
+
+<text name="TNE_TEXT_WEAPON_BEAM_CAPACITOR_NAME">'Trident' Beam</text>
+<text name="TNE_TEXT_WEAPON_BEAM_CAPACITOR_SHORT">'Trident'</text>
+<text name="TNE_TEXT_WEAPON_BEAM_CAPACITOR_DESC">A capacitor modified Beam weapon. Damage increases as it charged.
+
+Stats:
+	Required Power: 3
+	Charge Time: 11 - 27 seconds
+
+	Beam Length: 70
+	Beam Speed: 10
+
+	Base Hull Damage: 1 - 3
+	Total System Damage: 1 - 3
+	Total Crew Damage: 15 - 45
+
+	Fire Chance: 20%
+
+	Default Price: 70~   -   Selling Price: 35~
+</text>
+
+<text name="TNE_TEXT_WEAPON_BEAM_HYBRID_NAME">'Woldo' Beam</text>
+<text name="TNE_TEXT_WEAPON_BEAM_HYBRID_SHORT">'Woldo'</text>
+<text name="TNE_TEXT_WEAPON_BEAM_HYBRID_DESC">By the combination of Beam and Pinpoint, It does larger damage on first contact.
+
+Stats:
+	Required Power: 3
+	Charge Time: 21 seconds
+
+	Beam Length: 55
+	Beam Speed: 5
+
+	Base Hull Damage: 1 
+	Total System Damage: 1 
+	Total Crew Damage: 15
+
+	Breach Chance: 20%
+
+Fires Extra Pinpoint Shot:
+	Base Hull Damage: 3
+	Total System Damage: 3
+	Total Crew Damage: 15
+	Shield Piercing: 1
+
+	Breach Chance: 30%
+
+	Default Price: 90~   -   Selling Price: 45~
+</text>
+
+<text name="TNE_TEXT_WEAPON_BEAM_BREACH_2_NAME">'Bill' Beam</text>
+<text name="TNE_TEXT_WEAPON_BEAM_BREACH_2_SHORT">'Bill'</text>
+<text name="TNE_TEXT_WEAPON_BEAM_BREACH_2_DESC">A powerful beam that cannot cause physical damage but rips breaches in the enemy's hull and lowers oxygen level. Pierces 1 shield.
+
+Stats:
+	Required Power: 2
+	Charge Time: 17 seconds
+
+	Beam Length: 105
+	Beam Speed: 5
+
+	Shield Piercing: 1
+
+	Breach Chance: 100%
+	Oxygen Level Mod: -50%
+
+	Default Price: 65~   -   Selling Price: 32~
+</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ FOCUS WEAPONS ★★★		-->
@@ -211,7 +384,7 @@ Stats:
 
 		Stats:
 		Required Power: 4
-		Charge Time: 8 - 32 seconds
+		Charge Time: 7 - 28 seconds
 
 		Beam Length: 1
 		Beam Speed: 1
@@ -224,6 +397,10 @@ Stats:
 
 		Default Price: 100~   -   Selling Price: 50~
 </text>
+
+<text name="TNE_TEXT_WEAPON_FOCUS_ADAPT_NAME">'Tanto' Pinpoint</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_ADAPT_SHORT">'Tanto'</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_ADAPT_DESC">A potentially incredibly powerful Pinpoint, adapting to its environment. Damage increases by 0.75 every time you fire, but can increase an infinite amount of times.</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ BOMB WEAPONS ★★★		-->
@@ -424,7 +601,23 @@ Stats:
 
 <text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_NAME">Afterburner</text>
 <text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_SHORT">Afterburner</text>
-<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_DESC">A special Particle Accelerator that charges other weapons when fired. Other Afterburners will be excluded from charge.</text>
+<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_DESC">A special Particle Accelerator. When fired, other weapons gain +15% charge immediately. It does NOT charges other Afterburners.
+
+		Stats:
+		Required Power: 2
+		Charge Time: 14 seconds
+
+		Shot Radius: 35
+		Shots per charge: 3
+		
+		Total System Damage: 1
+		
+		Fire Chance: 100%
+
+		Charges Other Weapons by +15% When Fired
+
+		Default Price: 80~   -   Selling Price: 40~
+</text>
 
 <text name="TNE_TEXT_WEAPON_ELECTRON_1_NAME">Electron Accelerator MK I</text>
 <text name="TNE_TEXT_WEAPON_ELECTRON_1_SHORT">Elec I</text>
@@ -830,6 +1023,15 @@ Shells, Lanius, Ghosts, Vampweeds.</text>
 <text name="TNE_TEXT_AUG_RAZORBACK_NAME">Razorback</text>
 <text name="TNE_TEXT_AUG_RAZORBACK_DESC">An Energy Shield with an integrity of 3 hitpoints.</text>
 
+<text name="TNE_TEXT_AUG_ALT_CLOAK_NAME">Ion Outflow</text>
+<text name="TNE_TEXT_AUG_ALT_CLOAK_DESC">When Cloaking effect ends, does 2 ion damage to ALL ships. The ion damage will be multiplied by the number of power bars provided to Cloaking.</text>
+
+<text name="TNE_TEXT_AUG_ALT_HACK_NAME">Hacking Drill</text>
+<text name="TNE_TEXT_AUG_ALT_HACK_DESC">When Hacking Effect ends, does 1 system damage and opens a breach to the target room. The more power bars provided to Hacking, the more breaches could be opened.</text>
+
+<text name="TNE_TEXT_AUG_ALT_MIND_NAME">Body Explosion</text>
+<text name="TNE_TEXT_AUG_ALT_MIND_DESC">When Mind Control Effect ends, does 15 damage to ALL crews in the target crew's current room, and sets fire. The damage will be multiplied by the number of power bars provided to Mind Control.</text>
+
 <!--
 =============================================
 =============================================
@@ -928,5 +1130,16 @@ Shells, Lanius, Ghosts, Vampweeds.</text>
 <text name="TNE_TEXT_PLAYER_SHIP_WRECKED_CLASS">TNE Wrecked Bomber</text>
 	<text name="TNE_TEXT_PLAYER_SHIP_WRECKED_NAME">Flying Waste</text>
 	<text name="TNE_TEXT_PLAYER_SHIP_WRECKED_DESC">A piece of waste that you won't even give an eye unless you're Lanius or Ghost.</text>
+
+
+<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_CLASS">Vagabond Hijacker</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_NAME">Giga Breaker</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_DESC">It was once a transport vessel, but after being taken over by vagabonds, it was recreated into a powerful assult ship.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_2_NAME">Nightmare Fever</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_2_DESC">Mind control system can become even more vicious with a few tweaks.</text>
+	
+	<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_3_NAME">The Reckless</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_3_DESC">This ship's unstable equipment can be a deadly threat to both hostiles and yourself.</text>
 
 </FTL>

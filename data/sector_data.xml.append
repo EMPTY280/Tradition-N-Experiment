@@ -46,9 +46,13 @@
 		<mod-append:blueprint name="TNE_GRENADE_HULL" rarity="0"/>
 
 		<mod-append:blueprint name="TNE_BEAM_LOCKDOWN" rarity="0"/>
+		<mod-append:blueprint name="TNE_BEAM_CAPACITOR" rarity="0"/>
+		<mod-append:blueprint name="TNE_BEAM_HYBRID" rarity="0"/>
+		<mod-append:blueprint name="TNE_BEAM_BREACH_2" rarity="0"/>
 
 		<mod-append:blueprint name="TNE_FOCUS_LOCKDOWN" rarity="0"/>
 		<mod-append:blueprint name="TNE_FOCUS_CAPACITOR" rarity="0"/>
+		<mod-append:blueprint name="TNE_FOCUS_ADAPT" rarity="0"/>
 
 		<mod-append:blueprint name="TNE_BOMB_BLACKOUT" rarity="0"/>
 		<mod-append:blueprint name="TNE_BOMB_ACID" rarity="0"/>
@@ -112,9 +116,13 @@
 		<mod-append:blueprint name="TNE_GRENADE_HULL" rarity="0"/>
 
 		<mod-append:blueprint name="TNE_BEAM_LOCKDOWN" rarity="0"/>
+		<mod-append:blueprint name="TNE_BEAM_CAPACITOR" rarity="0"/>
+		<mod-append:blueprint name="TNE_BEAM_HYBRID" rarity="0"/>
+		<mod-append:blueprint name="TNE_BEAM_BREACH_2" rarity="0"/>
 
 		<mod-append:blueprint name="TNE_FOCUS_LOCKDOWN" rarity="0"/>
 		<mod-append:blueprint name="TNE_FOCUS_CAPACITOR" rarity="0"/>
+		<mod-append:blueprint name="TNE_FOCUS_ADAPT" rarity="0"/>
 		
 		<mod-append:blueprint name="TNE_BOMB_BLACKOUT" rarity="0"/>
 		<mod-append:blueprint name="TNE_BOMB_ACID" rarity="0"/>

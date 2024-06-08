@@ -363,11 +363,46 @@
 <text name="TNE_TEXT_WEAPON_LASER_FRONTIER_SHORT" language="zh-Hans">'Frontier'</text>
 <text name="TNE_TEXT_WEAPON_LASER_FRONTIER_DESC" language="zh-Hans">낮은 명중률로 투사체를 흩뿌리는 레이저 무기입니다. 함체 피해를 받으면 다음 공격에 치명타가 충전됩니다.
 
-		치명타: 2배의 피해를 가함, 이온 피해 +1</text>
+		능력치:
+		필요 전력량: 2
+		충전 시간: 11초
+
+		사격 범위: 45
+		발사체 수: 3
+
+		기본 선체 피해량: 1
+		시스템 피해: 1
+		선원 피해: 15
+
+		방화 확률: 10%
+
+		함체 피격시 치명타 충전
+		치명타: 2배의 피해를 가함, 이온 피해 +1.
+
+		기본 가격: 75~
+</text>
 
 <text name="TNE_TEXT_WEAPON_LASER_BLOOD_NAME" language="zh-Hans">'블루트자우거'</text>
 <text name="TNE_TEXT_WEAPON_LASER_BLOOD_SHORT" language="zh-Hans">'Blutsauger'</text>
-<text name="TNE_TEXT_WEAPON_LASER_BLOOD_DESC" language="zh-Hans">적함을 타격할 때마다 함체를 1 수리하는 레이저 무기입니다. 발사할 때 함체 체력을 1 소모합니다.</text>
+<text name="TNE_TEXT_WEAPON_LASER_BLOOD_DESC" language="zh-Hans">적함의 파편을 이용해 함선을 수리할 수 있는 독특한 레이저 무기입니다. 불안정한 장비이기 떄문에 발사할 때마다 반동 피해를 받습니다.
+
+		능력치:
+		필요 전력량: 1
+		충전 시간: 9초
+
+		발사체 수: 2
+
+		기본 선체 피해량: 1
+		시스템 피해: 1
+		선원 피해: 15
+
+		방화 확률: 10%
+
+		발사 시 함체 1 손상
+		명중 시 함체 1 수리
+
+		기본 가격: 70~
+</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ MISSILE WEAPONS ★★★		-->
@@ -375,11 +410,47 @@
 
 <text name="TNE_TEXT_WEAPON_RAILGUN_1_NAME" language="zh-Hans">'이카로스' 레일건</text>
 <text name="TNE_TEXT_WEAPON_RAILGUN_1_SHORT" language="zh-Hans">'Icarus'</text>
-<text name="TNE_TEXT_WEAPON_RAILGUN_1_DESC" language="zh-Hans">금속 포탄을 빠르게 가속하여 발사하는 무기입니다. 방어막을 모두 관통하는 동시에 피해량과 같은 수의 방어막을 깎습니다.</text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_1_DESC" language="zh-Hans">금속 포탄을 빠르게 가속하여 발사하는 무기입니다. 방어막을 모두 관통하는 동시에 피해량과 같은 수의 방어막을 깎습니다.
+
+		능력치:
+		필요 전력량: 2
+		충전 시간: 14초
+		미사일 소모: 1
+		명중률 보너스: +10%
+
+		발사체 수: 1
+
+		기본 선체 피해량: 2
+		시스템 피해: 2
+		선원 피해: 30
+		방어막 관통도: 10
+
+		방어막 피해: 2장
+
+		기본 가격: 40~
+</text>
 
 <text name="TNE_TEXT_WEAPON_RAILGUN_2_NAME" language="zh-Hans">'다이달로스' 레일건</text>
 <text name="TNE_TEXT_WEAPON_RAILGUN_2_SHORT" language="zh-Hans">'Daedalus'</text>
-<text name="TNE_TEXT_WEAPON_RAILGUN_2_DESC" language="zh-Hans">금속 포탄을 빠르게 가속하여 발사하는 무기입니다. 방어막을 모두 관통하는 동시에 피해량과 같은 수의 방어막을 깎습니다.</text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_2_DESC" language="zh-Hans">금속 포탄을 빠르게 가속하여 발사하는 무기입니다. 방어막을 모두 관통하는 동시에 피해량과 같은 수의 방어막을 깎습니다.
+
+		능력치:
+		필요 전력량: 3
+		충전 시간: 17초
+		미사일 소모: 1
+		명중률 보너스: +10%
+
+		발사체 수: 1
+
+		기본 선체 피해량: 3
+		시스템 피해: 3
+		선원 피해: 45
+		방어막 관통도: 10
+
+		방어막 피해: 3장
+
+		기본 가격: 55~
+</text>
 
 <text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_NAME" language="zh-Hans">쓰레기 바주카</text>
 <text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_SHORT" language="zh-Hans">J. Bazooka</text>
@@ -387,7 +458,27 @@
 
 <text name="TNE_TEXT_MISSILES_BREACH_NAME" language="zh-Hans">'에레보스' 미사일</text>
 <text name="TNE_TEXT_MISSILES_BREACH_SHORT" language="zh-Hans">'Erebus'</text>
-<text name="TNE_TEXT_MISSILES_BREACH_DESC" language="zh-Hans">이 미사일은 충돌 시 균열을 발생시키는 동시에 선실의 산소 입자를 모조리 태워 무산소 상태로 만듭니다.</text>
+<text name="TNE_TEXT_MISSILES_BREACH_DESC" language="zh-Hans">이 미사일은 충돌 시 균열을 발생시키는 동시에 선실의 산소 입자를 모조리 태워 무산소 상태로 만듭니다.
+
+		능력치:
+		필요 전력량: 2
+		충전 시간: 16초
+		미사일 소모: 1
+		명중률 보너스: +10%
+
+		발사체 수: 1
+
+		기본 선체 피해량: 3
+		시스템 피해: 3
+		선원 피해: 45
+		방어막 관통도: 10
+
+		균열 발생 확률: 100%
+		기절 확률: 20% (3초)
+		산소량 조절: -100%
+
+		기본 가격: 70~
+</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ BEAM WEAPONS ★★★		-->
@@ -403,7 +494,89 @@
 
 <text name="TNE_TEXT_WEAPON_BEAM_SAPPER_NAME" language="zh-Hans">'새퍼' 빔</text>
 <text name="TNE_TEXT_WEAPON_BEAM_SAPPER_SHORT" language="zh-Hans">'Sapper'</text>
-<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_DESC" language="zh-Hans">방어막을 교란하는 특수한 빔으로, 2장 이하의 방어막을 타격 즉시 무력화할 수 있습니다.</text>
+<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_DESC" language="zh-Hans">방어막을 교란하는 특수한 빔으로, 2장 이하의 방어막을 타격 즉시 무력화할 수 있습니다.
+
+		능력치:
+		필요 전력량: 2
+		충전 시간: 15초
+
+		타격 범위: 75
+		타격 속도: 5
+
+		시스템 피해: 2
+		방어막 관통도: 2
+
+		2장 이하의 방어막을 즉시 무력화
+
+		기본 가격: 80~
+</text>
+
+<text name="TNE_TEXT_WEAPON_BEAM_CAPACITOR_NAME" language="zh-Hans">'트라이던트' 빔</text>
+<text name="TNE_TEXT_WEAPON_BEAM_CAPACITOR_SHORT" language="zh-Hans">'Trident'</text>
+<text name="TNE_TEXT_WEAPON_BEAM_CAPACITOR_DESC" language="zh-Hans">축전기 개조가 적용된 빔입니다. 충전할수록 피해량이 증가합니다.
+
+능력치:
+	필요 전력량: 3
+	충전 시간: 11 - 27초
+
+	타격 범위: 70
+	타격 속도: 10
+
+	기본 선체 피해량: 1 - 3
+	시스템 피해: 1 - 3
+	선원 피해: 15 - 45
+
+	방화 확률: 20%
+
+	기본 가격: 70~
+</text>
+
+<text name="TNE_TEXT_WEAPON_BEAM_HYBRID_NAME" language="zh-Hans">'월도' 빔</text>
+<text name="TNE_TEXT_WEAPON_BEAM_HYBRID_SHORT" language="zh-Hans">'Woldo'</text>
+<text name="TNE_TEXT_WEAPON_BEAM_HYBRID_DESC" language="zh-Hans">빔과 핀포인트가 혼합된 무기로, 더 강력한 순간 화력을 보여줍니다.
+
+능력치:
+	필요 전력량: 3
+	충전 시간: 21초
+
+	타격 범위: 55
+	타격 속도: 5
+
+	기본 선체 피해량: 1 
+	시스템 피해: 1 
+	선원 피해: 15
+
+	균열 발생 확률: 20%
+
+핀포인트를 동시에 사격함:
+	기본 선체 피해량: 3
+	시스템 피해: 3
+	선원 피해: 15
+	방어막 관통도: 1
+
+	균열 발생 확률: 30%
+
+	기본 가격: 90~
+</text>
+
+<text name="TNE_TEXT_WEAPON_BEAM_BREACH_2_NAME" language="zh-Hans">'빌' 빔</text>
+<text name="TNE_TEXT_WEAPON_BEAM_BREACH_2_SHORT" language="zh-Hans">'Bill'</text>
+<text name="TNE_TEXT_WEAPON_BEAM_BREACH_2_DESC" language="zh-Hans">물리적 피해는 입힐 수 없지만, 적함에 균열을 내면서 선실 내 산소량을 크게 감소시키는 강력한 빔입니다.
+
+능력치:
+	필요 전력량: 2
+	충전 시간: 17초
+
+	타격 범위: 105
+	타격 속도: 5
+
+	방어막 관통도: 1
+
+	균열 발생 확률: 100%
+	산소량 조절: -50%
+
+	기본 가격: 65~
+</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ FOCUS WEAPONS ★★★		-->
@@ -419,7 +592,7 @@
 
 		능력치:
 		필요 전력량: 4
-		충전 시간: 8 - 32초
+		충전 시간: 7 - 28초
 
 		타격 범위: 1
 		타격 속도: 1
@@ -432,6 +605,10 @@
 
 		기본 가격: 100~
 </text>
+
+<text name="TNE_TEXT_WEAPON_FOCUS_ADAPT_NAME" language="zh-Hans">'탄토' 핀포인트</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_ADAPT_SHORT" language="zh-Hans">'Tanto'</text>
+<text name="TNE_TEXT_WEAPON_FOCUS_ADAPT_DESC" language="zh-Hans">환경에 맞게 조정되어 강력한 잠재력을 가진 핀포인트입니다. 발사할 때마다 피해량이 0.75씩 증가하여 무한히 중첩됩니다.</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ BOMB WEAPONS ★★★		-->
@@ -524,7 +701,7 @@
 		선원 피해: 15 / 15
 		방어막 관통도: 10
 		
-		화재 확률: 100% / 100%
+		방화 확률: 100% / 100%
 		기절 확률: 50% (3초) / 0%
 
 		기본 가격: 70~
@@ -638,7 +815,23 @@
 
 <text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_NAME" language="zh-Hans">재연소기</text>
 <text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_SHORT" language="zh-Hans">Afterburner</text>
-<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_DESC" language="zh-Hans">발사할 때 다른 무기들을 약간 충전시켜주는 특별한 입자 가속기입니다. 다른 재연소기는 충전에서 제외됩니다.</text>
+<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_DESC" language="zh-Hans">발사할 때 다른 무기들을 약간 충전시켜주는 특별한 입자 가속기입니다. 다른 재연소기는 충전에서 제외됩니다.
+
+		능력치:
+		필요 전력량: 2
+		충전 시간: 14초
+
+		사격 범위: 35
+		발사체 수: 3
+		
+		시스템 피해: 1
+		
+		방화 확률: 100%
+
+		발사 시 다른 무기 +15% 충전
+
+		기본 가격: 80~
+</text>
 
 <text name="TNE_TEXT_WEAPON_ELECTRON_1_NAME" language="zh-Hans">전자 가속기 마크 I</text>
 <text name="TNE_TEXT_WEAPON_ELECTRON_1_SHORT" language="zh-Hans">Elec I</text>
@@ -833,9 +1026,9 @@
 주의: 시스템의 이온 후유증은 작동이 종료된 후 발생하므로, 완전히 작동이 끝난 후 해제하십시오.</text>
 
 <text name="tne_tip_acid" language="zh-Hans">팁: 산성 무기는 피격 시스템을 천천히 파괴하며, 완파된 시스템 또는 빈 선실에는 균열을 일으킵니다. 또한 선실 내의 선원에게 초당 4의 피해를 가하며 수리 속도를 감소시킵니다.</text>
-<text name="erosion_chance" language="zh-Hans">부식 확률: \1%</text>  <!-- \1: chance, \2 is low/medium/high -->
-<text name="erosion_effect" language="zh-Hans">부식 피해: \1 (\2초)
-부식 속도: \3</text>  <!-- \1: total damage, \2: duration, \3: damage rate -->
+<!-- <text name="erosion_chance" language="zh-Hans">부식 확률: \1%</text>  --> <!-- \1: chance, \2 is low/medium/high -->
+<!--<text name="erosion_effect" language="zh-Hans">부식 피해: \1 (\2초)
+부식 속도: \3</text>  --> <!-- \1: total damage, \2: duration, \3: damage rate -->
 
 <text name="tne_tip_grenade" language="zh-Hans">팁: 유탄 발사기는 충돌 시 파편을 방사하여 주변 선실에 추가 피해를 가합니다. 발사 범위를 지녔지만 유탄 자체는 항상 조준 지점 중심을 향해 발사됩니다.</text>
 
@@ -1082,6 +1275,15 @@
 <text name="TNE_TEXT_AUG_RAZORBACK_NAME" language="zh-Hans">레이저백</text>
 <text name="TNE_TEXT_AUG_RAZORBACK_DESC" language="zh-Hans">3의 내구도를 가진 에너지 방어막입니다.</text>
 
+<text name="TNE_TEXT_AUG_ALT_CLOAK_NAME" language="zh-Hans">이온 유출</text>
+<text name="TNE_TEXT_AUG_ALT_CLOAK_DESC" language="zh-Hans">은폐 상태가 해제될 때 모든 함선의 방어막에 이온 피해를 2 가합니다. 이온 피해는 은폐장에 공급중인 전력량에 비례하여 증가합니다.</text>
+
+<text name="TNE_TEXT_AUG_ALT_HACK_NAME" language="zh-Hans">해킹 드릴</text>
+<text name="TNE_TEXT_AUG_ALT_HACK_DESC" language="zh-Hans">해킹이 종료될 때 대상 선실에 시스템 피해를 1 주고 균열을 발생시킵니다. 해킹 장비에 공급중인 전력량이 많을 수록 더 많은 균열이 발생할 수 있습니다.</text>
+
+<text name="TNE_TEXT_AUG_ALT_MIND_NAME" language="zh-Hans">신체 폭발</text>
+<text name="TNE_TEXT_AUG_ALT_MIND_DESC" language="zh-Hans">정신 지배가 해제될 때 대상 선원이 위치한 선실의 모든 선원이 피해를 15 입고 화재를 발생시킵니다. 피해량은 정신 지배 장비에 공급중인 전력량에 비례하여 증가합니다.</text>
+
 <!--
 =============================================
 =============================================
@@ -1179,5 +1381,15 @@
 <text name="TNE_TEXT_PLAYER_SHIP_WRECKED_CLASS" language="zh-Hans">TNE 부서진 폭격기</text>
 	<text name="TNE_TEXT_PLAYER_SHIP_WRECKED_NAME" language="zh-Hans">Flying Waste</text>
 	<text name="TNE_TEXT_PLAYER_SHIP_WRECKED_DESC" language="zh-Hans">라니우스나 고스트가 아니라면 쳐다도 보지 않을 폐기물입니다.</text>
+
+<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_CLASS" language="zh-Hans">떠돌이 약취선</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_NAME" language="zh-Hans">Giga Breaker</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_DESC" language="zh-Hans">한 때 평범한 수송선이었지만, 떠돌이들에게 점령된 후 강력한 강습선으로 개조되었습니다.</text>
+
+	<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_2_NAME" language="zh-Hans">Nightmare Fever</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_2_DESC" language="zh-Hans">정신 지배 장비는 약간의 조정만 거친다면 더욱 악랄해질 수 있습니다.</text>
+	
+	<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_3_NAME" language="zh-Hans">The Reckless</text>
+	<text name="TNE_TEXT_PLAYER_SHIP_HIJACKER_3_DESC" language="zh-Hans">이 함선에 장착된 불안정한 보조장비는 적 뿐만 아니라 스스로에게도 큰 위협이 될 수 있습니다.</text>
 
 </FTL>

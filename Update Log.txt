@@ -405,3 +405,47 @@
 
 [FIX]
 - Fixed: UI shake is not activated when taking hull damage
+
+	[v1.25] 2024-06-08
+[ADD]
+- Added 4 Weapons
+  - 'Tanto' Pinpoint: An adaptive Pinpoint
+  - 'Trident' Beam: Similar to 'Katar' Pinpoint
+  - 'Bill' Beam: An upgraded Breach Beam
+  - 'Woldo' Beam: Beam-Pinpoint Hybrid
+- Added 1 Ship Layout and 3 Arguments: Vagabond Hijacker
+  - Type A: Hacking Drill
+  - Type B: Body Explosion
+  - Type C: Ion Outflow
+
+[ADJUST / CHANGES]
+- Following weapons now use descriptionOverride:
+  - Afterburner
+  - Railguns
+  - Frontier Scatter Laser
+  - Sapper Beam
+  - Blutsauger
+  - Erebus Missiles
+
+- Sprite Changed:
+  - Railguns
+  - Ion Stabilizer
+  - Sasha
+
+- 'katar' Pinpoint
+  - Charge Time: 8 - 32 -> 7 - 28 (3.5 per steps)
+- Acid Bomb
+  - Erosion Speed: 1 -> 1.5
+  - Erosion Duration: 25 -> 17
+- 'Blutsauger'
+  - Removed Accuracy Bonus
+
+- Starting items changed:
+  - Frost A: Conserv Ion -> Burst Laser I, Weapons power +1
+  - Dropship C: 1 Exo Breacher -> Rapair Drone
+  - Modular C: Suyari + Recharger 2 -> Tanto + Minor Recharger
+
+[FIX]
+- Removed Erosion override texts.
+
+

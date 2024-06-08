@@ -158,10 +158,10 @@
 	<time>0.5</time>
 </anim>
 
-<animSheet name="tne_sasha_chain" w="102" h="77" fw="34" fh="77">weapon_laser/tne_sasha_chain.png</animSheet>
+<animSheet name="tne_sasha_chain" w="170" h="77" fw="34" fh="77">weapon_laser/tne_sasha_chain.png</animSheet>
 <anim name="tne_sasha_chain">
 	<sheet>tne_sasha_chain</sheet>
-	<desc length="3" x="0" y="0"/>
+	<desc length="5" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 <animSheet name="tne_sasha" w="340" h="77" fw="34" fh="77">weapon_laser/tne_sasha.png</animSheet>
@@ -214,26 +214,24 @@
 	<time>1</time>
 </anim>
 
-<animSheet name="tne_railgun_1" w="200" h="74" fw="25" fh="74">weapon_railguns/tne_railgun_1.png</animSheet>
+<animSheet name="tne_railgun_1" w="180" h="69" fw="30" fh="69">weapon_railguns/tne_railgun_1.png</animSheet>
 <weaponAnim name="tne_railgun_1">
 	<sheet>tne_railgun_1</sheet>
-	<desc length="8" x="0" y="0"/>
+	<desc length="6" x="0" y="0"/>
 	<chargedFrame>4</chargedFrame>
 	<fireFrame>5</fireFrame>
-	<firePoint x="15" y="35"/>
-	<mountPoint x="2" y="62"/>
-	<chargeImage>weapon_railguns/tne_railgun_1_glow.png</chargeImage>
+	<firePoint x="17" y="2"/>
+	<mountPoint x="2" y="51"/>
 </weaponAnim>
 
-<animSheet name="tne_railgun_2" w="306" h="109" fw="34" fh="109">weapon_railguns/tne_railgun_2.png</animSheet>
+<animSheet name="tne_railgun_2" w="222" h="109" fw="37" fh="109">weapon_railguns/tne_railgun_2.png</animSheet>
 <weaponAnim name="tne_railgun_2">
 	<sheet>tne_railgun_2</sheet>
-	<desc length="9" x="0" y="0"/>
-	<chargedFrame>5</chargedFrame>
-	<fireFrame>6</fireFrame>
-	<firePoint x="18" y="50"/>
-	<mountPoint x="5" y="88"/>
-	<chargeImage>weapon_railguns/tne_railgun_2_glow.png</chargeImage>
+	<desc length="6" x="0" y="0"/>
+	<chargedFrame>4</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint x="21" y="26"/>
+	<mountPoint x="2" y="78"/>
 </weaponAnim>
 
 <animSheet name="tne_junk_missile_proj" w="69" h="23" fw="69" fh="23">projectiles/tne_junk_missile_proj.png</animSheet>
@@ -312,6 +310,39 @@
 	<chargeImage>weapon_beams/tne_beam_sapper_glow.png</chargeImage>
 </weaponAnim>
 
+<animSheet name="tne_beam_capacitor" w="216" h="46" fw="27" fh="46">weapon_beams/tne_beam_capacitor.png</animSheet>
+<weaponAnim name="tne_beam_capacitor">
+	<sheet>tne_beam_capacitor</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>3</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint x="15" y="25"/>
+	<mountPoint x="3" y="34"/>
+	<chargeImage>weapon_beams/tne_beam_capacitor_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="tne_beam_hybrid" w="224" h="62" fw="32" fh="62">weapon_beams/tne_beam_hybrid.png</animSheet>
+<weaponAnim name="tne_beam_hybrid">
+	<sheet>tne_beam_hybrid</sheet>
+	<desc length="7" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="18" y="23"/>
+	<mountPoint x="3" y="50"/>
+	<chargeImage>weapon_beams/tne_beam_hybrid_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="tne_beam_breach_2" w="240" h="76" fw="30" fh="76">weapon_beams/tne_beam_breach_2.png</animSheet>
+<weaponAnim name="tne_beam_breach_2">
+	<sheet>tne_beam_breach_2</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="19" y="42"/>
+	<mountPoint x="3" y="62"/>
+	<chargeImage>weapon_beams/tne_beam_breach_2_glow.png</chargeImage>
+</weaponAnim>
+
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ FOCUS WEAPONS ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
@@ -344,6 +375,16 @@
 	<mountPoint x="6" y="96"/>
 	<chargeImage>weapon_focus/tne_focus_capacitor_glow.png</chargeImage>
 	<boost>tne_focus_capacitor_chain</boost>
+</weaponAnim>
+
+<animSheet name="tne_focus_adapt" w="203" h="80" fw="29" fh="80">weapon_focus/tne_focus_adapt.png</animSheet>
+<weaponAnim name="tne_focus_adapt">
+	<sheet>tne_focus_adapt</sheet>
+	<desc length="7" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>6</fireFrame>
+	<firePoint x="17" y="50"/>
+	<mountPoint x="3" y="61"/>
 </weaponAnim>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
@@ -698,14 +739,14 @@
 	<mountPoint x="3" y="85"/>
 </weaponAnim>
 
-<animSheet name="tne_ex_stabilizer" w="943" h="97" fw="41" fh="97">weapon_ex/tne_exstabilizer.png</animSheet>
+<animSheet name="tne_ex_stabilizer" w="507" h="60" fw="39" fh="60">weapon_ex/tne_exstabilizer.png</animSheet>
 <weaponAnim name="tne_ex_stabilizer">
 	<sheet>tne_ex_stabilizer</sheet>
-	<desc length="23" x="0" y="0"/>
-	<chargedFrame>9</chargedFrame>
-	<fireFrame>10</fireFrame>
-	<firePoint  x="0" y="0"/>
-	<mountPoint x="3" y="55"/>
+	<desc length="13" x="0" y="0"/>
+	<chargedFrame>8</chargedFrame>
+	<fireFrame>9</fireFrame>
+	<firePoint x="0" y="0"/>
+	<mountPoint x="2" y="26"/>
 </weaponAnim>
 
 <!--

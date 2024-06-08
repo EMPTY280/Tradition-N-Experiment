@@ -108,9 +108,13 @@
 	<mod-append:name>TNE_BEAM_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_BEAM_PISS</mod-append:name>
 	<mod-append:name>TNE_BEAM_SAPPER</mod-append:name>
+	<mod-append:name>TNE_BEAM_CAPACITOR</mod-append:name>
+	<mod-append:name>TNE_BEAM_HYBRID</mod-append:name>
+	<mod-append:name>TNE_BEAM_BREACH_2</mod-append:name>
 
 	<mod-append:name>TNE_FOCUS_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_FOCUS_CAPACITOR</mod-append:name>
+	<mod-append:name>TNE_FOCUS_ADAPT</mod-append:name>
 
 	<mod-append:name>TNE_BOMB_BLACKOUT</mod-append:name>
 	<mod-append:name>TNE_BOMB_ACID</mod-append:name>
@@ -161,9 +165,13 @@
 	<mod-append:name>TNE_BEAM_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_BEAM_PISS</mod-append:name>
 	<mod-append:name>TNE_BEAM_SAPPER</mod-append:name>
-	
+	<mod-append:name>TNE_BEAM_CAPACITOR</mod-append:name>
+	<mod-append:name>TNE_BEAM_HYBRID</mod-append:name>
+	<mod-append:name>TNE_BEAM_BREACH_2</mod-append:name>
+
 	<mod-append:name>TNE_FOCUS_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_FOCUS_CAPACITOR</mod-append:name>
+	<mod-append:name>TNE_FOCUS_ADAPT</mod-append:name>
 
 	<mod-append:name>TNE_BOMB_BLACKOUT</mod-append:name>
 	<mod-append:name>TNE_BOMB_ACID</mod-append:name>
@@ -214,9 +222,13 @@
 	<name>TNE_BEAM_LOCKDOWN</name>
 	<name>TNE_BEAM_PISS</name>
 	<name>TNE_BEAM_SAPPER</name>
-	
+	<name>TNE_BEAM_CAPACITOR</name>
+	<name>TNE_BEAM_HYBRID</name>
+	<name>TNE_BEAM_BREACH_2</name>
+
 	<name>TNE_FOCUS_LOCKDOWN</name>
 	<name>TNE_FOCUS_CAPACITOR</name>
+	<name>TNE_FOCUS_ADAPT</name>
 
 	<name>TNE_BOMB_BLACKOUT</name>
 	<name>TNE_BOMB_ACID</name>
@@ -401,7 +413,11 @@
 	<mod-append:name>TNE_RAILGUN_2</mod-append:name>
 	<mod-append:name>TNE_MISSILES_BREACH</mod-append:name>
 	
+	<mod-append:name>TNE_BEAM_CAPACITOR</mod-append:name>
+	<mod-append:name>TNE_BEAM_HYBRID</mod-append:name>
+	
 	<mod-append:name>TNE_FOCUS_CAPACITOR</mod-append:name>
+	<mod-append:name>TNE_FOCUS_ADAPT</mod-append:name>
 </mod:findName>
 
 					<!-- MISSILES -->
@@ -465,11 +481,16 @@
 	<mod-append:name>TNE_BEAM_PISS</mod-append:name>
 	<mod-append:name>TNE_POLARSTAR_4</mod-append:name>
 	<mod-append:name>TNE_BEAM_SAPPER</mod-append:name>
+	<mod-append:name>TNE_BEAM_CAPACITOR</mod-append:name>
+	<mod-append:name>TNE_BEAM_HYBRID</mod-append:name>
+	<mod-append:name>TNE_BEAM_BREACH_2</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_BEAMS_DAMAGE">
 	<mod-append:name>TNE_BEAM_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_POLARSTAR_4</mod-append:name>
+	<mod-append:name>TNE_BEAM_CAPACITOR</mod-append:name>
+	<mod-append:name>TNE_BEAM_HYBRID</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_WEAPONS_BEAM_POWERFUL">
@@ -481,11 +502,13 @@
 <mod:findName type="blueprintList" name="BLUELIST_FOCUS_ALL">
 	<mod-append:name>TNE_FOCUS_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_FOCUS_CAPACITOR</mod-append:name>
+	<mod-append:name>TNE_FOCUS_ADAPT</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_FOCUS_DAMAGE">
 	<mod-append:name>TNE_FOCUS_LOCKDOWN</mod-append:name>
 	<mod-append:name>TNE_FOCUS_CAPACITOR</mod-append:name>
+	<mod-append:name>TNE_FOCUS_ADAPT</mod-append:name>
 </mod:findName>
 
 					<!-- IONS -->

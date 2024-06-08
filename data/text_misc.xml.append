@@ -26,9 +26,9 @@ Warning: 'Reconstructive Teleport' is NOT compatible, and can NOT be used in any
 
 Warning: cooldown of system starts after the system is fully acted. so to remove cooldown, use Stabilizer after the system using is over.</text>
 
-<text name="erosion_chance">Erosion Chance: \1%</text>  <!-- \1: chance, \2 is low/medium/high -->
-<text name="erosion_effect">Erosion Damage: \1 (\2 seconds)
-Erosion Speed: \3</text>  <!-- \1: total damage, \2: duration, \3: damage rate -->
+<!--  <text name="erosion_chance">Erosion Chance: \1%</text>  --> <!-- \1: chance, \2 is low/medium/high -->
+<!--  <text name="erosion_effect">Erosion Damage: \1 (\2 seconds)
+Erosion Speed: \3</text> -->  <!-- \1: total damage, \2: duration, \3: damage rate -->
 
 <text name="tne_tip_acid">Tip: Acidic weapon does damage over time to hit room, and causes breaches on fully-damaged system or unsystemed room. crews in affected room will lose 4 HP per seconds and repair slower.</text>
 

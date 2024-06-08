@@ -13,7 +13,7 @@ local coolupTable = { }
 coolupTable["TNE_EX_TELEPORTER"] = true
 coolupTable["TNE_EX_ION_STABILIZER"] = true
 
-function PreIgniteEx()
+local function PreIgniteEx()
 	local playerShip = Hyperspace.ships.player
 	if (playerShip.weaponSystem == nil) then return end
 	local weapons = playerShip.weaponSystem.weapons

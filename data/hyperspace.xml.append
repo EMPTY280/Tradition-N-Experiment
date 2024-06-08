@@ -42,6 +42,8 @@
     <mod-append:script>data/lua_scripts/TNE_LUA_ACTIVE_DRONE.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_OXYGEN_BURN.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_FRAG.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_AUG_ALT_SYSTEM.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_BEAM_HYBRID.lua</mod-append:script>
 </mod:findLike>
 
 <!--
@@ -673,6 +675,15 @@
 			<shieldImage>ship/enemy_shields_white.png</shieldImage>
 		</superShield>
 	</aug>
+	<aug name="TNE_ALT_CLOAK">
+        <locked/>
+    </aug>
+    <aug name="TNE_ALT_HACK">
+        <locked/>
+    </aug>
+    <aug name="TNE_ALT_MIND">
+        <locked/>
+    </aug>
 </augments>
 
 <!--
@@ -701,7 +712,7 @@
 		<mod-append:ship>TNE_PLAYER_SHIP_DROP</mod-append:ship>
 		
 		<mod-append:ship>TNE_PLAYER_SHIP_STUPIDGHOST</mod-append:ship>
-		<mod-append:empty/>
+		<mod-append:ship>TNE_PLAYER_SHIP_HIJACKER</mod-append:ship>
 	</mod:findLike>
 
 	<mod-append:ship name="TNE_PLAYER_SHIP_ICE" a="true" b="true" c="true" super="luminal" />
@@ -861,6 +872,23 @@
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>6</crewLimit>
 	</mod-append:customShip>
+
+	<mod-append:ship name="TNE_PLAYER_SHIP_HIJACKER" a="true" b="true" c="true" super="luminal" />
+	<mod-append:customShip name="TNE_PLAYER_SHIP_HIJACKER">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_GHOST</hiddenAug>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_HIJACKER_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_GHOST</hiddenAug>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+	<mod-append:customShip name="TNE_PLAYER_SHIP_HIJACKER_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>SHIP_GHOST</hiddenAug>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
 </mod:findLike>
 
 
@@ -927,6 +955,12 @@
 	</mod:findName>
 </mod:findWithChildLike>
 
+<mod:findWithChildLike type="ships" child-type="ship" reverse="true" start="1" limit="1">
+	<mod:selector name="TNE_PLAYER_SHIP_HIJACKER" />
+	<mod:findName type="ship" name="TNE_PLAYER_SHIP_HIJACKER">
+		<mod:setAttributes super="luminal" a="true" b="true" c="true" />
+	</mod:findName>
+</mod:findWithChildLike>
 <!--
 =============================================
 =============================================
@@ -1174,6 +1208,20 @@
 			<mod-append:category type="WEAPONS">
 				<item>
 					<blueprint>TNE_KERNEL_FRAG_ELITE</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_BEAM_CAPACITOR</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_BEAM_HYBRID</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_BEAM_BREACH_2</blueprint>
+				</item>
+				<item>
+					<blueprint>TNE_FOCUS_ADAPT</blueprint>
 				</item>
 			</mod-append:category>
 			<mod-append:category type="DRONES">
