@@ -1148,7 +1148,7 @@ POLASTAR 4
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_BEAM_CAPACITOR_DESC"></descriptionOverride>
 	<tooltip>...</tooltip>
-	<damage>2</damage>
+	<damage>1</damage>
     <sp>0</sp>
     <fireChance>2</fireChance>
 	<breachChance>0</breachChance>
