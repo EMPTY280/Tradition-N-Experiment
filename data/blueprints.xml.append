@@ -1162,7 +1162,7 @@ POLASTAR 4
 	<boost>
 		<type>damage</type>
 		<amount>1</amount>
-		<count>1</count>
+		<count>2</count>
 	</boost>
 	<image>beam_contact</image>
 	<launchSounds>
