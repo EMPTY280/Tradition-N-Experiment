@@ -876,17 +876,17 @@
 	<mod-append:ship name="TNE_PLAYER_SHIP_HIJACKER" a="true" b="true" c="true" super="luminal" />
 	<mod-append:customShip name="TNE_PLAYER_SHIP_HIJACKER">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_GHOST</hiddenAug>
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
 		<crewLimit>8</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_HIJACKER_2">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_GHOST</hiddenAug>
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
 		<crewLimit>8</crewLimit>
 	</mod-append:customShip>
 	<mod-append:customShip name="TNE_PLAYER_SHIP_HIJACKER_3">
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>SHIP_GHOST</hiddenAug>
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
 		<crewLimit>8</crewLimit>
 	</mod-append:customShip>
 </mod:findLike>

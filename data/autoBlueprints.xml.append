@@ -298,8 +298,21 @@
 	<mod-append:name>TNE_FOCUS_LOCKDOWN</mod-append:name>
 </mod:findName>
 
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_FOCUS_SPECIAL">
+	<mod-append:name>TNE_BEAM_HYBRID</mod-append:name>
+</mod:findName>
+
+<!-- <mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_BEAM_STANDARD">
+</mod:findName> -->
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_BEAM_STRONG">
+	<mod-append:name>TNE_BEAM_HYBRID</mod-append:name>
+	<mod-append:name>TNE_BEAM_CAPACITOR</mod-append:name>
+</mod:findName>
+
 <mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_BEAM_UTILITY">
 	<mod-append:name>TNE_BEAM_LOCKDOWN</mod-append:name>
+	<mod-append:name>TNE_BEAM_BREACH_2</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_BEAM_BIO">
