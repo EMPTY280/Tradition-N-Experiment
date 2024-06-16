@@ -453,3 +453,11 @@
 [FIX]
 - Trident, Bill, Woldo beams will appear at merchant's store
 - Changed Hijacker ships' Node 17 Intro text
+
+	[v1.25b] 2024-06-16
+
+[ADJUST]
+- Acid Bomb
+  - Crew Damage Effect: 4 DPS 25sec -> 5DPS 17sec
+- All Modular Cruisers
+  - Now Starts with 3 LV Door 

@@ -1025,7 +1025,7 @@
 
 주의: 시스템의 이온 후유증은 작동이 종료된 후 발생하므로, 완전히 작동이 끝난 후 해제하십시오.</text>
 
-<text name="tne_tip_acid" language="zh-Hans">팁: 산성 무기는 피격 시스템을 천천히 파괴하며, 완파된 시스템 또는 빈 선실에는 균열을 일으킵니다. 또한 선실 내의 선원에게 초당 4의 피해를 가하며 수리 속도를 감소시킵니다.</text>
+<text name="tne_tip_acid" language="zh-Hans">팁: 산성 무기는 피격 시스템을 천천히 파괴하며, 완파된 시스템 또는 빈 선실에는 균열을 일으킵니다. 또한 선실 내의 선원에게 초당 5의 피해를 가하며 수리 속도를 감소시킵니다.</text>
 <!-- <text name="erosion_chance" language="zh-Hans">부식 확률: \1%</text>  --> <!-- \1: chance, \2 is low/medium/high -->
 <!--<text name="erosion_effect" language="zh-Hans">부식 피해: \1 (\2초)
 부식 속도: \3</text>  --> <!-- \1: total damage, \2: duration, \3: damage rate -->

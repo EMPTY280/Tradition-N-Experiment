@@ -1489,10 +1489,10 @@ POLASTAR 4
 	<roomStatBoostChance>10</roomStatBoostChance>
 	<roomStatBoosts>
 		<statBoost name="trueHealAmount">
-			<duration>25</duration>
+			<duration>17</duration>
 			<maxStacks>1</maxStacks>
 			<boostType>FLAT</boostType>
-			<amount>-4</amount>
+			<amount>-5</amount>
 			<affectsSelf>true</affectsSelf>
 			<shipTarget>ALL</shipTarget>
 			<crewTarget>ALL</crewTarget>
@@ -4639,7 +4639,7 @@ POLASTAR 4
 				<number>0</number>
 			</slot>
 		</clonebay>
-		<doors power="1" room="8" start="true" img="room_doors_7">
+		<doors power="3" room="8" start="true" img="room_doors_7">
 			<slot>
 				<direction>up</direction>
 				<number>1</number>
@@ -4714,7 +4714,7 @@ POLASTAR 4
 				<number>0</number>
 			</slot>
 		</clonebay>
-		<doors power="2" room="11" start="true" img="room_doors_5">
+		<doors power="3" room="11" start="true" img="room_doors_5">
 			<slot>
 				<direction>right</direction>
 				<number>0</number>
@@ -4792,7 +4792,7 @@ POLASTAR 4
 				<number>2</number>
 			</slot>
 		</clonebay>
-		<doors power="1" room="2" start="true" img="room_tne_doors_modular">
+		<doors power="3" room="2" start="true" img="room_tne_doors_modular">
 			<slot>
 				<direction>right</direction>
 				<number>1</number>
