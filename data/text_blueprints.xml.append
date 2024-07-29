@@ -152,7 +152,7 @@ Stats:
 	Total System Damage: 3
 	Total Crew Damage: 45
 	Shield Piercing: 10
-	Ignores Snergy Shields</text>
+	Ignores Energy Shields</text>
 
 <text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_NAME">'Sasha'</text>
 <text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_SHORT">'Sasha'</text>
