@@ -520,6 +520,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_POLARSTAR_4_SHORT"></short>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_POLARSTAR_4_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_POLARSTAR_4_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>1</damage>
 	<sysDamage>1</sysDamage>
@@ -704,6 +705,7 @@ POLASTAR 4
 	<!-- <tip></tip> -->
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_LASER_TACHYON_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_LASER_TACHYON_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>0</damage>
 	<accuracyMod>100</accuracyMod>
@@ -739,6 +741,7 @@ POLASTAR 4
 	<title id="TNE_TEXT_WEAPON_TNE_LASER_SASHA_NAME"></title>
 	<short id="TNE_TEXT_WEAPON_TNE_LASER_SASHA_SHORT"></short>
 	<descriptionOverride id="TNE_TEXT_WEAPON_TNE_LASER_SASHA_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_TNE_LASER_SASHA_TOOLTIP"></tooltipOverride>
 	<desc></desc>
 	<tooltip></tooltip>
 	<damage>1</damage>
@@ -785,6 +788,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_LASER_FRONTIER_SHORT"></short>
 	<desc>...</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_LASER_FRONTIER_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_LASER_FRONTIER_TOOLTIP"></tooltipOverride>
 	<tooltip></tooltip>
 	<radius>45</radius>
 	<damage>1</damage>
@@ -830,6 +834,7 @@ POLASTAR 4
 	<tip>tip_laser</tip>
 	<desc>...</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_LASER_BLOOD_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_LASER_BLOOD_TOOLTIP"></tooltipOverride>
 	<tooltip></tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -874,6 +879,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_RAILGUN_1_SHORT"></short>
 	<desc>...</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_RAILGUN_1_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_RAILGUN_1_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
@@ -912,6 +918,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_RAILGUN_2_SHORT"></short>
 	<desc>...</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_RAILGUN_2_DESC"></descriptionOveride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_RAILGUN_2_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -995,6 +1002,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_MISSILES_BREACH_SHORT"></short>
 	<desc>...</desc>
 	<descriptionOverride id="TNE_TEXT_MISSILES_BREACH_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_MISSILES_BREACH_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>3</damage>
     <hullBust>0</hullBust>
@@ -1115,6 +1123,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_BEAM_SAPPER_SHORT"></short>
 	<desc>...</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_BEAM_SAPPER_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_BEAM_SAPPER_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -1147,6 +1156,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_BEAM_CAPACITOR_SHORT"></short>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_BEAM_CAPACITOR_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_BEAM_CAPACITOR_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>1</damage>
     <sp>0</sp>
@@ -1180,12 +1190,13 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_BEAM_HYBRID_SHORT"></short>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_BEAM_HYBRID_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_BEAM_HYBRID_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>1</damage>
     <sp>0</sp>
     <fireChance>0</fireChance>
 	<breachChance>2</breachChance>
-	<cooldown>21</cooldown>
+	<cooldown>19</cooldown>
 	<speed>5</speed>
 	<length>55</length>
 	<power>3</power>
@@ -1234,9 +1245,10 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_BEAM_BREACH_2_SHORT"></short>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_BEAM_BREACH_2_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_BEAM_BREACH_2_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>0</damage>
-    <sp>2</sp>
+    <sp>3</sp>
     <fireChance>0</fireChance>
 	<breachChance>10</breachChance>
 	<cooldown>17</cooldown>
@@ -1301,6 +1313,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_SHORT"></short>
 	<desc>...</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>2</damage>
 	<sp>0</sp>
@@ -1702,6 +1715,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_GRENADE_1_SHORT"></short>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_GRENADE_1_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_GRENADE_1_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>1</damage>
 	<accuracyMod>10</accuracyMod>
@@ -1743,6 +1757,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_GRENADE_2_SHORT"></short>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_GRENADE_2_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_GRENADE_2_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>1</damage>
 	<accuracyMod>10</accuracyMod>
@@ -1825,6 +1840,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_GRENADE_FIRE_SHORT"></short>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_GRENADE_FIRE_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_GRENADE_FIRE_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>1</damage>
 	<accuracyMod>10</accuracyMod>
@@ -1905,6 +1921,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_GRENADE_HULL_SHORT"></short>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_GRENADE_HULL_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_GRENADE_HULL_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>2</damage>
 	<accuracyMod>10</accuracyMod>
@@ -1946,6 +1963,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_GRENADE_3_SHORT"></short>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_GRENADE_3_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_GRENADE_3_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>1</damage>
 	<accuracyMod>10</accuracyMod>
@@ -2073,6 +2091,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_KERNEL_FRAG_SHORT"></short>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_KERNEL_FRAG_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_KERNEL_FRAG_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>1</damage>
 	<accuracyMod>0</accuracyMod>
@@ -2117,6 +2136,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_SHORT"></short>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>1</damage>
 	<accuracyMod>0</accuracyMod>
@@ -2167,6 +2187,7 @@ POLASTAR 4
 	<tip>tip_particle_laser</tip>
 	<desc>...</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_TOOLTIP"></tooltipOverride>
 	<tooltip></tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -2292,6 +2313,102 @@ POLASTAR 4
 </weaponBlueprint>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ CRYSTAL WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<weaponBlueprint name="TNE_CRYSTAL_SPEAR">
+	<type>MISSILES</type>
+	<flavorType>Crystalline Tech</flavorType>
+	<title id="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_NAME"></title>
+	<short id="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_SHORT"></short>
+	<descriptionOverride id="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_TOOLTIP"></tooltipOverride>
+	<tooltip>...</tooltip>
+	<damage>2</damage>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<stunChance>2</stunChance>
+	<cooldown>17</cooldown>
+	<power>3</power>
+	<speed>50</speed>
+	<cost>80</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<boost>
+		<type>damage</type>
+		<amount>1</amount>
+		<count>3</count>
+	</boost>
+	<image>tne_crystal_spear_proj</image>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>crystalExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<explosion>explosion_crystal</explosion>
+	<weaponArt>tne_crystal_spear</weaponArt>
+	<iconImage>crystal</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="TNE_CRYSTAL_SPEAR_ELITE">
+	<type>MISSILES</type>
+	<title id="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_ELITE_NAME"></title>
+	<short id="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_ELITE_SHORT"></short>
+	<descriptionOverride id="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_ELITE_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_ELITE_TOOLTIP"></tooltipOverride>
+	<tooltip>...</tooltip>
+	<damage>3</damage>
+	<lockdown>1</lockdown>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+	<breachChance>4</breachChance>
+	<stunChance>4</stunChance>
+	<cooldown>14</cooldown>
+	<power>3</power>
+	<speed>50</speed>
+	<cost>95</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<boost>
+		<type>damage</type>
+		<amount>1</amount>
+		<count>2</count>
+	</boost>
+	<image>tne_crystal_spear_elite_proj</image>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>crystalExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<explosion>explosion_crystal</explosion>
+	<weaponArt>tne_crystal_spear_elite</weaponArt>
+	<iconImage>crystal</iconImage>
+</weaponBlueprint>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ EXTERNAL SYSTEMS ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 
@@ -2302,6 +2419,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_SHORT"></short>
 	<desc>..</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<boost>
 		<type>damage</type>
@@ -2328,6 +2446,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_EX_RECHARGER_1_SHORT"></short>
 	<desc>..</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_EX_RECHARGER_1_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_EX_RECHARGER_1_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<boost>
 		<type>damage</type>
@@ -2354,6 +2473,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_EX_RECHARGER_2_SHORT"></short>
 	<desc>..</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_EX_RECHARGER_2_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_EX_RECHARGER_2_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<boost>
 		<type>damage</type>
@@ -2380,6 +2500,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_EX_REPEL_MINOR_SHORT"></short>
 	<desc>..</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_EX_REPEL_MINOR_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_EX_REPEL_MINOR_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<boost>
 		<type>damage</type>
@@ -2406,6 +2527,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_EX_REPEL_1_SHORT"></short>
 	<desc>..</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_EX_REPEL_1_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_EX_REPEL_1_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<boost>
 		<type>damage</type>
@@ -2432,6 +2554,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_EX_REPEL_2_SHORT"></short>
 	<desc>..</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_EX_REPEL_2_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_EX_REPEL_2_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<boost>
 		<type>damage</type>
@@ -2458,6 +2581,7 @@ POLASTAR 4
 	<short id="TNE_TEXT_WEAPON_EX_REPEL_OVER_SHORT"></short>
 	<desc>..</desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_EX_REPEL_OVER_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_EX_REPEL_OVER_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<boost>
 		<type>damage</type>
@@ -2485,6 +2609,7 @@ POLASTAR 4
 	<locked>1</locked>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_EX_TELEPORTER_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_EX_TELEPORTER_TOOLTIP"></tooltipOverride>
 	<tooltip>Bomb weapon;</tooltip>
 	<damage>0</damage>
 	<accuracyMod>100</accuracyMod>
@@ -2513,6 +2638,7 @@ POLASTAR 4
 	<locked>1</locked>
 	<desc></desc>
 	<descriptionOverride id="TNE_TEXT_WEAPON_EX_ION_STABILIZER_DESC"></descriptionOverride>
+	<tooltipOverride id="TNE_TEXT_WEAPON_EX_ION_STABILIZER_TOOLTIP"></tooltipOverride>
 	<tooltip>Bomb weapon;</tooltip>
 	<damage>0</damage>
 	<accuracyMod>100</accuracyMod>
@@ -2957,6 +3083,119 @@ POLASTAR 4
 	<rarity>0</rarity>
 </droneBlueprint>
 
+<weaponBlueprint name="TNE_DRONEWEAPON_GAZER">
+	<type>LASER</type>
+	<title></title>
+	<damage>0</damage>
+	<ion>1</ion>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<rarity>0</rarity>
+	<image>laser_light</image>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_pierce</weaponArt>
+</weaponBlueprint>
+
+<droneBlueprint name="TNE_DRONE_GAZER">
+	<type>COMBAT</type>
+	<tip>tip_combat</tip>
+	<title id="TNE_TEXT_DRONE_GAZER_NAME"></title>
+	<short id="TNE_TEXT_DRONE_GAZER_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_GAZER_DESC"></desc>
+	<power>2</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>10</speed>
+	<cost>50</cost>
+	<bp>3</bp>
+	<droneImage>tne_drone_gazer</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_GAZER</weaponBlueprint>
+	<rarity>3</rarity>
+	<iconImage>combat</iconImage>
+</droneBlueprint>
+
+<weaponBlueprint name="TNE_DRONEWEAPON_GAZER_2">
+	<type>LASER</type>
+	<title></title>
+	<damage>2</damage>
+	<shots>1</shots>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>3</breachChance>
+	<rarity>0</rarity>
+	<image>laser_heavy</image>
+	<launchSounds>
+		<sound>laser_pierce</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_pierce</weaponArt>
+</weaponBlueprint>
+
+<droneBlueprint name="TNE_DRONE_GAZER_2_LASER">
+	<type>COMBAT</type>
+	<tip>tip_combat</tip>
+	<title id="TNE_TEXT_DRONE_GAZER_2_LASER_NAME"></title>
+	<short id="TNE_TEXT_DRONE_GAZER_2_LASER_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_GAZER_2_LASER_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>10</speed>
+	<cost>60</cost>
+	<bp>3</bp>
+	<droneImage>tne_drone_gazer2_l</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_GAZER_2</weaponBlueprint>
+	<rarity>5</rarity>
+	<iconImage>combat</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="TNE_DRONE_GAZER_2_SPEED">
+	<type>COMBAT</type>
+	<tip>tip_combat</tip>
+	<title id="TNE_TEXT_DRONE_GAZER_2_SPEED_NAME"></title>
+	<short id="TNE_TEXT_DRONE_GAZER_2_SPEED_SHORT"></short>
+	<desc id="TNE_TEXT_DRONE_GAZER_2_SPEED_DESC"></desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>20</speed>
+	<cost>60</cost>
+	<bp>3</bp>
+	<droneImage>tne_drone_gazer2_s</droneImage>
+	<weaponBlueprint>TNE_DRONEWEAPON_GAZER</weaponBlueprint>
+	<rarity>0</rarity>
+	<iconImage>combat</iconImage>
+</droneBlueprint>
+
 <!--
 =============================================
 =============================================
@@ -3378,8 +3617,8 @@ POLASTAR 4
 				<number>1</number>
 			</slot>
 		</doors>
-		<drones max="8" power="2" room="6" start="false" img="room_drones_orchid_3" />
-		<engines power="3" room="12" start="true" img="room_engines_orchid_3">
+		<drones max="8" power="2" room="6" start="false" img="room_drones_18" />
+		<engines power="3" room="12" start="true" img="room_engines_12">
 			<slot>
 				<direction>right</direction>
 				<number>1</number>
@@ -3605,7 +3844,7 @@ POLASTAR 4
 				<number>1</number>
 			</slot>
 		</doors>
-		<drones max="8" power="2" room="15" start="false" img="room_drones_orchid_3" />
+		<drones max="8" power="2" room="15" start="false" img="room_drones_18" />
 		<engines power="2" room="11" start="true" img="room_engines_7">
 			<slot>
 				<direction>right</direction>
@@ -3682,7 +3921,7 @@ POLASTAR 4
 				<number>1</number>
 			</slot>
 		</doors>
-		<drones max="8" power="2" room="1" start="false" img="room_drones_orchid_3" />
+		<drones max="8" power="2" room="1" start="false" img="room_drones_18" />
 		<engines power="3" room="10" start="true" img="room_engines">
 			<slot>
 				<direction>down</direction>
@@ -3818,7 +4057,7 @@ POLASTAR 4
 	<desc id="TNE_TEXT_PLAYER_SHIP_SPITFIRE_2_DESC"></desc>
 	<systemList>
 		<battery max="2" power="1" room="9" start="false" img="room_battery_14" />
-		<cloaking power="1" room="12" start="false" img="room_cloaking_orchid_2" />
+		<cloaking power="1" room="12" start="false" img="room_cloaking_12" />
 		<clonebay power="1" room="8" start="true">
 			<slot>
 				<number>3</number>
@@ -4065,7 +4304,7 @@ POLASTAR 4
 			</slot>
 		</medbay>
 		<mind power="1" room="14" start="false" img="room_mind_5" />
-		<oxygen power="1" room="15" start="true" img="room_oxygen_orchid_2" />
+		<oxygen power="1" room="15" start="true" img="room_oxygen_22" />
 		<pilot power="1" room="4" start="true" img="room_pilot_5">
 			<slot>
 				<direction>right</direction>
@@ -4188,7 +4427,7 @@ POLASTAR 4
 	<desc id="TNE_TEXT_PLAYER_SHIP_DROP_DESC"></desc>
 	<systemList>
 		<battery max="2" power="1" room="12" start="false" img="room_battery_2" />
-		<cloaking power="1" room="7" start="false" img="room_cloaking_orchid_3" />
+		<cloaking power="1" room="7" start="false" img="room_cloaking_13" />
 		<clonebay power="1" room="10" start="false">
 			<slot>
 				<number>0</number>
@@ -4264,7 +4503,7 @@ POLASTAR 4
 	<desc id="TNE_TEXT_PLAYER_SHIP_DROP_2_DESC"></desc>
 	<systemList>
 		<battery max="2" power="1" room="11" start="true" img="room_battery_2" />
-		<cloaking power="1" room="1" start="false" img="room_cloaking_orchid_3" />
+		<cloaking power="1" room="1" start="false" img="room_cloaking_13" />
 		<clonebay power="1" room="14" start="false">
 			<slot>
 				<number>0</number>
@@ -4351,7 +4590,7 @@ POLASTAR 4
 				<number>0</number>
 			</slot>
 		</doors>
-		<drones max="8" power="4" room="6" start="true" img="room_drones_orchid_3" />
+		<drones max="8" power="4" room="6" start="true" img="room_drones_18" />
 		<engines power="2" room="13" start="true" img="room_engines_8">
 			<slot>
 				<direction>left</direction>
@@ -4487,7 +4726,7 @@ POLASTAR 4
 	<desc id="TNE_TEXT_PLAYER_SHIP_TF2_2_DESC"></desc>
 	<systemList>
 		<battery max="2" power="1" room="12" start="false" img="room_battery" />
-		<cloaking power="1" room="16" start="false" img="room_cloaking_orchid_3" />
+		<cloaking power="1" room="16" start="false" img="room_cloaking_13" />
 		<clonebay power="1" room="10" start="false">
 			<slot>
 				<number>1</number>
@@ -4499,7 +4738,7 @@ POLASTAR 4
 				<number>1</number>
 			</slot>
 		</doors>
-		<drones max="8" power="2" room="6" start="false" img="room_drones_orchid_3" />
+		<drones max="8" power="2" room="6" start="false" img="room_drones_18" />
 		<engines power="3" room="11" start="true" img="room_engines_5">
 			<slot>
 				<direction>up</direction>
@@ -4572,7 +4811,7 @@ POLASTAR 4
 				<number>0</number>
 			</slot>
 		</doors>
-		<drones max="8" power="2" room="14" start="false" img="room_drones_orchid_3" />
+		<drones max="8" power="2" room="14" start="false" img="room_drones_18" />
 		<engines power="2" room="9" start="true" img="room_engines_9">
 			<slot>
 				<direction>up</direction>
@@ -4645,7 +4884,7 @@ POLASTAR 4
 				<number>1</number>
 			</slot>
 		</doors>
-		<drones power="2" max="8" room="11" start="false" img="room_drones_orchid_3" />
+		<drones power="2" max="8" room="11" start="false" img="room_drones_18" />
 		<engines power="2" room="1" start="true" img="room_engines_2">
 			<slot>
 				<direction>down</direction>
@@ -4666,7 +4905,7 @@ POLASTAR 4
 				<number>0</number>
 			</slot>
 		</pilot>
-		<sensors power="1" room="4" start="true" img="room_sensors_orchid_2">
+		<sensors power="1" room="4" start="true" img="room_sensors_9">
 			<slot>
 				<direction>up</direction>
 				<number>0</number>
@@ -4799,7 +5038,7 @@ POLASTAR 4
 			</slot>
 		</doors>
 		<drones power="3" max="8" room="4" start="true" img="room_drones_10" />
-		<engines power="2" room="1" start="true" img="room_engines_orchid_3">
+		<engines power="2" room="1" start="true" img="room_engines_12">
 			<slot>
 				<direction>right</direction>
 				<number>1</number>
@@ -4819,7 +5058,7 @@ POLASTAR 4
 				<number>1</number>
 			</slot>
 		</pilot>
-		<sensors power="1" room="7" start="true" img="room_sensors_orchid_2">
+		<sensors power="1" room="7" start="true" img="room_sensors_9">
 			<slot>
 				<direction>up</direction>
 				<number>0</number>

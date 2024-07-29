@@ -89,6 +89,19 @@ Stats:
 
 	Default Price: 110~   -   Selling Price: 55~
 </text>
+<text name="TNE_TEXT_WEAPON_POLARSTAR_4_TOOLTIP">Required Power: 4
+	Charge Time: 10 - 22 seconds
+
+	Beam Length: 105
+	Beam Speed: 35
+
+	Base Hull Damage: 1 - 3
+	Total System Damage: 2 - 4
+	Total Crew Damage: 15 - 45
+	Shield Piercing: 10
+
+	Fire Chance: 10 - 30%
+	Breach Chance: 30 - 50%</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ LASER WEAPONS ★★★		-->
@@ -112,7 +125,7 @@ Stats:
 
 <text name="TNE_TEXT_WEAPON_LASER_TACHYON_NAME">Tachyon Laser</text>
 <text name="TNE_TEXT_WEAPON_LASER_TACHYON_SHORT">Tachyon</text>
-<text name="TNE_TEXT_WEAPON_LASER_TACHYON_DESC">A high-end laser weapon that fires a projectile Faster-Than-Light. It not only ignores common shields, also energy shields!
+<text name="TNE_TEXT_WEAPON_LASER_TACHYON_DESC">A high-end laser weapon that fires a projectile Faster-Than-Light. It not only ignores common shields, also Super Shields!
 
 	Stats:
 	Required Power: 3
@@ -125,10 +138,21 @@ Stats:
 	Total System Damage: 3
 	Total Crew Damage: 45
 	Shield Piercing: 10
-	Ignores Energy Shields
+	Ignores Snergy Shields
 
 	Default Price: 100~   -   Selling Price: 50~
 </text>
+<text name="TNE_TEXT_WEAPON_LASER_TACHYON_TOOLTIP">Required Power: 3
+	Charge Time: 19 seconds
+	Accuracy Bonus: +100%
+
+	Shots Per Charge: 1
+
+	Base Hull Damage: 3
+	Total System Damage: 3
+	Total Crew Damage: 45
+	Shield Piercing: 10
+	Ignores Snergy Shields</text>
 
 <text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_NAME">'Sasha'</text>
 <text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_SHORT">'Sasha'</text>
@@ -150,51 +174,90 @@ Stats:
 
 	Default Price: 80~   -   Selling Price: 40~
 </text>
+<text name="TNE_TEXT_WEAPON_TNE_LASER_SASHA_TOOLTIP">Required Power: 3
+	Charge Time: 13.5 seconds
+	Chain Effect: Increase shots by 1
+	Max Shots: 8
+
+	Shots Per Charge: 3
+
+	Base Hull Damage: 1
+	Total System Damage: 1
+	Total Crew Damage: 15
+
+	Fire Chance: 10%</text>
 
 <text name="TNE_TEXT_WEAPON_LASER_FRONTIER_NAME">'Frontier' Scatter Laser</text>
 <text name="TNE_TEXT_WEAPON_LASER_FRONTIER_SHORT">'Frontier'</text>
 <text name="TNE_TEXT_WEAPON_LASER_FRONTIER_DESC">A Laser weapon that sprays inaccurate projectiles. Taking hull damage makes next shot Critical Shot.
 
-		Stats:
-		Required Power: 2
-		Charge Time: 11 seconds
+	Stats:
+	Required Power: 2
+	Charge Time: 11 seconds
 
-		Shot Radius: 45
-		Shots per charge: 3
+	Shot Radius: 45
+	Shots per charge: 3
 
-		Base Hull Damage: 1
-		Total System Damage: 1
-		Total Crew Damage: 15
+	Base Hull Damage: 1
+	Total System Damage: 1
+	Total Crew Damage: 15
 
-		Fire Chance: 10%
+	Fire Chance: 10%
 
-		Taking Hull Damage Activates Crit-Charge
-		Crit-Charge: Does Double Damage, +1 Ion Damage.
+	Taking Hull Damage Activates Crit-Charge
+	Crit-Charge: Does Double Damage, +1 Ion Damage.
 
-		Default Price: 75~   -   Selling Price: 37~
+	Default Price: 75~   -   Selling Price: 37~
 </text>
+<text name="TNE_TEXT_WEAPON_LASER_FRONTIER_TOOLTIP">Required Power: 2
+	Charge Time: 11 seconds
+
+	Shot Radius: 45
+	Shots per charge: 3
+
+	Base Hull Damage: 1
+	Total System Damage: 1
+	Total Crew Damage: 15
+
+	Fire Chance: 10%
+
+	Taking Hull Damage Activates Crit-Charge
+	Crit-Charge: Does Double Damage, +1 Ion Damage.</text>
 
 <text name="TNE_TEXT_WEAPON_LASER_BLOOD_NAME">'Blutsauger'</text>
 <text name="TNE_TEXT_WEAPON_LASER_BLOOD_SHORT">'Blutsauger'</text>
 <text name="TNE_TEXT_WEAPON_LASER_BLOOD_DESC">This unique Laser weapon can repair your hull, by dismantling enemy's ship parts. because of its unstability, you take recoil damage when it is fired.
 
-		Stats:
-		Required Power: 1
-		Charge Time: 9 seconds
+	Stats:
+	Required Power: 1
+	Charge Time: 9 seconds
 
-		Shots per charge: 2
+	Shots per charge: 2
 
-		Base Hull Damage: 1
-		Total System Damage: 1
-		Total Crew Damage: 15
+	Base Hull Damage: 1
+	Total System Damage: 1
+	Total Crew Damage: 15
 
-		Fire Chance: 10%
+	Fire Chance: 10%
 
-		Lose 1 Hull When Fired
-		Repair 1 Hull On Hit
+	Lose 1 Hull When Fired
+	Repair 1 Hull On Hit
 
-		Default Price: 70~   -   Selling Price: 35~
+	Default Price: 70~   -   Selling Price: 35~
 </text>
+<text name="TNE_TEXT_WEAPON_LASER_BLOOD_TOOLTIP">Required Power: 1
+	Charge Time: 9 seconds
+
+	Shots per charge: 2
+
+	Base Hull Damage: 1
+	Total System Damage: 1
+	Total Crew Damage: 15
+
+	Fire Chance: 10%
+
+	Lose 1 Hull When Fired
+	Repair 1 Hull On Hit</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ MISSILE WEAPONS ★★★		-->
@@ -204,45 +267,71 @@ Stats:
 <text name="TNE_TEXT_WEAPON_RAILGUN_1_SHORT">'Icarus'</text>
 <text name="TNE_TEXT_WEAPON_RAILGUN_1_DESC">A weapon that fires metal projectiles with rapid acceleration. Pierces all shields and does shield damage equal to hull damage.
 
-		Stats:
-		Required Power: 2
-		Charge Time: 14 seconds
-		Missile Consumption: 1
-		Accuracy Bonus: +10%
+	Stats:
+	Required Power: 2
+	Charge Time: 14 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10%
 
-		Shots per charge: 1
+	Shots per charge: 1
 
-		Base Hull Damage: 2
-		Total System Damage: 2
-		Total Crew Damage: 30
-		Shield Piercing: 10
+	Base Hull Damage: 2
+	Total System Damage: 2
+	Total Crew Damage: 30
+	Shield Piercing: 10
 
-		Shield Damage: 2 Layers
+	Shield Damage: 2 Layers
 
-		Default Price: 40~   -   Selling Price: 20~
+	Default Price: 40~   -   Selling Price: 20~
 </text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_1_TOOLTIP">Required Power: 2
+	Charge Time: 14 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10%
+
+	Shots per charge: 1
+
+	Base Hull Damage: 2
+	Total System Damage: 2
+	Total Crew Damage: 30
+	Shield Piercing: 10
+
+	Shield Damage: 2 Layers</text>
 
 <text name="TNE_TEXT_WEAPON_RAILGUN_2_NAME">'Daedalus' Railgun</text>
 <text name="TNE_TEXT_WEAPON_RAILGUN_2_SHORT">'Daedalus'</text>
 <text name="TNE_TEXT_WEAPON_RAILGUN_2_DESC">A weapon that fires metal projectiles with rapid acceleration. Pierces all shields and does shield damage equal to hull damage.
 
-		Stats:
-		Required Power: 3
-		Charge Time: 17 seconds
-		Missile Consumption: 1
-		Accuracy Bonus: +10%
+	Stats:
+	Required Power: 3
+	Charge Time: 17 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10%
 
-		Shots per charge: 1
+	Shots per charge: 1
 
-		Base Hull Damage: 3
-		Total System Damage: 3
-		Total Crew Damage: 45
-		Shield Piercing: 10
+	Base Hull Damage: 3
+	Total System Damage: 3
+	Total Crew Damage: 45
+	Shield Piercing: 10
 
-		Shield Damage: 3 Layers
+	Shield Damage: 3 Layers
 
-		Default Price: 55~   -   Selling Price: 27~
+	Default Price: 55~   -   Selling Price: 27~
 </text>
+<text name="TNE_TEXT_WEAPON_RAILGUN_2_TOOLTIP">Required Power: 3
+	Charge Time: 17 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10%
+
+	Shots per charge: 1
+
+	Base Hull Damage: 3
+	Total System Damage: 3
+	Total Crew Damage: 45
+	Shield Piercing: 10
+
+	Shield Damage: 3 Layers</text>
 
 <text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_NAME">Junk Bazooka</text>
 <text name="TNE_TEXT_WEAPON_JUNK_BAZOOKA_SHORT">J. Bazooka</text>
@@ -252,25 +341,40 @@ Stats:
 <text name="TNE_TEXT_MISSILES_BREACH_SHORT" >'Erebus'</text>
 <text name="TNE_TEXT_MISSILES_BREACH_DESC">This Missile rips breach and burns out all oxygen in the room upon impact.
 
-		Stats:
-		Required Power: 2
-		Charge Time: 16 seconds
-		Missile Consumption: 1
-		Accuracy Bonus: +10%
+	Stats:
+	Required Power: 2
+	Charge Time: 16 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10%
 
-		Shots per charge: 1
+	Shots per charge: 1
 
-		Base Hull Damage: 3
-		Total System Damage: 3
-		Total Crew Damage: 45
-		Shield Piercing: 10
+	Base Hull Damage: 3
+	Total System Damage: 3
+	Total Crew Damage: 45
+	Shield Piercing: 10
 
-		Breach Chance: 100%
-		Stun Chance: 20% (3 seconds long)
-		Oxygen Level Mod: -100%
+	Breach Chance: 100%
+	Stun Chance: 20% (3 seconds long)
+	Oxygen Level Mod: -100%
 
-		Default Price: 70~   -   Selling Price: 35~
+	Default Price: 70~   -   Selling Price: 35~
 </text>
+<text name="TNE_TEXT_MISSILES_BREACH_TOOLTIP">Required Power: 2
+	Charge Time: 16 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10%
+
+	Shots per charge: 1
+
+	Base Hull Damage: 3
+	Total System Damage: 3
+	Total Crew Damage: 45
+	Shield Piercing: 10
+
+	Breach Chance: 100%
+	Stun Chance: 20% (3 seconds long)
+	Oxygen Level Mod: -100%</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ BEAM WEAPONS ★★★		-->
@@ -288,26 +392,36 @@ Stats:
 <text name="TNE_TEXT_WEAPON_BEAM_SAPPER_SHORT">'Sapper'</text>
 <text name="TNE_TEXT_WEAPON_BEAM_SAPPER_DESC">A special Beam that can disrupt shields. It can instantly remove shields that is less than or equal to 2 layers.
 
-		Stats:
-		Required Power: 2
-		Charge Time: 15 seconds
+	Stats:
+	Required Power: 2
+	Charge Time: 15 seconds
 
-		Beam Length: 75
-		Beam Speed: 5
+	Beam Length: 75
+	Beam Speed: 5
 
-		Total System Damage: 2
-		Shield Piercing: 2
+	Total System Damage: 2
+	Shield Piercing: 2
 
-		Removes Shields Less Than or Equal to 2 Layers
+	Removes Shields Less Than or Equal to 2 Layers
 
-		Default Price: 80~   -   Selling Price: 40~
+	Default Price: 80~   -   Selling Price: 40~
 </text>
+<text name="TNE_TEXT_WEAPON_BEAM_SAPPER_TOOLTIP">Required Power: 2
+	Charge Time: 15 seconds
+
+	Beam Length: 75
+	Beam Speed: 5
+
+	Total System Damage: 2
+	Shield Piercing: 2
+
+	Removes Shields Less Than or Equal to 2 Layers</text>
 
 <text name="TNE_TEXT_WEAPON_BEAM_CAPACITOR_NAME">'Trident' Beam</text>
 <text name="TNE_TEXT_WEAPON_BEAM_CAPACITOR_SHORT">'Trident'</text>
 <text name="TNE_TEXT_WEAPON_BEAM_CAPACITOR_DESC">A capacitor modified Beam weapon. Damage increases as it charged.
 
-Stats:
+	Stats:
 	Required Power: 3
 	Charge Time: 11 - 27 seconds
 
@@ -322,14 +436,25 @@ Stats:
 
 	Default Price: 70~   -   Selling Price: 35~
 </text>
+<text name="TNE_TEXT_WEAPON_BEAM_CAPACITOR_TOOLTIP">Required Power: 3
+	Charge Time: 11 - 27 seconds
+
+	Beam Length: 70
+	Beam Speed: 10
+
+	Base Hull Damage: 1 - 3
+	Total System Damage: 1 - 3
+	Total Crew Damage: 15 - 45
+
+	Fire Chance: 20%</text>
 
 <text name="TNE_TEXT_WEAPON_BEAM_HYBRID_NAME">'Woldo' Beam</text>
 <text name="TNE_TEXT_WEAPON_BEAM_HYBRID_SHORT">'Woldo'</text>
 <text name="TNE_TEXT_WEAPON_BEAM_HYBRID_DESC">By the combination of Beam and Pinpoint, It does larger damage on first contact.
 
-Stats:
+	Stats:
 	Required Power: 3
-	Charge Time: 21 seconds
+	Charge Time: 19 seconds
 
 	Beam Length: 55
 	Beam Speed: 5
@@ -340,35 +465,57 @@ Stats:
 
 	Breach Chance: 20%
 
-Fires Extra Pinpoint Shot:
+	Fires Extra Pinpoint Shot:
 	Base Hull Damage: 3
 	Total System Damage: 3
-	Total Crew Damage: 15
+	Total Crew Damage: 45
 	Shield Piercing: 1
 
 	Breach Chance: 30%
 
 	Default Price: 90~   -   Selling Price: 45~
 </text>
+<text name="TNE_TEXT_WEAPON_BEAM_HYBRID_TOOLTIP">Required Power: 3
+	Charge Time: 19 seconds
+
+	Beam Length: 55 / Pinpoint
+	Beam Speed: 5 / Pinpoint
+
+	Base Hull Damage: 1 / 3
+	Total System Damage: 1 / 3
+	Total Crew Damage: 15 / 45
+	Shield Piercing: 0 / 1
+
+	Breach Chance: 20% / 30%</text>
 
 <text name="TNE_TEXT_WEAPON_BEAM_BREACH_2_NAME">'Bill' Beam</text>
 <text name="TNE_TEXT_WEAPON_BEAM_BREACH_2_SHORT">'Bill'</text>
-<text name="TNE_TEXT_WEAPON_BEAM_BREACH_2_DESC">A powerful beam that cannot cause physical damage but rips breaches in the enemy's hull and lowers oxygen level. Pierces 1 shield.
+<text name="TNE_TEXT_WEAPON_BEAM_BREACH_2_DESC">A powerful beam that cannot cause physical damage but rips breaches in the enemy's hull and lowers oxygen level. Pierces 2 shields.
 
-Stats:
+	Stats:
 	Required Power: 2
 	Charge Time: 17 seconds
 
 	Beam Length: 105
 	Beam Speed: 5
 
-	Shield Piercing: 1
+	Shield Piercing: 2
 
 	Breach Chance: 100%
 	Oxygen Level Mod: -50%
 
 	Default Price: 65~   -   Selling Price: 32~
 </text>
+<text name="TNE_TEXT_WEAPON_BEAM_BREACH_2_TOOLTIP">Required Power: 2
+	Charge Time: 17 seconds
+
+	Beam Length: 105
+	Beam Speed: 5
+
+	Shield Piercing: 2
+
+	Breach Chance: 100%
+	Oxygen Level Mod: -50%</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ FOCUS WEAPONS ★★★		-->
@@ -382,21 +529,32 @@ Stats:
 <text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_SHORT">'Katar'</text>
 <text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_DESC">A capacitor modified, powerful Pinpoint. Does massive damage on full charge, but also can be shot faster to deal weak damage.
 
-		Stats:
-		Required Power: 4
-		Charge Time: 7 - 28 seconds
+	Stats:
+	Required Power: 4
+	Charge Time: 7 - 28 seconds
 
-		Beam Length: 1
-		Beam Speed: 1
+	Beam Length: 1
+	Beam Speed: 1
 
-		Base Hull Damage: 2 - 8
-		Total System Damage: 2 - 8
-		Total Crew Damage: 30 - 120
+	Base Hull Damage: 2 - 8
+	Total System Damage: 2 - 8
+	Total Crew Damage: 30 - 120
 
-		Breach Chance: 20 - 80%
+	Breach Chance: 20 - 80%
 
-		Default Price: 100~   -   Selling Price: 50~
+	Default Price: 100~   -   Selling Price: 50~
 </text>
+<text name="TNE_TEXT_WEAPON_FOCUS_CAPACITOR_TOOLTIP">Required Power: 4
+	Charge Time: 7 - 28 seconds
+
+	Beam Length: 1
+	Beam Speed: 1
+
+	Base Hull Damage: 2 - 8
+	Total System Damage: 2 - 8
+	Total Crew Damage: 30 - 120
+
+	Breach Chance: 20 - 80%</text>
 
 <text name="TNE_TEXT_WEAPON_FOCUS_ADAPT_NAME">'Tanto' Pinpoint</text>
 <text name="TNE_TEXT_WEAPON_FOCUS_ADAPT_SHORT">'Tanto'</text>
@@ -426,121 +584,196 @@ Stats:
 <text name="TNE_TEXT_WEAPON_GRENADE_1_SHORT">Grenade I</text>
 <text name="TNE_TEXT_WEAPON_GRENADE_1_DESC">Grenade spreads fragments on impact, dealing extra damage to close rooms.
 
-		Stats:
-		Required Power: 1
-		Charge Time: 13.5 seconds
-		Missile Consumption: 1
-		Accuracy Bonus: +10% / +100%
+	Stats:
+	Required Power: 1
+	Charge Time: 13.5 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10% / +100%
 
-		Frag Spread Radius: 66
-		Shots/Frags Per Charge: 1 / 3
-		
-		Base Hull Damage: 1 / 0
-		Total System Damage: 1 / 1
-		Total Crew Damage: 15 / 15
-		Shield Piercing: 10
-		
-		Breach Chance: 30% / 30%
-		Stun Chance: 50% (3 seconds long) / 0%
+	Frag Spread Radius: 66
+	Shots/Frags Per Charge: 1 / 3
+	
+	Base Hull Damage: 1 / 0
+	Total System Damage: 1 / 1
+	Total Crew Damage: 15 / 15
+	Shield Piercing: 10
+	
+	Breach Chance: 30% / 30%
+	Stun Chance: 50% (3 seconds long) / 0%
 
-		Default Price: 50~   -   Selling Price: 25~
+	Default Price: 50~   -   Selling Price: 25~
 </text>
+<text name="TNE_TEXT_WEAPON_GRENADE_1_TOOLTIP">Required Power: 1
+	Charge Time: 13.5 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10% / +100%
+
+	Frag Spread Radius: 66
+	Shots/Frags Per Charge: 1 / 3
+	
+	Base Hull Damage: 1 / 0
+	Total System Damage: 1 / 1
+	Total Crew Damage: 15 / 15
+	Shield Piercing: 10
+	
+	Breach Chance: 30% / 30%
+	Stun Chance: 50% (3 seconds long) / 0%</text>
 
 <text name="TNE_TEXT_WEAPON_GRENADE_2_NAME">Grenade Launcher MK II</text>
 <text name="TNE_TEXT_WEAPON_GRENADE_2_SHORT">Grenade II</text>
 <text name="TNE_TEXT_WEAPON_GRENADE_2_DESC">Grenade spreads fragments on impact, dealing extra damage to close rooms.
 
-		Stats:
-		Required Power: 2
-		Charge Time: 16 seconds
-		Missile Consumption: 1
-		Accuracy Bonus: +10% / +100%
+	Stats:
+	Required Power: 2
+	Charge Time: 16 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10% / +100%
 
-		Frag Spread Radius: 84
-		Shots/Frags Per Charge: 1 / 5
-		
-		Base Hull Damage: 1 / 0
-		Total System Damage: 1 / 1
-		Total Crew Damage: 15 / 15
-		Shield Piercing: 10
-		
-		Breach Chance: 40% / 30%
-		Stun Chance: 50% (3 seconds long) / 0%
+	Frag Spread Radius: 84
+	Shots/Frags Per Charge: 1 / 5
+	
+	Base Hull Damage: 1 / 0
+	Total System Damage: 1 / 1
+	Total Crew Damage: 15 / 15
+	Shield Piercing: 10
+	
+	Breach Chance: 40% / 30%
+	Stun Chance: 50% (3 seconds long) / 0%
 
-		Default Price: 60~   -   Selling Price: 30~
+	Default Price: 60~   -   Selling Price: 30~
 </text>
+<text name="TNE_TEXT_WEAPON_GRENADE_2_TOOLTIP">Required Power: 2
+	Charge Time: 16 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10% / +100%
+
+	Frag Spread Radius: 84
+	Shots/Frags Per Charge: 1 / 5
+	
+	Base Hull Damage: 1 / 0
+	Total System Damage: 1 / 1
+	Total Crew Damage: 15 / 15
+	Shield Piercing: 10
+	
+	Breach Chance: 40% / 30%
+	Stun Chance: 50% (3 seconds long) / 0%</text>
 
 <text name="TNE_TEXT_WEAPON_GRENADE_FIRE_NAME">Fire Grenade</text>
 <text name="TNE_TEXT_WEAPON_GRENADE_FIRE_SHORT">Fire G.</text>
 <text name="TNE_TEXT_WEAPON_GRENADE_FIRE_DESC">This Grenade spreads burning frags over a wide area.
 
-		Stats:
-		Required Power: 2
-		Charge Time: 18 seconds
-		Missile Consumption: 1
-		Accuracy Bonus: +10% / +100%
+	Stats:
+	Required Power: 2
+	Charge Time: 18 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10% / +100%
 
-		Frag Spread Radius: 108
-		Shots/Frags Per Charge: 1 / 4
-		
-		Base Hull Damage: 1 / 0
-		Total System Damage: 1 / 0
-		Total Crew Damage: 15 / 15
-		Shield Piercing: 10
-		
-		Fire Chance: 100% / 100%
-		Stun Chance: 50% (3 seconds long) / 0%
+	Frag Spread Radius: 108
+	Shots/Frags Per Charge: 1 / 4
+	
+	Base Hull Damage: 1 / 0
+	Total System Damage: 1 / 0
+	Total Crew Damage: 15 / 15
+	Shield Piercing: 10
+	
+	Fire Chance: 100% / 100%
+	Stun Chance: 50% (3 seconds long) / 0%
 
-		Default Price: 70~   -   Selling Price: 35~
+	Default Price: 70~   -   Selling Price: 35~
 </text>
+<text name="TNE_TEXT_WEAPON_GRENADE_FIRE_TOOLTIP">Required Power: 2
+	Charge Time: 18 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10% / +100%
+
+	Frag Spread Radius: 108
+	Shots/Frags Per Charge: 1 / 4
+	
+	Base Hull Damage: 1 / 0
+	Total System Damage: 1 / 0
+	Total Crew Damage: 15 / 15
+	Shield Piercing: 10
+	
+	Fire Chance: 100% / 100%
+	Stun Chance: 50% (3 seconds long) / 0%</text>
 
 <text name="TNE_TEXT_WEAPON_GRENADE_HULL_NAME">Anti-Hull Grenade</text>
 <text name="TNE_TEXT_WEAPON_GRENADE_HULL_SHORT">Anti-Hull G.</text>
 <text name="TNE_TEXT_WEAPON_GRENADE_HULL_DESC">Fragments from this Grenade punch a breach and damage hull at the same time.
 
-		Stats:
-		Required Power: 2
-		Charge Time: 19 seconds
-		Missile Consumption: 1
-		Accuracy Bonus: +10% / +100%
+	Stats:
+	Required Power: 2
+	Charge Time: 19 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10% / +100%
 
-		Frag Spread Radius: 77
-		Shots/Frags Per Charge: 1 / 3
-		
-		Base Hull Damage: 2 / 1
-		Total System Damage: 2 / 1
-		Total Crew Damage: 30 / 15
-		Shield Piercing: 10
-		
-		Breach Chance: 100% / 100%
-		Stun Chance: 50% (3 seconds long) / 0%
+	Frag Spread Radius: 77
+	Shots/Frags Per Charge: 1 / 3
+	
+	Base Hull Damage: 2 / 1
+	Total System Damage: 2 / 1
+	Total Crew Damage: 30 / 15
+	Shield Piercing: 10
+	
+	Breach Chance: 100% / 100%
+	Stun Chance: 50% (3 seconds long) / 0%
 
-		Default Price: 70~   -   Selling Price: 35~
+	Default Price: 70~   -   Selling Price: 35~
 </text>
+<text name="TNE_TEXT_WEAPON_GRENADE_HULL_TOOLTIP">Required Power: 2
+	Charge Time: 19 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10% / +100%
+
+	Frag Spread Radius: 77
+	Shots/Frags Per Charge: 1 / 3
+	
+	Base Hull Damage: 2 / 1
+	Total System Damage: 2 / 1
+	Total Crew Damage: 30 / 15
+	Shield Piercing: 10
+	
+	Breach Chance: 100% / 100%
+	Stun Chance: 50% (3 seconds long) / 0%</text>
 
 <text name="TNE_TEXT_WEAPON_GRENADE_3_NAME">Automatic Grenade Launcher</text>
 <text name="TNE_TEXT_WEAPON_GRENADE_3_SHORT">Automatic G.</text>
 <text name="TNE_TEXT_WEAPON_GRENADE_3_DESC">This Grenade Launcher fires burst of 3 projectiles that has a lot of fragments to spread.
 
-		Stats:
-		Required Power: 4
-		Charge Time: 26 seconds
-		Missile Consumption: 1
-		Accuracy Bonus: +10% / +100%
+	Stats:
+	Required Power: 4
+	Charge Time: 26 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10% / +100%
 
-		Frag Spread Radius: 120
-		Shots/Frags Per Charge: 3 / 6
-		
-		Base Hull Damage: 1 / 0
-		Total System Damage: 1 / 1
-		Total Crew Damage: 15 / 15
-		Shield Piercing: 10
-		
-		Breach Chance: 20% / 30%
-		Stun Chance: 50% (3 seconds long) / 0%
+	Frag Spread Radius: 120
+	Shots/Frags Per Charge: 3 / 6
+	
+	Base Hull Damage: 1 / 0
+	Total System Damage: 1 / 1
+	Total Crew Damage: 15 / 15
+	Shield Piercing: 10
+	
+	Breach Chance: 20% / 30%
+	Stun Chance: 50% (3 seconds long) / 0%
 
-		Default Price: 105~   -   Selling Price: 52~
+	Default Price: 105~   -   Selling Price: 52~
 </text>
+<text name="TNE_TEXT_WEAPON_GRENADE_3_TOOLTIP">Required Power: 4
+	Charge Time: 26 seconds
+	Missile Consumption: 1
+	Accuracy Bonus: +10% / +100%
+
+	Frag Spread Radius: 120
+	Shots/Frags Per Charge: 3 / 6
+	
+	Base Hull Damage: 1 / 0
+	Total System Damage: 1 / 1
+	Total Crew Damage: 15 / 15
+	Shield Piercing: 10
+	
+	Breach Chance: 20% / 30%
+	Stun Chance: 50% (3 seconds long) / 0%</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ KERNEL WEAPONS ★★★		-->
@@ -550,51 +783,83 @@ Stats:
 <text name="TNE_TEXT_WEAPON_KERNEL_FRAG_SHORT">Frag K.</text>
 <text name="TNE_TEXT_WEAPON_KERNEL_FRAG_DESC">This weapon uses seed pods of giant plants from the Orchid home planet as ammunition. Kernels pierce shields, but also have a 35% chance to ignore their ammunition cost.
 
-		Stats:
-		Required Power: 2
-		Charge Time: 18 seconds
-		Missile Consumption: 1
-		Chance for Ammo Replication: 35%
-		Accuracy Bonus: +0% / +100%
+	Stats:
+	Required Power: 2
+	Charge Time: 18 seconds
+	Missile Consumption: 1
+	Chance for Ammo Replication: 35%
+	Accuracy Bonus: +0% / +100%
 
-		Frag Spread Radius: 84
-		Shots/Frags Per Charge: 2 / 2
-		
-		Base Hull Damage: 1 / 0
-		Total System Damage: 1 / 1
-		Total Crew Damage: 15 / 15
-		Shield Piercing: 10
-		
-		Breach Chance: 20% / 30%
-		Stun Chance: 50% (3 seconds long) / 0%
+	Frag Spread Radius: 84
+	Shots/Frags Per Charge: 2 / 2
+	
+	Base Hull Damage: 1 / 0
+	Total System Damage: 1 / 1
+	Total Crew Damage: 15 / 15
+	Shield Piercing: 10
+	
+	Breach Chance: 20% / 30%
+	Stun Chance: 50% (3 seconds long) / 0%
 
-		Default Price: 60~   -   Selling Price: 30~
+	Default Price: 60~   -   Selling Price: 30~
 </text>
+<text name="TNE_TEXT_WEAPON_KERNEL_FRAG_TOOLTIP">Required Power: 2
+	Charge Time: 18 seconds
+	Missile Consumption: 1
+	Chance for Ammo Replication: 35%
+	Accuracy Bonus: +0% / +100%
+
+	Frag Spread Radius: 84
+	Shots/Frags Per Charge: 2 / 2
+	
+	Base Hull Damage: 1 / 0
+	Total System Damage: 1 / 1
+	Total Crew Damage: 15 / 15
+	Shield Piercing: 10
+	
+	Breach Chance: 20% / 30%
+	Stun Chance: 50% (3 seconds long) / 0%</text>
 
 <text name="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_NAME">Elite Frag Kernel</text>
 <text name="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_SHORT">€ Frag K.</text>
 <text name="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_DESC">This weapon uses seed pods of giant plants from the Orchid home planet as ammunition. Powerful Elite version with a guaranteed stun and higher chance to ignore their ammo cost.
 
-		Stats:
-		Required Power: 2
-		Charge Time: 18 seconds
-		Missile Consumption: 1
-		Chance for Ammo Replication: 50%
-		Accuracy Bonus: +0% / +100%
+	Stats:
+	Required Power: 2
+	Charge Time: 18 seconds
+	Missile Consumption: 1
+	Chance for Ammo Replication: 50%
+	Accuracy Bonus: +0% / +100%
 
-		Frag Spread Radius: 84
-		Shots/Frags Per Charge: 2 / 2
-		
-		Base Hull Damage: 1 / 0
-		Total System Damage: 1 / 1
-		Total Crew Damage: 15 / 15
-		Shield Piercing: 10
-		
-		Breach Chance: 50% / 50%
-		Stun Chance: 100% (7 seconds long) / 0%
+	Frag Spread Radius: 84
+	Shots/Frags Per Charge: 2 / 2
+	
+	Base Hull Damage: 1 / 0
+	Total System Damage: 1 / 1
+	Total Crew Damage: 15 / 15
+	Shield Piercing: 10
+	
+	Breach Chance: 50% / 50%
+	Stun Chance: 100% (7 seconds long) / 0%
 
-		Default Price: 75~   -   Selling Price: 37~
+	Default Price: 75~   -   Selling Price: 37~
 </text>
+<text name="TNE_TEXT_WEAPON_KERNEL_FRAG_ELITE_TOOLTIP">Required Power: 2
+	Charge Time: 18 seconds
+	Missile Consumption: 1
+	Chance for Ammo Replication: 50%
+	Accuracy Bonus: +0% / +100%
+
+	Frag Spread Radius: 84
+	Shots/Frags Per Charge: 2 / 2
+	
+	Base Hull Damage: 1 / 0
+	Total System Damage: 1 / 1
+	Total Crew Damage: 15 / 15
+	Shield Piercing: 10
+	
+	Breach Chance: 50% / 50%
+	Stun Chance: 100% (7 seconds long) / 0%</text>
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ PARTICLE WEAPONS ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
@@ -603,21 +868,32 @@ Stats:
 <text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_SHORT">Afterburner</text>
 <text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_DESC">A special Particle Accelerator. When fired, other weapons gain +15% charge immediately. It does NOT charges other Afterburners.
 
-		Stats:
-		Required Power: 2
-		Charge Time: 14 seconds
+	Stats:
+	Required Power: 2
+	Charge Time: 14 seconds
 
-		Shot Radius: 35
-		Shots per charge: 3
-		
-		Total System Damage: 1
-		
-		Fire Chance: 100%
+	Shot Radius: 35
+	Shots per charge: 3
+	
+	Total System Damage: 1
+	
+	Fire Chance: 100%
 
-		Charges Other Weapons by +15% When Fired
+	Charges Other Weapons by +15% When Fired
 
-		Default Price: 80~   -   Selling Price: 40~
+	Default Price: 80~   -   Selling Price: 40~
 </text>
+<text name="TNE_TEXT_WEAPON_PARTICLE_AFTERBURNER_TOOLTIP">Required Power: 2
+	Charge Time: 14 seconds
+
+	Shot Radius: 35
+	Shots per charge: 3
+	
+	Total System Damage: 1
+	
+	Fire Chance: 100%
+
+	Charges Other Weapons by +15% When Fired</text>
 
 <text name="TNE_TEXT_WEAPON_ELECTRON_1_NAME">Electron Accelerator MK I</text>
 <text name="TNE_TEXT_WEAPON_ELECTRON_1_SHORT">Elec I</text>
@@ -628,6 +904,78 @@ Stats:
 <text name="TNE_TEXT_WEAPON_ELECTRON_2_DESC">Shoots electrons which do no damage but remove shields effectively. Does double damage to energy shields.</text>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ CRYSTAL WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_NAME">Crystal Piercer</text>
+<text name="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_SHORT">Crystal Piercer</text>
+<text name="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_DESC">A weapon that hurls extremely sharp shard of crystal. It pierces ALL shields, and damage increases as it charged but reduced by the number of shield layers it pierced.
+
+	Stats:
+	Required Power: 3
+	Charge Time: 8 - 17 seconds
+
+	Shots per charge: 1
+
+	Base Hull Damage: 2 - 5
+	Total System Damage: 2 - 5
+	Total Crew Damage: 30 - 75
+	Shield Piercing: 10
+	
+	Breach Chance: 40 - 100%
+	Stun Chance: 40 - 100% (3 seconds long)
+
+	Default Price: 80~   -   Selling Price: 40~
+</text>
+<text name="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_TOOLTIP">Required Power: 3
+	Charge Time: 8 - 17 seconds
+
+	Shots per charge: 1
+
+	Base Hull Damage: 2 - 5
+	Total System Damage: 2 - 5
+	Total Crew Damage: 30 - 75
+	Shield Piercing: 10
+	
+	Breach Chance: 40 - 100%
+	Stun Chance: 40 - 100% (3 seconds long)</text>
+
+<text name="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_ELITE_NAME">Elite Crystal Piercer</text>
+<text name="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_ELITE_SHORT">€ Crystal Piercer</text>
+<text name="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_ELITE_DESC">A weapon that hurls extremely sharp shard of crystal. It pierces ALL shields, and damage increases as it charged but reduced by the number of shield layers it pierced. Elite variant that always applies lockdown and charged faster.
+
+	Stats:
+	Required Power: 3
+	Charge Time: 8 - 14 seconds
+
+	Shots per charge: 1
+
+	Base Hull Damage: 3 - 5
+	Total System Damage: 3 - 5
+	Total Crew Damage: 45 - 75
+	Shield Piercing: 10
+	
+	Locks down rooms on hit
+	Breach Chance: 60 - 100%
+	Stun Chance: 60 - 100% (3 seconds long)
+
+	Default Price: 95~   -   Selling Price: 47~
+</text>
+<text name="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_ELITE_TOOLTIP">Required Power: 3
+	Charge Time: 8 - 14 seconds
+
+	Shots per charge: 1
+
+	Base Hull Damage: 3 - 5
+	Total System Damage: 3 - 5
+	Total Crew Damage: 45 - 75
+	Shield Piercing: 10
+	
+	Locks down rooms on hit
+	Breach Chance: 60 - 100%
+	Stun Chance: 60 - 100% (3 seconds long)</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 <!--		★★★ EXTERNAL SYSTEMS ★★★		-->
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
 
@@ -635,155 +983,226 @@ Stats:
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_SHORT">M. Recharge</text>
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by transferring its charge. Minor variation is charged very fast, but has lower max charge.
 
-		Stats:
-		Requires no power
-		Can't be shot
+	Stats:
+	Requires no power
+	Can't be shot
 
-		Max Charge: 5 seconds
-		Activation Threshold: 3 seconds (60%)
+	Max Charge: 5 seconds
+	Activation Threshold: 3 seconds (60%)
 
-		Effect: Transfer charge time
+	Effect: Transfer charge time
 
-		Default Price: 40~   -   Selling Price: 20~
+	Default Price: 40~   -   Selling Price: 20~
 </text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_MINOR_TOOLTIP">Requires no power
+	Can't be shot
+
+	Max Charge: 5 seconds
+	Activation Threshold: 3 seconds (60%)
+
+	Effect: Transfer charge time</text>
 
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_NAME">External Recharger MK I</text>
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_SHORT">Recharge I</text>
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by transferring its charge. 
 
-		Stats:
-		Requires no power
-		Can't be shot
+	Stats:
+	Requires no power
+	Can't be shot
 
-		Max Charge: 10 seconds
-		Activation Threshold: 6 seconds (60%)
+	Max Charge: 10 seconds
+	Activation Threshold: 6 seconds (60%)
 
-		Effect: Transfer charge time
+	Effect: Transfer charge time
 
-		Default Price: 70~   -   Selling Price: 35~
+	Default Price: 70~   -   Selling Price: 35~
 </text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_1_TOOLTIP">Requires no power
+	Can't be shot
+
+	Max Charge: 10 seconds
+	Activation Threshold: 6 seconds (60%)
+
+	Effect: Transfer charge time</text>
 
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_NAME">External Recharger MK II</text>
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_SHORT">Recharge II</text>
 <text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_DESC">An assistance equipment mounted on weapon system. it recharges other weapon by transferring its charge. It is an improved variation that has higher max charge.
 
-		Stats:
-		Required Power: 1
-		Can't be shot
+	Stats:
+	Required Power: 1
+	Can't be shot
 
-		Max Charge: 16 seconds
-		Activation Threshold: 8 seconds (50%)
+	Max Charge: 16 seconds
+	Activation Threshold: 8 seconds (50%)
 
-		Effect: Transfer charge time
+	Effect: Transfer charge time
 
-		Default Price: 100~   -   Selling Price: 50~
+	Default Price: 100~   -   Selling Price: 50~
 </text>
+<text name="TNE_TEXT_WEAPON_EX_RECHARGER_2_TOOLTIP">Required Power: 1
+	Can't be shot
+
+	Max Charge: 16 seconds
+	Activation Threshold: 8 seconds (50%)
+
+	Effect: Transfer charge time</text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_NAME">Minor External Repulsor</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_SHORT">M. Repulsor</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its charge. Minor variation is charged very fast, but has lower max charge.
 
-		Stats:
-		Requires no power
-		Can't be shot
+	Stats:
+	Requires no power
+	Can't be shot
 
-		Max Charge: 10 seconds
-		Activation Threshold: 10 seconds (100%)
-		Charge On Jump: 10 seconds (100%)
+	Max Charge: 10 seconds
+	Activation Threshold: 10 seconds (100%)
+	Charge On Jump: 10 seconds (100%)
 
-		Effect: Repel hull or system damage
-		Activation Cost: 10 seconds per 1 damage (100%)
+	Effect: Repel hull or system damage
+	Activation Cost: 10 seconds per 1 damage (100%)
 
-		Default Price: 40~   -   Selling Price: 20~
+	Default Price: 40~   -   Selling Price: 20~
 </text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_MINOR_TOOLTIP">Requires no power
+	Can't be shot
+
+	Max Charge: 10 seconds
+	Activation Threshold: 10 seconds (100%)
+	Charge On Jump: 10 seconds (100%)
+
+	Effect: Repel hull or system damage
+	Activation Cost: 10 seconds per 1 damage (100%)</text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_1_NAME">External Repulsor MK I</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_1_SHORT">Repulsor I</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_1_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its charge. 
 
-		Stats:
-		Requires no power
-		Can't be shot
+	Stats:
+	Requires no power
+	Can't be shot
 
-		Max Charge: 60 seconds
-		Activation Threshold: 20 seconds (33.3%)
-		Charge On Jump: 20 seconds (33.3%)
+	Max Charge: 60 seconds
+	Activation Threshold: 20 seconds (33.3%)
+	Charge On Jump: 20 seconds (33.3%)
 
-		Effect: Repel hull or system damage
-		Activation Cost: 20 seconds per 1 damage (33.3%)
+	Effect: Repel hull or system damage
+	Activation Cost: 20 seconds per 1 damage (33.3%)
 
-		Default Price: 70~   -   Selling Price: 35~
+	Default Price: 70~   -   Selling Price: 35~
 </text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_1_TOOLTIP">Requires no power
+	Can't be shot
+
+	Max Charge: 60 seconds
+	Activation Threshold: 20 seconds (33.3%)
+	Charge On Jump: 20 seconds (33.3%)
+
+	Effect: Repel hull or system damage
+	Activation Cost: 20 seconds per 1 damage (33.3%)</text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_2_NAME">External Repulsor MK II</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_2_SHORT">Repulsor II</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_2_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its charge. It is an improved variation that has higher max charge.
 
-		Stats:
-		Required Power: 1
-		Can't be shot
+	Stats:
+	Required Power: 1
+	Can't be shot
 
-		Max Charge: 100 seconds
-		Activation Threshold: 20 seconds (20%)
-		Charge On Jump: 40 seconds (40%)
+	Max Charge: 100 seconds
+	Activation Threshold: 20 seconds (20%)
+	Charge On Jump: 40 seconds (40%)
 
-		Effect: Repel hull or system damage
-		Activation Cost: 20 seconds per 1 damage (20%)
+	Effect: Repel hull or system damage
+	Activation Cost: 20 seconds per 1 damage (20%)
 
-		Default Price: 100~   -   Selling Price: 50~
+	Default Price: 100~   -   Selling Price: 50~
 </text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_2_TOOLTIP">Required Power: 1
+	Can't be shot
+
+	Max Charge: 100 seconds
+	Activation Threshold: 20 seconds (20%)
+	Charge On Jump: 40 seconds (40%)
+
+	Effect: Repel hull or system damage
+	Activation Cost: 20 seconds per 1 damage (20%)</text>
 
 <text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_NAME">Overcharged External Repulsor</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_SHORT">Over. Repulsor</text>
 <text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_DESC">An assistance equipment mounted on weapon system. it repels damage by draining its charge. It is an modified variation that is fully charged on jump.
 
-		Stats:
-		Required Power: 1
-		Can't be shot
+	Stats:
+	Required Power: 1
+	Can't be shot
 
-		Max Charge: 100 seconds
-		Activation Threshold: 20 seconds (20%)
-		Charge On Jump: 100 seconds (100%)
+	Max Charge: 100 seconds
+	Activation Threshold: 20 seconds (20%)
+	Charge On Jump: 100 seconds (100%)
 
-		Effect: Repel hull or system damage
-		Activation Cost: 20 seconds per 1 damage (20%)
+	Effect: Repel hull or system damage
+	Activation Cost: 20 seconds per 1 damage (20%)
 
-		Default Price: 100~   -   Selling Price: 50~
+	Default Price: 100~   -   Selling Price: 50~
 </text>
+<text name="TNE_TEXT_WEAPON_EX_REPEL_OVER_TOOLTIP">Required Power: 1
+	Can't be shot
+
+	Max Charge: 100 seconds
+	Activation Threshold: 20 seconds (20%)
+	Charge On Jump: 100 seconds (100%)
+
+	Effect: Repel hull or system damage
+	Activation Cost: 20 seconds per 1 damage (20%)</text>
 
 <text name="TNE_TEXT_WEAPON_EX_TELEPORTER_NAME">External Matter Transporter</text>
 <text name="TNE_TEXT_WEAPON_EX_TELEPORTER_SHORT">Transporter</text>
-<text name="TNE_TEXT_WEAPON_EX_TELEPORTER_DESC">An assistance equipment mounted on weapon system, sends allies in weapon system to targeted room after short delay. Crew manning weapon system will be excepted from transportation target. Can target your own ship.
+<text name="TNE_TEXT_WEAPON_EX_TELEPORTER_DESC">An assistance equipment mounted on weapon system, sends allies in weapon system to targeted room after short delay. Crew manning weapon system will be excluded from transportation target. Can target your own ship.
 
 Important: If you target your own ship's weapon system, returns ALL of your crews in enemy ship to your weapon system.
 
-		Stats:
-		Required Power: 2
+	Stats:
+	Required Power: 2
 
-		Max Charge: 20 seconds
-		Charge On Jump: 20 seconds (100%)
+	Max Charge: 20 seconds
+	Charge On Jump: 20 seconds (100%)
 
-		Effect: Teleport crew
-		Activation Cost: 20 seconds (100%)
+	Effect: Teleport crew
+	Activation Cost: 20 seconds (100%)
 
-		Default Price: 100~   -   Selling Price: 50~
+	Default Price: 100~   -   Selling Price: 50~
 </text>
+<text name="TNE_TEXT_WEAPON_EX_TELEPORTER_TOOLTIP">Required Power: 2
+
+	Max Charge: 20 seconds
+	Charge On Jump: 20 seconds (100%)
+
+	Effect: Teleport crew
+	Activation Cost: 20 seconds (100%)</text>
 
 <text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_NAME">External Ion Stabilizer</text>
 <text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_SHORT">Stabilizer</text>
 <text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_DESC">An assistance equipment mounted on weapon system, removes ion effect on targeted system after short delay. Can (and Must) target your own ship.
 
-		Stats:
-		Requires no power
+	Stats:
+	Requires no power
 
-		Max Charge: 60 seconds
-		Charge On Jump: 60 seconds (100%)
+	Max Charge: 60 seconds
+	Charge On Jump: 60 seconds (100%)
 
-		Effect: Remove ion effect
-		Activation Cost: 60 seconds (100%)
+	Effect: Remove ion effect
+	Activation Cost: 60 seconds (100%)
 
-		Default Price: 50~   -   Selling Price: 25~
+	Default Price: 50~   -   Selling Price: 25~
 </text>
+<text name="TNE_TEXT_WEAPON_EX_ION_STABILIZER_TOOLTIP">Requires no power
+
+	Max Charge: 60 seconds
+	Charge On Jump: 60 seconds (100%)
+
+	Effect: Remove ion effect
+	Activation Cost: 60 seconds (100%)</text>
 
 <!--
 =============================================
@@ -858,6 +1277,18 @@ Important: If you target your own ship's weapon system, returns ALL of your crew
 <text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_NAME">Lock-on Drone [Temporal]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_SHORT">Lock-on [TMP]</text>
 <text name="TNE_TEXT_DRONE_LOCKON_TEMPORAL_DESC">[Current Target: Temporal] A drone that focuses to attack the designated systems. If the target is completely destroyed, it will attack random rooms.</text>
+
+<text name="TNE_TEXT_DRONE_GAZER_NAME">Gazer MK I</text>
+<text name="TNE_TEXT_DRONE_GAZER_SHORT">Gazer I</text>
+<text name="TNE_TEXT_DRONE_GAZER_DESC">This eyeball-shaped Drone is specialized to reduce enemy evasion by inflicting ion damage to engine directly.</text>
+
+<text name="TNE_TEXT_DRONE_GAZER_2_LASER_NAME">Gazer MK II [Laser]</text>
+<text name="TNE_TEXT_DRONE_GAZER_2_LASER_SHORT">Gazer II [L]</text>
+<text name="TNE_TEXT_DRONE_GAZER_2_LASER_DESC">An advanced Gazer Drone that can be toggled to shoot piercing laser or move faster.</text>
+
+<text name="TNE_TEXT_DRONE_GAZER_2_SPEED_NAME">Gazer MK II [Swift]</text>
+<text name="TNE_TEXT_DRONE_GAZER_2_SPEED_SHORT">Gazer II [S]</text>
+<text name="TNE_TEXT_DRONE_GAZER_2_SPEED_DESC">An advanced Gazer Drone that can be toggled to shoot piercing laser or move faster.</text>
 
 <!--
 =============================================

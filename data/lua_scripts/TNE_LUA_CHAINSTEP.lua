@@ -4,6 +4,8 @@ local chainWeaponList = { }
 chainWeaponList["TNE_FOCUS_CAPACITOR"] = { fireThreshold = 7, chainStep = 3.5 }
 chainWeaponList["TNE_POLARSTAR_4"] = { fireThreshold = 10, chainStep = 6 }
 chainWeaponList["TNE_BEAM_CAPACITOR"] = { fireThreshold = 11, chainStep = 8 }
+chainWeaponList["TNE_CRYSTAL_SPEAR"] = { fireThreshold = 8, chainStep = 3 }
+chainWeaponList["TNE_CRYSTAL_SPEAR_ELITE"] = { fireThreshold = 8, chainStep = 3 }
 
 ------------------------------------------------------------------------------------
 
@@ -30,6 +32,9 @@ script.on_internal_event(Defines.InternalEvents.ON_TICK, function()
 					end
 
 					local overCharge = math.floor(math.max(w.cooldown.first - fireThres, 0) / step)
+					if (w.cooldown.first >= w.cooldown.second) then
+						overCharge = w.blueprint.boostPower.count
+					end
 					w.boostLevel = overCharge
 				end
 			end

@@ -18,9 +18,34 @@
 	</mod:findLike>
 </mod:findName>
 
+<mod:findName type="sectorDescription" name="SECTOR_IMPERIAL">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="TNE_CRYSTAL_SPEAR" rarity="4"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECTOR_IMPERIAL_UNIQUE">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="TNE_CRYSTAL_SPEAR" rarity="4"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECRET_ORIGINS_RUWEN">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="TNE_CRYSTAL_SPEAR" rarity="4"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECRET_ORIGINS">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="TNE_CRYSTAL_SPEAR" rarity="4"/>
+	</mod:findLike>
+</mod:findName>
+
 <mod:findName type="sectorDescription" name="SECTOR_PIRATE_UNIQUE">
 	<mod:findLike type="rarityList">
 		<mod-append:blueprint name="TNE_KERNEL_FRAG" rarity="4"/>
+		<mod-append:blueprint name="TNE_CRYSTAL_SPEAR" rarity="4"/>
 	</mod:findLike>
 </mod:findName>
 
@@ -91,6 +116,8 @@
 		<mod-append:blueprint name="TNE_DRONE_PRIORITY" rarity="0"/>
 		<mod-append:blueprint name="TNE_DRONE_ACTIVE_OVERCHARGER" rarity="0"/>
 		<mod-append:blueprint name="TNE_DRONE_LOCKON_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="TNE_DRONE_GAZER" rarity="0"/>
+		<mod-append:blueprint name="TNE_DRONE_GAZER_2_LASER" rarity="0"/>
 	</mod:findLike>
 </mod:findName>
 
@@ -161,6 +188,8 @@
 		<mod-append:blueprint name="TNE_DRONE_PRIORITY" rarity="0"/>
 		<mod-append:blueprint name="TNE_DRONE_ACTIVE_OVERCHARGER" rarity="0"/>
 		<mod-append:blueprint name="TNE_DRONE_LOCKON_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="TNE_DRONE_GAZER" rarity="0"/>
+		<mod-append:blueprint name="TNE_DRONE_GAZER_2_LASER" rarity="0"/>
 	</mod:findLike>
 </mod:findName>
 

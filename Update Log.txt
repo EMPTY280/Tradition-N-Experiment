@@ -461,3 +461,18 @@
   - Crew Damage Effect: 4 DPS 25sec -> 5DPS 17sec
 - All Modular Cruisers
   - Now Starts with 3 LV Door 
+
+	[v1.25c] 2024-07-30
+
+[ADD]
+- Added 2 new weapons: Crystal Piercer (Regular / Elite) 
+- Added 2 new drones: Gazer MK I, II
+- Some weapons now uses right tooptip
+
+[ADJUST]
+- 'Woldo' Beam: Charge time decreased to 19 from 21
+- 'Bill' Beam: Shield Piercing increased to 2 from 1
+
+[FIX]
+- Fixed some ships displaying no interior
+- Fixed 'Capacitor' weapons charge time bugs

@@ -385,7 +385,16 @@
 		 <event load="TNE_COMBAT_CHECK_VENT_BOARDER"/>
 	</mod-append:choice>
 
-		<mod-append:choice req="TNE_DRONE_LOCKON_SHIELD" blue="false"><!-- SHIELD -->
+	<mod-append:choice req="TNE_DRONE_GAZER_2_LASER" blue="false">
+		 <text id="TNE_TEXT_EVENT_GAZER_2_LASER"/>
+		 <event load="TNE_COMBAT_CHECK_GAZER_2_LASER"/>
+	</mod-append:choice>
+	<mod-append:choice req="TNE_DRONE_GAZER_2_SPEED" blue="false">
+		 <text id="TNE_TEXT_EVENT_GAZER_2_SPEED"/>
+		 <event load="TNE_COMBAT_CHECK_GAZER_2_SPEED"/>
+	</mod-append:choice>
+
+	<mod-append:choice req="TNE_DRONE_LOCKON_SHIELD" blue="false"><!-- SHIELD -->
 		<text id="TNE_TEXT_EVENT_LOCKON_SHIELD"/>
 		<event>
 			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
@@ -1091,6 +1100,61 @@
 				<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
 			</choice>
 		</event>
+	</choice>
+</event>
+
+<!--		★★★★★★★★★★★★★★★		-->
+<!--		★★★ GAZER DRONE ★★★		-->
+<!--		★★★★★★★★★★★★★★★		-->
+
+<event name="TNE_COMBAT_CHECK_GAZER_2_LASER">
+	<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_TOGGLE_GAZER_TO_SPEED"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+			<remove name="TNE_DRONE_GAZER_2_LASER"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+					<drone name="TNE_DRONE_GAZER_2_SPEED"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+		<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+	</choice>
+</event>
+<event name="TNE_COMBAT_CHECK_GAZER_2_SPEED">
+	<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_ASK"/>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_TOGGLE_GAZER_TO_LASER"/>
+		<event>
+			<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_WAITTING"/>
+			<remove name="TNE_DRONE_GAZER_2_SPEED"/>
+			<choice hidden="true">
+				<text id="TNE_TEXT_EVENT_NEXT"/>
+				<event>
+					<text id="TNE_TEXT_EVENT_TOGGLE_DRONE_DONE"/>
+					<drone name="TNE_DRONE_GAZER_2_LASER"/>
+					<choice hidden="true">
+						<text id="TNE_TEXT_EVENT_NEXT"/>
+						<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TNE_TEXT_EVENT_TOGGLE_CANCLE"/>
+		<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
 	</choice>
 </event>
 

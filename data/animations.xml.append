@@ -377,12 +377,12 @@
 	<boost>tne_focus_capacitor_chain</boost>
 </weaponAnim>
 
-<animSheet name="tne_focus_adapt" w="203" h="80" fw="29" fh="80">weapon_focus/tne_focus_adapt.png</animSheet>
+<animSheet name="tne_focus_adapt" w="232" h="80" fw="29" fh="80">weapon_focus/tne_focus_adapt.png</animSheet>
 <weaponAnim name="tne_focus_adapt">
 	<sheet>tne_focus_adapt</sheet>
-	<desc length="7" x="0" y="0"/>
-	<chargedFrame>5</chargedFrame>
-	<fireFrame>6</fireFrame>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>6</chargedFrame>
+	<fireFrame>7</fireFrame>
 	<firePoint x="17" y="50"/>
 	<mountPoint x="3" y="61"/>
 </weaponAnim>
@@ -653,6 +653,44 @@
 	<fireFrame>6</fireFrame>
 	<firePoint x="15" y="34"/>
 	<mountPoint x="1" y="52"/>
+</weaponAnim>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ CRYSTAL WEAPONS ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<animSheet name="tne_crystal_spear_proj" w="13" h="65" fw="13" fh="65">projectiles/tne_crystal_spear_proj.png</animSheet>
+<anim name="tne_crystal_spear_proj">
+	<sheet>tne_crystal_spear_proj</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="tne_crystal_spear_elite_proj" w="13" h="65" fw="13" fh="65">projectiles/tne_crystal_spear_elite_proj.png</animSheet>
+<anim name="tne_crystal_spear_elite_proj">
+	<sheet>tne_crystal_spear_elite_proj</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="tne_crystal_spear" w="240" h="69" fw="30" fh="69">weapon_crystals/tne_crystal_spear.png</animSheet>
+<weaponAnim name="tne_crystal_spear">
+	<sheet>tne_crystal_spear</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>6</chargedFrame>
+	<fireFrame>7</fireFrame>
+	<firePoint x="17" y="8"/>
+	<mountPoint x="4" y="40"/>
+</weaponAnim>
+
+<animSheet name="tne_crystal_spear_elite" w="240" h="69" fw="30" fh="69">weapon_crystals/tne_crystal_spear_elite.png</animSheet>
+<weaponAnim name="tne_crystal_spear_elite">
+	<sheet>tne_crystal_spear_elite</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>6</chargedFrame>
+	<fireFrame>7</fireFrame>
+	<firePoint x="17" y="8"/>
+	<mountPoint x="4" y="40"/>
 </weaponAnim>
 
 <!--★★★★★★★★★★★★★★★★★★★★★★★★★★-->

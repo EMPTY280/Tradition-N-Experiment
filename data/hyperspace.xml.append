@@ -21,9 +21,9 @@
     <mod-append:script>data/lua_scripts/TNE_LUA_RENDERBOX.lua</mod-append:script>
 	
     <mod-append:script>data/lua_scripts/TNE_LUA_TACHYON.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_ESTOC.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_SPUR.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_LOCKDOWN.lua</mod-append:script>
-	<mod-append:script>data/lua_scripts/TNE_LUA_ESTOC.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_SHIELD_DAMAGE.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_SHIELD_DAMAGE_DOWN.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_STABILIZER.lua</mod-append:script>
@@ -44,6 +44,8 @@
     <mod-append:script>data/lua_scripts/TNE_LUA_FRAG.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_AUG_ALT_SYSTEM.lua</mod-append:script>
     <mod-append:script>data/lua_scripts/TNE_LUA_BEAM_HYBRID.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_SPEAR.lua</mod-append:script>
+    <mod-append:script>data/lua_scripts/TNE_LUA_GAZER.lua</mod-append:script>
 </mod:findLike>
 
 <!--
@@ -1223,6 +1225,14 @@
 				<item>
 					<blueprint>TNE_FOCUS_ADAPT</blueprint>
 				</item>
+				<item>
+					<blueprint>TNE_CRYSTAL_SPEAR</blueprint>
+				</item>
+			</mod-append:category>
+			<mod-append:category type="WEAPONS">
+				<item>
+					<blueprint>TNE_CRYSTAL_SPEAR_ELITE</blueprint>
+				</item>
 			</mod-append:category>
 			<mod-append:category type="DRONES">
 					<item>
@@ -1260,6 +1270,12 @@
 			<mod-append:category type="DRONES">
 					<item>
 						<blueprint>TNE_DRONE_ACTIVE_OVERCHARGER</blueprint>
+					</item>
+					<item>
+						<blueprint>TNE_DRONE_GAZER</blueprint>
+					</item>
+					<item>
+						<blueprint>TNE_DRONE_GAZER_2_LASER</blueprint>
 					</item>
 			</mod-append:category>
 		</mod:findLike>

@@ -125,6 +125,9 @@
 	<mod-append:name>TNE_ELECTRON_1</mod-append:name>
 	<mod-append:name>TNE_ELECTRON_2</mod-append:name>
 
+	<mod-append:name>TNE_CRYSTAL_SPEAR</mod-append:name>
+	<mod-append:name>TNE_CRYSTAL_SPEAR_ELITE</mod-append:name>
+
 	<mod-append:name>TNE_EX_RECHARGER_MINOR</mod-append:name>
 	<mod-append:name>TNE_EX_RECHARGER_1</mod-append:name>
 	<mod-append:name>TNE_EX_RECHARGER_2</mod-append:name>
@@ -182,6 +185,9 @@
 	<mod-append:name>TNE_ELECTRON_1</mod-append:name>
 	<mod-append:name>TNE_ELECTRON_2</mod-append:name>
 
+	<mod-append:name>TNE_CRYSTAL_SPEAR</mod-append:name>
+	<mod-append:name>TNE_CRYSTAL_SPEAR_ELITE</mod-append:name>
+
 	<mod-append:name>TNE_EX_RECHARGER_MINOR</mod-append:name>
 	<mod-append:name>TNE_EX_RECHARGER_1</mod-append:name>
 	<mod-append:name>TNE_EX_RECHARGER_2</mod-append:name>
@@ -238,6 +244,9 @@
 	<name>TNE_PARTICLE_AFTERBURNER</name>
 	<name>TNE_ELECTRON_1</name>
 	<name>TNE_ELECTRON_2</name>
+
+	<name>TNE_CRYSTAL_SPEAR</name>
+	<name>TNE_CRYSTAL_SPEAR_ELITE</name>
 
 	<name>TNE_EX_RECHARGER_MINOR</name>
 	<name>TNE_EX_RECHARGER_1</name>
@@ -379,6 +388,22 @@
 	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
 </mod:findName>
 
+<mod:findName type="blueprintList" name="SHOP_CRYSTAL_ITEM_WEAPONS">
+	<mod-append:name>TNE_CRYSTAL_SPEAR</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_CRYSTAL_ITEM_WEAPONS_CRYSTAL">
+	<mod-append:name>TNE_CRYSTAL_SPEAR</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_CRYSTAL_STANDARD">
+	<mod-append:name>TNE_CRYSTAL_SPEAR</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_CRYSTAL_ELITE">
+	<mod-append:name>TNE_CRYSTAL_SPEAR_ELITE</mod-append:name>
+</mod:findName>
+
 <!--
 ==============================================
 
@@ -411,6 +436,14 @@
 	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
 </mod:findName>
 
+<mod:findName type="blueprintList" name="GIFTLIST_CRYSTAL">
+	<mod-append:name>TNE_CRYSTAL_SPEAR</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="GIFTLIST_CRYSTAL_ELITE">
+	<mod-append:name>TNE_CRYSTAL_SPEAR_ELITE</mod-append:name>
+</mod:findName>
+
 					<!-- GENERIC -->
 
 <mod:findName type="blueprintList" name="BLUELIST_WEAPONS_HEAVY">
@@ -431,6 +464,14 @@
 	
 	<mod-append:name>TNE_FOCUS_CAPACITOR</mod-append:name>
 	<mod-append:name>TNE_FOCUS_ADAPT</mod-append:name>
+
+	<mod-append:name>TNE_CRYSTAL_SPEAR</mod-append:name>
+	<mod-append:name>TNE_CRYSTAL_SPEAR_ELITE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="JUDGELIST_ELITE">
+	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
+	<mod-append:name>TNE_CRYSTAL_SPEAR_ELITE</mod-append:name>
 </mod:findName>
 
 					<!-- MISSILES -->
@@ -466,10 +507,6 @@
 					<!-- KERNEL -->
 				
 <mod:findName type="blueprintList" name="LIST_LOOT_ORCHID">
-	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
-</mod:findName>
-
-<mod:findName type="blueprintList" name="JUDGELIST_ELITE">
 	<mod-append:name>TNE_KERNEL_FRAG_ELITE</mod-append:name>
 </mod:findName>
 
@@ -533,6 +570,17 @@
 
 <mod:findName type="blueprintList" name="BLUELIST_PARTICLE">
 	<mod-append:name>TNE_PARTICLE_AFTERBURNER</mod-append:name>
+</mod:findName>
+
+					<!-- CRYSTALS -->
+
+<mod:findName type="blueprintList" name="BLUELIST_WEAPONS_CRYSTAL">
+	<mod-append:name>TNE_CRYSTAL_SPEAR</mod-append:name>
+	<mod-append:name>TNE_CRYSTAL_SPEAR_ELITE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_LOOT_CRYSTAL">
+	<mod-append:name>TNE_CRYSTAL_SPEAR_ELITE</mod-append:name>
 </mod:findName>
 
 					<!-- FIRE WEAPONS -->
@@ -606,6 +654,9 @@
 	<mod-append:name>TNE_DRONE_LOCKON_MIND</mod-append:name>
 	<mod-append:name>TNE_DRONE_LOCKON_HACKING</mod-append:name>
 	<mod-append:name>TNE_DRONE_LOCKON_TEMPORAL</mod-append:name>
+	<mod-append:name>TNE_DRONE_GAZER</mod-append:name>
+	<mod-append:name>TNE_DRONE_GAZER_2_LASER</mod-append:name>
+	<mod-append:name>TNE_DRONE_GAZER_2_SPEED</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_DRONES_ALL_CRAPBUCKET">
@@ -620,6 +671,8 @@
 	<mod-append:name>TNE_DRONE_PRIORITY</mod-append:name>
 	<mod-append:name>TNE_DRONE_ACTIVE_OVERCHARGER</mod-append:name>
 	<mod-append:name>TNE_DRONE_LOCKON_SHIELD</mod-append:name>
+	<mod-append:name>TNE_DRONE_GAZER</mod-append:name>
+	<mod-append:name>TNE_DRONE_GAZER_2_LASER</mod-append:name>
 </mod:findName>
 
 <blueprintList name="TNE_LIST_DRONES_WASTE">
@@ -634,6 +687,8 @@
 	<name>TNE_DRONE_PRIORITY</name>
 	<name>TNE_DRONE_ACTIVE_OVERCHARGER</name>
 	<name>TNE_DRONE_LOCKON_SHIELD</name>
+	<name>TNE_DRONE_GAZER</name>
+	<name>TNE_DRONE_GAZER_2_LASER</name>
 </blueprintList>
 
 <mod:findName type="blueprintList" name="BLUELIST_DRONES_OVERCHARGER">
@@ -675,6 +730,11 @@
 	<mod-append:name>TNE_DISCHARGEDRONE</mod-append:name>
 </mod:findName>
 
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_DRONES_COMBAT_SPECIAL">
+	<mod-append:name>TNE_DRONE_GAZER</mod-append:name>
+	<mod-append:name>TNE_DRONE_GAZER_2_LASER</mod-append:name>
+</mod:findName>
+
 <mod:findName type="blueprintList" name="LIST_CREW_GAS">
 	<mod-append:name>tne_drone_twin_2</mod-append:name>
 </mod:findName>
@@ -701,6 +761,8 @@
 	<mod-append:name>TNE_DRONE_LOCKON_MIND</mod-append:name>
 	<mod-append:name>TNE_DRONE_LOCKON_HACKING</mod-append:name>
 	<mod-append:name>TNE_DRONE_LOCKON_TEMPORAL</mod-append:name>
+	<mod-append:name>TNE_DRONE_GAZER_2_LASER</mod-append:name>
+	<mod-append:name>TNE_DRONE_GAZER_2_SPEED</mod-append:name>
 </mod:findName>
 
 </FTL>

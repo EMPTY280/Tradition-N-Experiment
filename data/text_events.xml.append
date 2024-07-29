@@ -5,6 +5,21 @@
 =============================================
 =============================================
 
+		MISC 
+
+=============================================
+=============================================
+=============================================
+-->
+
+<text name="TNE_TEXT_EVENT_SELL_CRY_SPEAR">Sell them an Crystal Piercer.</text>
+<text name="TNE_TEXT_EVENT_SELL_CRY_SPEAR_ELITE">Sell them an Elite Crystal Piercer.</text>
+
+<!--
+=============================================
+=============================================
+=============================================
+
 		EVO EVENT 
 
 =============================================
@@ -191,5 +206,14 @@
 <text name="TNE_TEXT_EVENT_LOCKON_SELECT_MIND">Mind Control.</text>
 <text name="TNE_TEXT_EVENT_LOCKON_SELECT_HACKING">Hacking.</text>
 <text name="TNE_TEXT_EVENT_LOCKON_SELECT_TEMPORAL">Temporal Manipulator.</text>
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ GAZER DRONE ★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TEXT_EVENT_GAZER_2_LASER">(Gazer MK II) Set the state of the drone. [Current mode: Laser]</text>
+<text name="TNE_TEXT_EVENT_GAZER_2_SPEED">(Gazer MK II) Set the state of the drone. [Current mode: Swift]</text>
+<text name="TNE_TEXT_EVENT_TOGGLE_GAZER_TO_LASER">Set the drone to Laser Mode.</text>
+<text name="TNE_TEXT_EVENT_TOGGLE_GAZER_TO_SPEED">Set the drone to Swift Mode.</text>
 
 </FTL>
