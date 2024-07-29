@@ -1152,7 +1152,7 @@
 
 	기본 가격: 80~
 </text>
-<text name="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_TOOLTIP">필요 전력량: 3
+<text name="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_TOOLTIP" language="zh-Hans">필요 전력량: 3
 	충전 시간: 8 - 17초
 
 	발사체 수: 1
@@ -1187,7 +1187,7 @@
 
 	기본 가격: 95~
 </text>
-<text name="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_ELITE_TOOLTIP">필요 전력량: 3
+<text name="TNE_TEXT_WEAPON_CRYSTAL_SPEAR_ELITE_TOOLTIP" language="zh-Hans">필요 전력량: 3
 	충전 시간: 8 - 14초
 
 	발사체 수: 1
