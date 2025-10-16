@@ -1,4 +1,4 @@
-<version>^1.10.0</version>
+<version>^1.18.0</version>
 
 <FTL>
 
@@ -107,7 +107,7 @@
 			<spawnCrew>
 				<number>1</number>
 				<race>tne_drone_twin_2</race>
-				<name>Twin Drone</name>
+				<name id="tne_drone_twin_name"/>
 				<lifetime>30</lifetime>
 				<statBoosts>
 					<statBoost name="noClone">
@@ -202,7 +202,7 @@
 
 			<spawnCrew>
 				<number>3</number>
-				<name>C. Drone</name>
+				<name id="tne_drone_pod_name"/>
 				<race>human_technician_drone</race>
 				<lifetime>20</lifetime>
 				<statBoosts>
@@ -440,7 +440,7 @@
 					<droneTarget>CREW</droneTarget>
 					<priority>999</priority>
 					<roomAnim renderLayer="0">
-						<anim animType="default" animBorder="0">nothing</roomAnim>
+						<anim animType="default" animBorder="0">nothing</anim>
 						<tileAnim>gas_1x1</tileAnim> 
 		            </roomAnim>
 		            <blackList load="LIST_CREW_GAS"/>
@@ -607,49 +607,49 @@
 <drones>
 	<drone name="TNE_TWINDRONE">
         <crewBlueprint>tne_drone_twin</crewBlueprint>
-		<tooltipName>Twin Drone</tooltipName>
+		<tooltipName id="TNE_TWINDRONE_TOOLTIPNAME"/>
 	</drone>
 
 	<drone name="TNE_DRONEPOD">
 	    <crewBlueprint>tne_drone_pod</crewBlueprint>
-		<tooltipName>S. Pod</tooltipName>
+		<tooltipName id="TNE_DRONEPOD_TOOLTIPNAME"/>
 	</drone>
 
 	<drone name="TNE_PEACEDRONE_DEFEND">
 	    <crewBlueprint>tne_drone_peace</crewBlueprint>
-		<tooltipName>Peace</tooltipName>
+		<tooltipName id="TNE_PEACEDRONE_TOOLTIPNAME"/>
 	</drone>
 	<drone name="TNE_PEACEDRONE_BOARDER">
 	    <crewBlueprint>tne_drone_peace</crewBlueprint>
-		<tooltipName>Peace</tooltipName>
+		<tooltipName id="TNE_PEACEDRONE_TOOLTIPNAME"/>
 	</drone>
 
 	<drone name="TNE_EXOBREACHER">
 	    <crewBlueprint>tne_drone_exothermic</crewBlueprint>
-		<tooltipName>Exothermic</tooltipName>
+		<tooltipName id="TNE_EXOBREACHER_TOOLTIPNAME"/>
 	</drone>
 	<drone name="TNE_EXOBREACHER_LOWPOWER">
 	    <crewBlueprint>tne_drone_exothermic</crewBlueprint>
-		<tooltipName>Exothermic</tooltipName>
+		<tooltipName id="TNE_EXOBREACHER_TOOLTIPNAME"/>
 	</drone>
 
 	<drone name="TNE_VENTDRONE_DEFEND">
 	    <crewBlueprint>tne_drone_vent</crewBlueprint>
-		<tooltipName>Vent</tooltipName>
+		<tooltipName id="TNE_VENTDRONE_TOOLTIPNAME"/>
 	</drone>
 	<drone name="TNE_VENTDRONE_BOARDER">
 	    <crewBlueprint>tne_drone_vent</crewBlueprint>
-		<tooltipName>Vent</tooltipName>
+		<tooltipName id="TNE_VENTDRONE_TOOLTIPNAME"/>
 	</drone>
 
 	<drone name="TNE_DISCHARGEDRONE">
 	    <crewBlueprint>tne_drone_discharge</crewBlueprint>
-		<tooltipName>Discharge</tooltipName>
+		<tooltipName id="TNE_DISCHARGEDRONE_TOOLTIPNAME"/>
 	</drone>
 
 	<drone name="TNE_SHIPWRECKER">
 	    <crewBlueprint>tne_drone_shipwrecker</crewBlueprint>
-		<tooltipName>Shipwrecker</tooltipName>
+		<tooltipName id="TNE_SHIPWRECKER_TOOLTIPNAME"/>
 	</drone>
 </drones>
 
@@ -1279,7 +1279,7 @@
 					</item>
 			</mod-append:category>
 		</mod:findLike>
-	</mod:findLike>
+	
 </mod:findLike>
 
 </FTL>

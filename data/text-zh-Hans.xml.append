@@ -1703,6 +1703,21 @@
 -어떠한 행동도 할 수 없지만, 파괴가 불가능함
 -방어 드론에 요격되지 않고, 선원에게 조준되지 않음</text>
 
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ DRONE TOOLTIP NAME★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TWINDRONE_TOOLTIPNAME" language="zh-Hans">Twin Drone</text>
+<text name="tne_drone_twin_name" language="zh-Hans">Twin Drone</text>
+<text name="TNE_DRONEPOD_TOOLTIPNAME" language="zh-Hans">S. Pod</text>
+<text name="tne_drone_pod_name" language="zh-Hans">C. Drone</text>
+<text name="TNE_PEACEDRONE_DEFEND_TOOLTIPNAME" language="zh-Hans">Peace</text>
+<text name="TNE_EXOBREACHER_TOOLTIPNAME" language="zh-Hans">Exothermic</text>
+<text name="TNE_VENTDRONE_DEFEND_TOOLTIPNAME" language="zh-Hans">Vent</text>
+<text name="TNE_DISCHARGEDRONE_TOOLTIPNAME" language="zh-Hans">Discharge</text>
+<text name="TNE_SHIPWRECKER_TOOLTIPNAME" language="zh-Hans">Shipwrecker</text>
+
+
 <!--
 =============================================
 =============================================

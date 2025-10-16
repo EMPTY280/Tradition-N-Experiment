@@ -138,7 +138,7 @@ Stats:
 	Total System Damage: 3
 	Total Crew Damage: 45
 	Shield Piercing: 10
-	Ignores Snergy Shields
+	Ignores Energy Shields
 
 	Default Price: 100~   -   Selling Price: 50~
 </text>
@@ -1438,6 +1438,21 @@ Shells, Lanius, Ghosts, Vampweeds.</text>
 -On timeout: does 999 hull damage
 -Cannot do anything, but indestructible.
 -Evades anti-drone shots, Avoids being targeted by crew</text>
+
+
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+<!--		★★★ DRONE TOOLTIP NAME★★★		-->
+<!--★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+<text name="TNE_TWINDRONE_TOOLTIPNAME">Twin Drone</text>
+<text name="tne_drone_twin_name">Twin Drone</text>
+<text name="TNE_DRONEPOD_TOOLTIPNAME">S. Pod</text>
+<text name="tne_drone_pod_name">C. Drone</text>
+<text name="TNE_PEACEDRONE_TOOLTIPNAME">Peace</text>
+<text name="TNE_EXOBREACHER_TOOLTIPNAME">Exothermic</text>
+<text name="TNE_VENTDRONE_TOOLTIPNAME">Vent</text>
+<text name="TNE_DISCHARGEDRONE_TOOLTIPNAME">Discharge</text>
+<text name="TNE_SHIPWRECKER_TOOLTIPNAME">Shipwrecker</text>
 
 <!--
 =============================================

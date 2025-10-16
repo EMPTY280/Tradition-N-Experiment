@@ -917,7 +917,7 @@ POLASTAR 4
 	<title id="TNE_TEXT_WEAPON_RAILGUN_2_NAME"></title>
 	<short id="TNE_TEXT_WEAPON_RAILGUN_2_SHORT"></short>
 	<desc>...</desc>
-	<descriptionOverride id="TNE_TEXT_WEAPON_RAILGUN_2_DESC"></descriptionOveride>
+	<descriptionOverride id="TNE_TEXT_WEAPON_RAILGUN_2_DESC"></descriptionOverride>
 	<tooltipOverride id="TNE_TEXT_WEAPON_RAILGUN_2_TOOLTIP"></tooltipOverride>
 	<tooltip>...</tooltip>
 	<damage>3</damage>
@@ -1642,11 +1642,7 @@ POLASTAR 4
 	<fireChance>0</fireChance>
 	<breachChance>5</breachChance>
 	<cooldown>0.5</cooldown>
-	<boost>
-		<type>cooldown</type>
-		<amount>0.15</amount>
-		<count>4</count>
-	</boost>
+	<shotLimit>4</shotLimit>
 	<power>0</power>
 	<cost>90</cost>
 	<bp>4</bp>
